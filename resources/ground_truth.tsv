@@ -1,0 +1,396 @@
+	cpc_classification_symbol	cpc_label	Depth	cso_label	notes	ccs_label	notes
+0	G06F8/00	Arrangements for software engineering	0	software engineering(0.7); software(0.7); computer programming(0.7)	"The cpc term is about creation of software and the assistance of computer tools in exercising the task of software engineering.
+Note that the cpc term excludes the phase of testing and debugging. 
+Terms considered:
+- software engineering: has testing and debugging in some form or the other as sub-concept while the cpc descriptions states that this is not about testing and debugging – still intersection large enough – thus: 0.7
+- software: “”
+- computer engineering: “”"	Software and its engineering (1)	"Terms considered:
+- Software and its engineering: Although this cpc term includes also concepts about testing & debugging, still close match – value 1"
+1	G06F8/10	Requirements analysis; Specification techniques	1	requirements engineering (1); requirement engineering(1); software requirements (0.8); software requirements specifications (0.8); requirements specification (0.9); requirements specifications (0.9);	"The cpc term contains everything related to capturing user requirements. This includes modeling languages such as UML, requirements specifications, graph notations, …
+Strict cso subsets, such as UML or Petri nets, are not considered as valid alignments since we focus here on equivalence.
+Terms considered:
+- requirement(s) engineering: close match – value 1
+- requirement(s) analysis: according to wikipedia https://en.wikipedia.org/wiki/Requirements_engineering this is a subset of requirements engineering;
+    I do think (mostly due to the cpc description) that this cpc term is better described by requirements engineering than by requirements analysis.
+    Because of this considerations it is not included.
+- customer requirements: not within the “to be considered” sub-ontologies
+- requirements model: more of a subsumption relation than equivalence – thus not included
+- usability requirements: too narrow
+- software requirements: it is an object instead of an activity, therefore value 0.9
+- software requirements specifications: again, value 0.9
+- requirements specification: also here, object instead of activity, but otherwise close match – value 0.9
+- requirements specifications: synonym"	Requirements analysis (1)	"Terms considered:
+- Requirements analysis: clear match – value 1.0
+- System description languages: this is a subset of specification techniques – therefore not a match
+- Specification languages: too narrow"
+2	G06F8/20	Software design	1	software design (1)	"The cpc term is about determining the main structure, the modules and the relationships between them.
+Terms considered:
+- software design: clear match – value 1
+- software design patterns: this cso term is about design patterns in the context of object-oriented development (parent is object oriented programming), thus it is a strict subset of the cpc term – therefore, not included
+- I do not consider any term related to patterns as equivalent."	Designing software (1)	"Terms considered:
+- Designing software: according to sub-concepts this is a clear match – value 1.0"
+3	G06F8/22	Procedural	2		Apparently there exists no concept that corresponds to the notion of Procedural Design. As far as I can see, the closest match is imperative programs, but this can hardly be interpreted as equivalent.		"Terms considered:
+- Imperative languages: probably too far off – since (a) the cpc concept is not about languages but about software design and (b) imperative is not the same as procedural"
+4	G06F8/24	Object-oriented	2	object-oriented design (1); object oriented design (1); object oriented (1); object-oriented (1)	"The cpc term is all about planning and design of an object-oriented system
+Terms considered:
+- object-oriented design: exact match – value 1
+- object oriented design: synonym
+- object oriented: can also be considered as a close match – value 1
+- object-oriented: synonym
+- object-oriented system: would be subsumption, therefore not included.
+- design patterns: design patterns are often related to oop, but not exclusively – therefore not included.
+- object-oriented programming: the name of this concept indicates subsumption – therefore not included."	Object oriented development (0.8)	"Terms considered:
+- Object oriented architectures: the cpc term is about planning, the ccs concept is about the outcome – omit
+- Object oriented development: in general development also includes design, thus it is slightly more broad – value 0.8"
+5	G06F8/30	Creation or generation of source code	1		"The cpc term is about conceptual steps of converting abstract representations (design or specifications) into a concrete representation in the form of program code.
+Terms considered:
+- code generation: child of program compilers – In general compilers transform program code into lower level program code, plus represent an automated approach, thus not applicable here
+- automatic code generation: child of program compilers – same reasoning as above
+- computer programming: This concept is simply too broad."		"Terms considered:
+- Source code generation: descendant of Compilers, thus ascendants are significantly different
+- There is no concept in ccs that also represents the phase of converting an abstract representation into program code"
+6	G06F8/31	Programming languages or programming paradigms	2	computer programming languages (0.8); programming languages (0.8); programming language(0.8)	"The cpc term refers to programming languages and paradigms that are used by programmers.
+Terms considered:
+- computer programming languages: This cso term is not primarily about paradigms, therefore it is more narrow – value 0.8
+- programming languages: A similar concept. With the same reasoning as above, I assign 0.8
+- programming language: synonym"	General programming languages (0.8); Language types (1)	"Terms considered:
+- General programming languages: slightly more broad – value 0.8
+- Language types: the descendants of the ccs and cpc concepts match – value 1"
+7	G06F8/311	Functional or applicative languages; Rewrite languages	3	functional programming (0.8); functional languages (1); functional programs (0.7)	"The cpc term is simply about functional programming languages.
+Terms considered:
+- functional programming: more broad than the cpc term (the cpc term is  mostly about “languages”), thus I assign a score of 0.8.
+- functional languages: exact match – value 1.0
+- functional programs: as functional programming is more broad, we start here at a value of 0.8, additionally it is an object instead of activity, therefore resulting value is 0.7"	Functional languages (1.0)	"Terms considered:
+- Functional languages: close match – value 1.0"
+8	G06F8/312	List processing, e.g. LISP programming language	3		The cpc term is about list processing languages. Apparently there exists no related term in cso.		
+9	G06F8/313	Logic programming, e.g. PROLOG programming language	3	logic programming (1); logic programs (0.7)	"The cpc term is about programming languages that express programs as a collection of logical statements.
+Terms considered:
+- logic programming: rather clear match; Thus, value of 1.
+- logic programs: more broad and we have object instead of activity  - value 0.7"	Constraint and logic languages (1.0)	"Terms considered:
+- Constraint and logic languages: close match – value 1.0"
+10	G06F8/3135	Unification or backtracking	4		"Unification is about: finding an assignment that satisfies all clauses; Backtracking is about: done on partial unifications and continue to find possible unifications.
+Nothing related in cso found."		
+11	G06F8/314	Parallel programming languages (G06F 8/313 takes precedence)	3	parallel programming (0.8); parallel code (0.7); parallel languages (1.0)	"The cpc term describes languages with constructs for expressing parallelism.
+Terms considered:
+- parallel programming: more broad than languages – value 0.8
+- parallel code: same reasoning as above + object instead of activity – value 0.7
+- parallel languages: exact match – value 1.0
+- parallel computing: not part of the “to be considered” sub-ontologies."	Parallel programming languages (1.0)	"Terms considered:
+- Parallel programming languages: close match – value 1.0"
+12	G06F8/315	Object-oriented languages	3	object oriented programming (0.7); object-oriented programming (0.7); object-oriented languages(1); object-oriented programming languages (1)	"The cpc term describes languages that allow to write code with objects that interact with another.
+Terms considered:
+- object oriented programming: There are many sub-concepts that are not related to the cpc term, and also the name suggests a more broad concept + activity instead of object – value 0.7
+- object-oriented programming: synonym
+- object-oriented languages: exact match – value .10
+- object-oriented programming languages: “”
+- object oriented: Too broad since the cpc term is explicitly about languages
+- object oriented method: Not considered related enough
+- object oriented approach: “”
+- object oriented database: “”
+- object oriented software: “”
+- object-oriented design: “”
+- object-oriented system: Not considered related enough"	Object oriented languages (1)	"Terms considered:
+- Object oriented languages: close match – value 1"
+13	G06F8/316	Aspect-oriented programming techniques	3	aspect-oriented programming (0.9); aspect oriented programming(0.9); aspect-oriented programming (aop) (0.9); aspect oriented software development(0.7); aspect-oriented software development (0.7); aspect-oriented (0.7); aspect-orientation (0.7)	"The cpc term is about programming paradigm that allows different orthogonal aspects of a program in parallel that shall be merged at a later stage.
+Terms considered:
+- aspect-oriented programming: activity instead of object – value 0.9
+- aspect oriented programming: synonym
+- aspect-oriented programming (aop): synonym
+- aspect oriented software development: activity instead of object and more broad than just techniques – value 0.7
+- aspect-oriented software development: syonym
+- aspect-oriented: this cso term refers to software design; it is more broad + property instead of object – value 0.7
+- aspect-orientation: same as above – value 0.7
+- aspect-oriented software: not considered as a match since it is about the outcome of the activity described in this cpc concept and, thus, not representing an equivalence relation."		
+14	G06F8/33	Intelligent editors	2		"The cpc term is about intelligent editors that help a programmer to write programs – example: auto-indent
+No terms found that match this concept."	Integrated and visual development environments (0.7)	"Terms considered:
+- Integrated and visual development environments: Most of the time IDEs are also intelligent editors, thus I consider the intersection large enough – value 0.7"
+15	G06F8/34	Graphical or visual programming	2	visual programming (1); visual programming languages (0.8)	"The cpc term is about programming techniques whereby a program is created by using graphical objects rather than by writing code.
+Terms considered:
+- visual programming: close match – value 1
+- visual programming languages: more narrow, therefore value 0.8"	Visual languages (0.7)	"Terms considered:
+- Visual languages: the ccs concept is a subset – but considered large enough to be considered as an equivalent relation; additionally object instead of activity – value 0.7"
+16	G06F8/35	model driven	2	model driven architectures (0.8); model-driven architectures (0.8); model driven architecture (0.8); model-driven architecture (0.8); model driven engineering (0.8);  model-driven engineering (0.8); mde (0.8); model driven development (0.8); model-driven development(0.8)	"The cpc term is about automatically generating program code (source code) from a model of what the program should do.
+Terms considered:
+- model driven architectures: more narrow – value 0.8
+- model-driven architectures: synonym
+- model driven architecture: synonym
+- model-driven architecture: synonym
+- model driven engineering: more narrow – value 0.8.
+- model-driven engineering: synonym
+- mde: synonym
+- model driven development: more narrow – value 0.8
+- model-driven development: synonym"	Model-driven software engineering (1)	"Terms considered:
+- Model-driven software engineering: close match – value 1"
+17	G06F8/355	Round-trip engineering	3		"The cpc term is about arrangements for keeping amodel and the corresponding program code in sync when applying changes.
+No related CSO term found."		"Terms considered:
+- Reverse engineering: see https://de.wikipedia.org/wiki/Round-Trip-Engineering - however, not included"
+18	G06F8/36	Software reuse	2	computer software reusability (0.9); reusability (0.9); software reuse(1); software re-use (1)	"The cpc term is about everything related to software reuse, such as storing and retrieving reusable software modules.
+Terms considered:
+- computer software reusability: attribute instead of activity – value 0.9
+- reusability: “”
+- reusable components: too narrow
+- reusable softwares: too narrow
+- software reuse: matches the cpc description – therefore value 1
+-  software re-use: synonym"	Reusability (0.7)	"Terms considered:
+- Reusability: According to the ccs descendants it is not broad enough to match the cpc concept + attribute instead of object – value 0.7"
+19	G06F8/37	Compiler construction; Parser generation	2		"The cpc term is about automatically generating a compiler or parser based on grammar.
+No related terms found."	Translator writing systems and compiler generators (1.0)	"Terms considered: 
+- Translator writing systems and compiler generators: This is essentially a close match since Translator writing systems are systems that write translators, i.e. parser generators. Value 1.0"
+20	G06F8/38	for implementing user interfaces	2		"The cpc term is about generation of source code for user interfaces, especially for GUIs – i.e. automatically/manually creation of GUIs.
+No term found in the “to be considered” sub-ontologies. There exists the concept user interfaces that is a descendant of human computer interaction."	Graphical user interface languages (0.7)	"Terms considered:
+- Graphical user interface languages: The ccs concept is a subset of the cpc concept, but still large enough to be considered as a match – value 0.7 (more narrow + object instead of activity)"
+21	G06F8/40	Transformation of program code	1	program compilers (0.8); code transformation (0.7); program translators (0.7)	"The cpc term is about the transformation of program code from one form into another.
+Terms considered:
+- code transformation: To the best of my knowledge this mostly refers to code2code transformations from one language to a comparable language (such as c# to java), thus value of 0.8. Additionally object instead of activity – results in 0.7
+- program translators: https://www.d.umn.edu/~gshute/asm/program-translation.xhtml more narrow – value of 0.8 Additionally object instead of activity – results in 0.7
+- program compilers: https://en.wikipedia.org/wiki/Compiler compilers in general refer to the translation of a high level programming language to a lower level language, however, it is not restricted to it. For example, a program that maps c# to java might also be considered as a compiler. Due to these considerations I assign a value of 0.9 (instead of 0.8). Additionally object instead of activity – results in 0.8"	Compilers (0.7)	"Terms considered:
+- Compilers: 0.8 due to same argumentation as with the cso concept - -0.1 because of object vs activity"
+22	G06F8/41	Compilation	2	program compilers (0.9); compilers (0.9); compiler (0.9)	"The cpc term is about the conversion of source code into binary code.
+Terms considered:
+- program compilers: Although (as explained above) not restricted to source code to binary code, still a close match, therefore 0.9 – note that I do not give 1.0 since the cso term describes compilers and the cpc term compilation (object vs activity)
+- compilers: same as above
+- compiler: synonym"	Compilers (0.9)	"Terms considered:
+- Compilers: It is questionable whether the following sub-concepts of Compilers fit into the description of cpc, i.e. “The process of converting source code into binary code”, “Translator writing systems and compiler generators”, “Source code generation” “Runtime environments” “Preprocessors; Parsers” – still I would argue that it is an equivalent match -  thus value 0.9 (object vs. activity results in deduction of 0.1)"
+23	G06F8/42	Syntactic analysis	3		"The cpc term is about determining the grammatical structure of source code with respect to a formal grammar.
+Terms considered:
+- syntactics: not part of the “to be considered” sub-ontologies
+- syntactic analysis: descendant of syntactics
+- computational grammars: too broad"	Parsers (0.7)	"Terms considered:
+- Syntax: too far off – not included
+- Parsers: according to https://en.wikipedia.org/wiki/Parsing this would be equivalent, however, I assign 0.7 since it is an object instead an activity + parsing typically includes more than simply performing a syntactic analysis"
+24	G06F8/423	Preprocessors	4		"The cpc term is about processing of language-external elements.
+Terms considered: Nothing related found."	Preprocessors (1.0)	"Terms considered:
+- Preprocessors: clear match – value 1.0"
+25	G06F8/425	Lexical analysis	4		"The cpc term is about converting sequences of characters into tokens + skipping comments.
+Terms considered:
+- lexical semantics: too broad + not part of the “to be considered” sub-ontologies"		
+26	G06F8/427	Parsing	4		"The cpc term is about checking for correct syntax and building corresponding data structures, such as parse trees.
+Terms considered:
+- parse trees: would be subsumption, thus not included
+- parsing: not part of of “to be considered” sub-ontologies
+- syntactic parsing: not part of of “to be considered” sub-ontologies"	Parsers (0.9)	"Terms considered:
+- Parsers: clear match, however, object instead of activity – value 0.9"
+27	G06F8/43	Checking; Contextual analysis	3		"The cpc term is about checking context sensitive conditions, e.g. whether variables have been declared or not.
+Nothing related found"		"Terms considered:
+- Semantic: too broad"
+28	G06F8/433	Dependency analysis; Data or control flow analysis	4		"The cpc term is about determining the dependencies between different program parts.
+Nothing related found"		
+29	G06F8/434	Pointers; Aliasing	5	pointer analysis (0.8)	"The cpc term is about determining whether different pointers return the same element.
+Terms considered:
+- pointer analysis: https://en.wikipedia.org/wiki/Pointer_analysis seems to be more broad, but still equivalent enough – value 0.8"		
+30	G06F8/436	Semantic checking	4	static analysis (0.8); static program analysis (1.0)	"The cpc term is about checking semantic conditions without executing a program, e.g. checking whether variable is initialized.
+Terms considered:
+- static analysis: from the cso description I cannot fully derive its equivalence, however, the description indicate a very similar concept. Value 0.8 due to possible sub-sumption relation
+- static program analysis: has same description as static analysis, thus value 1
+- semantic analysis: not part of “to be considered” sub-ontologies"		
+31	G06F8/437	Type checking	5	type systems (0.7); type system (0.7)	"The cpc term is about checking compatibility of values, variables, etc.
+Terms considered:
+- typechecking: in the contexxt of cso this term is exclusively about oop and therefore it cannot be considered a match
+- type systems: generally speaking, type systems perform more tasks than type checking. Still, type checking is one of the core functionalities of type systems, thus value 0.8 + it is an object instead of an activity, therefore final value is 0.7
+- type system: synonym"		
+32	G06F8/44	Encoding	3	program translators (1.0)	"The cpc term is about generating an executable of a program for another target machine architecture.
+Terms considered:
+- program translators: close fit, thus value 1.0"		
+33	G06F8/441	Register allocation; Assignment of physical memory space to logical memory space	4	register allocation (1.0)	"The cpc term is about assigning physical memory to space to logical memory space.
+Terms considered:
+-register allocation: Although the cso description does not mention the mapping phases from logical memory space to physical memory, it describes the cpc term very well. Therefore, value 1.0"		
+34	G06F8/443	Optimisation	4	optimizing compilers (0.8)	"The cpc term is about optimizing any form of program code, such as source code or machine code
+Terms considered:
+- optimizing compilers: this is a compiler that tries to optimize some attributes of a program during compilation; fits into the category, but is not as broad – value 0.8"		
+35	G06F8/4432	Reducing the energy consumption	5		"The cpc term is about optimization consideration to reduce energy consumption of a program.
+No terms found in the “to be considered” sub-ontologies."		
+36	G06F8/4434	Reducing the memory space required by the program code	5		"The cpc term is about reducing the memory consumption of a program.
+No terms found in the “to be considered” sub-ontologies."		
+37	G06F8/4435	Detection or removal of dead or redundant code	6		"The cpc term is about the detection of dead and redundant code.
+No terms found in the “to be considered” sub-ontologies."		
+38	G06F8/4436	Exlining; Procedural abstraction	6		"The cpc term is about the detection of recurring sequences of instructions and extracting them to a procedure.
+No terms found in the “to be considered” sub-ontologies."		
+39	G06F8/4441	Reducing the execution time required by the program code	5		"The cpc term is about the improvement of execution speed of a program.
+No terms found in the “to be considered” sub-ontologies."		
+40	G06F8/4442	Reducing the number of cache misses; Data prefetching (cache prefetching G06F 12/0862)	6		"The cpc term is about the reduction of cache misses during runtime.
+No terms found in the “to be considered” sub-ontologies."		
+41	G06F12/0862	with prefetch	4		"The cpc term is about prefetching in cache memory, software controlled prefetching, prefetch buffer and prefetch cache.
+Terms considered:
+- prefetching: not part of “to be considered” sub-ontologies"		
+42	G06F8/4443	Inlining	6				
+43	G06F8/445	Exploiting fine grain parallelism, i.e. parallelism at instruction level (run-time instruction scheduling G06F 9/3836)	4	instruction level parallelism (1.0); instruction-level parallelism (1.0)	"The cpc term is about increasing instruction-level parallelism typically through reordering of instructions.
+Terms considered:
+- instruction level parallelism: close match, thus 1.0
+- instruction-level parallelism: synonym"		
+44	G06F9/3836	Instruction issuing, e.g. dynamic instruction scheduling, out of order instruction execution	4				
+45	G06F9/3838	Dependency mechanisms, e.g. register scoreboarding	5				
+46	G06F9/384	Register renaming	6				
+47	G06F8/4452	Software pipelining	5	software pipelining (1.0)	"The cpc term is about software pipelining that transforms a loop in a higher language, such as C, to parallel instruction exploiting instruction-level parallelism.
+Terms considered:
+- software pipelining: close match – value 1.0"		
+48	G06F8/447	Target code generation	4				"Terms considered:
+- Source code generation: not applicable since target code generation is about generating executable code taking the target machine into account."
+49	G06F8/45	Exploiting coarse grain parallelism in compilation, i.e. parallelism between groups of instructions	3		The cpc term is about speeding up the execution of a single task by splitting it up into a plurality of subtasks		"Terms considered:
+- Multiprocessing / multiprogramming / multitasking: not related enough
+- Multithreading: not related enough"
+50	G06F8/451	Code distribution (considering CPU load at run-time G06F 9/505; load rebalancing G06F 9/5083)	4				
+51	G06F9/505	considering the load	6		load balancing technique; load balancing strategy; load-balanced; load-balancing mechanisms; load-balancing schemes would be relatively good matches, however, they are not part of the considered sub-areas		
+52	G06F9/5083	Techniques for rebalancing the load in a distributed system	4				
+53	G06F9/5088	involving task migration	5				
+54	G06F8/452	Loops	5				
+55	G06F8/453	Data distribution	4	data parallelism (1.0); data parallel (1.0)	"The cpc term is about dividing data used by subtasks over different processors.
+Terms considered:
+- data parallelism: the cso description matches the cpc description, thus both explain same concept – value 1.0
+- data parallel: synonym"		
+56	G06F9/54	Interprogram communication	3		The cpc term is about the communication between tasks, i.e. programs, processes, threads.	Communications management (0.8)	"Terms considered:
+- Communications management:’the descendants of both concepts partially match, however, it is a bit vague if both concepts are indeed equivalent – therefore value 0.8"
+57	G06F9/541	via adapters, e.g. between incompatible applications	4				
+58	G06F9/542	Event management; Broadcasting; Multicasting; Notifications	4				
+59	G06F9/543	User-generated data transfer, e.g. clipboards, dynamic data exchange [DDE], object linking and embedding [OLE]	4				
+60	G06F9/544	Buffers; Shared memory; Pipes	4		There are several related concepts, however, none of these concepts resides in the “to be considered” sub-ontologies	Buffering (0.7)	"Terms considered:
+- Buffering: the ccs concept covers only buffering and is activity instead of object – value 0.7"
+61	G06F9/545	where tasks reside in different layers, e.g. user- and kernel-space	4				
+62	G06F9/546	Message passing systems or structures, e.g. queues	4		There are related concepts, such as message passing algorithm, but they reside in other sub-areas	Message passing (0.9)	"Terms considered:
+- Message passing: close match, but activity instead of object - value 0.9"
+63	G06F9/547	Remote procedure calls [RPC]; Web services	4				
+64	G06F9/548	Object oriented; Remote method invocation [RMI] (non-remote method invocation G06F 9/449)	5				
+65	G06F8/47	Retargetable compilers	3		The cpc term is about compiler structure that allows several source languages and/or several target machine architectures.	Retargetable compilers (1.0)	"Terms considered:
+- Retargetable comilers: clear match – value 1"
+66	G06F8/48	Incremental compilation (software reuse G06F 8/36)	3		The cpc term is about compilation of only parts of the source code.	Incremental compilers (1.0)	"Terms considered:
+- Incremental compilers: clear match – value 1"
+67	G06F8/49	Partial evaluation	3	partial evaluation (1.0)	"The cpc term is about specializing a program for some or all of its possible input values.
+Terms considered:
+- partial evaluation: the cpc and cso descriptions match – value 1.0"		
+68	G06F8/51	Source to source	2	code transformation (0.8)	"The cpc term is about transforming high level languages from one to another.
+Terms considered:
+- code generation: probably not a match. Code generation is primarily about the generation of code from abstract representations
+- code transformation: it is not exactly clear if this term only refers high level to high level; probably not, therefore value of 0.8"		"Terms considered:
+- Source code generation: source code generation is something different than translation of program code from one high level language to another
+- Parsers: too broad"
+69	G06F8/52	Binary to binary	2	binary translation (1.0)	"The cpc term is about transforming binary code from one architecture to another in a static fashion.
+Terms considered:
+- binary translation: the cso and cpc descriptions match (1.0)
+- dynamic binary translation: the cpc description states that it is about static translation, therefore this is not a match"		
+70	G06F8/53	Decompilation; Disassembly	2				"Terms considered.
+- Software Reverse Engineering: might be the closest fit here, but it is too broad"
+71	G06F8/54	Link editing before load time	2				
+72	G06F8/60	Software deployment	1		The cpc term covers various DevOps related items.		"Terms considered
+- Software post-development issues: comes after the deployment process"
+73	G06F8/61	Installation	2				
+74	G06F8/62	Uninstallation	3				
+75	G06F8/63	Image based installation; Cloning; Build to order	3		There exists code clone, but the CPC term merely refers to clone an installation		
+76	G06F8/64	Retargetable	3				
+77	G06F8/65	Updates (security arrangements therefor G06F 21/57)	2		If there are related concepts, then in other sub-ontologies – e.g. in computer security.		
+78	G06F21/577	Assessing vulnerabilities and evaluating computer system security	3		If there are related concepts, then in other sub-ontologies – e.g. in computer security.		
+79	G06F8/654	using techniques specially adapted for alterable solid state memories, e.g. for EEPROM or flash memories	3				
+80	G06F8/656	while running	3				
+81	G06F8/658	Incremental updates; Differential updates	3				
+82	G06F8/66	of program code stored in read-only memory [ROM]	3				
+83	G06F8/70	Software maintenance or management	1	computer software maintenance (0.8); software maintenance (1.0)	"The cpc term is about adapting code of a program in response to new requirements. 
+Terms considered:
+- computer software maintenance: The cso description is more broad than the cpc description, but still a match – value 0.8
+- software maintenance: both descriptions match – value 1.0"	Software post-development issues(1.0); Maintaining software (0.8); Software maintenance tools (0.7)	"Terms considered:
+- Software post-development issues: the descendants match – value 1.0
+- Maintaining software: covers only maintenance and not management – value 0.8
+- Software maintenance tools: definitely closely related, but a subset and object vs. activity – value 0.7"
+84	G06F8/71	Version control (security arrangements therefor G06F 21/57); Configuration management	2	version management (1.0)	"The cpc term is about keeping track of different software versions.
+Terms considered:
+- version management: Although this term is a descendant of parallel programming, the cso and cpc descriptions match – thus value 1.0"	Software version control(1.0); Software configuration management and version control systems (0.7)	"Terms considered:
+- Software configuration management and version control systems: related, but a subset and object vs. activity – value 0.7
+- Software version control: clear match – value 1.0"
+85	G06F8/72	Code refactoring	2	refactorings (1.0); refactoring (1.0);	"The cpc term is about improving the quality of code without external effects.
+Terms considered:
+- refactorings: exact match – value 1.0
+- refactoring: synonym
+- refactoring tools: too narrow"		
+86	G06F8/73	Program documentation	2	program documentation (1.0)	"The cpc term is about augmenting program code with additional information.
+Terms considered:
+- program documentation: exact match – value 1.0"	Documentation (1.0)	"Terms considered:
+- Documentation: close match – value 1.0"
+87	G06F8/74	Reverse engineering; Extracting design information from source code	2	reverse engineering (0.8); architecture reconstruction (0.8); architecture recovery (0.8)	"The cpc term is about reverse engineering of HLL (high-level-language) source code to its underlying design model.
+Terms considered:
+- reverse engineering: the description of the cso term indicates that it is a broader concept and not only about HLL to design model, thus 0.8
+- architecture reconstruction: synonym
+- architecture recovery: synonym 
+- source code analysis: too broad"	Software reverse engineering (1.0)	"Terms considered:
+- Software reverse engineering: close match – value 1.0"
+88	G06F8/75	Structural analysis for program understanding	2	static analysis (1.0); static analyzers (0.9)	"The cpc term is about static analysis of the structure of a program code.
+Terms considered:
+- static analysis: the cpc and cso descriptions match – value 1.0
+- static analyzers: describes objects and not tasks therefore value 0.9"		"Terms considered:
+- Automated static analysis: would be the closest match, but it cannot be considered as equivalent"
+89	G06F8/751	Code clone detection	3	clone detection (1.0)	"The cpc term is about finding identical pieces of code for the purpose of maintenance.
+Terms considered:
+- clone detection: strong match – also shares a common ancestor (computer software maintenance) – value 1.0
+- code clone: not equivalent – clone detection is about finding code clones"		
+90	G06F8/76	Adapting program code to run in a different environment; Porting	2				
+91	G06F8/77	Software metrics	2	software metrics (1.0)	"The cpc term is about measurements of software metrics related to software development.
+Terms considered:
+- software metrics: cpc and cso descriptions match, thus value 1.0"	Extra-functional properties (0.8);	"Terms considered:
+- Extra-functional properties: considering the cpc ascendant it becomes clear that it refers to extra-functional properties
+- Software functional properties: are properties during the development cycle, thus not related"
+92	G06F8/78	"Methods to solve the ""Year 2000"" [Y2K] problem"	2				
+93	G06F11/36	Preventing errors by testing or debugging software	1		The cpc term is about methods during software development in order to prevent errors: software analysis; software testing; software debugging	Software verification and validation (0.8)	"Terms considered:
+- Software testing and debugging: too narrow
+- Software verification and validation: shares some sub-concepts, but also not exactly the same – value 0.8"
+94	G06F11/3604	Software analysis for verifying properties of programs (byte-code verification G06F 9/44589)	2		The cpc term is about verifying that program or a specification satisfy certain properties without testing.	Formal software verification (0.8)	"Terms considered:
+- Formal software verification: not as broad – value 0.8"
+95	G06F11/3608	using formal methods, e.g. model checking, abstract interpretation (theorem proving G06N 5/006)	3	formal verification (1.0); formal verifications (1.0)	"The cpc term is about the mathematical verification of a program.
+Terms considered:
+- abstract interpretation: 
+- model checker: only example
+- model checkers: only example
+- model checking: only example
+- model-checking: only example
+- model checker tools: only example
+- model checking algorithm: only example
+- formal methods: cpc and cso descriptions would match, but it is not part of the “to be considered” sub-ontologies
+- formal method: synomy
+- formal verification: cpc and cso descriptions seem to match – value 1.0
+- formal verifications: synonym"	Formal software verification (1.0); Formal methods (1.0)	"Terms considered:
+- Formal methods: close match – value 1.0
+- Formal software verification: close match – value 1.0"
+96	G06F11/3612	by runtime analysis (performance monitoring G06F 11/3466)	3	runtime verification (1.0); run-time verification(1.0); runtime monitoring (1.0); dynamic analysis(1.0)	"The cpc term is about analysis of runtime behavior to detect errors.
+Terms considered:
+- runtime verification: according to https://en.wikipedia.org/wiki/Runtime_verification runtime verification is an alternative label of runtime analysis – value 1.0
+- run-time verification: synonym
+- runtime monitoring: also here, same concept according to wikipedia – value 1.0
+- dynamic analysis: “”"		"Terms considered:
+- Dynamic analysis: not considered as equivalent enough"
+97	G06F11/3616	using software metrics	3	software metrics (0.9)	"The cpc term is about analysing a program based on software metrics.
+Terms considered:
+- software metrics: this cso term is about metrics themselves, however, the cpc term refers to the analysis using metrics, thus -0.1 for being an object and not an activity – value 0.9"	Software functional properties (1.0)	"Terms considered:
+- Software functional properties: ascendants match, therefore software properties in this context refer to functional properties – value 1.0"
+98	G06F11/362	Software debugging	2	testing and debugging (1.0);  debugging (1.0); program debugging (1.0); software debugging (1.0)	"The cpc terms is about the activity of locating and correcting errors.
+Terms considered:
+- software debugging: exact match – value 1.0
+- testing and debugging: synonym
+- debugging: synonym
+- program debugging: synonym"	Software testing and debugging (1.0)	"Terms considered:
+- Software testing and debugging: clear match – value 1.0
+- Software defect analysis: much broader"
+99	G06F11/3624	by performing operations on the source code, e.g. via a compiler	3				
+100	G06F11/3628	of optimised code (optimisation G06F 8/443)	3				
+101	G06F11/3632	of specific synchronisation aspects	3				
+102	G06F11/3636	by tracing the execution of the program	3	execution trace (0.7); execution traces (0.7)	"The cpc term is about methods and arrangements for generating and analysing traces of a program execution.
+Terms considered:
+- execution trace: https://en.wikipedia.org/wiki/Tracing_(software) not exact same concept, results in -0.2 + it is object and not activity, results in -0.1 – value 0.7
+- execution traces: synonym"		"Terms considered:
+- Traceability: in ccs this term appears in a different context, i.e. process validation instead of debugging and testing"
+103	G06F11/364	tracing values on a bus	4				
+104	G06F11/3644	by instrumenting at runtime	3				
+105	G06F11/3648	using additional hardware	3				
+106	G06F11/3656	using a specific debug interface	4				
+107	G06F11/366	using diagnostics (G06F 11/0703 takes precedence)	3				
+108	G06F11/3664	Environments for testing or debugging software	2				
+109	G06F11/3668	Software testing (software testing in telephone exchanges H04M 3/242, testing of hardware G06F 11/22)	2	testing and debugging (1.0);  debugging (1.0); program debugging (1.0); software debugging (1.0)	"The cpc term is about the process of testing a program or a program unit with intent of finding errors.
+Terms considered:
+- software debugging: Although, this term was already used above it fits also into the definition of this cpc term (note that both cpc definitions are not very different) – value 1.0
+- testing and debugging: synonym
+- debugging: synonym
+- program debugging: synonym
+- software verification: verification is not the same as testing"	Software defect analysis (8.0); Software testing and debugging (0.8)	"Terms considered:
+- Software defect analysis: broader – value 0.8
+- Software testing and debugging: exact match – value 1.0"
+110	G06F11/3672	Test management	3				
+111	G06F11/3676	for coverage analysis	4				
+112	G06F11/368	for test version control, e.g. updating test cases to a new software version	4				
+113	G06F11/3684	for test design, e.g. generating new test cases	4				
+114	G06F11/3688	for test execution, e.g. scheduling of test suites	4				
+115	G06F11/3692	for test results analysis	4				
+116	G06F11/3696	Methods or tools to render software testable	3				

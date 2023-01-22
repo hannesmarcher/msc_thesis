@@ -1,0 +1,7 @@
+.idea/
+__pycache__
+/docker/logs_to_read_runtimes_of_candidate_selection.txt
+/docker/*/*/*
+!/docker/docker-compose*.yml
+!/docker/config*
+!/docker/*/reference*.rdf

@@ -1,0 +1,50 @@
+version: "3.9"
+services:
+  us_bertmap-cpc2ccs:
+   build: ../
+   volumes:
+     - ./cpc2ccs/:/app/output_dir/
+     - ../../../ontologies/sub_ontologies/cpc2ccs/:/app/onto_dir/
+     - ./config_default_cpc2ccs/:/app/config_dir/
+#    deploy:
+#        resources:
+#            limits:
+#              cpus: "0.50"
+#              memory: 512M
+#            reservations:
+#              cpus: "0.25"
+#              memory: 128M
+  us_bertmap-cpc2cso:
+    build: ../
+    depends_on:
+        us_bertmap-cpc2ccs:
+          condition: service_completed_successfully
+    volumes:
+      - ./cpc2cso/:/app/output_dir/
+      - ../../../ontologies/sub_ontologies/cpc2cso/:/app/onto_dir/
+      - ./config_default_cpc2cso/:/app/config_dir/
+#    deploy:
+#        resources:
+#            limits:
+#              cpus: "0.50"
+#              memory: 512M
+#            reservations:
+#              cpus: "0.25"
+#              memory: 128M
+  us_bertmap-anatomy:
+    build: ../
+    depends_on:
+      us_bertmap-cpc2cso:
+        condition: service_completed_successfully
+    volumes:
+      - ./anatomy/:/app/output_dir/
+      - ../../../ontologies/sub_ontologies/anatomy/:/app/onto_dir/
+      - ./config_default_anatomy/:/app/config_dir/
+#    deploy:
+#        resources:
+#            limits:
+#              cpus: "0.50"
+#              memory: 512M
+#            reservations:
+#              cpus: "0.25"
+#              memory: 128M

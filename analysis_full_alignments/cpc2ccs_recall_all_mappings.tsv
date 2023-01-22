@@ -1,0 +1,364 @@
+source	target	source_id	target_id
+physics	Physics	G 	10010405.10010432.10010441
+signal processing 	Signal processing systems	G01D 5/24476	10010583.10010588.10003247
+protection	Privacy protections	G01J 2001/0276	10002978.10003029.10011150
+devices	Pointing devices	G01J 2004/001	10003120.10003121.10003125.10010873
+imaging	Imaging	G01J 2005/0077	10010405.10010444.10010087.10010096
+protection against electromagnetic or electrostatic interferences	Electromagnetic interference and compatibility	G01L 19/069	10010583.10010584.10010585
+geometry	Epipolar geometry	G01N 2021/4752	10010147.10010178.10010224.10010226.10010235
+reflection	Reflective middleware	G01N 2021/7773	10011007.10010940.10010941.10010942.10010944.10010946
+index	Web indexing	G01N 2021/7776	10002951.10003260.10003261.10003263.10003264
+proximity analysis, local statistics	Statistical timing analysis	G01N 2021/8877	10010583.10010682.10010705.10010710
+gui [graphical user interfaces]	Graphical user interfaces	G01N 2035/0091	10003120.10003121.10003124.10010865
+visual inspection 	Visual inspection	G01N 21/8803	10010147.10010178.10010224.10010225.10010232
+ambient light is used	Ambient intelligence	G01N 2201/0616	10003120.10003138.10003139.10010906
+imaging	Imaging	G01N 2223/40	10010405.10010444.10010087.10010096
+imaging image processing	Image processing	G01N 2223/401	10010147.10010371.10010382.10010383
+imaging	Imaging	G01N 29/0654	10010405.10010444.10010087.10010096
+classification of defects	Classes and objects	G01N 29/4445	10011007.10011006.10011008.10011024.10011029
+neural networks	Neural networks	G01N 29/4481	10010147.10010257.10010293.10010294
+neural networks	Neural networks	G01N 29/4481	10010520.10010521.10010542.10010294
+preparation	Document preparation	G01N 30/06	10010405.10010497.10010510
+fraction collectors	Test collections	G01N 30/80	10002951.10003317.10003359.10003360
+differentiation	Automatic differentiation	G01N 30/861	10002950.10003714.10003715.10003748
+differentiation	Numerical differentiation	G01N 30/861	10002950.10003714.10003715.10003724
+application of the sorbent layer	Application layer protocols	G01N 30/93	10003033.10003039.10003051
+devices	Pointing devices	G01N 33/726	10003120.10003121.10003125.10010873
+scheduling	Scheduling	G01N 35/0092	10011007.10010940.10010941.10010949.10010957.10010688
+bare printed circuit boards	Printed circuit boards	G01R 31/2805	10010583.10010584
+input or output aspects	Input / output circuits	G01R 31/31712	10010583.10010600.10010602.10010603
+functional testing	Functional verification	G01R 31/3181	10010583.10010717.10010721
+test of combinational circuits	Combinational circuits	G01R 31/318502	10010583.10010600.10010615.10010618
+test of sequential circuits 	Sequential circuits	G01R 31/318522	10010583.10010600.10010615.10010621
+design for test	Design for testability	G01R 31/318583	10010583.10010737.10010744
+built-in tests	Built-in self-test	G01R 31/3187	10010583.10010737.10010744.10010741
+timing generation or clock distribution 	Clock generation and timing	G01R 31/31922	10010583.10010633.10010634.10010636
+military	Military	G01S 2205/07	10010405.10010476.10010478
+scanners 	Scanners	G01T 1/2964	10010583.10010588.10011667
+noise reduction	Noise reduction	G01V 2210/32	10010583.10010588.10003247.10003250
+temperature control	Temperature control	G02B 2006/12135	10010583.10010662.10010586.10010680
+cables for special applications 	Application specific processors	G02B 6/4415	10010583.10010633.10010640.10010643
+mixtures in general	General literature	G03C 2200/42	10002944.10011122.10002949
+presence detection	Presentation protocols	G03G 2221/1892	10003033.10003039.10003050
+formation of interference pattern, not otherwise provided for	Format and notation	G03H 2001/0441	10010405.10010497.10010510.10010514
+representation of the decomposed object	Representation of mathematical objects	G03H 2210/45	10010147.10010148.10010164
+frameworks	Frameworks	G04B 29/00	10011007.10011006.10011008.10011024.10011038
+protection of the clockwork against damage from the outside	Use cases	G04B 37/00	10011007.10011074.10011099.10011105.10011108
+input/output	Input / output	G05B 19/0423	10011007.10010940.10010941.10010949.10010965.10010967
+input/output	Input / output	G05B 19/054	10011007.10010940.10010941.10010949.10010965.10010967
+petri net	Petri nets	G05B 2219/13112	10011007.10010940.10010971.10010980.10010981
+csl computer simulation language	Simulation languages	G05B 2219/13126	10010147.10010341.10010366.10010368
+with petrinets	Petri nets	G05B 2219/13182	10011007.10010940.10010971.10010980.10010981
+plc structure of the system	Software system structures	G05B 2219/15	10011007.10010940.10010971
+dos operating plc system	Operating systems security	G05B 2219/15082	10002978.10003006.10003007
+shared memory	Shared memory algorithms	G05B 2219/15118	10003752.10003809.10010170.10010171
+plc to applications	Application servers	G05B 2219/16	10002951.10002952.10003400.10003402
+impedance matching	Matching	G05B 2219/21123	10010147.10010178.10010224.10010245.10010255
+enter analog value	Analog computers	G05B 2219/23041	10010520.10010521.10010542.10010544
+synthesize time logic circuits	Logic circuits	G05B 2219/23242	10010583.10010600.10010615
+use two or more different programming languages in same program	History of programming languages	G05B 2219/23251	10003456.10003457.10003521.10003525
+use of parser	Parsers	G05B 2219/23275	10011007.10011006.10011041.10011688
+microprocessor control or manual control	Process management	G05B 2219/23319	10011007.10010940.10010941.10010949.10010957
+real time simulation	Real-time simulation	G05B 2219/23445	10010147.10010341.10010349.10010359
+model machine for simulation	Modeling and simulation	G05B 2219/23456	10010147.10010341
+analyze, trace fault signals according to tree, table	Fault tree analysis	G05B 2219/24085	10011007.10011074.10011099.10011104
+redundancy	Redundancy	G05B 2219/24182	10010520.10010575.10010755
+redundancy	Redundancy	G05B 2219/24182	10010583.10010750.10010751.10010755
+star network	Star networks	G05B 2219/25035	10003033.10003083.10003090.10011643.10011646
+token ring network	Token ring networks	G05B 2219/25165	10003033.10003083.10003090.10011643.10011647.10011648
+repeater	Repeaters	G05B 2219/25181	10003033.10003058.10003062.10011659
+flash memory	Flash memory	G05B 2219/25265	10002951.10003152.10003153.10003158.10003452
+scheduling	Scheduling	G05B 2219/25419	10011007.10010940.10010941.10010949.10010957.10010688
+pc applications	Personal computers and PC applications	G05B 2219/26	10010405.10010476.10011187
+process control	Process control systems	G05B 2219/2609	10002951.10003227.10003246
+network server for communication between plc's, using server	Network servers	G05B 2219/31092	10003033.10003058.10003064.10011660
+network structure, internet	Network structure	G05B 2219/31156	10003033.10003083.10003090
+firewall	Firewalls	G05B 2219/31246	10002978.10003006.10011617
+translation, conversion of protocol between two layers, networks	Network layer protocols	G05B 2219/31369	10003033.10003039.10003045
+use of genetic algorithm	Genetic algorithms	G05B 2219/32333	10010147.10010257.10010293.10011809.10011812
+use of ann, neural network	Cellular neural networks	G05B 2219/32335	10010583.10010786.10010799.10010802
+real time simulation	Real-time simulation	G05B 2219/32342	10010147.10010341.10010349.10010359
+for resource planning	Enterprise resource planning	G05B 2219/32365	10010405.10010406.10003228.10003232
+online learning, training	Online learning algorithms	G05B 2219/33034	10003752.10003809.10010047.10010048
+selforganizing network	Self-organization	G05B 2219/33045	10010147.10010169.10010170.10003824
+parallel computing, pipeline	Pipeline computing	G05B 2219/33081	10010520.10010521.10010522.10010526
+packet information exchange	Health information exchanges	G05B 2219/33244	10003456.10003462.10003602.10003607
+shared memory	Shared memory algorithms	G05B 2219/34069	10010147.10010169.10010170.10010171
+cognitive memory	Cognitive radios	G05B 2219/34075	10003033.10003058.10003065.10011642
+learning, online reinforcement learning	Reinforcement learning	G05B 2219/34082	10003752.10010070.10010071.10010261
+interpolate backwards	Interpolation	G05B 2219/34091	10002950.10003714.10003715.10003722
+memory management	Memory management	G05B 2219/34192	10011007.10010940.10010941.10010949.10010950
+for measurement only	Measurement	G05B 2219/34242	10002944.10011123.10010916
+multi threading	Multithreading	G05B 2219/34333	10011007.10010940.10010941.10010949.10010957.10010958
+use of spreadsheet	Spreadsheets	G05B 2219/35011	10010405.10010476.10011187.10011189
+data modeling language	Data flow languages	G05B 2219/35055	10011007.10011006.10011008.10011009.10011016
+feature definition language	Language features	G05B 2219/35089	10011007.10011006.10011008.10011024
+use of mathematical expression, functional equation	Representation of mathematical functions	G05B 2219/35261	10010147.10010148.10010164.10010166
+conversion input data	Data conversion	G05B 2219/35534	10010583.10010633.10010634.10010635
+flash memory	Flash memory	G05B 2219/36109	10002951.10003152.10003153.10003158.10003452
+programming languages for lathe, mill or general use mixed	General programming languages	G05B 2219/36186	10011007.10011006.10011008
+inductive	Inductive inference	G05B 2219/37289	10003752.10010070.10010071.10010078
+texture	Texturing	G05B 2219/37363	10010147.10010371.10010382.10010384
+force tracking	Tracking	G05B 2219/39218	10010147.10010178.10010224.10010245.10010253
+integrated structure and control design	Control structures	G05B 2219/39408	10011007.10011006.10011008.10011024.10011027
+robotics, robotics mapping to robotics vision	Vision for robotics	G05B 2219/40	10010147.10010178.10010224.10010225.10010233
+real time simulation	Real-time simulation	G05B 2219/40311	10010147.10010341.10010349.10010359
+simulation with des, discrete event system	Simulation support systems	G05B 2219/40322	10010147.10010341.10010366
+kinetic energy, content and distribution	Energy distribution	G05B 2219/40356	10010583.10010662.10010668
+reinforcement learning algorithm	Reinforcement learning	G05B 2219/40499	10010147.10010257.10010258.10010261
+motion and task planning	Motion path planning	G05B 2219/40518	10010147.10010178.10010213.10010215
+motion, trajectory planning	Motion path planning	G05B 2219/40519	10010147.10010178.10010213.10010215
+modeling, identification of link parameters	Modeling and parameter extraction	G05B 2219/40527	10010583.10010682.10010696
+object detection	Object detection	G05B 2219/40563	10010147.10010178.10010224.10010245.10010250
+simulation of mechanical gear	Quantum mechanic simulation	G05B 2219/43166	10010147.10010341.10010349.10010350
+approximation	Approximation	G05B 2219/43191	10002950.10003714.10003736.10003737
+nc applications	Application servers	G05B 2219/45	10002951.10002952.10003400.10003402
+packaging	Packaging	G05B 2219/45048	10010583.10010682.10010697.10010699
+printer	Printers	G05B 2219/45187	10010583.10010588.10010594
+control of temperature	Temperature control	G05D 23/00	10010583.10010662.10010586.10010680
+keyboards	Keyboards	G06C 7/02	10003120.10003121.10003125.10010872
+error detection; error correction; monitoring	Error detection and error correction	G06F 11/00	10010583.10010750.10010751.10010752
+error detection; error correction; monitoring	Error detection and error correction	G06F 11/00	10003033.10003083.10003095.10010752
+functional testing	Functional verification	G06F 11/26	10010583.10010717.10010721
+built-in tests	Built-in self-test	G06F 11/27	10010583.10010737.10010744.10010741
+computer systems status display 	Computer algebra systems	G06F 11/328	10010147.10010148.10010162
+environments for testing or debugging software	Software testing and debugging	G06F 11/3664	10011007.10011074.10011099.10011102.10011103
+systolic arrays	Systolic arrays	G06F 15/8046	10010520.10010521.10010528.10010535
+file name conversion	Data conversion	G06F 16/166	10010583.10010633.10010634.10010635
+column-oriented storage; management thereof	Column based storage	G06F 16/221	10002951.10003152.10003161.10003434.10003437
+trees, e.g. b+trees	B-trees	G06F 16/2246	10002951.10003152.10003161.10003163.10003415
+concurrency control 	Concurrency control	G06F 16/2308	10011007.10010940.10010941.10010949.10010957.10010963
+query languages	Query languages	G06F 16/2433	10002951.10002952.10003197
+embedded query languages	XML query languages	G06F 16/2438	10002951.10002952.10003197.10010824
+grouping and aggregation	Rank aggregation	G06F 16/244	10002951.10003317.10003338.10003339
+translation of natural language queries to structured queries	Structured Query Language	G06F 16/24522	10002951.10002952.10003197.10010822.10010823
+internal representations for queries	Query representation	G06F 16/24526	10002951.10003317.10003325.10003326
+query optimisation	Query optimization	G06F 16/2453	10002951.10002952.10003190.10003192.10003210
+query rewriting; transformation of operators	Query operators	G06F 16/24537	10002951.10002952.10003190.10003192.10003398
+database cache management	Database management system engines	G06F 16/24552	10002951.10002952.10003190
+clustering or classification	Clustering and classification	G06F 16/285	10002951.10003317.10003347.10003356
+entity relationship models	Entity relationship models	G06F 16/288	10002951.10002952.10002953.10002959
+trees	Trees	G06F 16/322	10002950.10003624.10003633.10003634
+query processing	Database query processing	G06F 16/3331	10002951.10002952.10003190.10003192
+ontology	Ontologies	G06F 16/367	10002951.10003317.10003318.10011147
+thesaurus	Thesauri	G06F 16/374	10002951.10003317.10003318.10011149
+query optimisation	Query optimization	G06F 16/8365	10002951.10002952.10003190.10003192.10003210
+graphs; linked lists 	Linked lists	G06F 16/9024	10002951.10003152.10003161.10003162.10003414
+trees	Trees	G06F 16/9027	10002950.10003624.10003633.10003634
+document management systems	Document management	G06F 16/93	10010405.10010497.10010500
+differential equations	Differential equations	G06F 17/13	10002950.10003714.10003727
+interacting with the operating system	Interactive proof systems	G06F 21/126	10003752.10003777.10003786
+power grid distribution networks	Power networks	G06F 2113/04	10010583.10010662.10010668.10010671
+equivalence checking	Equivalence checking	G06F 2119/16	10010583.10010717.10010721.10010723
+yield analysis or yield optimisation	Yield and cost optimization	G06F 2119/22	10010583.10010750.10010758.10010761
+real-time	Real-time systems	G06F 2201/805	10010520.10010570
+less usual number representations	Representation of exact numbers	G06F 2207/3832	10010147.10010148.10010164.10010165
+pass transistors	Transistors	G06F 2207/4816	10010583.10010600.10010612.10010613
+neural networks	Neural networks	G06F 2207/4824	10010147.10010257.10010293.10010294
+neural networks	Neural networks	G06F 2207/4824	10010520.10010521.10010542.10010294
+constraint	Constraints	G06F 2209/506	10011007.10011006.10011008.10011024.10011032
+client-server	Client-server architectures	G06F 2209/541	10011007.10010940.10010971.10011120.10010538
+e-mail	Email	G06F 2211/006	10002951.10003260.10003282.10003286.10003287
+public key, asymmetric key, asymmetric encryption	Public key encryption	G06F 2211/008	10002978.10002979.10002981.10011745
+trust	Trust	G06F 2211/009	10002951.10003260.10003282.10003296.10003298
+telecommunications system	Telecommunications	G06F 2212/174	10010405.10010432.10010988
+non-volatile memory	Non-volatile memory	G06F 2212/202	10010583.10010600.10010607.10010610
+flash memory	Flash memory	G06F 2212/2022	10002951.10003152.10003153.10003158.10003452
+non-volatile memory	Non-volatile memory	G06F 2212/222	10010583.10010600.10010607.10010610
+distributed memory	Distributed memory	G06F 2212/254	10011007.10010940.10010941.10010949.10010950.10010955
+in storage network, e.g. network attached cache	Network attached storage	G06F 2212/314	10002951.10003152.10003517.10003518.10003175
+system on chip	System on a chip	G06F 2213/0038	10010583.10010633.10010645.10010560
+very long instruction word dma	Very long instruction word	G06F 2213/2808	10010520.10010521.10010528.10010529
+universal adapter	Universal access	G06F 2213/38	10003456.10003462.10003561.10003566
+mobile device	Mobile devices	G06F 2213/3806	10003120.10003138.10003141.10010898
+data mining	Data mining	G06F 2216/03	10002951.10003227.10003351
+traceability	Traceability	G06F 2221/0737	10011007.10011074.10011099.10011105.10011110
+emerging technologies	Emerging technologies	G06F 2221/0746	10010583.10010786
+recurrent authorisation	Authorization	G06F 2221/0773	10002978.10002991.10010839
+special purpose keyboards	Special purpose systems	G06F 3/0219	10010520.10010521.10010542.10011714
+lifecycle management	Information lifecycle management	G06F 3/0649	10002951.10003152.10003520.10003182
+hybrid storage device	Hybrid storage layouts	G06F 3/068	10002951.10003152.10003161.10003434.10003438
+libraries, e.g. tape libraries, jukebox	Tape libraries	G06F 3/0686	10002951.10003152.10003153.10003160
+buffering means	Buffering	G06F 3/1295	10011007.10010940.10010941.10010949.10010965.10010966
+sound input; sound output	Sound-based input / output	G06F 3/16	10010583.10010588.10010597
+computer-aided design [cad]	Computer-aided design	G06F 30/00	10010405.10010432.10010439.10010440
+geometric cad	Geometric topology	G06F 30/10	10002950.10003741.10003742.10003745
+timing analysis	Timing analysis	G06F 30/3312	10010583.10010682.10010705
+text processing	Document management and text processing	G06F 40/10	10010405.10010497
+tree-structured documents	Document structure	G06F 40/14	10002951.10003317.10003318.10003319
+version control	Version control	G06F 40/197	10010405.10010497.10010500.10010502
+natural language analysis	Natural language processing	G06F 40/20	10010147.10010178.10010179
+parsing	Parsing	G06F 40/205	10003752.10010124.10010138.10010145
+validation	Validation	G06F 40/226	10002944.10011123.10011675
+dictionaries	Dictionaries	G06F 40/242	10002951.10003317.10003318.10011148
+discourse or dialogue representation	Discourse, dialogue and pragmatics	G06F 40/35	10010147.10010178.10010179.10010181
+processing or translation of natural language	Natural language processing	G06F 40/40	10010147.10010178.10010179
+example-based machine translation; alignment	Machine translation	G06F 40/45	10010147.10010178.10010179.10010180
+natural language generation	Natural language generation	G06F 40/56	10010147.10010178.10010179.10010182
+division by zero	Divide and conquer	G06F 7/49926	10003752.10003809.10011254.10011257
+interval arithmetic	Interval arithmetic	G06F 7/49989	10002950.10003714.10003715.10003725
+creation or generation of source code	Source code generation	G06F 8/30	10011007.10011006.10011041.10011047
+programming languages or programming paradigms	Parallel programming languages	G06F 8/31	10010147.10010169.10010175
+parallel programming languages 	Parallel programming languages	G06F 8/314	10010147.10010169.10010175
+intelligent editors	Intelligent agents	G06F 8/33	10010147.10010178.10010219.10010221
+creation or generation of source code model driven	Source code generation	G06F 8/35	10011007.10011006.10011041.10011047
+parsing	Parsing	G06F 8/427	10003752.10010124.10010138.10010145
+semantic checking	Semantics	G06F 8/436	10011007.10011006.10011039.10011311
+consistency 	Consistency	G06F 8/454	10011007.10010940.10010992.10010993.10010996
+bootstrapping	Bootstrapping	G06F 9/4401	10002950.10003648.10003670.10003684.10003685
+object-oriented	Object oriented architectures	G06F 9/4488	10011007.10010940.10010971.10010972.10010979
+inheritance	Inheritance	G06F 9/4492	10011007.10011006.10011008.10011024.10011026
+finite state machines	Finite state machines	G06F 9/4498	10010583.10010600.10010615.10010620
+transaction processing	Database transaction processing	G06F 9/466	10002951.10002952.10003190.10003193
+grid computing	Grid computing	G06F 9/5072	10010520.10010521.10010537.10010541
+grid computing	Grid computing	G06F 9/5072	10011007.10010940.10010971.10011120.10010541
+mutual exclusion algorithms	Mutual exclusion	G06F 9/526	10011007.10010940.10010941.10010949.10010957.10010962
+receiving job control commands	Command and control	G06K 15/1806	10010405.10010481.10010482.10010486
+rasterization	Rasterization	G06K 15/1836	10010147.10010371.10010372.10010373
+wake-up procedures 	Backup procedures	G06K 15/406	10011007.10011074.10011111.10011112
+bayesian classification	Bayesian computation	G06K 9/6278	10002950.10003648.10003662.10003664
+machine learning	Machine learning	G06N 20/00	10010147.10010257
+architectures, e.g. interconnection topology	Interconnection architectures	G06N 3/04	10010520.10010521.10010528.10010530
+automatic theorem proving	Theorem proving algorithms	G06N 5/006	10010147.10010148.10010149.10010159
+operations research or analysis	Operations research	G06Q 10/063	10010405.10010481
+performance analysis	Network performance analysis	G06Q 10/0639	10003033.10003079.10011672
+tracking	Tracking	G06Q 10/0833	10010147.10010178.10010224.10010245.10010253
+collaborative creation of products or services	Collaborative content creation	G06Q 10/101	10003120.10003130.10003131.10003235
+use of message hashing	Message passing	G06Q 20/3827	10011007.10010940.10010941.10010949.10010965.10010968
+transaction verification	Transaction-level verification	G06Q 20/401	10010583.10010717.10010721.10010726
+solvency checks	Solvers	G06Q 20/403	10002950.10003705.10003707
+licensing	Licensing	G06Q 2220/18	10003456.10003462.10003463.10003470
+surveys	Surveys and overviews	G06Q 30/0245	10002944.10011122.10002945
+wireless devices	Wireless devices	G06Q 30/0267	10010583.10010588.10011669
+advertisement creation	Computational advertising	G06Q 30/0276	10002951.10003227.10003447
+online advertisement	Online advertising	G06Q 30/0277	10002951.10003260.10003272
+shopping interfaces	Emerging interfaces	G06Q 30/0641	10010583.10010786.10010808
+services	Network services	G06Q 50/10	10003033.10003099
+intellectual property management	Soft intellectual property	G06Q 50/184	10003456.10003462.10003463.10010646
+education	Education	G06Q 50/20	10010405.10010489
+memory management	Memory management	G06T 1/60	10011007.10010940.10010941.10010949.10010950
+animation	Animation	G06T 13/00	10010147.10010371.10010352
+non-photorealistic rendering	Non-photorealistic rendering	G06T 15/02	10010147.10010371.10010372.10010375
+ray-tracing	Ray tracing	G06T 15/06	10010147.10010371.10010372.10010374
+image-based rendering	Image-based rendering	G06T 15/205	10010147.10010371.10010382.10010385
+image acquisition modality	Image and video acquisition	G06T 2207/10	10010147.10010178.10010224.10010226
+image segmentation details	Image segmentation	G06T 2207/20112	10010147.10010178.10010224.10010245.10010247
+salient point detection; corner detection	Interest point and salient region detections	G06T 2207/20164	10010147.10010178.10010224.10010245.10010246
+document	Document structure	G06T 2207/30176	10002951.10003317.10003318.10003319
+document	Documentation	G06T 2207/30176	10011007.10011074.10011111.10010913
+military	Military	G06T 2207/30212	10010405.10010476.10010478
+surveillance	Surveillance	G06T 2207/30232	10003456.10003462.10003487
+exact reconstruction	Reconstruction	G06T 2211/416	10010147.10010178.10010224.10010245.10010254
+real-time	Real-time languages	G06T 2211/428	10010520.10010570.10010572
+affine transformations 	Computation of transforms	G06T 3/0006	10002950.10003714.10003715.10003717
+stereo camera calibration	Camera calibration	G06T 7/85	10010147.10010178.10010224.10010226.10010234
+proximity, similarity or dissimilarity measures	Similarity measures	G06V 10/761	10002951.10003317.10003338.10003342
+type of disclosure document	Document types	G06V 2201/13	10002944.10011122
+survey article	Surveys and overviews	G06V 2201/133	10002944.10011122.10002945
+character recognition	Optical character recognition	G06V 30/10	10010405.10010497.10010504.10010508
+active pattern learning	Active learning	G06V 30/19167	10003752.10010070.10010071.10010286
+software architecture	Software architectures	G07B 2017/00048	10011007.10010940.10010971.10010972
+client-server	Client-server architectures	G07B 2017/00056	10010520.10010521.10010537.10010538
+client-server	Client-server architectures	G07B 2017/00056	10011007.10010940.10010971.10011120.10010538
+key management	Key management	G07B 2017/00846	10002978.10002979.10002980
+learning	Q-learning	G07D 7/2083	10010147.10010257.10010321.10010327.10010329
+user interface	User interface programming	G08B 13/19678	10003120.10003121.10003129.10011756
+user interface	User interface design	G08C 2201/30	10003120.10003123.10010860.10010858
+security, fault tolerance	Fault tolerance	G08C 2201/60	10010583.10010750.10010751
+surveillance aids 	Surveillance mechanisms	G08G 5/0073	10010405.10010462.10010463
+information to display	Information systems	G09F 2013/184	10002951
+power management, e.g. power saving	Power management	G09G 2330/021	10011007.10010940.10010941.10010949.10010957.10010964
+avionics applications	Avionics	G09G 2380/12	10010405.10010432.10010433.10010989
+avionics applications	Avionics	G09G 2380/12	10010405.10010432.10010443.10010989
+cases	Use cases	G10B 3/24	10011007.10011074.10011099.10011105.10011108
+cases	Use cases	G10C 3/02	10011007.10011074.10011099.10011105.10011108
+computational	Computability	G10K 2210/301	10003752.10003753.10003754
+neural networks	Neural networks	G10K 2210/3038	10010520.10010521.10010542.10010294
+neural networks	Neural networks	G10K 2210/3038	10010147.10010257.10010293.10010294
+transducers	Transducers	G10K 2210/3229	10003752.10003766.10003773.10003774
+speech recognition	Speech recognition	G10L 15/00	10010147.10010178.10010179.10010183
+speech classification or search	Speech / audio search	G10L 15/08	10002951.10003317.10003371.10003386.10003389
+information storage	Information storage systems	G11 	10002951.10003152
+information storage	Information storage technologies	G11 	10002951.10003152.10003153
+error detection or correction	Error detection and error correction	G11B 20/025	10003033.10003083.10003095.10010752
+error detection or correction	Error detection and error correction	G11B 20/025	10010583.10010750.10010751.10010752
+magnetic discs	Magnetic disks	G11B 2220/2508	10002951.10003152.10003153.10003155
+semiconductor memories	Semiconductor memory	G11B 23/0305	10010583.10010600.10010607
+cases	Use cases	G11B 33/022	10011007.10011074.10011099.10011105.10011108
+disk carriers	Disk arrays	G11B 5/82	10002951.10003152.10003153.10003159
+concurrent test	Concurrent algorithms	G11C 2029/2602	10003752.10003809.10011778
+after packaging	Packaging	G11C 2229/743	10010583.10010682.10010697.10010699
+before packaging	Packaging	G11C 2229/746	10010583.10010682.10010697.10010699
+population genetics; linkage disequilibrium	Population genetics	G16B 20/40	10010405.10010444.10010935.10010094
+probabilistic models	Probabilistic retrieval models	G16B 5/20	10002951.10003317.10003338.10003340
+probabilistic models	Learning in probabilistic graphical models	G16B 5/20	10010147.10010257.10010293.10010300
+agriculture	Agriculture	G16Y 10/05	10010405.10010476.10010480
+transportation	Transportation	G16Y 10/40	10010405.10010481.10010485
+education	Education	G16Y 10/55	10010405.10010489
+chemistry	Chemistry	G16Y 10/90	10010405.10010432.10010436
+iot infrastructure	Software infrastructure	G16Y 30/00	10011007.10010940.10010941.10010942
+tritium recovery	Data recovery	G21B 1/115	10010405.10010462.10010468
+expert systems	Expert systems	G21D 3/007	10002951.10003227.10003241.10003243
+water desalination using renewable energy	Renewable energy	Y02A 20/138	10010583.10010662.10010663.10010666
+model	V-model	Y10S 123/03	10011007.10011074.10011081.10011082.10011087
+battery	Batteries	Y10S 164/01	10010583.10010662.10010663.10010664
+fins	Fine arts	Y10S 215/01	10010405.10010469.10010470
+medical record	Medical records	Y10S 283/90	10003456.10003462.10003602.10003603
+extensible bolts	Extensible languages	Y10S 292/44	10011007.10011006.10011008.10011009.10011019
+collision avoidance	Collision detection	Y10S 345/958	10010147.10010371.10010352.10010381
+wide area network	Wide area networks	Y10S 370/901	10003033.10003083.10003084.10003088
+packet switching	Packet-switching networks	Y10S 370/902	10003033.10003106.10011705
+local area network	Local area networks	Y10S 370/908	10003033.10003083.10003084.10003086
+token ring	Token ring networks	Y10S 370/909	10003033.10003083.10003090.10011643.10011647.10011648
+packet communications	Packet classification	Y10S 370/912	10003033.10003068.10003069.10003070
+temperature control	Temperature control	Y10S 423/06	10010583.10010662.10010586.10010680
+simulated animal flesh	Simulation by animation	Y10S 426/802	10010147.10010341.10010349.10011310
+automated or kit	Automated reasoning	Y10S 436/808	10003752.10003790.10003794
+compound	III-V compounds	Y10S 505/81	10010583.10010786.10010799.10010800
+making superconductive joint	Superconducting circuits	Y10S 505/925	10010583.10010786.10010799.10010804
+multipackage compositions	Image composition	Y10S 524/906	10010405.10010497.10010510.10010516
+digital rights management	Digital rights management	Y10S 705/901	10002978.10002991.10002996
+digital rights management	Digital rights management	Y10S 705/901	10003456.10003462.10003463.10002996
+data processing: artificial intelligence	Artificial intelligence	Y10S 706/00	10010147.10010178
+fuzzy logic	Vagueness and fuzzy logic	Y10S 706/90	10010147.10010178.10010187.10010191
+business	Business intelligence	Y10S 706/925	10002951.10003317.10003347.10011712
+earth science	Earth and atmospheric sciences	Y10S 706/928	10010405.10010432.10010437
+video	Video search	Y10S 707/914	10002951.10003317.10003371.10003386.10003388
+intellectual property	Intellectual property	Y10S 707/923	10003456.10003462.10003463
+patent procedure	Patents	Y10S 707/924	10003456.10003462.10003463.10003466
+validation	Validation	Y10S 707/927	10002944.10011123.10011675
+patent comparison	Patents	Y10S 707/931	10003456.10003462.10003463.10003466
+business related	Business rules	Y10S 707/944	10010405.10010406.10010423
+financial	Financial crime	Y10S 707/95	10003456.10003462.10003574.10003575
+relational	Relational storage	Y10S 707/954	10002951.10003152.10003161.10003434
+network	Networks	Y10S 707/959	10003033
+network	Network structure	Y10S 707/959	10003033.10003083.10003090
+associative	Association rules	Y10S 707/961	10002951.10003227.10003351.10003443
+peer-to-peer	Peer-to-peer architectures	Y10S 707/967	10010520.10010521.10010537.10010540
+horizontal partitioning	Horizontal partitioning	Y10S 707/969	10002951.10003152.10003161.10003434.10003435
+vertical partitioning	Vertical partitioning	Y10S 707/97	10002951.10003152.10003161.10003434.10003436
+horizontal partitioning	Horizontal partitioning	Y10S 707/973	10002951.10003152.10003161.10003434.10003435
+vertical partitioning	Vertical partitioning	Y10S 707/974	10002951.10003152.10003161.10003434.10003436
+pattern matching access	Pattern matching	Y10S 707/99936	10003752.10003809.10010031.10010032
+version management	Version management	Y10S 707/99954	10002951.10003152.10003520.10003184
+garbage collection	Garbage collection	Y10S 707/99957	10011007.10010940.10010941.10010949.10010950.10010954
+network layout and operation interface	Network operations	Y10S 715/969	10003456.10003457.10003490.10003511
+cooperative decision support systems for group of users	Decision support systems	Y10S 715/971	10002951.10003227.10003241
+printed circuit board	Printed circuit boards	Y10S 83/9291	10010583.10010584
+music	Music retrieval	Y10S 84/00	10002951.10003317.10003371.10003386.10003390
+electronic funds transfer	Electronic funds transfer	Y10S 902/00	10002951.10003260.10003282.10003550.10003554
+electronic funds transfer	Electronic funds transfer	Y10S 902/00	10010405.10003550.10003554
+evaluates biometrics	Evaluation	Y10S 902/03	10002944.10011123.10011130
+error or fault recovery	Error handling and recovery	Y10S 902/38	10011007.10011074.10011092.10011691
+transaction* processing	Database transaction processing	Y10S 902/40	10002951.10002952.10003190.10003193
+spintronics or quantum computing	Quantum computing	Y10S 977/933	10010520.10010521.10010542.10010550
+single electron transistor	Single electron devices	Y10S 977/937	10010583.10010786.10010813.10010815
+having digital flow controller	Information flow control	Y10T 137/8729	10002978.10003006.10011608
+having digital flow controller	Information flow control	Y10T 137/87298	10002978.10003006.10011608
+with flow control	Information flow control	Y10T 137/87676	10002978.10003006.10011608
+adapter	Network adapters	Y10T 279/3406	10003033.10003058.10003064.10011657
+race making	Race and ethnicity	Y10T 29/49689	10003456.10010927.10003611
+slotted bar	Slotted pages	Y10T 292/289	10002951.10003152.10003161.10003164.10003419
+hard and soft metal	Hard and soft IP	Y10T 292/487	10010583.10010633.10010645.10011718
+segment	Video segmentation	Y10T 292/683	10010147.10010178.10010224.10010245.10010248
+permutation	Permutations and combinations	Y10T 70/7322	10002950.10003624.10003625.10003627

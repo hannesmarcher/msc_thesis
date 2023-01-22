@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  preprocessor:
+    build: .
+    volumes:
+      - ../ontologies/sub_ontologies/:/app/sub_ontologies
+      - ../ontologies/full_ontologies/:/app/full_ontologies
+      - ../resources/:/app/resources

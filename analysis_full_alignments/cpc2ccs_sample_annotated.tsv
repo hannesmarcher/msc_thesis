@@ -1,0 +1,96 @@
+source	target	source_id	target_id	reasoning	is_correct	questionable
+physics	Physics	G 	10010405.10010432.10010441	CPC is too broad, i.e. it contains information about various fields	0	
+visual inspection 	Visual inspection	G01N 21/8803	10010147.10010178.10010224.10010225.10010232	Ascendants are significantly different	0	
+scanners 	Scanners	G01T 1/2964	10010583.10010588.10011667	The same word has different meaning in both contexts	0	
+noise reduction	Noise reduction	G01V 2210/32	10010583.10010588.10003247.10003250	The same word has different meaning in both contexts	0	
+frameworks	Frameworks	G04B 29/00	10011007.10011006.10011008.10011024.10011038	The same word has different meaning in both contexts	0	
+input/output	Input / output	G05B 19/0423	10011007.10010940.10010941.10010949.10010965.10010967	CCS refers to input/output in the field of communication management (operating systems), while CPC is about the field of control systems	0	?
+input/output	Input / output	G05B 19/054	10011007.10010940.10010941.10010949.10010965.10010967	CCS refers to input/output in the field of communication management (operating systems), while CPC is about the field of control systems	0	?
+petri net	Petri nets	G05B 2219/13112	10011007.10010940.10010971.10010980.10010981	Both are in different contexts, but the underlying concept is the same.	1	?
+use of parser	Parsers	G05B 2219/23275	10011007.10011006.10011041.10011688	Both are in different contexts, but the underlying concept is the same.	1	?
+microprocessor control or manual control	Process management	G05B 2219/23319	10011007.10010940.10010941.10010949.10010957	Different.	0	
+star network	Star networks	G05B 2219/25035	10003033.10003083.10003090.10011643.10011646	"CCS is about network architectures and CPC about pc structures.
+Still, probably a match as the underlying concept is the same"	1	
+token ring network	Token ring networks	G05B 2219/25165	10003033.10003083.10003090.10011643.10011647.10011648	Same reasoning as with star network	1	
+repeater	Repeaters	G05B 2219/25181	10003033.10003058.10003062.10011659	Different notion in different contexts	0	
+firewall	Firewalls	G05B 2219/31246	10002978.10003006.10011617	Same reasoning as with star network	1	
+use of genetic algorithm	Genetic algorithms	G05B 2219/32333	10010147.10010257.10010293.10011809.10011812	Same reasoning as with star network	1	
+interpolate backwards	Interpolation	G05B 2219/34091	10002950.10003714.10003715.10003722	Different	0	?
+use of spreadsheet	Spreadsheets	G05B 2219/35011	10010405.10010476.10011187.10011189	Clear match.	1	
+texture	Texturing	G05B 2219/37363	10010147.10010371.10010382.10010384	The same word has different meaning in both contexts	0	
+object detection	Object detection	G05B 2219/40563	10010147.10010178.10010224.10010245.10010250	Both concepts are in the context of computer vision	1	
+approximation	Approximation	G05B 2219/43191	10002950.10003714.10003736.10003737	CPC has NC systems as parent, while CCS describes the mathematical notion of approximation	0	
+packaging	Packaging	G05B 2219/45048	10010583.10010682.10010697.10010699	CCS might be applicable to the NC system context.	1	?
+printer	Printers	G05B 2219/45187	10010583.10010588.10010594	The same word has different meaning in both contexts	0	
+keyboards	Keyboards	G06C 7/02	10003120.10003121.10003125.10010872	"CPC is about keyboards in the field of digital computation where all computation is done mechanically (?).
+CCS is in the field of interaction devices.
+Should be a match."	1	?
+systolic arrays	Systolic arrays	G06F 15/8046	10010520.10010521.10010528.10010535	Ascendants match.	1	
+concurrency control 	Concurrency control	G06F 16/2308	10011007.10010940.10010941.10010949.10010957.10010963	"Both concepts in different contexts in which they have different meaning.
+Concurrency control in context of database structures deviates from the same name in process management (operating systems)"	0	
+query languages	Query languages	G06F 16/2433	10002951.10002952.10003197	Same notion.	1	
+query optimisation	Query optimization	G06F 16/2453	10002951.10002952.10003190.10003192.10003210	Same notion.	1	
+clustering or classification	Clustering and classification	G06F 16/285	10002951.10003317.10003347.10003356	Same notion.	1	
+entity relationship models	Entity relationship models	G06F 16/288	10002951.10002952.10002953.10002959	Same notion.	1	
+ontology	Ontologies	G06F 16/367	10002951.10003317.10003318.10011147	Same notion.	1	
+thesaurus	Thesauri	G06F 16/374	10002951.10003317.10003318.10011149	Same notion.	1	
+query optimisation	Query optimization	G06F 16/8365	10002951.10002952.10003190.10003192.10003210	Same notion.	1	
+differential equations	Differential equations	G06F 17/13	10002950.10003714.10003727	Same notion.	1	
+equivalence checking	Equivalence checking	G06F 2119/16	10010583.10010717.10010721.10010723	Both are in the context of hardware.	1	
+pass transistors	Transistors	G06F 2207/4816	10010583.10010600.10010612.10010613	Hard to determine	0	?
+constraint	Constraints	G06F 2209/506	10011007.10011006.10011008.10011024.10011032	"CCS is about constraints in the field of programming.
+CPC is about allocation of resources, e.g. of the central processing unit (G06F 9/50) 
+Can hardly be considered equivalent."	0	
+e-mail	Email	G06F 2211/006	10002951.10003260.10003282.10003286.10003287	Clear match.	1	
+trust	Trust	G06F 2211/009	10002951.10003260.10003282.10003296.10003298	Both concepts are about trust in the field of Word-Wide-Web	1	
+distributed memory	Distributed memory	G06F 2212/254	10011007.10010940.10010941.10010949.10010950.10010955	One concept is about distributed memory in the field of operating systems, while the other describes distributed memory at a more general level.	0	?
+mobile device	Mobile devices	G06F 2213/3806	10003120.10003138.10003141.10010898	CCS is about mobile devices in the “smartphone-sense”, while CPC is about a low level notion of mobile devices	0	
+data mining	Data mining	G06F 2216/03	10002951.10003227.10003351	Both related to the information retrieval notion  of data mining.	1	
+traceability	Traceability	G06F 2221/0737	10011007.10011074.10011099.10011105.10011110	Different notion in different contexts	0	
+emerging technologies	Emerging technologies	G06F 2221/0746	10010583.1001079	Neither ascendants nor descendants match.		
+libraries, e.g. tape libraries, jukebox	Tape libraries	G06F 3/0686	10002951.10003152.10003153.10003160	CPC is more broad, i.e. CCS is only an example of CPC.	0	
+timing analysis	Timing analysis	G06F 30/3312	10010583.10010682.10010705	Same notion.	1	
+version control	Version control	G06F 40/197	10010405.10010497.10010500.10010502	"CPC is about version control for text documents in the context of handling natural language data (see parent). 
+The same goes for the CCS term, therefore a match"	1	
+dictionaries	Dictionaries	G06F 40/242	10002951.10003317.10003318.10011148	Same notion.	1	
+natural language generation	Natural language generation	G06F 40/56	10010147.10010178.10010179.10010182	CPC is exclusively about rule based generation.	0	
+interval arithmetic	Interval arithmetic	G06F 7/49989	10002950.10003714.10003715.10003725	Hard to determine	0	?
+consistency 	Consistency	G06F 8/454	10011007.10010940.10010992.10010993.10010996	CCS is about consistency in software engineering, while CPC is about data consistency.	0	
+bootstrapping	Bootstrapping	G06F 9/4401	10002950.10003648.10003670.10003684.10003685	CPC is about program execution, CCS refers to statistical method	0	
+inheritance	Inheritance	G06F 9/4492	10011007.10011006.10011008.10011024.10011026	Same notion.	1	
+finite state machines	Finite state machines	G06F 9/4498	10010583.10010600.10010615.10010620	Probably the same notion.	1	?
+rasterization	Rasterization	G06K 15/1836	10010147.10010371.10010372.10010373	Same notion – both are about computer vision	1	
+machine learning	Machine learning	G06N 20/00	10010147.1001026	Same notion	1	
+architectures, e.g. interconnection topology	Interconnection architectures	G06N 3/04	10010520.10010521.10010528.10010530	CCS is strict subset of CPC	0	
+licensing	Licensing	G06Q 2220/18	10003456.10003462.10003463.10003470	Same notion.	1	
+surveys	Surveys and overviews	G06Q 30/0245	10002944.10011122.10002945	CPC is about determining advertisement effects, while CCS is much more general.	0	
+wireless devices	Wireless devices	G06Q 30/0267	10010583.10010588.10011669	CPC is a sub-concept of targeted advertisement, thus CPC is in different context than CCS.	0	
+online advertisement	Online advertising	G06Q 30/0277	10002951.10003260.10003272	Same notion.	1	
+animation	Animation	G06T 13/00	10010147.10010371.10010352	Same notion.	1	
+non-photorealistic rendering	Non-photorealistic rendering	G06T 15/02	10010147.10010371.10010372.10010375	Despite CPC refers to 3d rendering and CCS is more general, it is still a match	1	
+image-based rendering	Image-based rendering	G06T 15/205	10010147.10010371.10010382.10010385	Same reasoning as with image-based rendering	1	
+document	Documentation	G06T 2207/30176	10011007.10011074.10011111.10010913	CPC refers to document in the field of computer vision, while CCS refers to code documentation	0	
+surveillance	Surveillance	G06T 2207/30232	10003456.10003462.10003487	CPC is about surveillance in the field of images, however, CCS describes surveillance at a very general level.	0	
+software architecture	Software architectures	G07B 2017/00048	10011007.10010940.10010971.10010972	CPC is about franking systems, thus not a match.	0	
+key management	Key management	G07B 2017/00846	10002978.10002979.10002980	CPC refers only to key management in the context of franking systems, while CCS is about cryptography in general.	0	
+speech recognition	Speech recognition	G10L 15/00	10010147.10010178.10010179.10010183	Same notion.	1	
+magnetic discs	Magnetic disks	G11B 2220/2508	10002951.10003152.10003153.10003155	Same notion.	1	
+semiconductor memories	Semiconductor memory	G11B 23/0305	10010583.10010600.10010607	CPC is about testing of machine structures, while CCS is about hardware	0	
+after packaging	Packaging	G11C 2229/743	10010583.10010682.10010697.10010699	Probably not a match – since it is split into after and before packaging	0	?
+before packaging	Packaging	G11C 2229/746	10010583.10010682.10010697.10010699	Probably not a match – since it is split into after and before packaging	0	?
+agriculture	Agriculture	G16Y 10/05	10010405.10010476.10010480	CPC is about internet of things, while CCS is about CS agriculture applications in general – see CPC ascendant “information and communication technologies specifically adapted for internet of things”	0	
+transportation	Transportation	G16Y 10/40	10010405.10010481.10010485	CPC is about IOT, while CCS is about operations research	0	
+chemistry	Chemistry	G16Y 10/90	10010405.10010432.10010436	Analogously as with transportation	0	
+battery	Batteries	Y10S 164/01	10010583.10010662.10010663.10010664	CPC is about metal founding, while CCS is about the energy notion behind batteries.	0	
+medical record	Medical records	Y10S 283/90	10003456.10003462.10003602.10003603	Same notion	1	
+wide area network	Wide area networks	Y10S 370/901	10003033.10003083.10003084.10003088	Same notion	1	
+local area network	Local area networks	Y10S 370/908	10003033.10003083.10003084.10003086	Same notion	1	
+intellectual property	Intellectual property	Y10S 707/923	10003456.10003462.10003463	CPC is only about intellectual property in conjunction with databases, while CCS is about the general notion of intellectual property	0	
+network	Networks	Y10S 707/959	10003033	CPC is too granular	0	
+version management	Version management	Y10S 707/99954	10002951.10003152.10003520.10003184	Same notion	1	
+garbage collection	Garbage collection	Y10S 707/99957	10011007.10010940.10010941.10010949.10010950.10010954	"CPC is about file or database maintenance, while CCS is about memory management.
+Thus, probably not a match."	0	
+printed circuit board	Printed circuit boards	Y10S 83/9291	10010583.1001058	CPC is not about computing hardware	0	
+electronic funds transfer	Electronic funds transfer	Y10S 902/00	10002951.10003260.10003282.10003550.10003554	Probably same notion, but not 100% sure as the concept differ in its depth and, consequently, it is hard to determine the equivalence based on ascendants & descendants.	1	?
+having digital flow controller	Information flow control	Y10T 137/8729	10002978.10003006.10011608	CPC is not about security	0	
+having digital flow controller	Information flow control	Y10T 137/87298	10002978.10003006.10011608	CPC is not about security	0	

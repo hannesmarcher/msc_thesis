@@ -1,0 +1,126 @@
+version: "3.9"
+services:
+  logmap-full-alignment-cpc2ccs:
+    build:
+      context: ./logmap/
+      dockerfile: Dockerfile
+    volumes:
+      - ./logmap/cpc2ccs_full:/app/output_dir/
+      - ../ontologies/full_ontologies/cpc2ccs/:/app/onto_dir/
+      - ./logmap/config_default:/app/config_dir/
+  logmaplt-full-alignment-cpc2ccs:
+    build:
+      context: ./logmap_lite/
+      dockerfile: Dockerfile
+    depends_on:
+      logmap-full-alignment-cpc2ccs:
+        condition: service_completed_successfully
+    volumes:
+      - ./logmap_lite/cpc2ccs_full:/app/output_dir/
+      - ../ontologies/full_ontologies/cpc2ccs/:/app/onto_dir/
+      - ./logmap_lite/config_default:/app/config_dir/
+  logmapexp-full-alignment-cpc2ccs:
+    build:
+      context: ./logmap/
+      dockerfile: Dockerfile
+    depends_on:
+      logmaplt-full-alignment-cpc2ccs:
+        condition: service_completed_successfully
+    volumes:
+      - ./logmap/cpc2ccs_experimental_full:/app/output_dir/
+      - ../ontologies/full_ontologies/cpc2ccs/:/app/onto_dir/
+      - ./logmap/config_experimental:/app/config_dir/
+  aml-full-alignment-cpc2ccs:
+    build:
+      context: ./aml/
+      dockerfile: Dockerfile
+    depends_on:
+      logmapexp-full-alignment-cpc2ccs:
+        condition: service_completed_successfully
+    volumes:
+      - ./aml/cpc2ccs_full:/app/output_dir/
+      - ../ontologies/full_ontologies/cpc2ccs/:/app/onto_dir/
+  baseline-full-alignment-cpc2ccs:
+    build:
+      context: ./baseline/
+      dockerfile: Dockerfile
+    depends_on:
+      aml-full-alignment-cpc2ccs:
+        condition: service_completed_successfully
+    volumes:
+      - ./baseline/docker/cpc2ccs_full:/app/output_dir/
+      - ../ontologies/full_ontologies/cpc2ccs/:/app/onto_dir/
+  lxlhmeta-full-alignment-cpc2ccs:
+    build:
+      context: ./meta_matcher/
+      dockerfile: Dockerfile
+    depends_on:
+      baseline-full-alignment-cpc2ccs:
+        condition: service_completed_successfully
+    volumes:
+      - ./meta_matcher/docker/cpc2ccs_full:/app/output_dir/
+      - ../ontologies/full_ontologies/cpc2ccs/:/app/onto_dir/
+
+  aml-full-alignment-cpc2cso:
+    build:
+      context: ./aml/
+      dockerfile: Dockerfile
+    depends_on:
+      lxlhmeta-full-alignment-cpc2ccs:
+        condition: service_completed_successfully
+    volumes:
+      - ./aml/cpc2cso_full:/app/output_dir/
+      - ../ontologies/full_ontologies/cpc2cso/:/app/onto_dir/
+  logmap-full-alignment-cpc2cso:
+    build:
+      context: ./logmap/
+      dockerfile: Dockerfile
+    depends_on:
+      aml-full-alignment-cpc2cso:
+        condition: service_completed_successfully
+    volumes:
+      - ./logmap/cpc2cso_full:/app/output_dir/
+      - ../ontologies/full_ontologies/cpc2cso/:/app/onto_dir/
+      - ./logmap/config_default:/app/config_dir/
+  logmaplt-full-alignment-cpc2cso:
+    build:
+      context: ./logmap_lite/
+      dockerfile: Dockerfile
+#    depends_on:
+#      logmap-full-alignment-cpc2cso:
+#        condition: service_completed_successfully
+    volumes:
+      - ./logmap_lite/cpc2cso_full:/app/output_dir/
+      - ../ontologies/full_ontologies/cpc2cso/:/app/onto_dir/
+      - ./logmap_lite/config_default:/app/config_dir/
+  logmapexp-full-alignment-cpc2cso:
+    build:
+      context: ./logmap/
+      dockerfile: Dockerfile
+    depends_on:
+      logmaplt-full-alignment-cpc2cso:
+        condition: service_completed_successfully
+    volumes:
+      - ./logmap/cpc2cso_experimental_full:/app/output_dir/
+      - ../ontologies/full_ontologies/cpc2cso/:/app/onto_dir/
+      - ./logmap/config_experimental:/app/config_dir/
+  baseline-full-alignment-cpc2cso:
+    build:
+      context: ./baseline/
+      dockerfile: Dockerfile
+    depends_on:
+      logmapexp-full-alignment-cpc2cso:
+        condition: service_completed_successfully
+    volumes:
+      - ./baseline/docker/cpc2cso_full:/app/output_dir/
+      - ../ontologies/full_ontologies/cpc2cso/:/app/onto_dir/
+  lxlhmeta-full-alignment-cpc2cso:
+    build:
+      context: ./meta_matcher/
+      dockerfile: Dockerfile
+    depends_on:
+      baseline-full-alignment-cpc2cso:
+        condition: service_completed_successfully
+    volumes:
+      - ./meta_matcher/docker/cpc2cso_full:/app/output_dir/
+      - ../ontologies/full_ontologies/cpc2cso/:/app/onto_dir/

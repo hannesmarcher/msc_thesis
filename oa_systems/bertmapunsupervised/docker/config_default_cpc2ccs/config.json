@@ -1,0 +1,53 @@
+{
+  "data": {
+    "src_onto": "cpc",
+    "tgt_onto": "ccs",
+    "properties": [
+      "label"
+    ]
+  },
+  "corpora": {
+    "sample_rate": 10,
+    "train_map_ratio": 0.2,
+    "val_map_ratio": 0.1,
+    "test_map_ratio": 0.7,
+    "io_soft_neg_rate": 2,
+    "io_hard_neg_rate": 2,
+    "depth_threshold": null,
+    "depth_strategy": "max"
+  },
+  "bert": {
+    "pretrained_path": "bert-base-uncased",
+    "tokenizer_path": "bert-base-uncased"
+  },
+  "fine-tune": {
+    "include_ids": true,
+    "warm_up_ratio": 0.0,
+    "max_length": 128,
+    "num_epochs": 3,
+    "batch_size": 32,
+    "early_stop": false,
+    "early_stop_patience": 10,
+    "resume_checkpoint": null
+  },
+  "map": {
+    "candidate_limits": [
+      200,
+      25
+    ],
+    "batch_size": 32,
+    "nbest": 1,
+    "string_match": true,
+    "strategy": "mean"
+  },
+  "eval": {
+    "automatic": true
+  },
+  "extension": {
+    "threshold": 0.9,
+    "max_iter": 1
+  },
+  "repair": {
+    "threshold": 0.999
+  }
+}

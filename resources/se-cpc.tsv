@@ -1,0 +1,118 @@
+Classification symbol	Depth	Label
+G06F8/00	0	Arrangements for software engineering
+G06F8/10	1	Requirements analysis; Specification techniques
+G06F8/20	1	Software design
+G06F8/22	2	Procedural
+G06F8/24	2	Object-oriented
+G06F8/30	1	Creation or generation of source code
+G06F8/31	2	Programming languages or programming paradigms
+G06F8/311	3	Functional or applicative languages; Rewrite languages
+G06F8/312	3	List processing, e.g. LISP programming language
+G06F8/313	3	Logic programming, e.g. PROLOG programming language
+G06F8/3135	4	Unification or backtracking
+G06F8/314	3	Parallel programming languages (G06F 8/313 takes precedence)
+G06F8/315	3	Object-oriented languages
+G06F8/316	3	Aspect-oriented programming techniques
+G06F8/33	2	Intelligent editors
+G06F8/34	2	Graphical or visual programming
+G06F8/35	2	model driven
+G06F8/355	3	Round-trip engineering
+G06F8/36	2	Software reuse
+G06F8/37	2	Compiler construction; Parser generation
+G06F8/38	2	for implementing user interfaces
+G06F8/40	1	Transformation of program code
+G06F8/41	2	Compilation
+G06F8/42	3	Syntactic analysis
+G06F8/423	4	Preprocessors
+G06F8/425	4	Lexical analysis
+G06F8/427	4	Parsing
+G06F8/43	3	Checking; Contextual analysis
+G06F8/433	4	Dependency analysis; Data or control flow analysis
+G06F8/434	5	Pointers; Aliasing
+G06F8/436	4	Semantic checking
+G06F8/437	5	Type checking
+G06F8/44	3	Encoding
+G06F8/441	4	Register allocation; Assignment of physical memory space to logical memory space
+G06F8/443	4	Optimisation
+G06F8/4432	5	Reducing the energy consumption
+G06F8/4434	5	Reducing the memory space required by the program code
+G06F8/4435	6	Detection or removal of dead or redundant code
+G06F8/4436	6	Exlining; Procedural abstraction
+G06F8/4441	5	Reducing the execution time required by the program code
+G06F8/4442	6	Reducing the number of cache misses; Data prefetching (cache prefetching G06F 12/0862)
+G06F12/0862	4	with prefetch
+G06F8/4443	6	Inlining
+G06F8/445	4	Exploiting fine grain parallelism, i.e. parallelism at instruction level (run-time instruction scheduling G06F 9/3836)
+G06F9/3836	4	Instruction issuing, e.g. dynamic instruction scheduling, out of order instruction execution
+G06F9/3838	5	Dependency mechanisms, e.g. register scoreboarding
+G06F9/384	6	Register renaming
+G06F8/4452	5	Software pipelining
+G06F8/447	4	Target code generation
+G06F8/45	3	Exploiting coarse grain parallelism in compilation, i.e. parallelism between groups of instructions
+G06F8/451	4	Code distribution (considering CPU load at run-time G06F 9/505; load rebalancing G06F 9/5083)
+G06F9/505	6	considering the load
+G06F9/5083	4	Techniques for rebalancing the load in a distributed system
+G06F9/5088	5	involving task migration
+G06F8/452	5	Loops
+G06F8/453	4	Data distribution
+G06F9/54	3	Interprogram communication
+G06F9/541	4	via adapters, e.g. between incompatible applications
+G06F9/542	4	Event management; Broadcasting; Multicasting; Notifications
+G06F9/543	4	User-generated data transfer, e.g. clipboards, dynamic data exchange [DDE], object linking and embedding [OLE]
+G06F9/544	4	Buffers; Shared memory; Pipes
+G06F9/545	4	where tasks reside in different layers, e.g. user- and kernel-space
+G06F9/546	4	Message passing systems or structures, e.g. queues
+G06F9/547	4	Remote procedure calls [RPC]; Web services
+G06F9/548	5	Object oriented; Remote method invocation [RMI] (non-remote method invocation G06F 9/449)
+G06F8/47	3	Retargetable compilers
+G06F8/48	3	Incremental compilation (software reuse G06F 8/36)
+G06F8/49	3	Partial evaluation
+G06F8/51	2	Source to source
+G06F8/52	2	Binary to binary
+G06F8/53	2	Decompilation; Disassembly
+G06F8/54	2	Link editing before load time
+G06F8/60	1	Software deployment
+G06F8/61	2	Installation
+G06F8/62	3	Uninstallation
+G06F8/63	3	Image based installation; Cloning; Build to order
+G06F8/64	3	Retargetable
+G06F8/65	2	Updates (security arrangements therefor G06F 21/57)
+G06F21/577	3	Assessing vulnerabilities and evaluating computer system security
+G06F8/654	3	using techniques specially adapted for alterable solid state memories, e.g. for EEPROM or flash memories
+G06F8/656	3	while running
+G06F8/658	3	Incremental updates; Differential updates
+G06F8/66	3	of program code stored in read-only memory [ROM]
+G06F8/70	1	Software maintenance or management
+G06F8/71	2	Version control (security arrangements therefor G06F 21/57); Configuration management
+G06F8/72	2	Code refactoring
+G06F8/73	2	Program documentation
+G06F8/74	2	Reverse engineering; Extracting design information from source code
+G06F8/75	2	Structural analysis for program understanding
+G06F8/751	3	Code clone detection
+G06F8/76	2	Adapting program code to run in a different environment; Porting
+G06F8/77	2	Software metrics
+G06F8/78	2	"Methods to solve the ""Year 2000"" [Y2K] problem"
+G06F11/36	1	Preventing errors by testing or debugging software
+G06F11/3604	2	Software analysis for verifying properties of programs (byte-code verification G06F 9/44589)
+G06F11/3608	3	using formal methods, e.g. model checking, abstract interpretation (theorem proving G06N 5/006)
+G06F11/3612	3	by runtime analysis (performance monitoring G06F 11/3466)
+G06F11/3616	3	using software metrics
+G06F11/362	2	Software debugging
+G06F11/3624	3	by performing operations on the source code, e.g. via a compiler
+G06F11/3628	3	of optimised code (optimisation G06F 8/443)
+G06F11/3632	3	of specific synchronisation aspects
+G06F11/3636	3	by tracing the execution of the program
+G06F11/364	4	tracing values on a bus
+G06F11/3644	3	by instrumenting at runtime
+G06F11/3648	3	using additional hardware
+G06F11/3656	4	using a specific debug interface
+G06F11/366	3	using diagnostics (G06F 11/0703 takes precedence)
+G06F11/3664	2	Environments for testing or debugging software
+G06F11/3668	2	Software testing (software testing in telephone exchanges H04M 3/242, testing of hardware G06F 11/22)
+G06F11/3672	3	Test management
+G06F11/3676	4	for coverage analysis
+G06F11/368	4	for test version control, e.g. updating test cases to a new software version
+G06F11/3684	4	for test design, e.g. generating new test cases
+G06F11/3688	4	for test execution, e.g. scheduling of test suites
+G06F11/3692	4	for test results analysis
+G06F11/3696	3	Methods or tools to render software testable

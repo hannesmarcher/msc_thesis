@@ -1,0 +1,936 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="https://dl.acm.org/ccs/topics/#"
+     xml:base="https://dl.acm.org/ccs/topics/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="https://dl.acm.org/ccs/topics/"/>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+	<owl:Class rdf:about="10011007.10010940.10010971.10010972.10010976">
+		<rdfs:label xml:lang="en">Electronic blackboards</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010971.10010972"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011092">
+		<rdfs:label xml:lang="en">Software development techniques</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011092.10011782.10011813">
+		<rdfs:label xml:lang="en">Genetic programming</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011092.10011782"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011050.10010512.10011143">
+		<rdfs:label xml:lang="en">Hypertext languages</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011050.10010512"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011041.10010943">
+		<rdfs:label xml:lang="en">Interpreters</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011041"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011050.10010512">
+		<rdfs:label xml:lang="en">Markup languages</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011050"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011075.10011076">
+		<rdfs:label xml:lang="en">Requirements analysis</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011075"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010992.10010993.10010997">
+		<rdfs:label xml:lang="en">Completeness</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010992.10010993"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011081.10011082.10011085">
+		<rdfs:label xml:lang="en">Waterfall model</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011081.10011082"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011099.10011105.10011108">
+		<rdfs:label xml:lang="en">Use cases</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011099.10011105"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011060.10011065">
+		<rdfs:label xml:lang="en">Integration frameworks</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011060"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011041">
+		<rdfs:label xml:lang="en">Compilers</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10011003.10011005.10011101">
+		<rdfs:label xml:lang="en">Checkpoint / restart</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10011003.10011005"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011081">
+		<rdfs:label xml:lang="en">Software development process management</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011008.10011024.10011034">
+		<rdfs:label xml:lang="en">Concurrent programming structures</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011008.10011024"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010971.10010972.10011116">
+		<rdfs:label xml:lang="en">Tightly coupled architectures</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010971.10010972"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010971.10011120">
+		<rdfs:label xml:lang="en">Distributed systems organizing principles</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010971"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011041.10011049">
+		<rdfs:label xml:lang="en">Preprocessors</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011041"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011111.10011697">
+		<rdfs:label xml:lang="en">System administration</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011111"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010971.10011120.10010538">
+		<rdfs:label xml:lang="en">Client-server architectures</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010971.10011120"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011050">
+		<rdfs:label xml:lang="en">Context specific languages</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010971.10010972.10010975">
+		<rdfs:label xml:lang="en">Publish-subscribe / event-based architectures</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010971.10010972"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010992.10010998.10010999">
+		<rdfs:label xml:lang="en">Software verification</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010992.10010998"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010941.10010969">
+		<rdfs:label xml:lang="en">Virtual worlds software</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010941"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010992.10010993.10010994">
+		<rdfs:label xml:lang="en">Functionality</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010992.10010993"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010941.10010949.10010957.10010960">
+		<rdfs:label xml:lang="en">Monitors</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010941.10010949.10010957"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011081.10011082">
+		<rdfs:label xml:lang="en">Software development methods</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011081"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010941.10010942.10010944.10010947">
+		<rdfs:label xml:lang="en">Embedded middleware</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010941.10010942.10010944"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011060.10011064">
+		<rdfs:label xml:lang="en">Orchestration languages</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011060"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011050.10011056">
+		<rdfs:label xml:lang="en">Programming by example</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011050"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011050.10011059">
+		<rdfs:label xml:lang="en">Interface definition languages</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011050"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011099.10011693">
+		<rdfs:label xml:lang="en">Empirical software validation</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011099"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011050.10011023">
+		<rdfs:label xml:lang="en">Specialized application languages</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011050"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010941.10010949.10010957.10010964">
+		<rdfs:label xml:lang="en">Power management</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010941.10010949.10010957"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011008.10011009.10011015">
+		<rdfs:label xml:lang="en">Constraint and logic languages</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011008.10011009"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010971.10011682">
+		<rdfs:label xml:lang="en">Abstraction, modeling and modularity</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010971"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011050.10011052">
+		<rdfs:label xml:lang="en">Graphical user interface languages</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011050"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011134.10003559">
+		<rdfs:label xml:lang="en">Open source model</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011134"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010971.10010980">
+		<rdfs:label xml:lang="en">Software system models</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010971"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10011003">
+		<rdfs:label xml:lang="en">Extra-functional properties</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011092.10011691">
+		<rdfs:label xml:lang="en">Error handling and recovery</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011092"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010971.10010564">
+		<rdfs:label xml:lang="en">Embedded software</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010971"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010941.10010949.10010950.10010954">
+		<rdfs:label xml:lang="en">Garbage collection</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010941.10010949.10010950"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010941.10010949.10003512">
+		<rdfs:label xml:lang="en">File systems management</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010941.10010949"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011008.10011009.10011016">
+		<rdfs:label xml:lang="en">Data flow languages</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011008.10011009"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011111.10011696">
+		<rdfs:label xml:lang="en">Maintaining software</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011111"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010941.10010949.10010957.10010963">
+		<rdfs:label xml:lang="en">Concurrency control</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010941.10010949.10010957"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010941.10010949.10010957.10010834">
+		<rdfs:label xml:lang="en">Deadlocks</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010941.10010949.10010957"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011008.10011009.10011012">
+		<rdfs:label xml:lang="en">Functional languages</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011008.10011009"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011075.10011079">
+		<rdfs:label xml:lang="en">Software implementation planning</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011075"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010941.10010969.10011744">
+		<rdfs:label xml:lang="en">Virtual worlds training simulations</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010941.10010969"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010941.10010949.10010957.10010958">
+		<rdfs:label xml:lang="en">Multithreading</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010941.10010949.10010957"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010971.10010972.10010539">
+		<rdfs:label xml:lang="en">n-tier architectures</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010971.10010972"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10011003.10011005">
+		<rdfs:label xml:lang="en">Software fault tolerance</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10011003"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010941.10010949">
+		<rdfs:label xml:lang="en">Operating systems</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010941"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10011003.10011114">
+		<rdfs:label xml:lang="en">Software safety</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10011003"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011008.10011024.10011027">
+		<rdfs:label xml:lang="en">Control structures</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011008.10011024"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011111.10011113">
+		<rdfs:label xml:lang="en">Software evolution</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011111"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011008.10011009.10011011">
+		<rdfs:label xml:lang="en">Object oriented languages</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011008.10011009"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010941.10010949.10010957.10011678">
+		<rdfs:label xml:lang="en">Process synchronization</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010941.10010949.10010957"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010971.10010980.10010982">
+		<rdfs:label xml:lang="en">State systems</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010971.10010980"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010971.10010972.10010973">
+		<rdfs:label xml:lang="en">Cooperating communicating processes</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010971.10010972"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011039">
+		<rdfs:label xml:lang="en">Formal language definitions</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010971.10011120.10011680">
+		<rdfs:label xml:lang="en">Organizing principles for web applications</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010971.10011120"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010941.10010949.10010965.10010966">
+		<rdfs:label xml:lang="en">Buffering</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010941.10010949.10010965"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011041.10011045">
+		<rdfs:label xml:lang="en">Dynamic compilers</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011041"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010941.10010949.10010950">
+		<rdfs:label xml:lang="en">Memory management</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010941.10010949"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010992.10010993.10011683">
+		<rdfs:label xml:lang="en">Access protection</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010992.10010993"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010971.10010980.10010984">
+		<rdfs:label xml:lang="en">Model-driven software engineering</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010971.10010980"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011111.10011112">
+		<rdfs:label xml:lang="en">Backup procedures</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011111"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011081.10011082.10011084">
+		<rdfs:label xml:lang="en">Capability Maturity Model</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011081.10011082"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011081.10011082.10011087">
+		<rdfs:label xml:lang="en">V-model</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011081.10011082"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010971.10010972.10011117">
+		<rdfs:label xml:lang="en">Space-based architectures</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010971.10010972"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011081.10011091">
+		<rdfs:label xml:lang="en">Risk management</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011081"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011099.10011104">
+		<rdfs:label xml:lang="en">Fault tree analysis</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011099"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011008.10011024.10011025">
+		<rdfs:label xml:lang="en">Polymorphism</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011008.10011024"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011092.10011094">
+		<rdfs:label xml:lang="en">Flowcharts</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011092"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011050.10011017">
+		<rdfs:label xml:lang="en">Domain specific languages</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011050"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011050.10011054">
+		<rdfs:label xml:lang="en">Command and control languages</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011050"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010971.10010980.10010986">
+		<rdfs:label xml:lang="en">Massively parallel systems</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010971.10010980"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010992">
+		<rdfs:label xml:lang="en">Software functional properties</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010941.10010949.10010957">
+		<rdfs:label xml:lang="en">Process management</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010941.10010949"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940">
+		<rdfs:label xml:lang="en">Software organization and properties</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010971.10011120.10010541">
+		<rdfs:label xml:lang="en">Grid computing</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010971.10011120"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011134">
+		<rdfs:label xml:lang="en">Collaboration in software development</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011008.10011024.10011033">
+		<rdfs:label xml:lang="en">Recursion</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011008.10011024"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011050.10010512.10003310">
+		<rdfs:label xml:lang="en">Extensible Markup Language (XML)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011050.10010512"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011060.10011690">
+		<rdfs:label xml:lang="en">Specification languages</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011060"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011099.10011105.10011107">
+		<rdfs:label xml:lang="en">Pair programming</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011099.10011105"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011092.10011096.10011097">
+		<rdfs:label xml:lang="en">Software product lines</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011092.10011096"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010941.10010949.10010950.10010953">
+		<rdfs:label xml:lang="en">Allocation / deallocation strategies</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010941.10010949.10010950"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011092.10010876">
+		<rdfs:label xml:lang="en">Software prototyping</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011092"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011008.10011024.10003202">
+		<rdfs:label xml:lang="en">Abstract data types</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011008.10011024"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010971.10010980.10010983">
+		<rdfs:label xml:lang="en">Entity relationship modeling</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010971.10010980"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010992.10010993.10010995">
+		<rdfs:label xml:lang="en">Real-time schedulability</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010992.10010993"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011099.10011105.10011106">
+		<rdfs:label xml:lang="en">Walkthroughs</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011099.10011105"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011111.10010913">
+		<rdfs:label xml:lang="en">Documentation</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011111"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011060.10011063">
+		<rdfs:label xml:lang="en">System modeling languages</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011060"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011008.10011024.10011036">
+		<rdfs:label xml:lang="en">Patterns</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011008.10011024"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10011003.10011687">
+		<rdfs:label xml:lang="en">Software usability</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10011003"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011008.10011009.10011020">
+		<rdfs:label xml:lang="en">Assembly languages</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011008.10011009"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010941.10010949.10010957.10010688">
+		<rdfs:label xml:lang="en">Scheduling</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010941.10010949.10010957"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011008.10011009.10011019">
+		<rdfs:label xml:lang="en">Extensible languages</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011008.10011009"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011050.10011053">
+		<rdfs:label xml:lang="en">Window managers</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011050"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10011003.10011002">
+		<rdfs:label xml:lang="en">Software performance</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10011003"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011066.10011070">
+		<rdfs:label xml:lang="en">Application specific development environments</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011066"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011041.10011047">
+		<rdfs:label xml:lang="en">Source code generation</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011041"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011041.10011048">
+		<rdfs:label xml:lang="en">Runtime environments</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011041"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011008.10011009">
+		<rdfs:label xml:lang="en">Language types</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011008"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010941.10010949.10010950.10010956">
+		<rdfs:label xml:lang="en">Secondary storage</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010941.10010949.10010950"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010992.10010993.10010996">
+		<rdfs:label xml:lang="en">Consistency</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010992.10010993"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10011003.10011004">
+		<rdfs:label xml:lang="en">Software reliability</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10011003"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011099.10010876">
+		<rdfs:label xml:lang="en">Software prototyping</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011099"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010941.10010949.10010965">
+		<rdfs:label xml:lang="en">Communications management</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010941.10010949"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011092.10011093">
+		<rdfs:label xml:lang="en">Object oriented development</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011092"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010971.10011120.10003100">
+		<rdfs:label xml:lang="en">Cloud computing</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010971.10011120"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011134.10011135">
+		<rdfs:label xml:lang="en">Programming teams</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011134"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011060.10011061">
+		<rdfs:label xml:lang="en">Unified Modeling Language (UML)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011060"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011041.10011044">
+		<rdfs:label xml:lang="en">Just-in-time compilers</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011041"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010971.10010972.10010978">
+		<rdfs:label xml:lang="en">Simulator / interpreter</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010971.10010972"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011050.10011051">
+		<rdfs:label xml:lang="en">API languages</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011050"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011066.10011069">
+		<rdfs:label xml:lang="en">Integrated and visual development environments</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011066"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010971.10010972.10011681">
+		<rdfs:label xml:lang="en">3-tier architectures</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010971.10010972"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011075">
+		<rdfs:label xml:lang="en">Designing software</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010992.10010998.10011001">
+		<rdfs:label xml:lang="en">Dynamic analysis</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010992.10010998"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011075.10011079.10011080">
+		<rdfs:label xml:lang="en">Software design techniques</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011075.10011079"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011008">
+		<rdfs:label xml:lang="en">General programming languages</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011008.10011024.10011026">
+		<rdfs:label xml:lang="en">Inheritance</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011008.10011024"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011008.10011024.10011031">
+		<rdfs:label xml:lang="en">Modules / packages</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011008.10011024"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011050.10010517">
+		<rdfs:label xml:lang="en">Scripting languages</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011050"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006">
+		<rdfs:label xml:lang="en">Software notations and tools</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010941">
+		<rdfs:label xml:lang="en">Contextual software domains</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10011003.10010117">
+		<rdfs:label xml:lang="en">Interoperability</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10011003"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011072">
+		<rdfs:label xml:lang="en">Software libraries and repositories</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011099">
+		<rdfs:label xml:lang="en">Software verification and validation</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011050.10011058">
+		<rdfs:label xml:lang="en">Visual languages</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011050"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011039.10011040">
+		<rdfs:label xml:lang="en">Syntax</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011039"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011784">
+		<rdfs:label xml:lang="en">Search-based software engineering</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010941.10010949.10010957.10010962">
+		<rdfs:label xml:lang="en">Mutual exclusion</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010941.10010949.10010957"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010971.10010972.10010540">
+		<rdfs:label xml:lang="en">Peer-to-peer architectures</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010971.10010972"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011008.10011009.10011014">
+		<rdfs:label xml:lang="en">Concurrent programming languages</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011008.10011009"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010941.10010949.10010957.10010959">
+		<rdfs:label xml:lang="en">Multiprocessing / multiprogramming / multitasking</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010941.10010949.10010957"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011066.10011068">
+		<rdfs:label xml:lang="en">Software as a service orchestration system</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011066"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010941.10010969.10010970">
+		<rdfs:label xml:lang="en">Interactive games</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010941.10010969"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011075.10011078">
+		<rdfs:label xml:lang="en">Software design tradeoffs</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011075"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011008.10011024.10011032">
+		<rdfs:label xml:lang="en">Constraints</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011008.10011024"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011081.10011082.10011083">
+		<rdfs:label xml:lang="en">Agile software development</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011081.10011082"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010971.10010972.10010974">
+		<rdfs:label xml:lang="en">Layered systems</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010971.10010972"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010941.10010949.10010965.10010967">
+		<rdfs:label xml:lang="en">Input / output</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010941.10010949.10010965"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011008.10011024">
+		<rdfs:label xml:lang="en">Language features</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011008"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011041.10011043">
+		<rdfs:label xml:lang="en">Retargetable compilers</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011041"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011092.10011096">
+		<rdfs:label xml:lang="en">Reusability</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011092"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010971">
+		<rdfs:label xml:lang="en">Software system structures</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011060.10011062">
+		<rdfs:label xml:lang="en">Architecture description languages</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011060"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010992.10010998">
+		<rdfs:label xml:lang="en">Formal methods</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010992"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011008.10011024.10011035">
+		<rdfs:label xml:lang="en">Procedures, functions and subroutines</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011008.10011024"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011039.10011311">
+		<rdfs:label xml:lang="en">Semantics</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011039"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011099.10011692">
+		<rdfs:label xml:lang="en">Formal software verification</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011099"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011099.10011102.10011103">
+		<rdfs:label xml:lang="en">Software testing and debugging</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011099.10011102"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011041.10011046">
+		<rdfs:label xml:lang="en">Translator writing systems and compiler generators</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011041"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011073">
+		<rdfs:label xml:lang="en">Software maintenance tools</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011008.10011009.10011022">
+		<rdfs:label xml:lang="en">Very high level languages</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011008.10011009"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010941.10010942.10010948">
+		<rdfs:label xml:lang="en">Virtual machines</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010941.10010942"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010992.10010993.10010961">
+		<rdfs:label xml:lang="en">Synchronization</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010992.10010993"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010941.10003552">
+		<rdfs:label xml:lang="en">E-commerce infrastructure</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010941"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010971.10010991">
+		<rdfs:label xml:lang="en">Ultra-large-scale systems</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010971"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010971.10011679">
+		<rdfs:label xml:lang="en">Real-time systems software</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010971"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010941.10010949.10010950.10010952">
+		<rdfs:label xml:lang="en">Main memory</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010941.10010949.10010950"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011099.10011105">
+		<rdfs:label xml:lang="en">Process validation</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011099"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011081.10011082.10011086">
+		<rdfs:label xml:lang="en">Spiral model</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011081.10011082"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011066.10011067">
+		<rdfs:label xml:lang="en">Object oriented frameworks</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011066"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011008.10011009.10011010">
+		<rdfs:label xml:lang="en">Imperative languages</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011008.10011009"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010971.10010980.10010985">
+		<rdfs:label xml:lang="en">Feature interaction</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010971.10010980"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010941.10010949.10010965.10010968">
+		<rdfs:label xml:lang="en">Message passing</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010941.10010949.10010965"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011099.10011102">
+		<rdfs:label xml:lang="en">Software defect analysis</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011099"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007">
+		<rdfs:label xml:lang="en">Software and its engineering</rdfs:label>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011081.10011082.10010878">
+		<rdfs:label xml:lang="en">Rapid application development</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011081.10011082"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011111">
+		<rdfs:label xml:lang="en">Software post-development issues</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011060">
+		<rdfs:label xml:lang="en">System description languages</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010971.10010972">
+		<rdfs:label xml:lang="en">Software architectures</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010971"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011099.10011105.10011109">
+		<rdfs:label xml:lang="en">Acceptance testing</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011099.10011105"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010971.10010972.10010545">
+		<rdfs:label xml:lang="en">Data flow architectures</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010971.10010972"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010992.10010998.10003791">
+		<rdfs:label xml:lang="en">Model checking</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010992.10010998"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010941.10010942.10010944.10010946">
+		<rdfs:label xml:lang="en">Reflective middleware</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010941.10010942.10010944"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011060.10011018">
+		<rdfs:label xml:lang="en">Design languages</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011060"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010971.10010980.10010981">
+		<rdfs:label xml:lang="en">Petri nets</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010971.10010980"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010941.10010942">
+		<rdfs:label xml:lang="en">Software infrastructure</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010941"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011008.10011024.10011029">
+		<rdfs:label xml:lang="en">Classes and objects</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011008.10011024"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011050.10011057">
+		<rdfs:label xml:lang="en">State based definitions</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011050"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010941.10010949.10010950.10010955">
+		<rdfs:label xml:lang="en">Distributed memory</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010941.10010949.10010950"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011008.10011024.10011028">
+		<rdfs:label xml:lang="en">Data types and structures</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011008.10011024"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011081.10011082.10011088">
+		<rdfs:label xml:lang="en">Design patterns</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011081.10011082"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011041.10011042">
+		<rdfs:label xml:lang="en">Incremental compilers</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011041"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011099.10011105.10011110">
+		<rdfs:label xml:lang="en">Traceability</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011099.10011105"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010971.10010972.10010979">
+		<rdfs:label xml:lang="en">Object oriented architectures</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010971.10010972"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011099.10011100">
+		<rdfs:label xml:lang="en">Operational analysis</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011099"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010992.10010998.10011000">
+		<rdfs:label xml:lang="en">Automated static analysis</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010992.10010998"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010941.10010949.10010950.10010951">
+		<rdfs:label xml:lang="en">Virtual memory</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010941.10010949.10010950"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011050.10011055">
+		<rdfs:label xml:lang="en">Macro languages</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011050"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011041.10011688">
+		<rdfs:label xml:lang="en">Parsers</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011041"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011008.10011024.10011037">
+		<rdfs:label xml:lang="en">Coroutines</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011008.10011024"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011111.10003465">
+		<rdfs:label xml:lang="en">Software reverse engineering</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011111"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011008.10011009.10010177">
+		<rdfs:label xml:lang="en">Distributed programming languages</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011008.10011009"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010941.10010942.10010944.10010945">
+		<rdfs:label xml:lang="en">Message oriented middleware</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010941.10010942.10010944"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011092.10011782">
+		<rdfs:label xml:lang="en">Automatic programming</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011092"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010941.10010942.10010943">
+		<rdfs:label xml:lang="en">Interpreters</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010941.10010942"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010941.10010942.10010944">
+		<rdfs:label xml:lang="en">Middleware</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010941.10010942"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011008.10011024.10011038">
+		<rdfs:label xml:lang="en">Frameworks</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011008.10011024"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011066">
+		<rdfs:label xml:lang="en">Development frameworks and environments</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10010940.10010992.10010993">
+		<rdfs:label xml:lang="en">Correctness</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10010940.10010992"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011008.10011009.10011021">
+		<rdfs:label xml:lang="en">Multiparadigm languages</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011008.10011009"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011075.10011077">
+		<rdfs:label xml:lang="en">Software design engineering</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011075"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011008.10011009.10010175">
+		<rdfs:label xml:lang="en">Parallel programming languages</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006.10011008.10011009"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011006.10011071">
+		<rdfs:label xml:lang="en">Software configuration management and version control systems</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011006"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074.10011111.10011695">
+		<rdfs:label xml:lang="en">Software version control</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007.10011074.10011111"/>
+	</owl:Class>
+	<owl:Class rdf:about="10011007.10011074">
+		<rdfs:label xml:lang="en">Software creation and management</rdfs:label>
+		<rdfs:subClassOf rdf:resource="10011007"/>
+	</owl:Class>
+
+
+
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.3.1824) http://owlapi.sourceforge.net -->
+

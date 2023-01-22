@@ -1,0 +1,51 @@
+source	target	source_id	target_id	reasoning	is_correct	questionable
+protection against electromagnetic or electrostatic interferences	Electromagnetic interference and compatibility	G01L 19/069	10010583.10010584.10010585	Different concept	0	
+geometry	Epipolar geometry	G01N 2021/4752	10010147.10010178.10010224.10010226.10010235	Different concept	0	
+imaging	Imaging	G01N 29/0654	10010405.10010444.10010087.10010096	Hierarchies are similar	1	
+fraction collectors	Test collections	G01N 30/80	10002951.10003317.10003359.10003360	Hierarchies differ	0	
+bare printed circuit boards	Printed circuit boards	G01R 31/2805	10010583.1001058	CCS is too broad	0	
+temperature control	Temperature control	G02B 2006/12135	10010583.10010662.10010586.10010680	Hierarchies differ	0	
+input/output	Input / output	G05B 19/0423	10011007.10010940.10010941.10010949.10010965.10010967	CCS refers to input/output in the field of communication management (operating systems), while CPC is about the field of control systems	0	
+impedance matching	Matching	G05B 2219/21123	10010147.10010178.10010224.10010245.10010255	CPC is about program-control systems, while CCS is about computer vision	0	
+enter analog value	Analog computers	G05B 2219/23041	10010520.10010521.10010542.10010544	Different concept	0	
+microprocessor control or manual control	Process management	G05B 2219/23319	10011007.10010940.10010941.10010949.10010957	Different concept	0	
+real time simulation	Real-time simulation	G05B 2219/23445	10010147.10010341.10010349.10010359	Hierarchies are not exactly similar, but probably both concepts refer to the same notion	1	
+redundancy	Redundancy	G05B 2219/24182	10010583.10010750.10010751.10010755	Same notion	1	
+flash memory	Flash memory	G05B 2219/25265	10002951.10003152.10003153.10003158.10003452	Same notion	1	
+for measurement only	Measurement	G05B 2219/34242	10002944.10011123.10010916	CCS it too broad	0	
+multi threading	Multithreading	G05B 2219/34333	10011007.10010940.10010941.10010949.10010957.10010958	CPC is about multi-threading in the context of NC systems, while CCS is about operating systems. But concept probably the same	1	
+data modeling language	Data flow languages	G05B 2219/35055	10011007.10011006.10011008.10011009.10011016	Different concept	0	
+force tracking	Tracking	G05B 2219/39218	10010147.10010178.10010224.10010245.10010253	Different concept	0	
+integrated structure and control design	Control structures	G05B 2219/39408	10011007.10011006.10011008.10011024.10011027	Different concept	0	
+reinforcement learning algorithm	Reinforcement learning	G05B 2219/40499	10010147.10010257.10010258.10010261	Same notion. Although CPC is a descendant of NC systems	1	
+packaging	Packaging	G05B 2219/45048	10010583.10010682.10010697.10010699	CCS might be applicable to the NC system context.	1	?
+functional testing	Functional verification	G06F 11/26	10010583.10010717.10010721	Considered a match since both are about hardware testing	1	
+computer systems status display 	Computer algebra systems	G06F 11/328	10010147.10010148.10010162	Different concept	0	
+systolic arrays	Systolic arrays	G06F 15/8046	10010520.10010521.10010528.10010535	Ascendants match.	1	
+column-oriented storage; management thereof	Column based storage	G06F 16/221	10002951.10003152.10003161.10003434.10003437	Considered a match since both are about databases	1	
+query optimisation	Query optimization	G06F 16/2453	10002951.10002952.10003190.10003192.10003210	Same notion	1	
+query processing	Database query processing	G06F 16/3331	10002951.10002952.10003190.10003192	Both are about database query processing	1	
+ontology	Ontologies	G06F 16/367	10002951.10003317.10003318.10011147	Same notion	1	
+document management systems	Document management	G06F 16/93	10010405.10010497.10010500	Both concepts deviate too much	0	
+mobile device	Mobile devices	G06F 2213/3806	10003120.10003138.10003141.10010898	CCS is about mobile devices in the “smartphone-sense”, while CPC is about a low level notion of mobile devices	0	
+inheritance	Inheritance	G06F 9/4492	10011007.10011006.10011008.10011024.10011026	Both are about inheritance as a programming language feature	1	
+transaction processing	Database transaction processing	G06F 9/466	10002951.10002952.10003190.10003193	CPC is not about databases	0	
+grid computing	Grid computing	G06F 9/5072	10011007.10010940.10010971.10011120.10010541	CCS is too broad	0	
+rasterization	Rasterization	G06K 15/1836	10010147.10010371.10010372.10010373	Same notion – both are about computer vision	1	
+machine learning	Machine learning	G06N 20/00	10010147.1001026	Same notion	1	
+animation	Animation	G06T 13/00	10010147.10010371.10010352	Same notion – both are about computer vision	1	
+image-based rendering	Image-based rendering	G06T 15/205	10010147.10010371.10010382.10010385	Same notion	1	
+stereo camera calibration	Camera calibration	G06T 7/85	10010147.10010178.10010224.10010226.10010234	Probably not related enough	0	?
+client-server	Client-server architectures	G07B 2017/00056	10011007.10010940.10010971.10011120.10010538	CPC is also about software architectures	1	
+key management	Key management	G07B 2017/00846	10002978.10002979.10002980	CPC refers only to key management in the context of franking systems, while CCS is about cryptography in general.	0	
+iot infrastructure	Software infrastructure	G16Y 30/00	10011007.10010940.10010941.10010942	Different concept	0	
+water desalination using renewable energy	Renewable energy	Y02A 20/138	10010583.10010662.10010663.10010666	CPC is too narrow	0	
+model	V-model	Y10S 123/03	10011007.10011074.10011081.10011082.10011087	CPC is too broad	0	
+battery	Batteries	Y10S 164/01	10010583.10010662.10010663.10010664	CPC is too specialized	0	
+fins	Fine arts	Y10S 215/01	10010405.10010469.10010470	Different concept	0	
+medical record	Medical records	Y10S 283/90	10003456.10003462.10003602.10003603	Same notion	1	
+wide area network	Wide area networks	Y10S 370/901	10003033.10003083.10003084.10003088	Same notion	1	
+intellectual property	Intellectual property	Y10S 707/923	10003456.10003462.10003463	CPC is only about intellectual property in conjunction with databases, while CCS is about the general notion of intellectual property	0	
+cooperative decision support systems for group of users	Decision support systems	Y10S 715/971	10002951.10003227.10003241	CPC is too specialized	0	
+transaction* processing	Database transaction processing	Y10S 902/40	10002951.10002952.10003190.10003193	CPC is not about databases	0	
+slotted bar	Slotted pages	Y10T 292/289	10002951.10003152.10003161.10003164.10003419	Different concept	0	

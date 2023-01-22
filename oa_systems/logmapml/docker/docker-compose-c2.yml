@@ -1,0 +1,57 @@
+version: "3.9"
+services:
+  logmap_ml-owl2vec_starpath-cpc2ccs:
+    build: ../
+    volumes:
+      - ./cpc2ccs_owl2vec_star_path/:/app/output_dir
+      - ./config_owl2vec_star_path/:/app/config_dir
+      - ../../../ontologies/sub_ontologies/cpc2ccs/:/app/onto_dir/
+      - ../../large_embeddings/word2vec/:/app/word2vec
+      - ../owl2vec_star/cpc2ccs/:/app/owl2vec_star
+#    deploy:
+#        resources:
+#            limits:
+#              cpus: "0.50"
+#              memory: 512M
+#            reservations:
+#              cpus: "0.25"
+#              memory: 128M
+  logmap_ml-owl2vec_starpath-cpc2cso:
+    build: ../
+    depends_on:
+      logmap_ml-owl2vec_starpath-cpc2ccs:
+        condition: service_completed_successfully
+    volumes:
+      - ./cpc2cso_owl2vec_star_path/:/app/output_dir
+      - ./config_owl2vec_star_path/:/app/config_dir
+      - ../../../ontologies/sub_ontologies/cpc2cso/:/app/onto_dir/
+      - ../../large_embeddings/word2vec/:/app/word2vec
+      - ../owl2vec_star/cpc2cso/:/app/owl2vec_star
+#    deploy:
+#        resources:
+#            limits:
+#              cpus: "0.50"
+#              memory: 512M
+#            reservations:
+#              cpus: "0.25"
+#              memory: 128M
+# The following service is commented out because it requires too many computing resources
+#  logmap_ml-owl2vec_starpath-anatomy:
+#    build: ../
+#    depends_on:
+#      logmap_ml-owl2vec_starpath-cpc2cso:
+#        condition: service_completed_successfully
+#    volumes:
+#      - ./anatomy_owl2vec_star_path/:/app/output_dir
+#      - ./config_owl2vec_star_path/:/app/config_dir
+#      - ../../../ontologies/sub_ontologies/anatomy/:/app/onto_dir/
+#      - ../../large_embeddings/word2vec/:/app/word2vec
+#      - ../owl2vec_star/cpc2ccs/:/app/owl2vec_star
+#    deploy:
+#        resources:
+#            limits:
+#              cpus: "0.50"
+#              memory: 512M
+#            reservations:
+#              cpus: "0.25"
+#              memory: 128M

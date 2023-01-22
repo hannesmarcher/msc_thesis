@@ -1,0 +1,540 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://data.epo.org/linked-data/def/cpc/#"
+     xml:base="http://data.epo.org/linked-data/def/cpc/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://data.epo.org/linked-data/def/cpc/"/>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-00">
+		<rdfs:label xml:lang="en">arrangements for software engineering</rdfs:label>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-10">
+		<rdfs:label xml:lang="en">requirements analysis; specification techniques</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-00"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-20">
+		<rdfs:label xml:lang="en">software design</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-00"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-22">
+		<rdfs:label xml:lang="en">procedural</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-20"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-24">
+		<rdfs:label xml:lang="en">object-oriented</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-20"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-30">
+		<rdfs:label xml:lang="en">creation or generation of source code</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-00"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-31">
+		<rdfs:label xml:lang="en">programming languages or programming paradigms</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-30"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-311">
+		<rdfs:label xml:lang="en">functional or applicative languages; rewrite languages</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-31"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-312">
+		<rdfs:label xml:lang="en">list processing, e.g. lisp programming language</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-31"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-313">
+		<rdfs:label xml:lang="en">logic programming, e.g. prolog programming language</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-31"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-3135">
+		<rdfs:label xml:lang="en">unification or backtracking</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-313"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-314">
+		<rdfs:label xml:lang="en">parallel programming languages </rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-31"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-315">
+		<rdfs:label xml:lang="en">object-oriented languages</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-31"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-316">
+		<rdfs:label xml:lang="en">aspect-oriented programming techniques</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-31"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-33">
+		<rdfs:label xml:lang="en">intelligent editors</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-30"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-34">
+		<rdfs:label xml:lang="en">graphical or visual programming</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-30"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-35">
+		<rdfs:label xml:lang="en">creation or generation of source code model driven</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-30"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-355">
+		<rdfs:label xml:lang="en">round-trip engineering</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-35"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-36">
+		<rdfs:label xml:lang="en">software reuse</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-30"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-37">
+		<rdfs:label xml:lang="en">compiler construction; parser generation</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-30"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-38">
+		<rdfs:label xml:lang="en">creation or generation of source code for implementing user interfaces</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-30"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-40">
+		<rdfs:label xml:lang="en">transformation of program code</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-00"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-41">
+		<rdfs:label xml:lang="en">compilation</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-40"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-42">
+		<rdfs:label xml:lang="en">syntactic analysis</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-41"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-423">
+		<rdfs:label xml:lang="en">preprocessors</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-42"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-425">
+		<rdfs:label xml:lang="en">lexical analysis</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-42"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-427">
+		<rdfs:label xml:lang="en">parsing</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-42"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-43">
+		<rdfs:label xml:lang="en">checking; contextual analysis</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-41"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-433">
+		<rdfs:label xml:lang="en">dependency analysis; data or control flow analysis</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-43"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-434">
+		<rdfs:label xml:lang="en">pointers; aliasing</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-433"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-436">
+		<rdfs:label xml:lang="en">semantic checking</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-43"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-437">
+		<rdfs:label xml:lang="en">type checking</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-436"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-44">
+		<rdfs:label xml:lang="en">encoding</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-41"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-441">
+		<rdfs:label xml:lang="en">register allocation; assignment of physical memory space to logical memory space</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-44"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-443">
+		<rdfs:label xml:lang="en">optimisation</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-44"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-4432">
+		<rdfs:label xml:lang="en">reducing the energy consumption</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-443"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-4434">
+		<rdfs:label xml:lang="en">reducing the memory space required by the program code</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-443"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-4435">
+		<rdfs:label xml:lang="en">detection or removal of dead or redundant code</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-4434"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-4436">
+		<rdfs:label xml:lang="en">exlining; procedural abstraction</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-4434"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-4441">
+		<rdfs:label xml:lang="en">reducing the execution time required by the program code</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-443"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-4442">
+		<rdfs:label xml:lang="en">reducing the number of cache misses; data prefetching </rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-4441"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F12-0862">
+		<rdfs:label xml:lang="en">addressing of a memory level in which the access to the desired data or data block requires associative addressing means, e.g. caches with prefetch</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-44"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-4443">
+		<rdfs:label xml:lang="en">inlining</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F12-0862"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-445">
+		<rdfs:label xml:lang="en">exploiting fine grain parallelism, i.e. parallelism at instruction level </rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-44"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F9-3836">
+		<rdfs:label xml:lang="en">instruction issuing, e.g. dynamic instruction scheduling, out of order instruction execution</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-44"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F9-3838">
+		<rdfs:label xml:lang="en">dependency mechanisms, e.g. register scoreboarding</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F9-3836"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F9-384">
+		<rdfs:label xml:lang="en">register renaming</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F9-3838"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-4452">
+		<rdfs:label xml:lang="en">software pipelining</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F9-3836"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-447">
+		<rdfs:label xml:lang="en">target code generation</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-44"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-45">
+		<rdfs:label xml:lang="en">exploiting coarse grain parallelism in compilation, i.e. parallelism between groups of instructions</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-41"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-451">
+		<rdfs:label xml:lang="en">code distribution </rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-45"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F9-505">
+		<rdfs:label xml:lang="en">allocation of resources, e.g. of the central processing unit [cpu] {to service a request the resource being a machine, e.g. cpus, servers, terminals considering the load}</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-451"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F9-5083">
+		<rdfs:label xml:lang="en">techniques for rebalancing the load in a distributed system</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-45"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F9-5088">
+		<rdfs:label xml:lang="en">techniques for rebalancing the load in a distributed system involving task migration</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F9-5083"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-452">
+		<rdfs:label xml:lang="en">loops</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F9-5083"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-453">
+		<rdfs:label xml:lang="en">data distribution</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-45"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F9-54">
+		<rdfs:label xml:lang="en">interprogram communication</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-41"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F9-541">
+		<rdfs:label xml:lang="en">interprogram communication {via adapters, e.g. between incompatible applications}</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F9-54"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F9-542">
+		<rdfs:label xml:lang="en">event management; broadcasting; multicasting; notifications</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F9-54"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F9-543">
+		<rdfs:label xml:lang="en">user-generated data transfer, e.g. clipboards, dynamic data exchange [dde], object linking and embedding [ole]</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F9-54"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F9-544">
+		<rdfs:label xml:lang="en">buffers; shared memory; pipes</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F9-54"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F9-545">
+		<rdfs:label xml:lang="en">interprogram communication {where tasks reside in different layers, e.g. user- and kernel-space}</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F9-54"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F9-546">
+		<rdfs:label xml:lang="en">message passing systems or structures, e.g. queues</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F9-54"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F9-547">
+		<rdfs:label xml:lang="en">remote procedure calls [rpc]; web services</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F9-54"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F9-548">
+		<rdfs:label xml:lang="en">object oriented; remote method invocation [rmi] </rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F9-547"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-47">
+		<rdfs:label xml:lang="en">retargetable compilers</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-41"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-48">
+		<rdfs:label xml:lang="en">incremental compilation </rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-41"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-49">
+		<rdfs:label xml:lang="en">partial evaluation</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-41"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-51">
+		<rdfs:label xml:lang="en">source to source</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-40"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-52">
+		<rdfs:label xml:lang="en">binary to binary</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-40"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-53">
+		<rdfs:label xml:lang="en">decompilation; disassembly</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-40"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-54">
+		<rdfs:label xml:lang="en">link editing before load time</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-40"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-60">
+		<rdfs:label xml:lang="en">software deployment</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-00"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-61">
+		<rdfs:label xml:lang="en">installation</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-60"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-62">
+		<rdfs:label xml:lang="en">uninstallation</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-61"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-63">
+		<rdfs:label xml:lang="en">image based installation; cloning; build to order</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-61"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-64">
+		<rdfs:label xml:lang="en">retargetable</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-61"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-65">
+		<rdfs:label xml:lang="en">updates</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-60"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F21-577">
+		<rdfs:label xml:lang="en">assessing vulnerabilities and evaluating computer system security</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-65"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-654">
+		<rdfs:label xml:lang="en">updates using techniques specially adapted for alterable solid state memories, e.g. for eeprom or flash memories</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-65"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-656">
+		<rdfs:label xml:lang="en">updates while running</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-65"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-658">
+		<rdfs:label xml:lang="en">incremental updates; differential updates</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-65"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-66">
+		<rdfs:label xml:lang="en">updates {of program code stored in read-only memory [rom]}</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-65"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-70">
+		<rdfs:label xml:lang="en">software maintenance or management</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-00"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-71">
+		<rdfs:label xml:lang="en">version control ; configuration management</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-70"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-72">
+		<rdfs:label xml:lang="en">code refactoring</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-70"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-73">
+		<rdfs:label xml:lang="en">program documentation</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-70"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-74">
+		<rdfs:label xml:lang="en">reverse engineering; extracting design information from source code</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-70"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-75">
+		<rdfs:label xml:lang="en">structural analysis for program understanding</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-70"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-751">
+		<rdfs:label xml:lang="en">code clone detection</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-75"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-76">
+		<rdfs:label xml:lang="en">adapting program code to run in a different environment; porting</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-70"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-77">
+		<rdfs:label xml:lang="en">software metrics</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-70"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F8-78">
+		<rdfs:label xml:lang="en">methods to solve the \year 2000\ [y2k] problem</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-70"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F11-36">
+		<rdfs:label xml:lang="en">preventing errors by testing or debugging software</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-00"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F11-3604">
+		<rdfs:label xml:lang="en">software analysis for verifying properties of programs </rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F11-36"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F11-3608">
+		<rdfs:label xml:lang="en">software analysis for verifying properties of programs using formal methods, e.g. model checking, abstract interpretation </rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F11-3604"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F11-3612">
+		<rdfs:label xml:lang="en">software analysis for verifying properties of programs by runtime analysis </rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F11-3604"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F11-3616">
+		<rdfs:label xml:lang="en">software analysis for verifying properties of programs using software metrics</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F11-3604"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F11-362">
+		<rdfs:label xml:lang="en">software debugging</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F11-36"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F11-3624">
+		<rdfs:label xml:lang="en">software debugging by performing operations on the source code, e.g. via a compiler</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F11-362"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F11-3628">
+		<rdfs:label xml:lang="en">software debugging of optimised code </rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F11-362"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F11-3632">
+		<rdfs:label xml:lang="en">software debugging of specific synchronisation aspects</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F11-362"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F11-3636">
+		<rdfs:label xml:lang="en">software debugging by tracing the execution of the program</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F11-362"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F11-364">
+		<rdfs:label xml:lang="en">software debugging by tracing the execution of the program tracing values on a bus</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F11-3636"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F11-3644">
+		<rdfs:label xml:lang="en">software debugging by instrumenting at runtime</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F11-362"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F11-3648">
+		<rdfs:label xml:lang="en">software debugging using additional hardware</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F11-362"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F11-3656">
+		<rdfs:label xml:lang="en">software debugging using additional hardware using a specific debug interface</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F11-3648"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F11-366">
+		<rdfs:label xml:lang="en">software debugging using diagnostics </rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F11-362"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F11-3664">
+		<rdfs:label xml:lang="en">environments for testing or debugging software</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F11-36"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F11-3668">
+		<rdfs:label xml:lang="en">software testing </rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F11-36"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F11-3672">
+		<rdfs:label xml:lang="en">test management</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F11-3668"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F11-3676">
+		<rdfs:label xml:lang="en">test management for coverage analysis</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F11-3672"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F11-368">
+		<rdfs:label xml:lang="en">test management for test version control, e.g. updating test cases to a new software version</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F11-3672"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F11-3684">
+		<rdfs:label xml:lang="en">test management for test design, e.g. generating new test cases</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F11-3672"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F11-3688">
+		<rdfs:label xml:lang="en">test management for test execution, e.g. scheduling of test suites</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F11-3672"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F11-3692">
+		<rdfs:label xml:lang="en">test management for test results analysis</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F11-3672"/>
+	</owl:Class>
+	<owl:Class rdf:about="http://data.epo.org/linked-data/def/cpc/G06F11-3696">
+		<rdfs:label xml:lang="en">methods or tools to render software testable</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F11-3668"/>
+	</owl:Class>
+
+
+
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.3.1824) http://owlapi.sourceforge.net -->
+

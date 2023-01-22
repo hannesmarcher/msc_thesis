@@ -1,0 +1,5 @@
+__pycache__
+/oa_systems/large_embeddings/*
+!/oa_systems/large_embeddings/.gitkeep
+/oa_systems/logs.txt
+.idea

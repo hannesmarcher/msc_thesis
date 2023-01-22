@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment" 
+	 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+	 xmlns:xsd="http://www.w3.org/2001/XMLSchema#"> 
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>??</type>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-73"/>
+		<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/programming_framework"/>
+		<measure rdf:datatype="xsd:float">0.8</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F11-3668"/>
+		<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/regression_tests"/>
+		<measure rdf:datatype="xsd:float">0.85</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F11-3668"/>
+		<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/regression_testing"/>
+		<measure rdf:datatype="xsd:float">0.85</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-73"/>
+		<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/program_translators"/>
+		<measure rdf:datatype="xsd:float">0.825</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-73"/>
+		<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/program_execution"/>
+		<measure rdf:datatype="xsd:float">0.839</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-73"/>
+		<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/programming_model"/>
+		<measure rdf:datatype="xsd:float">0.807</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-36"/>
+		<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/reusable_softwares"/>
+		<measure rdf:datatype="xsd:float">0.877</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-31"/>
+		<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/cobol_%28programming_language%29"/>
+		<measure rdf:datatype="xsd:float">0.856</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-73"/>
+		<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/program_logic"/>
+		<measure rdf:datatype="xsd:float">0.821</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-73"/>
+		<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/program_verification"/>
+		<measure rdf:datatype="xsd:float">0.838</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-4452"/>
+		<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/software_pipelining"/>
+		<measure rdf:datatype="xsd:float">0.88</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-36"/>
+		<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/reusable_components"/>
+		<measure rdf:datatype="xsd:float">0.805</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-73"/>
+		<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/program_diagnostics"/>
+		<measure rdf:datatype="xsd:float">0.829</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-36"/>
+		<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/reusability"/>
+		<measure rdf:datatype="xsd:float">0.87</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-36"/>
+		<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/software_re-use"/>
+		<measure rdf:datatype="xsd:float">0.946</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-73"/>
+		<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/programming_models"/>
+		<measure rdf:datatype="xsd:float">0.807</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-72"/>
+		<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/refactoring_tools"/>
+		<measure rdf:datatype="xsd:float">0.803</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-36"/>
+		<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/software_reuse"/>
+		<measure rdf:datatype="xsd:float">0.946</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+</Alignment>
+</rdf:RDF>

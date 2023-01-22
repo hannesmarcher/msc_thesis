@@ -1,0 +1,2583 @@
+source	target	source_id	target_id
+physics	new physics	G 	new_physics
+instruments	instrumentation and control	G0 	instrumentation_and_control
+squares	least-squares analysis	G01B 3/566	least-squares_analysis
+measuring on gear teeth	gear teeth	G01B 7/146	gear_teeth
+interferometers	interferometric phase	G01B 9/02	interferometric_phase
+with imaging systems	imaging systems	G01B 9/0203	imaging_systems
+active optical surveying means 	active optics	G01C 15/002	active_optics
+power supply	power supplies	G01C 19/10	power_supplies
+signal processing	signal theory	G01C 19/5614	signal_theory
+signal processing	signal analysis	G01C 19/5614	signal_analysis
+signal processing	signal processing	G01C 19/5614	signal_processing
+signal processing	signal processing	G01C 19/5649	signal_processing
+signal processing	signal analysis	G01C 19/5649	signal_analysis
+signal processing	signal theory	G01C 19/5649	signal_theory
+signal processing	signal analysis	G01C 19/5726	signal_analysis
+signal processing	signal processing	G01C 19/5726	signal_processing
+signal processing	signal theory	G01C 19/5726	signal_theory
+ring laser gyrometers {details}	ring lasers	G01C 19/661	ring_lasers
+data obtained from user input	usage data	G01C 21/3856	usage_data
+structures of map data	concurrent data structures	G01C 21/3863	concurrent_data_structures
+construction	engineering	G01D 13/04	engineering
+monitoring; controlling	remote monitoring and control	G01D 2204/20	remote_monitoring_and_control
+networks; topology	network topology	G01D 2204/40	network_topology
+remote reading of utility meters	meter readings	G01D 4/002	meter_readings
+failure detection	failure detector	G01D 5/24457	failure_detector
+failure detection	project failures	G01D 5/24457	project_failures
+error correction	joint source channel coding	G01D 5/24471	joint_source_channel_coding
+error correction	channel coding	G01D 5/24471	channel_coding
+error correction	error correction models	G01D 5/24471	error_correction_models
+error correction	joint source-channel coding	G01D 5/24471	joint_source-channel_coding
+signal processing 	signal analysis	G01D 5/24476	signal_analysis
+signal processing 	signal processing	G01D 5/24476	signal_processing
+signal processing 	signal theory	G01D 5/24476	signal_theory
+pulse stream	stream mining	G01D 5/2492	stream_mining
+particular pulse shapes	pulse shapes	G01D 5/366	pulse_shapes
+micromachined devices	micromachined	G01F 1/6845	micromachined
+acoustic waves	acoustic waves	G01F 23/296	acoustic_waves
+frequency	frequency multiplying circuits	G01H 1/06	frequency_multiplying_circuits
+frequency	variable frequency oscillators	G01H 1/06	variable_frequency_oscillators
+frequency	electric frequency measurement	G01H 1/06	electric_frequency_measurement
+frequency	doppler frequency shift	G01H 1/06	doppler_frequency_shift
+frequency	different frequency	G01H 1/06	different_frequency
+amplitude	spectral amplitude	G01H 1/08	spectral_amplitude
+frequency	variable frequency oscillators	G01H 1/14	variable_frequency_oscillators
+frequency	frequency multiplying circuits	G01H 1/14	frequency_multiplying_circuits
+frequency	different frequency	G01H 1/14	different_frequency
+frequency	electric frequency measurement	G01H 1/14	electric_frequency_measurement
+frequency	doppler frequency shift	G01H 1/14	doppler_frequency_shift
+amplitude	spectral amplitude	G01H 1/16	spectral_amplitude
+frequency	variable frequency oscillators	G01H 3/04	variable_frequency_oscillators
+frequency	electric frequency measurement	G01H 3/04	electric_frequency_measurement
+frequency	frequency multiplying circuits	G01H 3/04	frequency_multiplying_circuits
+frequency	different frequency	G01H 3/04	different_frequency
+frequency	doppler frequency shift	G01H 3/04	doppler_frequency_shift
+frequency by electric means	electric frequency measurement	G01H 3/06	electric_frequency_measurement
+frequency by electric means	electric frequency control	G01H 3/06	electric_frequency_control
+handheld	handheld	G01J 1/0233	handheld
+multispectral imaging, e.g. filter imaging	multi-spectral imaging systems	G01J 2003/2826	multi-spectral_imaging_systems
+colour computing	color computer graphics	G01J 2003/467	color_computer_graphics
+devices	facts devices	G01J 2004/001	facts_devices
+sheet	style sheets	G01J 2005/0029	style_sheets
+imaging	3-d imaging	G01J 2005/0077	3-d_imaging
+periodic insertion of emissive surface	periodic surfaces	G01J 2005/526	periodic_surfaces
+handheld	handheld	G01J 3/0272	handheld
+colour matching	color matching	G01J 3/463	color_matching
+means for wavelength selection or discrimination	wavelength selection	G01J 5/0801	wavelength_selection
+optical filters	optical filters	G01J 5/0802	optical_filters
+optical filters	optical filter	G01J 5/0802	optical_filter
+notch filters	notch filter	G01J 5/08021	notch_filter
+notch filters	notch filters	G01J 5/08021	notch_filters
+waveguides	circular waveguides	G01J 5/0818	circular_waveguides
+optical fibres	optical fiber	G01J 5/0821	optical_fiber
+optical fibres	optical fibers	G01J 5/0821	optical_fibers
+testing	testability	G01K 15/007	testability
+electrical time domain reflectometry	time domain reflectometry	G01K 2007/166	time_domain_reflectometry
+electrical time domain reflectometry	time domain reflectometry %28tdr%29	G01K 2007/166	time_domain_reflectometry_%28tdr%29
+selection of composition of the components of the system	component selection	G01K 5/66	component_selection
+gearings; transmission mechanisms	gear transmissions	G01M 13/02	gear_transmissions
+laser ablation; microwave vaporisation	laser ablation	G01N 2001/045	laser_ablation
+timing devices	timing devices	G01N 2001/2297	timing_devices
+solvent extraction	sentence extraction	G01N 2001/4061	sentence_extraction
+optical analysis of particle in droplet	particle optics	G01N 2015/1481	particle_optics
+windows	windows ce	G01N 2021/0389	windows_ce
+remote sensing	remote sensing images	G01N 2021/1793	remote_sensing_images
+remote sensing	remote sensing satellites	G01N 2021/1793	remote_sensing_satellites
+remote sensing	remote sensing image classification	G01N 2021/1793	remote_sensing_image_classification
+remote sensing	remote sensing image	G01N 2021/1793	remote_sensing_image
+remote sensing	remote sensing imagery	G01N 2021/1793	remote_sensing_imagery
+remote sensing	multi-temporal remote sensing	G01N 2021/1793	multi-temporal_remote_sensing
+spectrometric ellipsometry	spectroscopic ellipsometry	G01N 2021/213	spectroscopic_ellipsometry
+open path with an instrumental source	open source system	G01N 2021/3513	open_source_system
+diode laser	diode lasers	G01N 2021/399	diode_lasers
+backscatter	backscatter	G01N 2021/4709	backscatter
+backscatter	backscattering coefficients	G01N 2021/4709	backscattering_coefficients
+backscatter	rayleigh backscattering	G01N 2021/4709	rayleigh_backscattering
+backscatter	backscatter coefficients	G01N 2021/4709	backscatter_coefficients
+backscatter	backscattering coefficient	G01N 2021/4709	backscattering_coefficient
+backscatter	backscattering	G01N 2021/4709	backscattering
+geometry	local geometry	G01N 2021/4752	local_geometry
+geometry	geometry	G01N 2021/4752	geometry
+speckle	speckle	G01N 2021/479	speckle
+angular discrimination	angular rate	G01N 2021/6465	angular_rate
+optical fibres	optical fiber	G01N 2021/6484	optical_fiber
+optical fibres	optical fibers	G01N 2021/6484	optical_fibers
+index	index structure	G01N 2021/7776	index_structure
+metal	metal insulator boundaries	G01N 2021/8918	metal_insulator_boundaries
+metal	metal working tools	G01N 2021/8918	metal_working_tools
+inclusions	differential inclusions	G01N 2021/8925	differential_inclusions
+defects in a structured web	defected ground structures	G01N 2021/8927	defected_ground_structures
+extraction	embedding capacity	G01N 2030/009	embedding_capacity
+standards	h.264 standards	G01N 2030/042	h.264_standards
+electrical detectors {electrical conductivity detectors}	electric conductors	G01N 2030/645	electric_conductors
+monitoring a process 	process monitoring	G01N 2035/00227	process_monitoring
+microwaves	microwaves	G01N 2035/00405	microwaves
+other radiation	radiation characteristics	G01N 2035/00415	radiation_characteristics
+transmission	gear transmissions	G01N 2035/0482	gear_transmissions
+ellipsometry 	ellipsometry	G01N 21/211	ellipsometry
+holographic interferometry 	holographic interferometry	G01N 21/453	holographic_interferometry
+diffraction 	diffraction patterns	G01N 21/4788	diffraction_patterns
+atomic fluorescence; laser induced fluorescence	laser induced fluorescence detection	G01N 21/6402	laser_induced_fluorescence_detection
+visual inspection 	visual inspection	G01N 21/8803	visual_inspection
+laser diodes	diode lasers	G01N 2201/0612	diode_lasers
+refractive parts	refractive index changes	G01N 2201/0638	refractive_index_changes
+multiple paths; optimisable path length	multiple paths	G01N 2201/0668	multiple_paths
+pulsed	pulse amplifiers	G01N 2201/0696	pulse_amplifiers
+pulsed lasers	pulsed lasers	G01N 2201/0697	pulsed_lasers
+pulsed lasers	pulsed laser	G01N 2201/0697	pulsed_laser
+fibre array at source, distributing	distributed source coding	G01N 2201/0826	distributed_source_coding
+using optically integrated constructions	integrated optics	G01N 2201/0873	integrated_optics
+correction signals for interfering gases	interfering signals	G01N 2201/1215	interfering_signals
+thresholding	thresholding	G01N 2201/1247	thresholding
+impulsive	impulsive systems	G01N 2203/001	impulsive_systems
+compressibility	compressible navier-stokes equations	G01N 2203/0085	compressible_navier-stokes_equations
+temperature	temperature monitoring	G01N 2203/0222	temperature_monitoring
+other environments	known environments	G01N 2203/0236	known_environments
+other environments	work environments	G01N 2203/0236	work_environments
+inert	inertial sensor	G01N 2203/0238	inertial_sensor
+image analysis	document image analysis	G01N 2203/0647	document_image_analysis
+image analysis	image analysis	G01N 2203/0647	image_analysis
+time or frequency	time-frequency methods	G01N 2203/0688	time-frequency_methods
+time or frequency	time frequencies	G01N 2203/0688	time_frequencies
+temperature	temperature monitoring	G01N 2203/0694	temperature_monitoring
+x-ray	x-ray intensifying screens	G01N 2223/1016	x-ray_intensifying_screens
+imaging	unmixing	G01N 2223/40	unmixing
+imaging image processing	image processing	G01N 2223/401	image_processing
+imaging computed tomograph	x-ray computed tomography	G01N 2223/419	x-ray_computed_tomography
+detectors	detectivity	G01N 2223/50	detectivity
+detectors array	detector arrays	G01N 2223/501	detector_arrays
+detectors pin-diode	pin diode	G01N 2223/504	pin_diode
+impedance	electric impedance	G01N 2291/018	electric_impedance
+impedance	impedance bandwidth	G01N 2291/018	impedance_bandwidth
+impedance	electric impedance tomography	G01N 2291/018	electric_impedance_tomography
+impedance	impedance bandwidths	G01N 2291/018	impedance_bandwidths
+temperature	temperature monitoring	G01N 2291/02881	temperature_monitoring
+hafnia 	hafnium compounds	G01N 2333/275	hafnium_compounds
+rare earth chelates	rare earth ions	G01N 2458/40	rare_earth_ions
+systems	c-systems	G01N 27/416	c-systems
+imaging	3d imaging	G01N 29/0654	3d_imaging
+neural networks	neural network	G01N 29/4481	neural_network
+neural networks	back propagation neural networks	G01N 29/4481	back_propagation_neural_networks
+neural networks	back-propagation neural network	G01N 29/4481	back-propagation_neural_network
+neural networks	neural network model	G01N 29/4481	neural_network_model
+neural networks	artificial neural network	G01N 29/4481	artificial_neural_network
+neural networks	back-propagation neural networks	G01N 29/4481	back-propagation_neural_networks
+neural networks	artificial neural networks	G01N 29/4481	artificial_neural_networks
+neural networks	neural networks	G01N 29/4481	neural_networks
+temperature	temperature monitoring	G01N 30/54	temperature_monitoring
+capillaries	fused-silica capillaries	G01N 30/6078	fused-silica_capillaries
+signal analysis	signal analysis	G01N 30/86	signal_analysis
+differentiation	genetic structure	G01N 30/861	genetic_structure
+differentiation	population differentiation	G01N 30/861	population_differentiation
+peak quality criteria	software quality criteria	G01N 30/8634	software_quality_criteria
+baseline	multi-baseline	G01N 30/8641	multi-baseline
+inverse chromatography	inverse matrix	G01N 30/89	inverse_matrix
+application of the sorbent layer	application layer multicast	G01N 30/93	application_layer_multicast
+defects	software defects	G01N 33/2045	software_defects
+textiles	smart textiles	G01N 33/36	smart_textiles
+glass	glass lasers	G01N 33/386	glass_lasers
+glass	viscous flow	G01N 33/386	viscous_flow
+devices	facts devices	G01N 33/726	facts_devices
+spectrum analysis; fourier analysis	fourier analysis	G01R 23/16	fourier_analysis
+probes	probability	G01R 27/2676	probability
+measuring pulse width	pulse width	G01R 29/023	pulse_width
+ber [bit error rate] test	bit error rate	G01R 31/3171	bit_error_rate
+ber [bit error rate] test	ber	G01R 31/3171	ber
+test pattern generators	test pattern generator	G01R 31/31813	test_pattern_generator
+test pattern generators	test pattern	G01R 31/31813	test_pattern
+simulation 	simulation example	G01R 31/318357	simulation_example
+simulation 	system level simulation	G01R 31/318357	system_level_simulation
+simulation 	simulation and measurement	G01R 31/318357	simulation_and_measurement
+simulation 	full-system simulation	G01R 31/318357	full-system_simulation
+test of combinational circuits	combinational circuits	G01R 31/318502	combinational_circuits
+test of programmable logic devices [plds]	programmable logic device	G01R 31/318516	programmable_logic_device
+test of field programmable gate arrays [fpga]	fpga	G01R 31/318519	fpga
+test of sequential circuits 	sequential circuits	G01R 31/318522	sequential_circuits
+control logic	control parameters	G01R 31/318555	control_parameters
+power distribution; power saving	power distribution network	G01R 31/318575	power_distribution_network
+delay testing	delay testing	G01R 31/31858	delay_testing
+design for test	design for testability	G01R 31/318583	design_for_testability
+built-in tests	built-in self-test	G01R 31/3187	built-in_self-test
+timing generation or clock distribution 	clock distribution	G01R 31/31922	clock_distribution
+timing generation or clock distribution 	distributed generation system	G01R 31/31922	distributed_generation_system
+testing of solder joints	soldered joints	G01R 31/71	soldered_joints
+helmholtz coils	helmholtz equation	G01R 33/34061	helmholtz_equation
+rf power amplifiers	doherty power amplifier	G01R 33/3614	doherty_power_amplifier
+compensation of inhomogeneities	intensity inhomogeneity	G01R 33/387	intensity_inhomogeneity
+nmr spectroscopy	sound spectrography	G01R 33/46	sound_spectrography
+diffusion imaging	diffusion tensor imaging %28dti%29	G01R 33/56341	diffusion_tensor_imaging_%28dti%29
+perfusion imaging	perfusion weighted imaging	G01R 33/56366	perfusion_weighted_imaging
+transmitters	transmitters	G01S 1/042	transmitters
+transmitters	transmitters	G01S 1/7032	transmitters
+transmitters	transmitters	G01S 1/75	transmitters
+multiple target tracking	target tracking	G01S 13/726	target_tracking
+multiple target tracking	multiple target tracking	G01S 13/726	multiple_target_tracking
+combination of radar systems with cameras	radar systems	G01S 13/867	radar_systems
+pattern recognition for feature extraction	syntactic pattern recognition	G01S 13/9027	syntactic_pattern_recognition
+polarimetric features in sar	polarimetric sar	G01S 13/9076	polarimetric_sar
+side-looking sonar using synthetic aperture techniques	synthetic aperture sonar	G01S 15/8904	synthetic_aperture_sonar
+three dimensional imaging systems	three dimensional imaging	G01S 15/8993	three_dimensional_imaging
+power consumption	low-power consumption	G01S 19/34	low-power_consumption
+radar with phased array antenna	phased array radar	G01S 2013/0245	phased_array_radar
+indoor pedestrian positioning	indoor positioning systems	G01S 2201/025	indoor_positioning_systems
+indoor pedestrian positioning	indoor positioning	G01S 2201/025	indoor_positioning
+automatic tracking systems	automatic tracking	G01S 3/325	automatic_tracking
+solar tracking systems	tracking system	G01S 3/7861	tracking_system
+t.v. type tracking systems	tracking systems	G01S 3/7864	tracking_systems
+diversity systems specially adapted for direction finding	radio direction finding systems	G01S 3/8003	radio_direction_finding_systems
+transmission from base station to mobile station 	mobile base station	G01S 5/0045	mobile_base_station
+transmission between base stations	base stations	G01S 5/0081	base_stations
+detecting state or type of motion	motion detection	G01S 5/017	motion_detection
+energy consumption	energy consumption model	G01S 5/019	energy_consumption_model
+energy consumption	low energy consumption	G01S 5/019	low_energy_consumption
+interference	light interference	G01S 5/0215	light_interference
+transmitters	transmitters	G01S 5/0226	transmitters
+transmitters	transmitters	G01S 7/282	transmitters
+coherent receivers	non-coherent receivers	G01S 7/288	non-coherent_receivers
+antenna boresight	antenna design	G01S 7/4026	antenna_design
+transmitters	transmitters	G01S 7/484	transmitters
+transmitters	transmitters	G01S 7/4911	transmitters
+diversity systems	diversity systems	G01S 7/52015	diversity_systems
+cathode ray tube displays	cathode ray tubes	G01S 7/52057	cathode_ray_tubes
+transmitters	transmitters	G01S 7/524	transmitters
+scintillation chambers	scintillation index	G01T 5/08	scintillation_index
+multi-component geophones	multicomponent signals	G01V 1/184	multicomponent_signals
+hydrophones	hydrophones	G01V 1/186	hydrophones
+hydrophones	hydrophone	G01V 1/186	hydrophone
+travel times	travel time prediction	G01V 1/305	travel_time_prediction
+data acquisition	information acquisition	G01V 1/46	information_acquisition
+processing data	optical data processing	G01V 1/48	optical_data_processing
+quality control	software quality control	G01V 2200/14	software_quality_control
+air	radio receivers	G01V 2210/1291	radio_receivers
+land surface	landmine detection	G01V 2210/1295	landmine_detection
+signal detection	signal detection	G01V 2210/14	signal_detection
+air	radio	G01V 2210/1421	radio
+land surface	landmine detection	G01V 2210/1425	landmine_detection
+radon transform	radon transforms	G01V 2210/244	radon_transforms
+radon transform	radon transform	G01V 2210/244	radon_transform
+noise reduction	noise reduction methods	G01V 2210/32	noise_reduction_methods
+noise reduction	denoising methods	G01V 2210/32	denoising_methods
+noise reduction	image denoising	G01V 2210/32	image_denoising
+noise reduction	signal denoising	G01V 2210/32	signal_denoising
+noise reduction	noise reduction	G01V 2210/32	noise_reduction
+noise reduction	noise reduction algorithms	G01V 2210/32	noise_reduction_algorithms
+noise reduction	image denoising methods	G01V 2210/32	image_denoising_methods
+noise reduction	image denoising algorithm	G01V 2210/32	image_denoising_algorithm
+noise reduction	noise reductions	G01V 2210/32	noise_reductions
+noise reduction	image de-noising	G01V 2210/32	image_de-noising
+noise estimation	noise estimation	G01V 2210/34	noise_estimation
+spectral	bandwidth	G01V 2210/43	bandwidth
+radon transform	radon transforms	G01V 2210/46	radon_transforms
+radon transform	radon transform	G01V 2210/46	radon_transform
+dispersion	chromatic dispersion	G01V 2210/582	chromatic_dispersion
+electromagnetic	electromagnetic	G01V 2210/6163	electromagnetic
+electromagnetic	electromagnetic %28em%29	G01V 2210/6163	electromagnetic_%28em%29
+impedance	electric impedance tomography	G01V 2210/6226	electric_impedance_tomography
+impedance	impedance bandwidths	G01V 2210/6226	impedance_bandwidths
+impedance	impedance bandwidth	G01V 2210/6226	impedance_bandwidth
+impedance	electric impedance	G01V 2210/6226	electric_impedance
+finite-element; finite-difference	finite-difference time-domain	G01V 2210/673	finite-difference_time-domain
+finite-element; finite-difference	finite difference technique	G01V 2210/673	finite_difference_technique
+prospecting	telluric prospecting	G01V 8/02	telluric_prospecting
+meteorology	eddies	G01W 	eddies
+meteorology	eddy	G01W 1/00	eddy
+glass 	glass lasers	G02B 2006/12038	glass_lasers
+glass 	viscous flow	G02B 2006/12038	viscous_flow
+silicon	(100) silicon	G02B 2006/12061	%28100%29_silicon
+gallium arsenide or alloys 	aluminum gallium arsenide	G02B 2006/12078	aluminum_gallium_arsenide
+rare earths	rare earths	G02B 2006/1208	rare_earths
+rare earths	rare earth	G02B 2006/1208	rare_earth
+graded	graded index	G02B 2006/12095	graded_index
+grating	grating	G02B 2006/12107	grating
+fibre	fiber cores	G02B 2006/12111	fiber_cores
+laser	femto-second laser	G02B 2006/12121	femto-second_laser
+laser	laser produced plasmas	G02B 2006/12121	laser_produced_plasmas
+laser	vertical cavity surface emitting laser	G02B 2006/12121	vertical_cavity_surface_emitting_laser
+laser	laser plasma	G02B 2006/12121	laser_plasma
+laser	laser beam shaping	G02B 2006/12121	laser_beam_shaping
+laser	pulsed lasers	G02B 2006/12121	pulsed_lasers
+laser	laser excitation	G02B 2006/12121	laser_excitation
+laser	femtosecond laser	G02B 2006/12121	femtosecond_laser
+laser	laser doppler vibrometry	G02B 2006/12121	laser_doppler_vibrometry
+laser	laser induced damage thresholds	G02B 2006/12121	laser_induced_damage_thresholds
+laser	pulsed laser applications	G02B 2006/12121	pulsed_laser_applications
+laser	laser induced	G02B 2006/12121	laser_induced
+laser	pulsed laser	G02B 2006/12121	pulsed_laser
+laser	laser induced fluorescence detection	G02B 2006/12121	laser_induced_fluorescence_detection
+laser	vertical-cavity surface emitting laser	G02B 2006/12121	vertical-cavity_surface_emitting_laser
+multiple quantum well [mqw]	multiple quantum wells	G02B 2006/12128	multiple_quantum_wells
+functions	value functions	G02B 2006/12133	value_functions
+functions	value function	G02B 2006/12133	value_function
+sensor	force sensors	G02B 2006/12138	force_sensors
+sensor	force sensor	G02B 2006/12138	force_sensor
+sensor	detector circuits	G02B 2006/12138	detector_circuits
+sensor	sensors	G02B 2006/12138	sensors
+sensor	sensor	G02B 2006/12138	sensor
+multiplexing; demultiplexing	demultiplexing	G02B 2006/12164	demultiplexing
+annealing	thermal annealing	G02B 2006/12169	thermal_annealing
+annealing	thermal-annealing	G02B 2006/12169	thermal-annealing
+annealing	annealing	G02B 2006/12169	annealing
+annealing using a laser beam	laser annealing	G02B 2006/12171	laser_annealing
+etching	wet etching	G02B 2006/12176	wet_etching
+ion implantation	ion implantation	G02B 2006/12188	ion_implantation
+splicing	spliceosome	G02B 2006/12192	spliceosome
+splicing	spliceosomes	G02B 2006/12192	spliceosomes
+splicing	splicing	G02B 2006/12192	splicing
+differential detectors	differential detection	G02B 21/247	differential_detection
+underwater equipment	underwater vehicle	G02B 23/22	underwater_vehicle
+underwater equipment	underwater equipment	G02B 23/22	underwater_equipment
+underwater equipment	underwater vehicles	G02B 23/22	underwater_vehicles
+phased arrays	phased array	G02B 27/0087	phased_array
+phased arrays	phased arrays	G02B 27/0087	phased_arrays
+head-up displays	head up displays	G02B 27/01	head_up_displays
+fiducial marks and measuring scales within the optical system	optical measurement systems	G02B 27/32	optical_measurement_systems
+laser speckle optics	laser speckle	G02B 27/48	laser_speckle
+diffraction gratings	diffraction patterns	G02B 5/18	diffraction_patterns
+holograms used as optical elements	holographic optical elements	G02B 5/32	holographic_optical_elements
+microstructured optical fibre 	micro-structured optical fibers	G02B 6/02295	micro-structured_optical_fibers
+microstructured optical fibre 	microstructured fibers	G02B 6/02295	microstructured_fibers
+loop resonators	ring resonators	G02B 6/29338	ring_resonators
+loop resonators	ring resonator	G02B 6/29338	ring_resonator
+electrostatic force 	electrostatic force	G02B 6/357	electrostatic_force
+wiring methods or machines	machine learning methods	G02B 6/3612	machine_learning_methods
+welding	welding robots	G02B 6/4237	welding_robots
+optical cables	optical cables	G02B 6/4401	optical_cables
+simultaneous type	simultaneous measurement	G02C 7/042	simultaneous_measurement
+electro-optical materials	optical materials	G02F 1/0018	optical_materials
+quantum wires	quantum wires	G02F 1/01783	quantum_wires
+insulating layers 	insulating layers	G02F 1/133345	insulating_layers
+matrix	m-matrix	G02F 1/134336	m-matrix
+insulating layers	insulating layers	G02F 1/16756	insulating_layers
+mach-zehnder type	mach-zehnder	G02F 1/212	mach-zehnder
+fabry-perot type	fabry-perot	G02F 1/213	fabry-perot
+multimode interference type	multi-mode interference	G02F 1/217	multi-mode_interference
+non-linear optics	phase matching	G02F 1/35	phase_matching
+non-linear optics	nonlinear optics	G02F 1/35	nonlinear_optics
+non-linear optics	optical phase conjugation	G02F 1/35	optical_phase_conjugation
+non-linear optics	non-linear optical	G02F 1/35	non-linear_optical
+four-wave interaction for optical phase conjugation 	optical phase conjugation	G02F 1/3538	optical_phase_conjugation
+third or higher harmonic generation	harmonic generation	G02F 1/354	harmonic_generation
+third or higher harmonic generation	second harmonic generation	G02F 1/354	second_harmonic_generation
+particular phase matching techniques	phase matching	G02F 1/3544	phase_matching
+crystals	nonlinear crystals	G02F 1/3551	nonlinear_crystals
+crystals	crystal whiskers	G02F 1/3551	crystal_whiskers
+semiconductor materials, e.g. quantum wells	semiconductor quantum wells	G02F 1/3556	semiconductor_quantum_wells
+parametric amplification	parametric amplifiers	G02F 1/392	parametric_amplifiers
+all-optical wavelength conversion	wavelength conversion	G02F 2/006	wavelength_conversion
+materials and properties semiconductor quantum wells	semiconductor quantum wells	G02F 2202/108	semiconductor_quantum_wells
+materials and properties conductive	conductive materials	G02F 2202/16	conductive_materials
+metamaterials	metamaterials	G02F 2202/30	metamaterials
+metamaterials	metamaterial	G02F 2202/30	metamaterial
+gray scale	gray-scale images	G02F 2203/30	gray-scale_images
+phase-only modulation	phase-only	G02F 2203/50	phase-only
+autofocus systems	autofocus	G03B 13/36	autofocus
+bodies	full body	G03B 17/02	full_body
+projection screens	projection screens	G03B 21/56	projection_screens
+reflector	reflector antenna	G03B 2215/0525	reflector_antenna
+reflector	antenna reflectors	G03B 2215/0525	antenna_reflectors
+reflector	reflector antennas	G03B 2215/0525	reflector_antennas
+magnetic devices	electromagnetic devices	G03B 2217/244	electromagnetic_devices
+indium	indium antimonides	G03C 2001/0854	indium_antimonides
+dispersion	chromatic dispersion	G03C 2001/7448	chromatic_dispersion
+fixing	fixed wings	G03C 2007/428	fixed_wings
+process	turning process	G03C 2200/43	turning_process
+process	(e ,3e) process	G03C 2200/43	%28e_%2C3e%29_process
+temperature	temperature monitoring	G03C 2200/60	temperature_monitoring
+safety systems	safety applications	G03D 13/008	safety_applications
+frames	frames	G03D 13/12	frames
+etching	wet etching	G03F 1/80	wet_etching
+testing optical components 	optical testing	G03F 7/70591	optical_testing
+position control 	position control	G03F 7/70775	position_control
+temperature	temperature monitoring	G03F 7/70875	temperature_monitoring
+temperature	temperature monitoring	G03F 7/70891	temperature_monitoring
+signal processing	signal processing	G03F 9/7092	signal_processing
+signal processing	signal analysis	G03F 9/7092	signal_analysis
+signal processing	signal theory	G03F 9/7092	signal_theory
+cutting	cutting forces	G03G 15/6523	cutting_forces
+cutting	cutting force	G03G 15/6523	cutting_force
+original medium	original meshes	G03G 2215/00206	original_meshes
+electronically addressable mailing bins	electronic mail	G03G 2215/00907	electronic_mail
+laser	laser produced plasmas	G03G 2215/0404	laser_produced_plasmas
+laser	vertical cavity surface emitting laser	G03G 2215/0404	vertical_cavity_surface_emitting_laser
+laser	laser doppler vibrometry	G03G 2215/0404	laser_doppler_vibrometry
+laser	femto-second laser	G03G 2215/0404	femto-second_laser
+laser	pulsed lasers	G03G 2215/0404	pulsed_lasers
+laser	laser plasma	G03G 2215/0404	laser_plasma
+laser	femtosecond laser	G03G 2215/0404	femtosecond_laser
+laser	laser induced damage thresholds	G03G 2215/0404	laser_induced_damage_thresholds
+laser	laser excitation	G03G 2215/0404	laser_excitation
+laser	pulsed laser applications	G03G 2215/0404	pulsed_laser_applications
+laser	laser beam shaping	G03G 2215/0404	laser_beam_shaping
+laser	laser induced fluorescence detection	G03G 2215/0404	laser_induced_fluorescence_detection
+laser	vertical-cavity surface emitting laser	G03G 2215/0404	vertical-cavity_surface_emitting_laser
+laser	pulsed laser	G03G 2215/0404	pulsed_laser
+laser	laser induced	G03G 2215/0404	laser_induced
+electrostatic	electrostatic force	G03G 2221/0073	electrostatic_force
+frame structures	structural frames	G03G 2221/1678	structural_frames
+oxides	gate oxide	G03G 9/0833	gate_oxide
+organic compounds 	synthetic aperture imaging	G03G 9/09733	synthetic_aperture_imaging
+synthetic aperture	synthetic apertures	G03H 2001/046	synthetic_apertures
+synthetic aperture	synthetic aperture	G03H 2001/046	synthetic_aperture
+look up table	look-up table	G03H 2001/0833	look-up_table
+look up table	look-up tables	G03H 2001/0833	look-up_tables
+look up table	look up table	G03H 2001/0833	look_up_table
+2d object	3d objects	G03H 2210/20	3d_objects
+3d object	3d object	G03H 2210/30	3d_object
+digital representation	document representation	G03H 2210/44	document_representation
+moving object	moving object	G03H 2210/62	moving_object
+moving object	moving objects	G03H 2210/62	moving_objects
+evanescent wave	evanescent wave	G03H 2222/47	evanescent_wave
+evanescent wave	evanescent waves	G03H 2222/47	evanescent_waves
+diffractive element	diffraction efficiency	G03H 2223/23	diffraction_efficiency
+filtering the object information	information filtering	G03H 2223/52	information_filtering
+particle beam, e.g. e-beam	particle beam injection	G03H 2224/04	particle_beam_injection
+modulation	sigma-delta	G03H 2225/30	sigma-delta
+modulation	delta sigma modulation	G03H 2225/30	delta_sigma_modulation
+modulation	modulation and coding schemes	G03H 2225/30	modulation_and_coding_schemes
+modulation	sigma-delta modulator	G03H 2225/30	sigma-delta_modulator
+modulation	sigma delta modulator	G03H 2225/30	sigma_delta_modulator
+amplitude only	spectral amplitude	G03H 2225/31	spectral_amplitude
+phase only	phase-only	G03H 2225/32	phase-only
+means for tracking the observer	mean shift tracking	G03H 2226/05	mean_shift_tracking
+phase only modulation	phase modulation	G03H 2240/11	phase_modulation
+discrete level	discrete time	G03H 2240/42	discrete_time
+diffraction efficiency [de]	diffraction efficiency	G03H 2240/53	diffraction_efficiency
+refractive index	refractive index changes	G03H 2240/54	refractive_index_changes
+refractive index	refractive index sensor	G03H 2240/54	refractive_index_sensor
+time-to-digital converters [tdc] 	time to digital converters	G04F 10/005	time_to_digital_converters
+producing acoustic time signals	signal timing	G04G 13/00	signal_timing
+transmission of control signals using coded signals 	transmitted signal	G04G 9/0011	transmitted_signal
+systems controlled by a computer	computer control systems	G05B 15/00	computer_control_systems
+multiprocessor system	multiprocessor-system	G05B 19/0421	multiprocessor-system
+multiprocessor system	multiprocessor system	G05B 19/0421	multiprocessor_system
+multiprocessor system	multi processor systems	G05B 19/0421	multi_processor_systems
+programming the control sequence	sequential programs	G05B 19/0426	sequential_programs
+digital interpolation	color interpolation	G05B 19/4103	color_interpolation
+plc systems	plc system	G05B 2219/10	plc_system
+plc systems	plc	G05B 2219/10	plc
+canbus	controller area network	G05B 2219/1136	controller_area_network
+canbus	can bus	G05B 2219/1136	can_bus
+variable rate of scan	variable bit rate %28vbr%29	G05B 2219/1147	variable_bit_rate_%28vbr%29
+subroutine	penalty function	G05B 2219/13005	penalty_function
+subroutine	influence function	G05B 2219/13005	influence_function
+subroutine	feature function	G05B 2219/13005	feature_function
+subroutine	penalty functions	G05B 2219/13005	penalty_functions
+subroutine	influence functions	G05B 2219/13005	influence_functions
+subroutine	function approximators	G05B 2219/13005	function_approximators
+translate program in order to be used on different plc	program translators	G05B 2219/13019	program_translators
+parallel execution of bit operations	parallel execution	G05B 2219/13082	parallel_execution
+parallel execution of bit operations	parallel executions	G05B 2219/13082	parallel_executions
+expert system	expert system	G05B 2219/13111	expert_system
+expert system	expert systems	G05B 2219/13111	expert_systems
+expert system	fuzzy expert system	G05B 2219/13111	fuzzy_expert_system
+expert system	fuzzy expert systems	G05B 2219/13111	fuzzy_expert_systems
+petri net	fuzzy petri nets	G05B 2219/13112	fuzzy_petri_nets
+petri net	timed petri net	G05B 2219/13112	timed_petri_net
+petri net	petri net models	G05B 2219/13112	petri_net_models
+petri net	time petri nets	G05B 2219/13112	time_petri_nets
+petri net	petri nets	G05B 2219/13112	petri_nets
+petri net	timed petri nets	G05B 2219/13112	timed_petri_nets
+petri net	petri net	G05B 2219/13112	petri_net
+petri net	extended petri nets	G05B 2219/13112	extended_petri_nets
+petri net	high-level petri nets	G05B 2219/13112	high-level_petri_nets
+compiler	compiler	G05B 2219/13119	compiler
+compiler	compilers	G05B 2219/13119	compilers
+object oriented programming	object oriented programming	G05B 2219/13148	object_oriented_programming
+object oriented programming	object-oriented programming	G05B 2219/13148	object-oriented_programming
+with petrinets	fuzzy petri nets	G05B 2219/13182	fuzzy_petri_nets
+in, direct link parallel to plc, and, out	direct links	G05B 2219/14021	direct_links
+self test	built in self test	G05B 2219/14054	built_in_self_test
+self test	self-test	G05B 2219/14054	self-test
+test of sensor	test set	G05B 2219/14076	test_set
+each plc is different from others	plc	G05B 2219/14133	plc
+plc structure of the system	plc system	G05B 2219/15	plc_system
+optical fiber	optical fiber communication	G05B 2219/15017	optical_fiber_communication
+optical fiber	optical-fiber communications	G05B 2219/15017	optical-fiber_communications
+optical fiber	optical fiber	G05B 2219/15017	optical_fiber
+optical fiber	optical fibre sensors	G05B 2219/15017	optical_fibre_sensors
+optical fiber	fiber optic gyroscopes	G05B 2219/15017	fiber_optic_gyroscopes
+optical fiber	optical fiber communications	G05B 2219/15017	optical_fiber_communications
+optical fiber	optical fibers	G05B 2219/15017	optical_fibers
+optical fiber	optical fibre	G05B 2219/15017	optical_fibre
+microprocessor	microprocessor chips	G05B 2219/15048	microprocessor_chips
+microprocessor	microprocessor	G05B 2219/15048	microprocessor
+microcontroller	pic microcontrollers	G05B 2219/15053	pic_microcontrollers
+microcontroller	microcontrollers	G05B 2219/15053	microcontrollers
+microcontroller	embedded microcontroller	G05B 2219/15053	embedded_microcontroller
+microcontroller	microcontroller	G05B 2219/15053	microcontroller
+microcontroller	micro-controller	G05B 2219/15053	micro-controller
+fpga field programmable gate array	fpga design	G05B 2219/15057	fpga_design
+operating system, microsoft windows	windows operating system	G05B 2219/15083	windows_operating_system
+windows nt	windows ce	G05B 2219/15085	windows_ce
+open control system	open loop control	G05B 2219/15087	open_loop_control
+power supply	power supplies	G05B 2219/15097	power_supplies
+shared memory	shared memory multiprocessor	G05B 2219/15118	shared_memory_multiprocessor
+shared memory	shared memory	G05B 2219/15118	shared_memory
+shared memory	shared memories	G05B 2219/15118	shared_memories
+shared memory	shared memory architecture	G05B 2219/15118	shared_memory_architecture
+shared memory	shared memory multiprocessors	G05B 2219/15118	shared_memory_multiprocessors
+multiple kernels	multiple kernels	G05B 2219/15125	multiple_kernels
+nuclear plant	nuclear plant	G05B 2219/161	nuclear_plant
+field programmable gate array, fpga as i-o module	field programmable gate array	G05B 2219/21109	field_programmable_gate_array
+impedance matching	impedance matching %28electric%29	G05B 2219/21123	impedance_matching_%28electric%29
+impedance matching	impedance matching	G05B 2219/21123	impedance_matching
+impedance matching	impedance mismatch	G05B 2219/21123	impedance_mismatch
+impedance matching	impedance matchings	G05B 2219/21123	impedance_matchings
+low pass filter for input	low-pass filtering	G05B 2219/21129	low-pass_filtering
+resistors between transmitter and receiver, against disturbances	transmitter and receiver	G05B 2219/21164	transmitter_and_receiver
+multicore	multi-core	G05B 2219/2205	multi-core
+multicore	multi core	G05B 2219/2205	multi_core
+multicore	multicore	G05B 2219/2205	multicore
+multicore	multi-cores	G05B 2219/2205	multi-cores
+master slave	master-slave systems	G05B 2219/2231	master-slave_systems
+petrinet	petri net	G05B 2219/23002	petri_net
+petrinet	petri nets	G05B 2219/23002	petri_nets
+petrinet	extended petri nets	G05B 2219/23002	extended_petri_nets
+petrinet	high-level petri nets	G05B 2219/23002	high-level_petri_nets
+only increment key	incremental development	G05B 2219/23042	incremental_development
+value is analog signal	analog signals	G05B 2219/23201	analog_signals
+parallel processing	parallel processing	G05B 2219/23217	parallel_processing
+expert system	fuzzy expert system	G05B 2219/23253	fuzzy_expert_system
+expert system	fuzzy expert systems	G05B 2219/23253	fuzzy_expert_systems
+expert system	expert systems	G05B 2219/23253	expert_systems
+expert system	expert system	G05B 2219/23253	expert_system
+c++	c++	G05B 2219/23263	c%2B%2B
+compiler	compiler	G05B 2219/23266	compiler
+compiler	compilers	G05B 2219/23266	compilers
+adaptive states; learning transitions	adaptive learning rates	G05B 2219/23288	adaptive_learning_rates
+load program from file system of a controller	programmed control systems	G05B 2219/23301	programmed_control_systems
+film	motion picture editing machines	G05B 2219/23351	motion_picture_editing_machines
+computer assisted maintenance	computer assisted	G05B 2219/24019	computer_assisted
+remote test, monitoring, diagnostic	remote monitoring system	G05B 2219/24048	remote_monitoring_system
+diagnostic programmed in state logic	program diagnostics	G05B 2219/24059	program_diagnostics
+find intermittent errors	intermittent connectivity	G05B 2219/24068	intermittent_connectivity
+use of high voltage 28-volt logic level	high voltages	G05B 2219/24134	high_voltages
+scada supervisory control and data acquisition	supervisory control and data acquisition	G05B 2219/24215	supervisory_control_and_data_acquisition
+two different bus systems	two term control systems	G05B 2219/25012	two_term_control_systems
+star network	star graphs	G05B 2219/25035	star_graphs
+half duplex, repeater	half-duplex	G05B 2219/25169	half-duplex
+serial, rs232	serial robots	G05B 2219/25171	serial_robots
+ethernet	ethernet networks	G05B 2219/25174	ethernet_networks
+ethernet	epon	G05B 2219/25174	epon
+ethernet	ethernet switches	G05B 2219/25174	ethernet_switches
+ethernet	ethernet	G05B 2219/25174	ethernet
+ethernet	ethernet passive optical networks	G05B 2219/25174	ethernet_passive_optical_networks
+bluetooth	bluetooth device	G05B 2219/25186	bluetooth_device
+bluetooth	bluetooth technology	G05B 2219/25186	bluetooth_technology
+bluetooth	bluetooth networks	G05B 2219/25186	bluetooth_networks
+bluetooth	bluetooth	G05B 2219/25186	bluetooth
+infrared	infrared sensor	G05B 2219/25192	infrared_sensor
+infrared	infrared focal plane arrays	G05B 2219/25192	infrared_focal_plane_arrays
+infrared	infrared camera	G05B 2219/25192	infrared_camera
+infrared	infra-red sensor	G05B 2219/25192	infra-red_sensor
+infrared	infrared sensors	G05B 2219/25192	infrared_sensors
+infrared	infra-red cameras	G05B 2219/25192	infra-red_cameras
+infrared	far infrared	G05B 2219/25192	far_infrared
+infrared	near-infrared imaging	G05B 2219/25192	near-infrared_imaging
+radio link, transponder	radio links	G05B 2219/25196	radio_links
+packet switching	packet switching	G05B 2219/25216	packet_switching
+packet switching	packet switches	G05B 2219/25216	packet_switches
+relay	relay system	G05B 2219/25242	relay_system
+digital filter	iir digital filters	G05B 2219/25243	iir_digital_filters
+microcontroller as time switch	switching controllers	G05B 2219/25248	switching_controllers
+microprocessor	microprocessor	G05B 2219/25252	microprocessor
+microprocessor	microprocessor chips	G05B 2219/25252	microprocessor_chips
+dsp digital signal processor	digital signal processors	G05B 2219/25254	digital_signal_processors
+neural network	back-propagation neural networks	G05B 2219/25255	back-propagation_neural_networks
+neural network	back propagation neural networks	G05B 2219/25255	back_propagation_neural_networks
+neural network	neural network model	G05B 2219/25255	neural_network_model
+neural network	artificial neural network	G05B 2219/25255	artificial_neural_network
+neural network	neural networks	G05B 2219/25255	neural_networks
+neural network	back-propagation neural network	G05B 2219/25255	back-propagation_neural_network
+neural network	artificial neural networks	G05B 2219/25255	artificial_neural_networks
+neural network	neural network	G05B 2219/25255	neural_network
+microcontroller	micro-controller	G05B 2219/25257	micro-controller
+microcontroller	embedded microcontroller	G05B 2219/25257	embedded_microcontroller
+microcontroller	microcontroller	G05B 2219/25257	microcontroller
+microcontroller	pic microcontrollers	G05B 2219/25257	pic_microcontrollers
+microcontroller	microcontrollers	G05B 2219/25257	microcontrollers
+asic	asic	G05B 2219/25258	asic
+flash memory	nand flash	G05B 2219/25265	nand_flash
+flash memory	nand flash memory	G05B 2219/25265	nand_flash_memory
+flash memory	flash memory	G05B 2219/25265	flash_memory
+shift register	shift registers	G05B 2219/25267	shift_registers
+pld programmable logic device	programmable logic device	G05B 2219/25268	programmable_logic_device
+expansion of system, memory	memory systems	G05B 2219/25301	memory_systems
+microprocessor	microprocessor	G05B 2219/25338	microprocessor
+microprocessor	microprocessor chips	G05B 2219/25338	microprocessor_chips
+personal computer	personal computing	G05B 2219/25425	personal_computing
+process control	process control	G05B 2219/2609	process_control
+from computer integrated manufacturing till monitoring	computer integrated manufacturing	G05B 2219/31	computer_integrated_manufacturing
+disassembly evaluation	usability evaluation	G05B 2219/31065	usability_evaluation
+network controller	networked controls	G05B 2219/31115	networked_controls
+network controller	networked control	G05B 2219/31115	networked_control
+ethernet	ethernet switches	G05B 2219/31145	ethernet_switches
+ethernet	epon	G05B 2219/31145	epon
+ethernet	ethernet networks	G05B 2219/31145	ethernet_networks
+ethernet	ethernet passive optical networks	G05B 2219/31145	ethernet_passive_optical_networks
+ethernet	ethernet	G05B 2219/31145	ethernet
+lan local area network	wireless local area networks %28wlan%29	G05B 2219/31151	wireless_local_area_networks_%28wlan%29
+lan local area network	wireless local area networks	G05B 2219/31151	wireless_local_area_networks
+lan local area network	wireless local area network %28wlan%29	G05B 2219/31151	wireless_local_area_network_%28wlan%29
+network structure, internet	structured p2p networks	G05B 2219/31156	structured_p2p_networks
+wan wide area network	wide area	G05B 2219/31158	wide_area
+intranet	intranet	G05B 2219/31159	intranet
+intranet	intranets	G05B 2219/31159	intranets
+wireless lan	wireless local area network %28wlan%29	G05B 2219/31162	wireless_local_area_network_%28wlan%29
+wireless lan	wlan bands	G05B 2219/31162	wlan_bands
+wireless lan	wlan	G05B 2219/31162	wlan
+wireless lan	wireless local area networks %28wlan%29	G05B 2219/31162	wireless_local_area_networks_%28wlan%29
+wireless lan	wireless local area networks	G05B 2219/31162	wireless_local_area_networks
+wireless lan	wireless lans	G05B 2219/31162	wireless_lans
+wireless lan	wlan systems	G05B 2219/31162	wlan_systems
+wireless lan	wlan applications	G05B 2219/31162	wlan_applications
+wireless lan	wireless lan	G05B 2219/31162	wireless_lan
+near field communication nfc	near field communication	G05B 2219/31197	near_field_communication
+frequency shift keying modulation, fsk	frequency shift keying	G05B 2219/31201	frequency_shift_keying
+firewall	firewall	G05B 2219/31246	firewall
+firewall	packet filtering	G05B 2219/31246	packet_filtering
+firewall	firewalls	G05B 2219/31246	firewalls
+work still to be done on workpiece	workpiece materials	G05B 2219/31322	workpiece_materials
+distributed real time knowledge, database	distributed real time system	G05B 2219/31324	distributed_real_time_system
+gateway	gateway	G05B 2219/31348	gateway
+gateway	gateways %28computer networks%29	G05B 2219/31348	gateways_%28computer_networks%29
+gateway	internet gateway	G05B 2219/31348	internet_gateway
+markov model	markov models	G05B 2219/31358	markov_models
+markov model	markov model	G05B 2219/31358	markov_model
+queue control	queue management	G05B 2219/31378	queue_management
+edi electronic data exchange	electronic data interchange	G05B 2219/31403	electronic_data_interchange
+order picking	order picking	G05B 2219/32037	order_picking
+master production planning, highest level	product planning	G05B 2219/32088	product_planning
+capp computer aided machining and process planning	computer aided process planning	G05B 2219/32099	computer_aided_process_planning
+operative process planning	process planning	G05B 2219/32107	process_planning
+object oriented control, programming	object-oriented programming	G05B 2219/32161	object-oriented_programming
+petrinet	petri nets	G05B 2219/32165	petri_nets
+petrinet	petri net	G05B 2219/32165	petri_net
+petrinet	extended petri nets	G05B 2219/32165	extended_petri_nets
+petrinet	high-level petri nets	G05B 2219/32165	high-level_petri_nets
+real time scheduler	real time scheduling	G05B 2219/32247	real_time_scheduling
+machine with least work	machine to machines	G05B 2219/32315	machine_to_machines
+machine with least work	machine-to-machine %28m2m%29	G05B 2219/32315	machine-to-machine_%28m2m%29
+use of genetic algorithm	genetic algorithm %28ga%29	G05B 2219/32333	genetic_algorithm_%28ga%29
+use of genetic algorithm	simple genetic algorithm	G05B 2219/32333	simple_genetic_algorithm
+use of genetic algorithm	genetic algorithms	G05B 2219/32333	genetic_algorithms
+use of genetic algorithm	adaptive genetic algorithms	G05B 2219/32333	adaptive_genetic_algorithms
+use of genetic algorithm	improved genetic algorithm	G05B 2219/32333	improved_genetic_algorithm
+use of genetic algorithm	adaptive genetic algorithm	G05B 2219/32333	adaptive_genetic_algorithm
+use of genetic algorithm	evolutionary search	G05B 2219/32333	evolutionary_search
+use of genetic algorithm	genetic algorithm	G05B 2219/32333	genetic_algorithm
+use of genetic algorithm	improved genetic algorithms	G05B 2219/32333	improved_genetic_algorithms
+for resource planning	enterprise resource planning	G05B 2219/32365	enterprise_resource_planning
+for resource planning	enterprise resource planning %28erp%29	G05B 2219/32365	enterprise_resource_planning_%28erp%29
+for resource planning	manufacturing resource planning	G05B 2219/32365	manufacturing_resource_planning
+for resource planning	enterprise resource planning systems	G05B 2219/32365	enterprise_resource_planning_systems
+tool management and database management	database management	G05B 2219/32422	database_management
+task planning	task planning	G05B 2219/32423	task_planning
+time delay artificial neural network	delayed neural networks	G05B 2219/33015	delayed_neural_networks
+spline membership function	spline functions	G05B 2219/33031	spline_functions
+data exchange between controller and processors	data exchange	G05B 2219/33161	data_exchange
+isdn	isdn	G05B 2219/33181	isdn
+radio link, wireless	radio links	G05B 2219/33192	radio_links
+transponder	transponder	G05B 2219/33199	transponder
+transponder	transponders	G05B 2219/33199	transponders
+fuzzy expert system for diagnostic, monitoring	fuzzy expert system	G05B 2219/33295	fuzzy_expert_system
+fuzzy expert system for diagnostic, monitoring	fuzzy expert systems	G05B 2219/33295	fuzzy_expert_systems
+knowledge acquisition	knowledge acquisition	G05B 2219/33318	knowledge_acquisition
+self diagnostic of control system, servo system	servo control systems	G05B 2219/33327	servo_control_systems
+shift register	shift registers	G05B 2219/34004	shift_registers
+coprocessor	co-processors	G05B 2219/34009	co-processors
+coprocessor	coprocessor	G05B 2219/34009	coprocessor
+risc processor	risc processors	G05B 2219/34023	risc_processors
+polynomial analysis	generator polynomial	G05B 2219/34025	generator_polynomial
+pga programmable gate array	programmable gate array	G05B 2219/34026	programmable_gate_array
+timer	interval time-varying delay	G05B 2219/34045	interval_time-varying_delay
+timer	interval time-varying delays	G05B 2219/34045	interval_time-varying_delays
+analog multiplier	analog multipliers	G05B 2219/34046	analog_multipliers
+dsp digital signal processor	digital signal processor	G05B 2219/34047	digital_signal_processor
+adder	full adder	G05B 2219/34049	full_adder
+adder	adder	G05B 2219/34049	adder
+adder	full adders	G05B 2219/34049	full_adders
+adder	adders	G05B 2219/34049	adders
+complement	schur complement	G05B 2219/34057	schur_complement
+comparator	comp	G05B 2219/34062	comp
+fuzzy logic, controller	fuzzy logic controller %28flc%29	G05B 2219/34065	fuzzy_logic_controller_%28flc%29
+fuzzy logic, controller	fuzzy logic control	G05B 2219/34065	fuzzy_logic_control
+fuzzy logic, controller	fuzzy logic controller	G05B 2219/34065	fuzzy_logic_controller
+fuzzy logic, controller	fuzzy logic controllers	G05B 2219/34065	fuzzy_logic_controllers
+fuzzy neural, neuro fuzzy network	neuro-fuzzy network	G05B 2219/34066	neuro-fuzzy_network
+shared memory	shared memory multiprocessors	G05B 2219/34069	shared_memory_multiprocessors
+shared memory	shared memory	G05B 2219/34069	shared_memory
+shared memory	shared memories	G05B 2219/34069	shared_memories
+shared memory	shared memory multiprocessor	G05B 2219/34069	shared_memory_multiprocessor
+shared memory	shared memory architecture	G05B 2219/34069	shared_memory_architecture
+content addressable memory	associative storage	G05B 2219/34071	associative_storage
+content addressable memory	content addressable memory	G05B 2219/34071	content_addressable_memory
+associative memory	associative processing	G05B 2219/34074	associative_processing
+interpolate backwards	cubic spline interpolation	G05B 2219/34091	cubic_spline_interpolation
+interpolate backwards	cubic-spline interpolation	G05B 2219/34091	cubic-spline_interpolation
+sum squares	sum of squares	G05B 2219/34125	sum_of_squares
+spline	splines	G05B 2219/34135	splines
+spline	b-splines	G05B 2219/34135	b-splines
+spline	spline	G05B 2219/34135	spline
+spline	spline curve	G05B 2219/34135	spline_curve
+spline	cubic spline	G05B 2219/34135	cubic_spline
+spline	b splines	G05B 2219/34135	b_splines
+spline	cubic splines	G05B 2219/34135	cubic_splines
+spline	b-spline	G05B 2219/34135	b-spline
+spline	b-spline surface	G05B 2219/34135	b-spline_surface
+ellipse, hyperbola	ellipse detection	G05B 2219/34136	ellipse_detection
+b-spline, nurbs non uniform rational b-spline	nurbs	G05B 2219/34141	nurbs
+pneumatic	pneumatic system	G05B 2219/34191	pneumatic_system
+pneumatic	pneumatic control	G05B 2219/34191	pneumatic_control
+memory management	memory allocation	G05B 2219/34192	memory_allocation
+memory management	memory management	G05B 2219/34192	memory_management
+motion controller	motion controller	G05B 2219/34208	motion_controller
+microprocessor	microprocessor	G05B 2219/34215	microprocessor
+microprocessor	microprocessor chips	G05B 2219/34215	microprocessor_chips
+programmable motion controller	programmable logic controller	G05B 2219/34216	programmable_logic_controller
+programmable motion controller	programmable logic controllers	G05B 2219/34216	programmable_logic_controllers
+multiplexed d-a a-d	time multiplexed	G05B 2219/34237	time_multiplexed
+for measurement only	interestingness measures	G05B 2219/34242	interestingness_measures
+multiplex for control only	multiplexing gains	G05B 2219/34244	multiplexing_gains
+windows, microsoft windows	microsoft windows	G05B 2219/34261	microsoft_windows
+image table	relational tables	G05B 2219/34293	relational_tables
+multi threading	multi-threading	G05B 2219/34333	multi-threading
+multi threading	multithreading	G05B 2219/34333	multithreading
+multi threading	multiple threads	G05B 2219/34333	multiple_threads
+scalability	routing scalability	G05B 2219/34334	routing_scalability
+scalability	temporal scalability	G05B 2219/34334	temporal_scalability
+priority	fixed priorities	G05B 2219/34368	fixed_priorities
+false alarm states	constant false alarm rate	G05B 2219/34374	constant_false_alarm_rate
+multitasking	multiprogramming	G05B 2219/34381	multiprogramming
+multitasking	multiprocessing programs	G05B 2219/34381	multiprocessing_programs
+execute urgent jobs quickly	job execution	G05B 2219/34415	job_execution
+multiprocessor scheduling	multi processor scheduling	G05B 2219/34417	multi_processor_scheduling
+structure of control system	control systems	G05B 2219/34419	control_systems
+structure of control system	control system stability	G05B 2219/34419	control_system_stability
+structure of control system	control system	G05B 2219/34419	control_system
+structure of control system	control loop	G05B 2219/34419	control_loop
+lsi	lsi	G05B 2219/34428	lsi
+object oriented design	object oriented design	G05B 2219/35006	object_oriented_design
+object oriented design	object-oriented design	G05B 2219/35006	object-oriented_design
+cad cam	cad%2Fcam	G05B 2219/35012	cad%2Fcam
+cad cam	cad%2Fcams	G05B 2219/35012	cad%2Fcams
+design of machine tool, of cnc machine	machine design	G05B 2219/35026	machine_design
+genetic algorithm for selforganizing designs	design of algorithms	G05B 2219/35041	design_of_algorithms
+tool, fixture design	fixture design	G05B 2219/35043	fixture_design
+b-spline surface fitting	surface fitting	G05B 2219/35133	surface_fitting
+b-spline surface fitting	b-spline surface	G05B 2219/35133	b-spline_surface
+automatic selection of machine type	automatic teller machines	G05B 2219/35173	automatic_teller_machines
+variable step forward on same toolpath	variable step size	G05B 2219/35186	variable_step_size
+code	signal encoding	G05B 2219/35229	signal_encoding
+parity	parity bits	G05B 2219/35274	parity_bits
+data handling	data handling	G05B 2219/35356	data_handling
+data storage, buffer	buffer storage	G05B 2219/35373	buffer_storage
+distribution	distribution of goods	G05B 2219/35382	distribution_of_goods
+cross bar switch	crossbar switch	G05B 2219/35397	crossbar_switch
+switch between joystick and pedal control	switching control	G05B 2219/35454	switching_control
+mode selection	mode selection	G05B 2219/35472	mode_selection
+attribute programming	attribute grammars	G05B 2219/36023	attribute_grammars
+c++	c++	G05B 2219/36028	c%2B%2B
+basic	basic course	G05B 2219/36029	basic_course
+flash memory	nand flash	G05B 2219/36109	nand_flash
+flash memory	nand flash memory	G05B 2219/36109	nand_flash_memory
+flash memory	flash memory	G05B 2219/36109	flash_memory
+position and force	best position	G05B 2219/36489	best_position
+image from object together with references on background	background image	G05B 2219/37066	background_image
+display machining parameters	machining parameters	G05B 2219/37081	machining_parameters
+cutting forces	cutting forces	G05B 2219/37087	cutting_forces
+cutting forces	cutting force	G05B 2219/37087	cutting_force
+display position actual and or target	target position	G05B 2219/37092	target_position
+gyroscope	mems gyroscope	G05B 2219/37134	mems_gyroscope
+gyroscope	gyro sensors	G05B 2219/37134	gyro_sensors
+gyroscope	gyroscopes	G05B 2219/37134	gyroscopes
+gyroscope	gyroscope	G05B 2219/37134	gyroscope
+encoder delivers sinusoidal signals	sinusoidal signals	G05B 2219/37181	sinusoidal_signals
+problems	forward problem	G05B 2219/37192	forward_problem
+using fuzzy logic techniques	fuzzy clustering techniques	G05B 2219/37255	fuzzy_clustering_techniques
+wear, tool wear	tool wear	G05B 2219/37256	tool_wear
+infrared	infrared camera	G05B 2219/37266	infrared_camera
+infrared	infrared sensors	G05B 2219/37266	infrared_sensors
+infrared	far infrared	G05B 2219/37266	far_infrared
+infrared	infra-red sensor	G05B 2219/37266	infra-red_sensor
+infrared	infra-red cameras	G05B 2219/37266	infra-red_cameras
+infrared	near-infrared imaging	G05B 2219/37266	near-infrared_imaging
+infrared	infrared sensor	G05B 2219/37266	infrared_sensor
+infrared	infrared focal plane arrays	G05B 2219/37266	infrared_focal_plane_arrays
+fiber optic proximity sensor	fiber optic sensor	G05B 2219/37279	fiber_optic_sensor
+laser range finder	laser range finders	G05B 2219/37281	laser_range_finders
+laser range finder	laser range finder	G05B 2219/37281	laser_range_finder
+eddy current	eddy	G05B 2219/37292	eddy
+eddy current	eddies	G05B 2219/37292	eddies
+cutting, machining time	machining time	G05B 2219/37336	machining_time
+frequency	variable frequency oscillators	G05B 2219/37352	variable_frequency_oscillators
+frequency	electric frequency measurement	G05B 2219/37352	electric_frequency_measurement
+frequency	doppler frequency shift	G05B 2219/37352	doppler_frequency_shift
+frequency	frequency multiplying circuits	G05B 2219/37352	frequency_multiplying_circuits
+frequency	different frequency	G05B 2219/37352	different_frequency
+amplitude	spectral amplitude	G05B 2219/37353	spectral_amplitude
+depth of cut	depth of cut	G05B 2219/37358	depth_of_cut
+hardness	hard decisions	G05B 2219/37362	hard_decisions
+motion	structure from motion	G05B 2219/37392	structure_from_motion
+motion	structure-from-motion	G05B 2219/37392	structure-from-motion
+temperature	temperature monitoring	G05B 2219/37431	temperature_monitoring
+inspection path planner	path planners	G05B 2219/37449	path_planners
+root mean square	root-mean-square error of predictions	G05B 2219/37496	root-mean-square_error_of_predictions
+spectral density analysis	spectral mixture analysis	G05B 2219/37507	spectral_mixture_analysis
+cross correlation	cross-correlation function	G05B 2219/37508	cross-correlation_function
+cross correlation	cross correlation methods	G05B 2219/37508	cross_correlation_methods
+frequency analysis	time frequency analysis	G05B 2219/37534	time_frequency_analysis
+frequency analysis	time-frequency analysis	G05B 2219/37534	time-frequency_analysis
+material removal rate	material removal rate	G05B 2219/37602	material_removal_rate
+system time constant	timed systems	G05B 2219/37603	timed_systems
+by measuring vibration	mechanical vibrations	G05B 2219/37634	mechanical_vibrations
+robot, manipulator control	robot manipulator	G05B 2219/39001	robot_manipulator
+calculate, jacobian matrix estimator	jacobian matrices	G05B 2219/39062	jacobian_matrices
+flexible joint	flexible joints	G05B 2219/39186	flexible_joints
+markov model	markov models	G05B 2219/39205	markov_models
+markov model	markov model	G05B 2219/39205	markov_model
+force tracking	force tracking	G05B 2219/39218	force_tracking
+trajectory tracking	trajectory tracking	G05B 2219/39219	trajectory_tracking
+disturbance rejection, suppression	disturbance rejection	G05B 2219/39222	disturbance_rejection
+computed torque fuzzy controller	torque control	G05B 2219/39245	torque_control
+three objective attitude control	attitude control	G05B 2219/39258	attitude_control
+trajectory learning	trajectory clustering	G05B 2219/39298	trajectory_clustering
+force and position control	force control	G05B 2219/39322	force_control
+force and position control	position control	G05B 2219/39322	position_control
+force and motion control	motion control	G05B 2219/39323	motion_control
+fuzzy adaptive force control	adaptive fuzzy control	G05B 2219/39327	adaptive_fuzzy_control
+fuzzy adaptive force control	adaptive fuzzy controller	G05B 2219/39327	adaptive_fuzzy_controller
+fuzzy adaptive force control	adaptive fuzzy	G05B 2219/39327	adaptive_fuzzy
+adaptive force control	adaptive control schemes	G05B 2219/39332	adaptive_control_schemes
+adaptive force control	robust adaptive control	G05B 2219/39332	robust_adaptive_control
+adaptive force control	adaptive control	G05B 2219/39332	adaptive_control
+adaptive force control	robust-adaptive control	G05B 2219/39332	robust-adaptive_control
+adaptive force control	adaptive control systems	G05B 2219/39332	adaptive_control_systems
+admittance control, admittance is tip speed-force	admission control	G05B 2219/39339	admission_control
+adaptive impedance control	impedance control	G05B 2219/39342	impedance_control
+joint space observer	joint space	G05B 2219/39353	joint_space
+observer, disturbance observer	disturbance observer	G05B 2219/39355	disturbance_observer
+fuzzy for planning, fuzzy neural for adaptive force control	adaptive neural control	G05B 2219/39373	adaptive_neural_control
+integrated structure and control design	design and control	G05B 2219/39408	design_and_control
+augmented reality for robot programming	augmented reality	G05B 2219/39451	augmented_reality
+finger tracks moving light spot on object	moving object tracking	G05B 2219/39477	moving_object_tracking
+control force and posture of hand	hand posture	G05B 2219/39478	hand_posture
+plan hand shape	hand shape	G05B 2219/39539	hand_shape
+robotics, robotics mapping to robotics vision	autonomous mobile robot	G05B 2219/40	autonomous_mobile_robot
+point with tip always to same remote target point	point targets	G05B 2219/40085	point_targets
+by changing knowledge base directly	knowledge bases	G05B 2219/40094	knowledge_bases
+by changing knowledge base directly	knowledge base	G05B 2219/40094	knowledge_base
+task planning	task planning	G05B 2219/40113	task_planning
+stereo audio and vision	stereo vision	G05B 2219/40136	stereo_vision
+moving of objects	moving object	G05B 2219/40154	moving_object
+moving of objects	moving objects	G05B 2219/40154	moving_objects
+design of controller	controller design method	G05B 2219/40179	controller_design_method
+if speed is important processors execute each different code, otherwise same code	process execution	G05B 2219/40209	process_execution
+parallel robot, structure	parallel robot	G05B 2219/40235	parallel_robot
+parallel robot, structure	parallel robots	G05B 2219/40235	parallel_robots
+set friction in each joint to optimal value	joint optimization	G05B 2219/40259	joint_optimization
+flexible arm, link	flexible arm	G05B 2219/40279	flexible_arm
+manipulator on vehicle, wheels, mobile	vehicle mobility	G05B 2219/40298	vehicle_mobility
+simulation with des, discrete event system	discrete event systems	G05B 2219/40322	discrete_event_systems
+simulation with des, discrete event system	discrete event system	G05B 2219/40322	discrete_event_system
+singular value decomposition	decomposition level	G05B 2219/40326	decomposition_level
+singularity detection	singularity	G05B 2219/40354	singularity
+redundant manipulator	redundant manipulators	G05B 2219/40367	redundant_manipulators
+redundant manipulator	redundant manipulator	G05B 2219/40367	redundant_manipulator
+programming, visual robot programming language	visual programming	G05B 2219/40392	visual_programming
+for cooperating manipulators	cooperative works	G05B 2219/40417	cooperative_works
+local, directly search robot workspace	variable neighborhood search	G05B 2219/40437	variable_neighborhood_search
+graph based	graph-based	G05B 2219/40446	graph-based
+using gradient method	preconditioned conjugate gradient method	G05B 2219/40471	preconditioned_conjugate_gradient_method
+using genetic algorithm ga	genetic algorithm %28ga%29	G05B 2219/40473	genetic_algorithm_%28ga%29
+using genetic algorithm ga	genetic algorithm	G05B 2219/40473	genetic_algorithm
+using potential fields	potential field	G05B 2219/40474	potential_field
+using potential fields	potential fields	G05B 2219/40474	potential_fields
+planning of vehicle and of its manipulator arm	planar manipulator	G05B 2219/40513	planar_manipulator
+replanning	re-planning	G05B 2219/40516	re-planning
+motion, trajectory planning	motion planning	G05B 2219/40519	motion_planning
+joint limit	joint limits	G05B 2219/40552	joint_limits
+object detection	moving-object detection	G05B 2219/40563	moving-object_detection
+object detection	object detection algorithms	G05B 2219/40563	object_detection_algorithms
+object detection	moving object detection	G05B 2219/40563	moving_object_detection
+object detection	object detection method	G05B 2219/40563	object_detection_method
+object detection	object detection	G05B 2219/40563	object_detection
+object detection	detection of moving object	G05B 2219/40563	detection_of_moving_object
+object detection	object detection systems	G05B 2219/40563	object_detection_systems
+object detection	moving objects detection	G05B 2219/40563	moving_objects_detection
+tactile sensor	tactile sensation	G05B 2219/40625	tactile_sensation
+tactile sensor	tactile sensor	G05B 2219/40625	tactile_sensor
+tactile sensor	tactile sensing	G05B 2219/40625	tactile_sensing
+with computer	computer system firewalls	G05B 2219/41037	computer_system_firewalls
+with computer	computer aided geometric design	G05B 2219/41037	computer_aided_geometric_design
+with computer	computer aided logic design	G05B 2219/41037	computer_aided_logic_design
+with computer	computer systems programming - multiprocessing pro	G05B 2219/41037	computer_systems_programming_-_multiprocessing_pro
+with computer	computer resources	G05B 2219/41037	computer_resources
+with computer	computer system recovery	G05B 2219/41037	computer_system_recovery
+with computer	computer system	G05B 2219/41037	computer_system
+with computer	computer systems	G05B 2219/41037	computer_systems
+with cam	cam	G05B 2219/41069	cam
+kalman filter	adaptive kalman filter	G05B 2219/41146	adaptive_kalman_filter
+kalman filter	kalman filters	G05B 2219/41146	kalman_filters
+kalman filter	kalman filtering algorithms	G05B 2219/41146	kalman_filtering_algorithms
+kalman filter	kalman filter algorithms	G05B 2219/41146	kalman_filter_algorithms
+kalman filter	adaptive kalman filtering	G05B 2219/41146	adaptive_kalman_filtering
+kalman filter	kalman filter	G05B 2219/41146	kalman_filter
+kalman filter	unscented kalman filter	G05B 2219/41146	unscented_kalman_filter
+exponential filter	exponential functions	G05B 2219/41147	exponential_functions
+exponential filter	exponential stability	G05B 2219/41147	exponential_stability
+finite impulse response filter	finite impulse response filter	G05B 2219/41151	finite_impulse_response_filter
+adaptive filter	adaptive filtering algorithms	G05B 2219/41152	adaptive_filtering_algorithms
+adaptive filter	adaptive filters	G05B 2219/41152	adaptive_filters
+adaptive filter	adaptive filtering	G05B 2219/41152	adaptive_filtering
+adaptive filter	adaptive filter	G05B 2219/41152	adaptive_filter
+infinite impulse response filter	infinite impulse response	G05B 2219/41153	infinite_impulse_response
+infinite impulse response filter	fir filter	G05B 2219/41153	fir_filter
+infinite impulse response filter	iir digital filters	G05B 2219/41153	iir_digital_filters
+infinite impulse response filter	iir filter	G05B 2219/41153	iir_filter
+infinite impulse response filter	iir filters	G05B 2219/41153	iir_filters
+infinite impulse response filter	fir filters	G05B 2219/41153	fir_filters
+parallel compensation	parallel distributed compensation	G05B 2219/41169	parallel_distributed_compensation
+lag	handoff latency	G05B 2219/41186	handoff_latency
+notch filter	notch filter	G05B 2219/41232	notch_filter
+notch filter	notch filters	G05B 2219/41232	notch_filters
+dead band, zone	dead-zone	G05B 2219/41244	dead-zone
+chattering control	chattering	G05B 2219/41256	chattering
+ac-to-ac converter frequency controlled	frequency control	G05B 2219/41295	frequency_control
+pneumatic	pneumatic control	G05B 2219/41304	pneumatic_control
+gearbox	gear transmissions	G05B 2219/41359	gear_transmissions
+two estimators	ml estimators	G05B 2219/41369	ml_estimators
+inverse kinematic, dynamic	forward and inverse kinematics	G05B 2219/41405	forward_and_inverse_kinematics
+forward kinematics	parallel kinematic machines	G05B 2219/41413	parallel_kinematic_machines
+forward kinematics	kinematic redundancy	G05B 2219/41413	kinematic_redundancy
+forward kinematics	forward kinematics	G05B 2219/41413	forward_kinematics
+forward kinematics	kinematics analysis	G05B 2219/41413	kinematics_analysis
+feedforward of position	feed-forward controllers	G05B 2219/41427	feed-forward_controllers
+inverse, feedforward controller is inverse of closed loop system	closed loop control systems	G05B 2219/41453	closed_loop_control_systems
+proportional	proportional fairness	G05B 2219/42002	proportional_fairness
+digital event dynamic system control	digital control systems	G05B 2219/42006	digital_control_systems
+i regulator for speed loop	speed regulators	G05B 2219/42009	speed_regulators
+pi regulator for speed loop	speed regulators	G05B 2219/42011	speed_regulators
+kind of servo controller	servo control	G05B 2219/42033	servo_control
+adaptive robust controller	adaptive robust control	G05B 2219/42042	adaptive_robust_control
+pid like fuzzy controller with position and velocity inputs	fuzzy pid controller	G05B 2219/42047	fuzzy_pid_controller
+fuzzy p	t-s fuzzy	G05B 2219/42049	t-s_fuzzy
+fuzzy position controller	position controller	G05B 2219/42051	position_controller
+fuzzy pi and d control	fuzzy-pid control	G05B 2219/42052	fuzzy-pid_control
+fuzzy pi and d control	fuzzy pid-control	G05B 2219/42052	fuzzy_pid-control
+loop, p control for position loop	control loop	G05B 2219/42054	control_loop
+general predictive controller gpc	robust model predictive control	G05B 2219/42058	robust_model_predictive_control
+stochastic predictive controller spc	stochastic control	G05B 2219/42061	stochastic_control
+stochastic predictive controller spc	stochastic control systems	G05B 2219/42061	stochastic_control_systems
+position and force control loop together	open loop control	G05B 2219/42092	open_loop_control
+filter error learning	filtering error	G05B 2219/42141	filtering_error
+model	2-d model	G05B 2219/42155	2-d_model
+compensation of integration time of model	time integration	G05B 2219/42164	time_integration
+decoder	decode and forward	G05B 2219/42169	decode_and_forward
+remote reference transmitted to servo	transmitted reference	G05B 2219/42247	transmitted_reference
+stability analysis	robust stability analysis	G05B 2219/42267	robust_stability_analysis
+what kind of actuator failure	actuator failures	G05B 2219/42319	actuator_failures
+tracking control	tracking control	G05B 2219/42337	tracking_control
+tracking control	tracking controls	G05B 2219/42337	tracking_controls
+force tracking control	tracking control	G05B 2219/42341	tracking_control
+force tracking control	tracking controls	G05B 2219/42341	tracking_controls
+path, trajectory tracking control	trajectory tracking control	G05B 2219/42342	trajectory_tracking_control
+optimum, adaptive sliding mode controller	adaptive sliding mode control	G05B 2219/42343	adaptive_sliding_mode_control
+optimum, adaptive sliding mode controller	adaptive sliding mode controller	G05B 2219/42343	adaptive_sliding_mode_controller
+fuzzy sliding mode control fsmc	fuzzy sliding mode control	G05B 2219/42346	fuzzy_sliding_mode_control
+sliding mode controller smc, select other gain	sliding mode control %28smc%29	G05B 2219/42352	sliding_mode_control_%28smc%29
+sliding mode controller smc, select other gain	sliding-mode control	G05B 2219/42352	sliding-mode_control
+sliding mode controller smc, select other gain	sliding mode control	G05B 2219/42352	sliding_mode_control
+variable structure system, control vss vsc	variable structure controller	G05B 2219/42353	variable_structure_controller
+vco variable frequency oscillator or two oscilators with different frequency	variable frequency oscillators	G05B 2219/43139	variable_frequency_oscillators
+control depth of feed in by timer	depth control	G05B 2219/43153	depth_control
+feed rate	feed-rates	G05B 2219/43157	feed-rates
+distributed motion control	distributed power control	G05B 2219/43167	distributed_power_control
+sum of squares	sum of squares	G05B 2219/43189	sum_of_squares
+approximation	best approximations	G05B 2219/43191	best_approximations
+mining	data mining	G05B 2219/45004	data_mining
+theatre	control theory	G05B 2219/45008	control_theory
+radar	radar cross section %28rcs%29	G05B 2219/45016	radar_cross_section_%28rcs%29
+radar	radar absorbing materials	G05B 2219/45016	radar_absorbing_materials
+radar	radar transmitters	G05B 2219/45016	radar_transmitters
+radar	radar systems	G05B 2219/45016	radar_systems
+radar	radar interferometry	G05B 2219/45016	radar_interferometry
+radar	tracking radar	G05B 2219/45016	tracking_radar
+radar	radar equipment	G05B 2219/45016	radar_equipment
+radar	radar	G05B 2219/45016	radar
+radar	radar reflection	G05B 2219/45016	radar_reflection
+radar	radar detection	G05B 2219/45016	radar_detection
+radar	radar receivers	G05B 2219/45016	radar_receivers
+radar	radar cross section	G05B 2219/45016	radar_cross_section
+radar	radar interference	G05B 2219/45016	radar_interference
+radar	radar polarimetry	G05B 2219/45016	radar_polarimetry
+radar	radar tracking	G05B 2219/45016	radar_tracking
+cutting	cutting forces	G05B 2219/45044	cutting_forces
+cutting	cutting force	G05B 2219/45044	cutting_force
+microrobot	microrobot	G05B 2219/45073	microrobot
+microrobot	micro robots	G05B 2219/45073	micro_robots
+manipulators, robot	robot manipulators	G05B 2219/45083	robot_manipulators
+manipulators, robot	robot manipulator	G05B 2219/45083	robot_manipulator
+service robot	service robots	G05B 2219/45084	service_robots
+service robot	service robot	G05B 2219/45084	service_robot
+security, surveillance applications	surveillance applications	G05B 2219/45103	surveillance_applications
+welding	welding robots	G05B 2219/45135	welding_robots
+saw	surface acoustic wave	G05B 2219/45144	surface_acoustic_wave
+saw	saw	G05B 2219/45144	saw
+saw	surface acoustic waves	G05B 2219/45144	surface_acoustic_waves
+laser machining	laser micro-machining	G05B 2219/45165	laser_micro-machining
+optical, telescope	astronomical telescopes	G05B 2219/45179	astronomical_telescopes
+optical multiplexer	multiplexer	G05B 2219/45181	multiplexer
+making mirror, mirror segment	segmented mirror	G05B 2219/45223	segmented_mirror
+process control	process control	G05B 2219/45226	process_control
+making key	encryption methods	G05B 2219/45245	encryption_methods
+making key	cryptographic key	G05B 2219/45245	cryptographic_key
+making key	encryption key	G05B 2219/45245	encryption_key
+making key	encryption algorithm	G05B 2219/45245	encryption_algorithm
+making key	encryption algorithms	G05B 2219/45245	encryption_algorithms
+making key	encryption and decryption	G05B 2219/45245	encryption_and_decryption
+laser sintering of powder in layers, selective laser sintering sls	selective laser sintering	G05B 2219/49018	selective_laser_sintering
+fuzzy adaptive control	adaptive fuzzy control	G05B 2219/49064	adaptive_fuzzy_control
+fuzzy adaptive control	adaptive fuzzy controller	G05B 2219/49064	adaptive_fuzzy_controller
+fuzzy adaptive control	adaptive fuzzy	G05B 2219/49064	adaptive_fuzzy
+control cutting speed	speed control	G05B 2219/49074	speed_control
+control roughness of surface	control surfaces	G05B 2219/49084	control_surfaces
+chip thickness	chip thickness	G05B 2219/49104	chip_thickness
+spindle speed	spindle speed	G05B 2219/49108	spindle_speed
+gear	gear	G05B 2219/49197	gear
+gear	gear teeth	G05B 2219/49197	gear_teeth
+gear	spur gears	G05B 2219/49197	spur_gears
+gear	helical gears	G05B 2219/49197	helical_gears
+depth, tool depth control	depth control	G05B 2219/49237	depth_control
+eliminate double cutting	cut elimination	G05B 2219/49377	cut_elimination
+control of dwell time	dwell time	G05B 2219/49397	dwell_time
+for speed	at-speed	G05B 2219/50044	at-speed
+microprocessor	microprocessor chips	G05B 2219/50086	microprocessor_chips
+microprocessor	microprocessor	G05B 2219/50086	microprocessor
+against noise	noise source	G05B 2219/50191	noise_source
+against noise	peak signal to noise ratio	G05B 2219/50191	peak_signal_to_noise_ratio
+against noise	acoustic noise measurement	G05B 2219/50191	acoustic_noise_measurement
+against noise	noise removal	G05B 2219/50191	noise_removal
+against noise	peak signal to noise ratio %28psnr%29	G05B 2219/50191	peak_signal_to_noise_ratio_%28psnr%29
+against noise	spurious signal noise	G05B 2219/50191	spurious_signal_noise
+against noise	non-gaussian noise	G05B 2219/50191	non-gaussian_noise
+against noise	noise conditions	G05B 2219/50191	noise_conditions
+against noise	acoustic noise	G05B 2219/50191	acoustic_noise
+against noise	nonstationary noise	G05B 2219/50191	nonstationary_noise
+workpiece exchange	knowledge exchange	G05B 2219/50246	knowledge_exchange
+temperature	temperature monitoring	G05B 2219/50333	temperature_monitoring
+robot	wall climbing robot	G05B 2219/50391	wall_climbing_robot
+robot	robots	G05B 2219/50391	robots
+robot	robot	G05B 2219/50391	robot
+robot	robot control systems	G05B 2219/50391	robot_control_systems
+robot	robot swarms	G05B 2219/50391	robot_swarms
+for a single machine	single-machine	G05B 2219/50398	single-machine
+remote monitoring	remote monitoring	G05B 2223/06	remote_monitoring
+fleet control 	fleet management	G05D 1/0291	fleet_management
+control of altitude or depth	altitude control	G05D 1/04	altitude_control
+application	computer applications	G05D 2201/00	computer_applications
+application	computer application	G05D 2201/00	computer_application
+regulating electric power	electric power	G05F 1/66	electric_power
+storage mechanisms	storage services	G06C 13/00	storage_services
+keyboards	keyboard	G06C 7/02	keyboard
+interconnection networks, e.g. for shuffling	interconnection network	G06E 3/006	interconnection_network
+interconnection networks, e.g. for shuffling	interconnection networks	G06E 3/006	interconnection_networks
+wearable computers, e.g. on a belt	wearable computers	G06F 1/163	wearable_computers
+power distribution	power distribution network	G06F 1/189	power_distribution_network
+means for saving power	power saving mechanism	G06F 1/32	power_saving_mechanism
+power saving in bus	power saving mechanism	G06F 1/3253	power_saving_mechanism
+management of the backup or restore process	process management	G06F 11/1458	process_management
+failover techniques	failover	G06F 11/2023	failover
+asynchronous techniques	asynchronous design	G06F 11/2074	asynchronous_design
+test methods	test results	G06F 11/2273	test_results
+built-in tests	built-in self-test	G06F 11/27	built-in_self-test
+benchmarking	benchmark circuit	G06F 11/3428	benchmark_circuit
+benchmarking	benchmark circuits	G06F 11/3428	benchmark_circuits
+test management for test results analysis	test results	G06F 11/3692	test_results
+cache consistency protocols	cache coherence protocols	G06F 12/0815	cache_coherence_protocols
+cache access modes	cache access	G06F 12/0877	cache_access
+address translation	address translation	G06F 12/10	address_translation
+replacement control	replacement policy	G06F 12/12	replacement_policy
+protection against loss of memory contents	content protection	G06F 12/16	content_protection
+terminal emulation	termination analysis	G06F 13/107	termination_analysis
+details of memory controller	memory controller	G06F 13/1668	memory_controller
+information transfer, e.g. on bus	extrinsic information transfer charts	G06F 13/38	extrinsic_information_transfer_charts
+systolic arrays	systolic arrays	G06F 15/8046	systolic_arrays
+systolic arrays	systolic array	G06F 15/8046	systolic_array
+query results presentation	query results	G06F 16/156	query_results
+file meta data generation	test data generation	G06F 16/164	test_data_generation
+file system types	file system	G06F 16/18	file_system
+distributed file systems	distributed file systems	G06F 16/182	distributed_file_systems
+distributed file systems	distributed file system	G06F 16/182	distributed_file_system
+schema design and management	key management schemes	G06F 16/211	key_management_schemes
+concurrency control 	concurrent systems	G06F 16/2308	concurrent_systems
+concurrency control 	concurrency control	G06F 16/2308	concurrency_control
+optimistic concurrency control	optimal control problem	G06F 16/2315	optimal_control_problem
+optimistic concurrency control	optimal control systems	G06F 16/2315	optimal_control_systems
+optimistic concurrency control	optimal control	G06F 16/2315	optimal_control
+query languages	query languages	G06F 16/2433	query_languages
+grouping and aggregation	data aggregation	G06F 16/244	data_aggregation
+query processing	query processing	G06F 16/245	query_processing
+query translation	query translations	G06F 16/2452	query_translations
+query translation	query translation	G06F 16/2452	query_translation
+query optimisation	distributed query processing	G06F 16/2453	distributed_query_processing
+query rewriting; transformation	query rewritings	G06F 16/24534	query_rewritings
+query rewriting; transformation	query rewriting	G06F 16/24534	query_rewriting
+query rewriting; transformation of operators	query rewritings	G06F 16/24537	query_rewritings
+query rewriting; transformation of operators	query rewriting	G06F 16/24537	query_rewriting
+selectivity estimation or determination	selectivity estimation	G06F 16/24545	selectivity_estimation
+query execution	query execution	G06F 16/2455	query_execution
+database cache management	cache management	G06F 16/24552	cache_management
+distributed queries	distributed query	G06F 16/2471	distributed_query
+relational databases	relational database systems	G06F 16/284	relational_database_systems
+relational databases	relational databases	G06F 16/284	relational_databases
+relational databases	relational database	G06F 16/284	relational_database
+object oriented databases	object-oriented database	G06F 16/289	object-oriented_database
+object oriented databases	object oriented database	G06F 16/289	object_oriented_database
+object oriented databases	object-oriented databases	G06F 16/289	object-oriented_databases
+selection or weighting of terms for indexing	term weighting	G06F 16/313	term_weighting
+trees	fp tree	G06F 16/322	fp_tree
+query processing	query processing	G06F 16/3331	query_processing
+query translation	query translations	G06F 16/3332	query_translations
+query translation	query translation	G06F 16/3332	query_translation
+query expansion	query expansion	G06F 16/3338	query_expansion
+query execution 	query execution	G06F 16/334	query_execution
+ontology	ontology alignment	G06F 16/367	ontology_alignment
+ontology	ontology development	G06F 16/367	ontology_development
+ontology	ontology mapping	G06F 16/367	ontology_mapping
+ontology	ontology language	G06F 16/367	ontology_language
+ontology	ontology	G06F 16/367	ontology
+ontology	ontologies	G06F 16/367	ontologies
+ontology	ontology integration	G06F 16/367	ontology_integration
+ontology	ontology technology	G06F 16/367	ontology_technology
+ontology	fuzzy ontology	G06F 16/367	fuzzy_ontology
+ontology	service ontology	G06F 16/367	service_ontology
+ontology	ontology matching	G06F 16/367	ontology_matching
+query language or query format	formal specification language	G06F 16/7343	formal_specification_language
+query language or query format	formal languages	G06F 16/7343	formal_languages
+hypervideo 	hypermedia	G06F 16/748	hypermedia
+query processing	query processing	G06F 16/835	query_processing
+query translation	query translation	G06F 16/8358	query_translation
+query translation	query translations	G06F 16/8358	query_translations
+query optimisation	query optimization	G06F 16/8365	query_optimization
+query execution	query execution	G06F 16/8373	query_execution
+trees	fp-tree	G06F 16/9027	fp-tree
+query processing	query processing	G06F 16/90335	query_processing
+simultaneous equations {, e.g. systems of linear equations}	systems of linear equations	G06F 17/12	systems_of_linear_equations
+differential equations	differential equations	G06F 17/13	differential_equations
+discrete fourier transforms	discrete fourier transform	G06F 17/141	discrete_fourier_transform
+discrete fourier transforms	discrete fourier transforms	G06F 17/141	discrete_fourier_transforms
+discrete fourier transforms	discrete fourier transform %28dft%29	G06F 17/141	discrete_fourier_transform_%28dft%29
+wavelet transforms	wavelet transform	G06F 17/148	wavelet_transform
+wavelet transforms	wavelet transforms	G06F 17/148	wavelet_transforms
+asic	asic	G06F 2015/763	asic
+cache	cache	G06F 2015/765	cache
+cache	cache miss	G06F 2015/765	cache_miss
+user authentication	authentication protocols	G06F 21/31	authentication_protocols
+user authentication	authentication systems	G06F 21/31	authentication_systems
+user authentication	authentication mechanisms	G06F 21/31	authentication_mechanisms
+user authentication	user authentication	G06F 21/31	user_authentication
+user authentication	authentication scheme	G06F 21/31	authentication_scheme
+user authentication	authentication protocol	G06F 21/31	authentication_protocol
+user authentication	authentication methods	G06F 21/31	authentication_methods
+user authentication	user authentication scheme	G06F 21/31	user_authentication_scheme
+user authentication using certificates	user authentication scheme	G06F 21/33	user_authentication_scheme
+protecting data	data protection	G06F 21/60	data_protection
+trigonometric functions	cosine functions	G06F 2101/04	cosine_functions
+trigonometric functions	cosine transforms	G06F 2101/04	cosine_transforms
+probability distribution functions	probability distribution function	G06F 2101/14	probability_distribution_function
+numerical modelling	numerical modelling	G06F 2111/10	numerical_modelling
+numerical modelling	numerical model	G06F 2111/10	numerical_model
+numerical modelling	numerical modeling	G06F 2111/10	numerical_modeling
+numerical modelling	numerical models	G06F 2111/10	numerical_models
+system on chip [soc] design	system-on-a-chip	G06F 2115/02	system-on-a-chip
+clock gating	clock gating	G06F 2117/04	clock_gating
+buffer insertion	buffer insertion	G06F 2117/10	buffer_insertion
+sizing, e.g. of transistors or gates	gate sizing	G06F 2117/12	gate_sizing
+equivalence checking	equivalence checking	G06F 2119/16	equivalence_checking
+real-time	real time service	G06F 2201/805	real_time_service
+timestamp	timestamping	G06F 2201/835	timestamping
+delay lines	fiber delay lines	G06F 2205/104	fiber_delay_lines
+load balancing	load balancing problem	G06F 2206/1012	load_balancing_problem
+load balancing	load balancing problem	G06F 2206/1508	load_balancing_problem
+pipelining	pipelining	G06F 2207/3884	pipelining
+pipelining	pipe linings	G06F 2207/3884	pipe_linings
+systolic array	systolic array	G06F 2207/3892	systolic_array
+systolic array	systolic arrays	G06F 2207/3892	systolic_arrays
+multiplexers	multiplexer	G06F 2207/4812	multiplexer
+pass transistors	organic transistor	G06F 2207/4816	organic_transistor
+neural networks	back propagation neural networks	G06F 2207/4824	back_propagation_neural_networks
+neural networks	back-propagation neural network	G06F 2207/4824	back-propagation_neural_network
+neural networks	back-propagation neural networks	G06F 2207/4824	back-propagation_neural_networks
+neural networks	artificial neural network	G06F 2207/4824	artificial_neural_network
+neural networks	neural network model	G06F 2207/4824	neural_network_model
+neural networks	neural networks	G06F 2207/4824	neural_networks
+neural networks	neural network	G06F 2207/4824	neural_network
+neural networks	artificial neural networks	G06F 2207/4824	artificial_neural_networks
+lookup	ip lookup	G06F 2209/462	ip_lookup
+application	computer application	G06F 2209/482	computer_application
+application	computer applications	G06F 2209/482	computer_applications
+resource constraint	resource-constrained	G06F 2209/485	resource-constrained
+mode	traveling wave solution	G06F 2209/523	traveling_wave_solution
+client-server	client-server	G06F 2209/541	client-server
+client-server	client server	G06F 2209/541	client_server
+client-server	client-server architectures	G06F 2209/541	client-server_architectures
+gui	graphical user interfaces %28gui%29	G06F 2209/545	graphical_user_interfaces_%28gui%29
+gui	gui	G06F 2209/545	gui
+gui	graphical user interfaces	G06F 2209/545	graphical_user_interfaces
+gui	graphical user interface	G06F 2209/545	graphical_user_interface
+queue	queue	G06F 2209/548	queue
+bus	controller area network	G06F 2211/002	controller_area_network
+bus	can bus	G06F 2211/002	can_bus
+e-mail	e-mail systems	G06F 2211/006	e-mail_systems
+trust	trust evaluation	G06F 2211/009	trust_evaluation
+trust	trust degree	G06F 2211/009	trust_degree
+trust	trust relationship	G06F 2211/009	trust_relationship
+trust	trust negotiations	G06F 2211/009	trust_negotiations
+scalability	temporal scalability	G06F 2212/1048	temporal_scalability
+scalability	routing scalability	G06F 2212/1048	routing_scalability
+use in a specific computing environment	grid computing environment	G06F 2212/15	grid_computing_environment
+general purpose computing application	general-purpose computing	G06F 2212/16	general-purpose_computing
+embedded application	embedded application	G06F 2212/17	embedded_application
+telecommunications system	telecommunication systems	G06F 2212/174	telecommunication_systems
+smart card	smart card	G06F 2212/177	smart_card
+smart card	smart cards	G06F 2212/177	smart_cards
+smart card	smartcard	G06F 2212/177	smartcard
+non-volatile memory	non-volatile memory	G06F 2212/202	non-volatile_memory
+non-volatile memory	non-volatile memories	G06F 2212/202	non-volatile_memories
+non-volatile memory	nonvolatile memory	G06F 2212/202	nonvolatile_memory
+flash memory	flash memory	G06F 2212/2022	flash_memory
+flash memory	nand flash memory	G06F 2212/2022	nand_flash_memory
+flash memory	nand flash	G06F 2212/2022	nand_flash
+non-volatile memory	nonvolatile memory	G06F 2212/222	nonvolatile_memory
+non-volatile memory	non-volatile memories	G06F 2212/222	non-volatile_memories
+non-volatile memory	non-volatile memory	G06F 2212/222	non-volatile_memory
+local memory within processor subsystem	memory subsystems	G06F 2212/251	memory_subsystems
+distributed memory	distributed memory architecture	G06F 2212/254	distributed_memory_architecture
+distributed memory	distributed memory	G06F 2212/254	distributed_memory
+remote server	remote servers	G06F 2212/264	remote_servers
+using a specific cache architecture	cache architecture	G06F 2212/27	cache_architecture
+in storage device	storage devices	G06F 2212/313	storage_devices
+encrypted data	encrypted data	G06F 2212/402	encrypted_data
+instruction code	instruction caches	G06F 2212/452	instruction_caches
+using a specific cache allocation policy other than replacement policy	cache replacement policy	G06F 2212/6046	cache_replacement_policy
+inter-integrated circuit 	very large-scale integration	G06F 2213/0016	very_large-scale_integration
+pci express	pci express	G06F 2213/0026	pci_express
+system on chip	system on chips	G06F 2213/0038	system_on_chips
+system on chip	systems on chips	G06F 2213/0038	systems_on_chips
+system on chip	system on chip	G06F 2213/0038	system_on_chip
+system on chip	system-on-chip	G06F 2213/0038	system-on-chip
+system on chip	systems-on-chip	G06F 2213/0038	systems-on-chip
+system on chip	soc	G06F 2213/0038	soc
+system on chip	system-on-chip %28soc%29	G06F 2213/0038	system-on-chip_%28soc%29
+bus-related hardware virtualisation	virtualized environment	G06F 2213/0058	virtualized_environment
+memory access	memory access	G06F 2213/16	memory_access
+memory access type	memory access latency	G06F 2213/1602	memory_access_latency
+memory access type	memory access patterns	G06F 2213/1602	memory_access_patterns
+very long instruction word dma	very long instruction word architecture	G06F 2213/2808	very_long_instruction_word_architecture
+mobile device	mobile devices	G06F 2213/3806	mobile_devices
+mobile device	mobile device	G06F 2213/3806	mobile_device
+network interface controller	network interface	G06F 2213/3808	network_interface
+data mining	data mining applications	G06F 2216/03	data_mining_applications
+data mining	web data mining	G06F 2216/03	web_data_mining
+data mining	data mining algorithm	G06F 2216/03	data_mining_algorithm
+data mining	data mining techniques	G06F 2216/03	data_mining_techniques
+data mining	mining algorithms	G06F 2216/03	mining_algorithms
+data mining	data mining	G06F 2216/03	data_mining
+data mining	data mining technology	G06F 2216/03	data_mining_technology
+data mining	data mining methods	G06F 2216/03	data_mining_methods
+data mining	data mining process	G06F 2216/03	data_mining_process
+data mining	visual data mining	G06F 2216/03	visual_data_mining
+prefetching	prefetching	G06F 2216/13	prefetching
+prefetching	pre-fetching	G06F 2216/13	pre-fetching
+binding	binding update	G06F 2221/0702	binding_update
+device	facts devices	G06F 2221/0704	facts_devices
+user	usability testing	G06F 2221/0713	usability_testing
+user	user interests	G06F 2221/0713	user_interests
+content	course contents	G06F 2221/0722	course_contents
+personalisation	web personalization	G06F 2221/0726	web_personalization
+watermark	watermark detection	G06F 2221/0733	watermark_detection
+watermark	watermark extraction	G06F 2221/0733	watermark_extraction
+watermark	watermark embedding	G06F 2221/0733	watermark_embedding
+watermark	watermarking algorithms	G06F 2221/0733	watermarking_algorithms
+watermark	watermarked images	G06F 2221/0733	watermarked_images
+watermark	watermarking schemes	G06F 2221/0733	watermarking_schemes
+watermark	watermarking techniques	G06F 2221/0733	watermarking_techniques
+traceability	traceability management	G06F 2221/0737	traceability_management
+tracing pattern recognition	pattern recognition	G06F 2221/074	pattern_recognition
+hiding	hiding capacity	G06F 2221/0748	hiding_capacity
+hiding	image hiding	G06F 2221/0748	image_hiding
+key	encryption methods	G06F 2221/0751	encryption_methods
+key	encryption algorithms	G06F 2221/0751	encryption_algorithms
+key	encryption algorithm	G06F 2221/0751	encryption_algorithm
+key	encryption key	G06F 2221/0751	encryption_key
+key	encryption schemes	G06F 2221/0751	encryption_schemes
+key	encryption	G06F 2221/0751	encryption
+key	cryptographic key	G06F 2221/0751	cryptographic_key
+key	encryption and decryption	G06F 2221/0751	encryption_and_decryption
+distribution	distribution of goods	G06F 2221/0753	distribution_of_goods
+recurrent authorisation	authorization	G06F 2221/0773	authorization
+transfer	knowledge transfer	G06F 2221/0779	knowledge_transfer
+challenge-response	challenge response	G06F 2221/2103	challenge_response
+game systems	game theory	G06F 2221/2109	game_theory
+third party	third party logistics	G06F 2221/2115	third_party_logistics
+permissions	access permissions	G06F 3/0637	access_permissions
+status or feedback related to information exchange	channel state information feedbacks	G06F 3/1294	channel_state_information_feedbacks
+computer-aided design [cad]	computer aided design %28cad%29	G06F 30/00	computer_aided_design_%28cad%29
+computer-aided design [cad]	cad	G06F 30/00	cad
+circuit design at the digital level	system level design	G06F 30/32	system_level_design
+circuit design at the digital level	system-level design	G06F 30/32	system-level_design
+timing analysis	timing analysis	G06F 30/3312	timing_analysis
+circuit design at the physical level	integrated circuit layout	G06F 30/39	integrated_circuit_layout
+routing	routing algorithms	G06F 30/394	routing_algorithms
+routing	routing	G06F 30/394	routing
+routing	routing algorithm	G06F 30/394	routing_algorithm
+routing	network routing	G06F 30/394	network_routing
+routing	adaptive routing algorithm	G06F 30/394	adaptive_routing_algorithm
+clock trees	clock tree	G06F 30/396	clock_tree
+text processing	text processing	G06F 40/10	text_processing
+storage facilities	facility management	G06F 40/123	facility_management
+hierarchical processing, e.g. outlines	hierarchical dirichlet process	G06F 40/137	hierarchical_dirichlet_process
+templates	template images	G06F 40/186	template_images
+templates	template matching	G06F 40/186	template_matching
+version control	version management	G06F 40/197	version_management
+natural language analysis	natural language text	G06F 40/20	natural_language_text
+natural language analysis	natural language processing	G06F 40/20	natural_language_processing
+parsing	dependency parsing	G06F 40/205	dependency_parsing
+parsing	parsing algorithm	G06F 40/205	parsing_algorithm
+parsing	parsing	G06F 40/205	parsing
+parsing	dependency parser	G06F 40/205	dependency_parser
+parsing	syntactic parsing	G06F 40/205	syntactic_parsing
+validation	validation	G06F 40/226	validation
+dictionaries	bilingual dictionary	G06F 40/242	bilingual_dictionary
+recognition of textual entities	text recognition	G06F 40/279	text_recognition
+named entity recognition	named entities	G06F 40/295	named_entities
+named entity recognition	named entity recognition	G06F 40/295	named_entity_recognition
+named entity recognition	named entity	G06F 40/295	named_entity
+semantic analysis	semantic relationships	G06F 40/30	semantic_relationships
+semantic analysis	semantic features	G06F 40/30	semantic_features
+semantic analysis	semantic information	G06F 40/30	semantic_information
+semantic analysis	semantic annotation	G06F 40/30	semantic_annotation
+semantic analysis	semantic relations	G06F 40/30	semantic_relations
+semantic analysis	semantic analysis	G06F 40/30	semantic_analysis
+semantic analysis	semantic annotations	G06F 40/30	semantic_annotations
+semantic analysis	sentiment analysis	G06F 40/30	sentiment_analysis
+processing or translation of natural language	natural language processing	G06F 40/40	natural_language_processing
+translation evaluation	fitness evaluations	G06F 40/51	fitness_evaluations
+natural language generation	natural language generation	G06F 40/56	natural_language_generation
+interval arithmetic	computer arithmetic	G06F 7/49989	computer_arithmetic
+pseudo-random number generators	random number generators	G06F 7/582	random_number_generators
+pseudo-random number generators	pseudo random number generators	G06F 7/582	pseudo_random_number_generators
+pseudo-random number generators	random number generator	G06F 7/582	random_number_generator
+modular multiplication 	modular multiplication	G06F 7/722	modular_multiplication
+modular exponentiation 	modular exponentiation	G06F 7/723	modular_exponentiation
+finite field arithmetic 	finite field arithmetic	G06F 7/724	finite_field_arithmetic
+creation or generation of source code	code generations	G06F 8/30	code_generations
+creation or generation of source code	code generation	G06F 8/30	code_generation
+logic programming, e.g. prolog programming language	prolog %28programming language%29	G06F 8/313	prolog_%28programming_language%29
+transformation of program code	transform coding	G06F 8/40	transform_coding
+syntactic analysis	syntactic analysis	G06F 8/42	syntactic_analysis
+syntactic analysis	syntactics	G06F 8/42	syntactics
+parsing	syntactic parsing	G06F 8/427	syntactic_parsing
+parsing	parsing algorithm	G06F 8/427	parsing_algorithm
+parsing	parsing	G06F 8/427	parsing
+parsing	dependency parsing	G06F 8/427	dependency_parsing
+parsing	dependency parser	G06F 8/427	dependency_parser
+type checking	typechecking	G06F 8/437	typechecking
+encoding	encoding time	G06F 8/44	encoding_time
+reducing the energy consumption	reducing energy consumption	G06F 8/4432	reducing_energy_consumption
+target code generation	code generation	G06F 8/447	code_generation
+target code generation	code generations	G06F 8/447	code_generations
+consistency 	consistency analysis	G06F 8/454	consistency_analysis
+consistency 	consistency checking	G06F 8/454	consistency_checking
+parallelism detection	parallelism	G06F 8/456	parallelism
+communication 	communication constraints	G06F 8/457	communication_constraints
+communication 	communication protocols	G06F 8/457	communication_protocols
+communication 	communication protocol	G06F 8/457	communication_protocol
+communication 	communication	G06F 8/457	communication
+code refactoring	refactoring tools	G06F 8/72	refactoring_tools
+structural analysis for program understanding	program understanding	G06F 8/75	program_understanding
+code clone detection	code clone	G06F 8/751	code_clone
+object-oriented	object-oriented	G06F 9/4488	object-oriented
+object-oriented	object oriented	G06F 9/4488	object_oriented
+object-oriented method invocation or resolution	object oriented method	G06F 9/449	object_oriented_method
+finite state machines	finite state machines %28fsm%29	G06F 9/4498	finite_state_machines_%28fsm%29
+finite state machines	finite state machines	G06F 9/4498	finite_state_machines
+finite state machines	finite state machine	G06F 9/4498	finite_state_machine
+finite state machines	finite-state machines	G06F 9/4498	finite-state_machines
+hypervisors; virtual machine monitors	virtual machine monitors	G06F 9/45533	virtual_machine_monitors
+hypervisors; virtual machine monitors	virtual machine monitor	G06F 9/45533	virtual_machine_monitor
+hypervisors; virtual machine monitors	xen	G06F 9/45533	xen
+transaction processing	transaction processing	G06F 9/466	transaction_processing
+transaction processing	transaction processing systems	G06F 9/466	transaction_processing_systems
+transactional memory 	transactional memory	G06F 9/467	transactional_memory
+grid computing	computational grid	G06F 9/5072	computational_grid
+grid computing	computational grids	G06F 9/5072	computational_grids
+grid computing	grid computing	G06F 9/5072	grid_computing
+grid computing	grid computing systems	G06F 9/5072	grid_computing_systems
+grid computing	grid computing environment	G06F 9/5072	grid_computing_environment
+rasterization	rasterization	G06K 15/1836	rasterization
+image enhancement	image enhancement	G06K 15/1872	image_enhancement
+holographic, diffractive or retroreflective recording	holographic recordings	G06K 2019/0629	holographic_recordings
+programmable	programmability	G06K 2207/1017	programmability
+generic data transformation	generalized hough transform	G06K 2215/004	generalized_hough_transform
+error recovery	error recovery	G06K 2215/0085	error_recovery
+methods for optical code recognition	face recognition methods	G06K 7/1404	face_recognition_methods
+denoising	de-noising	G06K 9/0051	de-noising
+denoising	de-nosing	G06K 9/0051	de-nosing
+feature extraction 	facial feature extraction	G06K 9/00523	facial_feature_extraction
+classification; matching by matching peak patterns	pattern classification	G06K 9/00543	pattern_classification
+clustering techniques	clustering results	G06K 9/6218	clustering_results
+clustering techniques	clustering approach	G06K 9/6218	clustering_approach
+clustering techniques	clustering methods	G06K 9/6218	clustering_methods
+clustering techniques	clustering process	G06K 9/6218	clustering_process
+clustering techniques	clustering analysis	G06K 9/6218	clustering_analysis
+clustering techniques	clustering method	G06K 9/6218	clustering_method
+clustering techniques	clustering techniques	G06K 9/6218	clustering_techniques
+clustering techniques	clustering problems	G06K 9/6218	clustering_problems
+rendering the within-class scatter matrix non-singular	within-class scatter matrix	G06K 9/6235	within-class_scatter_matrix
+selecting classification rules	classification rules	G06K 9/626	classification_rules
+classification techniques	classification rates	G06K 9/6267	classification_rates
+classification techniques	classification technique	G06K 9/6267	classification_technique
+bayesian classification	bayesian classification	G06K 9/6278	bayesian_classification
+multiple classes	multiple classifiers	G06K 9/628	multiple_classifiers
+machine learning	machine learning algorithms	G06N 20/00	machine_learning_algorithms
+machine learning	machine learnings	G06N 20/00	machine_learnings
+machine learning	machine learning	G06N 20/00	machine_learning
+machine learning	supervised machine learning	G06N 20/00	supervised_machine_learning
+machine learning	machine learning methods	G06N 20/00	machine_learning_methods
+machine learning	machine learning techniques	G06N 20/00	machine_learning_techniques
+machine learning	machine-learning	G06N 20/00	machine-learning
+ensemble learning	ensemble methods	G06N 20/20	ensemble_methods
+ensemble learning	ensemble learning	G06N 20/20	ensemble_learning
+learning methods	machine learning methods	G06N 3/08	machine_learning_methods
+back-propagation	backpropagation algorithms	G06N 3/084	backpropagation_algorithms
+back-propagation	backpropagation network	G06N 3/084	backpropagation_network
+back-propagation	back propagation algorithm	G06N 3/084	back_propagation_algorithm
+back-propagation	backpropagation	G06N 3/084	backpropagation
+back-propagation	back-propagation	G06N 3/084	back-propagation
+back-propagation	back propagation	G06N 3/084	back_propagation
+back-propagation	backpropagation algorithm	G06N 3/084	backpropagation_algorithm
+knowledge representation	knowledge representation	G06N 5/02	knowledge_representation
+knowledge engineering; knowledge acquisition	knowledge engineering	G06N 5/022	knowledge_engineering
+knowledge engineering; knowledge acquisition	knowledge engineers	G06N 5/022	knowledge_engineers
+frames	frames	G06N 5/027	frames
+pattern matching networks; rete networks	matching networks	G06N 5/047	matching_networks
+probabilistic networks	probabilistic routing	G06N 7/005	probabilistic_routing
+operations research or analysis	operational modal analysis	G06Q 10/063	operational_modal_analysis
+strategic management or analysis	strategic management	G06Q 10/0637	strategic_management
+performance analysis	performance analysis	G06Q 10/0639	performance_analysis
+performance analysis	architecture performance analysis	G06Q 10/0639	architecture_performance_analysis
+business modelling	business modeling	G06Q 10/067	business_modeling
+tracking	force tracking	G06Q 10/0833	force_tracking
+historical data	historical documents	G06Q 10/0838	historical_documents
+shopping for digital content	digital contents	G06Q 20/123	digital_contents
+shopping for digital content	digital content	G06Q 20/123	digital_content
+personalisation of cards for use	personalized information	G06Q 20/355	personalized_information
+personalisation of cards for use	personal information	G06Q 20/355	personal_information
+access rights to memory zones	access rights	G06Q 20/35765	access_rights
+transaction verification using location information	location information	G06Q 20/4015	location_information
+data protection	data protection	G06Q 2250/40	data_protection
+customer relationship, e.g. warranty	customer relationship management %28crm%29	G06Q 30/01	customer_relationship_management_%28crm%29
+customer relationship, e.g. warranty	customer relationship management	G06Q 30/01	customer_relationship_management
+market segmentation	customer segmentation	G06Q 30/0204	customer_segmentation
+re-usable coupons	reusable components	G06Q 30/0221	reusable_components
+during e-commerce, i.e. online transactions	e-commerce transactions	G06Q 30/0222	e-commerce_transactions
+optimization	structure optimization	G06Q 30/0244	structure_optimization
+optimization	optimization	G06Q 30/0244	optimization
+during e-commerce, i.e. online transactions	e-commerce transactions	G06Q 30/0253	e-commerce_transactions
+wireless devices	wireless technology	G06Q 30/0267	wireless_technology
+auctions	auction mechanisms	G06Q 30/0275	auction_mechanisms
+anonymizing	anonymity	G06Q 30/0615	anonymity
+social networking	social networking sites	G06Q 50/01	social_networking_sites
+services	e-services	G06Q 50/10	e-services
+education	education	G06Q 50/20	education
+personal security, identity or safety	person identification	G06Q 50/265	person_identification
+image acquisition	image acquisition	G06T 1/0007	image_acquisition
+image watermarking	image watermarking	G06T 1/0021	image_watermarking
+memory management	memory management	G06T 1/60	memory_management
+memory management	memory allocation	G06T 1/60	memory_allocation
+ray-tracing	ray tracing	G06T 15/06	ray_tracing
+ray-tracing	ray-tracing	G06T 15/06	ray-tracing
+image-based rendering	image rendering	G06T 15/205	image_rendering
+radiosity	radiosity	G06T 15/55	radiosity
+shadow generation	shadow detection	G06T 15/60	shadow_detection
+shadow generation	shadow detections	G06T 15/60	shadow_detections
+shading	vertex set	G06T 15/80	vertex_set
+mixed reality 	mixed reality	G06T 19/006	mixed_reality
+image watermarking	image watermarking	G06T 2201/005	image_watermarking
+embedding of the watermark in the spatial domain	embedding watermarks	G06T 2201/0051	embedding_watermarks
+image acquisition modality	image acquisition systems	G06T 2207/10	image_acquisition_systems
+stereo images	stereo image	G06T 2207/10012	stereo_image
+stereo images	stereo-image	G06T 2207/10012	stereo-image
+stereo images	stereo images	G06T 2207/10012	stereo_images
+stereo images	stereo pair	G06T 2207/10012	stereo_pair
+stereoscopic video; stereoscopic image sequence	stereoscopic video	G06T 2207/10021	stereoscopic_video
+color image	color images	G06T 2207/10024	color_images
+color image	color image	G06T 2207/10024	color_image
+satellite or aerial image; remote sensing	remote sensing images	G06T 2207/10032	remote_sensing_images
+satellite or aerial image; remote sensing	remote sensing image	G06T 2207/10032	remote_sensing_image
+satellite or aerial image; remote sensing	remote sensing imagery	G06T 2207/10032	remote_sensing_imagery
+panchromatic image	panchromatic image	G06T 2207/10041	panchromatic_image
+panchromatic image	panchromatic images	G06T 2207/10041	panchromatic_images
+radar image	radar imagery	G06T 2207/10044	radar_imagery
+radar image	radar imaging	G06T 2207/10044	radar_imaging
+infrared image	infrared imaging	G06T 2207/10048	infrared_imaging
+infrared image	infrared imagery	G06T 2207/10048	infrared_imagery
+microscopic image from scanning electron microscope	electron microscope tomography	G06T 2207/10061	electron_microscope_tomography
+tomographic images	optical tomography	G06T 2207/10072	optical_tomography
+diffusion tensor magnetic resonance imaging [dti]	diffusion tensor imaging %28dti%29	G06T 2207/10092	diffusion_tensor_imaging_%28dti%29
+optical tomography; optical coherence tomography [oct]	optical coherence tomography %28oct%29	G06T 2207/10101	optical_coherence_tomography_%28oct%29
+single photon emission computed tomography [spect]	single photon emission computed tomography	G06T 2207/10108	single_photon_emission_computed_tomography
+digital tomosynthesis [dts]	digital breast tomosynthesis	G06T 2207/10112	digital_breast_tomosynthesis
+digitally reconstructed radiograph [drr]	digital radiography	G06T 2207/10124	digital_radiography
+ultrasound image	ultrasound images	G06T 2207/10132	ultrasound_images
+ultrasound image	ultrasound image	G06T 2207/10132	ultrasound_image
+ultrasound image	ultrasound imaging	G06T 2207/10132	ultrasound_imaging
+varying illumination	illumination variation	G06T 2207/10152	illumination_variation
+adaptive image processing	adaptive signal processing	G06T 2207/20004	adaptive_signal_processing
+median filtering	median filtering	G06T 2207/20032	median_filtering
+median filtering	median filters	G06T 2207/20032	median_filters
+median filtering	median filter	G06T 2207/20032	median_filter
+transform domain processing	transform domain	G06T 2207/20048	transform_domain
+discrete cosine transform [dct]	discrete cosine transform	G06T 2207/20052	discrete_cosine_transform
+hough transform	hough transformation	G06T 2207/20061	hough_transformation
+hough transform	hough transforms	G06T 2207/20061	hough_transforms
+hough transform	generalized hough transform	G06T 2207/20061	generalized_hough_transform
+hough transform	hough transform	G06T 2207/20061	hough_transform
+wavelet transform [dwt]	discrete wavelet transform	G06T 2207/20064	discrete_wavelet_transform
+image segmentation details	image segmentation	G06T 2207/20112	image_segmentation
+watershed segmentation	watershed transform	G06T 2207/20152	watershed_transform
+watershed segmentation	watershed segmentation	G06T 2207/20152	watershed_segmentation
+level set	level sets	G06T 2207/20161	level_sets
+level set	level set functions	G06T 2207/20161	level_set_functions
+level set	level measurement	G06T 2207/20161	level_measurement
+level set	level set method	G06T 2207/20161	level_set_method
+level set	level set approach	G06T 2207/20161	level_set_approach
+level set	level set methods	G06T 2207/20161	level_set_methods
+level set	level-set method	G06T 2207/20161	level-set_method
+level set	level-set	G06T 2207/20161	level-set
+level set	level set segmentation	G06T 2207/20161	level_set_segmentation
+image enhancement details	color image enhancement	G06T 2207/20172	color_image_enhancement
+motion blur correction	motion blur	G06T 2207/20201	motion_blur
+image fusion; image merging	fusion image	G06T 2207/20221	fusion_image
+image fusion; image merging	image fusion	G06T 2207/20221	image_fusion
+image subtraction	image subtraction	G06T 2207/20224	image_subtraction
+spine; backbone	spin	G06T 2207/30012	spin
+metal	metal insulator boundaries	G06T 2207/30136	metal_insulator_boundaries
+metal	metal working tools	G06T 2207/30136	metal_working_tools
+solder	soldered joints	G06T 2207/30152	soldered_joints
+infrastructure	it infrastructures	G06T 2207/30184	it_infrastructures
+infrastructure	it infrastructure	G06T 2207/30184	it_infrastructure
+face	facial feature points	G06T 2207/30201	facial_feature_points
+face	facial feature	G06T 2207/30201	facial_feature
+face	facial features	G06T 2207/30201	facial_features
+face	facial images	G06T 2207/30201	facial_images
+military	military photography	G06T 2207/30212	military_photography
+surveillance	surveillance video	G06T 2207/30232	surveillance_video
+surveillance	video surveillance	G06T 2207/30232	video_surveillance
+surveillance	surveillance systems	G06T 2207/30232	surveillance_systems
+surveillance	video surveillance systems	G06T 2207/30232	video_surveillance_systems
+surveillance	surveillance system	G06T 2207/30232	surveillance_system
+surveillance	surveillance cameras	G06T 2207/30232	surveillance_cameras
+trajectory	trajectory data	G06T 2207/30241	trajectory_data
+trajectory	trajectory planning	G06T 2207/30241	trajectory_planning
+camera pose	camera pose estimation	G06T 2207/30244	camera_pose_estimation
+lane; road marking	lane markings	G06T 2207/30256	lane_markings
+bounding box	bounding volume	G06T 2210/12	bounding_volume
+force feedback	force feedback	G06T 2210/28	force_feedback
+force feedback	force-feedback	G06T 2210/28	force-feedback
+force feedback	feedback control	G06T 2210/28	feedback_control
+image data format	image formations	G06T 2210/32	image_formations
+medical	median value	G06T 2210/41	median_value
+parallel processing	parallel processing	G06T 2210/52	parallel_processing
+scene description	scene text	G06T 2210/61	scene_text
+weathering	weather radar	G06T 2210/64	weather_radar
+weathering	weather radars	G06T 2210/64	weather_radars
+computed tomography	computed tomographies	G06T 2211/40	computed_tomographies
+computed tomography	x-ray computed tomography	G06T 2211/40	x-ray_computed_tomography
+computed tomography	computerized tomography	G06T 2211/40	computerized_tomography
+computed tomography	multidetector computed tomography	G06T 2211/40	multidetector_computed_tomography
+computed tomography	tomography%2C spiral computed	G06T 2211/40	tomography%2C_spiral_computed
+real-time	real time systems	G06T 2211/428	real_time_systems
+indexing scheme for image rendering	image rendering	G06T 2215/00	image_rendering
+multi-user, collaborative environment	collaborative learning environment	G06T 2219/024	collaborative_learning_environment
+multiple view windows 	multiple views	G06T 2219/028	multiple_views
+geometric image transformation in the plane of the image	geometric transformation	G06T 3/00	geometric_transformation
+geometric image transformation in the plane of the image	geometric transformations	G06T 3/00	geometric_transformations
+image enhancement or restoration	color image enhancement	G06T 5/00	color_image_enhancement
+image restoration	image restoration	G06T 5/001	image_restoration
+dynamic range modification 	wide dynamic range	G06T 5/007	wide_dynamic_range
+image analysis	image analysis	G06T 7/00	image_analysis
+image analysis	document image analysis	G06T 7/00	document_image_analysis
+edge detection	image edge detection	G06T 7/13	image_edge_detection
+edge detection	canny edge detectors	G06T 7/13	canny_edge_detectors
+edge detection	edge detectors	G06T 7/13	edge_detectors
+edge detection	edge detection algorithms	G06T 7/13	edge_detection_algorithms
+edge detection	edge detection methods	G06T 7/13	edge_detection_methods
+edge detection	edge detection	G06T 7/13	edge_detection
+analysis of motion	motion analysis	G06T 7/20	motion_analysis
+motion-based segmentation	motion segmentation	G06T 7/215	motion_segmentation
+depth or shape recovery	shape recovery	G06T 7/50	shape_recovery
+image coding	image coding	G06T 9/00	image_coding
+transform coding, e.g. discrete cosine transform	discrete cosine transform coefficients	G06T 9/007	discrete_cosine_transform_coefficients
+vector quantisation	vector quantization %28vq%29	G06T 9/008	vector_quantization_%28vq%29
+vector quantisation	vector quantization	G06T 9/008	vector_quantization
+image acquisition	image acquisition	G06V 10/10	image_acquisition
+noise filtering	noise detection	G06V 10/30	noise_detection
+graphical representations	graphical representations	G06V 10/426	graphical_representations
+graphical representations	graphical representation	G06V 10/426	graphical_representation
+sparse representations	sparse solutions	G06V 10/513	sparse_solutions
+matching configurations of points or features	feature matching	G06V 10/757	feature_matching
+proximity, similarity or dissimilarity measures	similarity matrix	G06V 10/761	similarity_matrix
+license plates	vehicle license plates	G06V 20/625	vehicle_license_plates
+three-dimensional objects	imaging%2C three-dimensional	G06V 20/64	imaging%2C_three-dimensional
+target detection	target detection	G06V 2201/07	target_detection
+target detection	target detections	G06V 2201/07	target_detections
+character recognition	character recognition	G06V 30/10	character_recognition
+image acquisition	image acquisition	G06V 30/14	image_acquisition
+segmentation of character regions	character segmentation	G06V 30/148	character_segmentation
+clustering techniques	clustering techniques	G06V 30/19107	clustering_techniques
+clustering techniques	clustering problems	G06V 30/19107	clustering_problems
+clustering techniques	clustering approach	G06V 30/19107	clustering_approach
+clustering techniques	clustering method	G06V 30/19107	clustering_method
+clustering techniques	clustering analysis	G06V 30/19107	clustering_analysis
+clustering techniques	clustering results	G06V 30/19107	clustering_results
+clustering techniques	clustering process	G06V 30/19107	clustering_process
+clustering techniques	clustering methods	G06V 30/19107	clustering_methods
+graph matching 	graph matchings	G06V 30/1988	graph_matchings
+graph matching 	graph matching	G06V 30/1988	graph_matching
+character recognition characterised by the type of writing	character recognition system	G06V 30/22	character_recognition_system
+font recognition	name recognition	G06V 30/245	name_recognition
+analysis of document content	document analysis	G06V 30/41	document_analysis
+document matching, e.g. of document images	document images	G06V 30/418	document_images
+facial expression recognition	facial expression recognition	G06V 40/174	facial_expression_recognition
+static expression	asymptotic expressions	G06V 40/175	asymptotic_expressions
+acquisition	acquisition systems	G06V 40/376	acquisition_systems
+software architecture	software architecture reverse engineering	G07B 2017/00048	software_architecture_reverse_engineering
+software architecture	software architecture erosion	G07B 2017/00048	software_architecture_erosion
+software architecture	architecture designs	G07B 2017/00048	architecture_designs
+software architecture	architecture design	G07B 2017/00048	architecture_design
+software architecture	software architecture reconstruction	G07B 2017/00048	software_architecture_reconstruction
+software architecture	software architectures	G07B 2017/00048	software_architectures
+software architecture	software architecture	G07B 2017/00048	software_architecture
+software architecture	software architecture analysis	G07B 2017/00048	software_architecture_analysis
+software architecture	software architecture decay	G07B 2017/00048	software_architecture_decay
+software architecture	software architecture assessment	G07B 2017/00048	software_architecture_assessment
+software architecture	architecture analysis	G07B 2017/00048	architecture_analysis
+software architecture	software architecture design	G07B 2017/00048	software_architecture_design
+software architecture	architecture assessment	G07B 2017/00048	architecture_assessment
+software architecture	software architecture evaluation	G07B 2017/00048	software_architecture_evaluation
+software architecture	architecture evaluation	G07B 2017/00048	architecture_evaluation
+client-server	client server	G07B 2017/00056	client_server
+client-server	client-server	G07B 2017/00056	client-server
+client-server	client-server architectures	G07B 2017/00056	client-server_architectures
+wireless	wireless communication	G07B 2017/00112	wireless_communication
+wireless	wireless	G07B 2017/00112	wireless
+wireless	wlan	G07B 2017/00112	wlan
+wireless	wireless multicast	G07B 2017/00112	wireless_multicast
+wireless	wireless metropolitan area networks	G07B 2017/00112	wireless_metropolitan_area_networks
+wireless	wireless communication systems	G07B 2017/00112	wireless_communication_systems
+wireless	wireless mobile ad-hoc networks	G07B 2017/00112	wireless_mobile_ad-hoc_networks
+wireless	wireless lans	G07B 2017/00112	wireless_lans
+wireless	wireless access points	G07B 2017/00112	wireless_access_points
+wireless	wireless local area networks	G07B 2017/00112	wireless_local_area_networks
+wireless	wireless local area network %28wlan%29	G07B 2017/00112	wireless_local_area_network_%28wlan%29
+wireless	wireless technologies	G07B 2017/00112	wireless_technologies
+wireless	wireless link	G07B 2017/00112	wireless_link
+wireless	wireless cameras	G07B 2017/00112	wireless_cameras
+wireless	wireless atm	G07B 2017/00112	wireless_atm
+wireless	wireless cellular networks	G07B 2017/00112	wireless_cellular_networks
+wireless	wireless communication technology	G07B 2017/00112	wireless_communication_technology
+wireless	wireless nodes	G07B 2017/00112	wireless_nodes
+wireless	wireless body area networks	G07B 2017/00112	wireless_body_area_networks
+wireless	wireless communications	G07B 2017/00112	wireless_communications
+wireless	wireless communication system	G07B 2017/00112	wireless_communication_system
+wireless	wireless lan	G07B 2017/00112	wireless_lan
+wireless	wireless personal area networks	G07B 2017/00112	wireless_personal_area_networks
+wireless	wireless local area networks %28wlan%29	G07B 2017/00112	wireless_local_area_networks_%28wlan%29
+wireless	wireless body area network	G07B 2017/00112	wireless_body_area_network
+satellite communication	communication satellites	G07B 2017/00129	communication_satellites
+satellite communication	satellite communication	G07B 2017/00129	satellite_communication
+satellite communication	satellite communications	G07B 2017/00129	satellite_communications
+in a lan	lan	G07B 2017/00137	lan
+mechanical, e.g. keyboard	keyboard	G07B 2017/00274	keyboard
+label	label propagation	G07B 2017/0062	label_propagation
+key management	key management schemes	G07B 2017/00846	key_management_schemes
+key management	group key	G07B 2017/00846	group_key
+key management	key management protocols	G07B 2017/00846	key_management_protocols
+key management	key management	G07B 2017/00846	key_management
+key management	group key management	G07B 2017/00846	group_key_management
+key generation	key generation	G07B 2017/00854	key_generation
+key distribution	key distribution	G07B 2017/0087	key_distribution
+key distribution	key distribution schemes	G07B 2017/0087	key_distribution_schemes
+key distribution using session key	key distribution schemes	G07B 2017/00879	key_distribution_schemes
+trusted party	trust negotiations	G07B 2017/00911	trust_negotiations
+random number generator	pseudo random number generators	G07B 2017/00919	pseudo_random_number_generators
+random number generator	random number generator	G07B 2017/00919	random_number_generator
+random number generator	random number generators	G07B 2017/00919	random_number_generators
+passwords	password authentication	G07B 2017/00935	password_authentication
+compression techniques	compression methods	G07B 2017/00943	compression_methods
+compression techniques	compression rates	G07B 2017/00943	compression_rates
+compression techniques	compression techniques	G07B 2017/00943	compression_techniques
+compression techniques	compression scheme	G07B 2017/00943	compression_scheme
+race time-recorders	race difference	G07C 1/24	race_difference
+reconfiguration of coin testing devices	reconfigurable devices	G07D 2205/001	reconfigurable_devices
+acoustic waves	acoustic waves	G07D 7/08	acoustic_waves
+microwaves	microwaves	G07D 7/10	microwaves
+matching template patterns	template matching	G07D 7/206	template_matching
+learning	structure-learning	G07D 7/2083	structure-learning
+learning	structure learning	G07D 7/2083	structure_learning
+user recognition or proximity detection	face detection and recognition	G07F 9/009	face_detection_and_recognition
+coin boxes	box and line	G07F 9/06	box_and_line
+user interface	hmi	G08B 13/19678	hmi
+user interface	user interface designs	G08B 13/19678	user_interface_designs
+user interface	user interface	G08B 13/19678	user_interface
+user interface	user interface design	G08B 13/19678	user_interface_design
+user interface	human-machine interface	G08B 13/19678	human-machine_interface
+user interface	human machine interface	G08B 13/19678	human_machine_interface
+user interface	human-machine interfaces	G08B 13/19678	human-machine_interfaces
+user interface	user interfaces	G08B 13/19678	user_interfaces
+energy harvesting	energy harvesting	G08C 2201/11	energy_harvesting
+energy harvesting	energy harvesting systems	G08C 2201/11	energy_harvesting_systems
+energy harvesting	energy harvesting device	G08C 2201/11	energy_harvesting_device
+user interface	hmi	G08C 2201/30	hmi
+user interface	human-machine interface	G08C 2201/30	human-machine_interface
+user interface	human machine interface	G08C 2201/30	human_machine_interface
+user interface	user interface designs	G08C 2201/30	user_interface_designs
+user interface	user interface	G08C 2201/30	user_interface
+user interface	user interface design	G08C 2201/30	user_interface_design
+user interface	user interfaces	G08C 2201/30	user_interfaces
+user interface	human-machine interfaces	G08C 2201/30	human-machine_interfaces
+security, fault tolerance	fault-tolerance	G08C 2201/60	fault-tolerance
+smart cards	smart cards	G08C 2201/94	smart_cards
+smart cards	smartcard	G08C 2201/94	smartcard
+smart cards	smart card	G08C 2201/94	smart_card
+geography	geography	G09B 19/0061	geography
+modelling	appearance modeling	G09B 19/10	appearance_modeling
+control of aircraft	aircraft control	G09B 19/165	aircraft_control
+motion systems for aircraft simulators	aircraft systems	G09B 9/12	aircraft_systems
+simulation of airborne radar	airborne radar	G09B 9/40	airborne_radar
+frames	frames	G09F 13/0445	frames
+shipment	ship propellers	G09F 2003/022	ship_propellers
+shapes other than rectangular	rectangular slots	G09F 2003/0266	rectangular_slots
+frame-like	frame structure	G09F 2013/1881	frame_structure
+aspects of data communication	data communication systems	G09G 2370/00	data_communication_systems
+use of wireless transmission of display information	wireless video transmission	G09G 2370/16	wireless_video_transmission
+clock recovery	clock recovery	G09G 5/008	clock_recovery
+chord	chord	G10H 1/38	chord
+reverberation or echo	reverberation time	G10H 2210/281	reverberation_time
+laser beams	laser beam shaping	G10H 2220/421	laser_beam_shaping
+use of microwaves	microwaves	G10H 2220/431	microwaves
+user identification	user identification	G10H 2240/101	user_identification
+frequency division multiplexing	multiplexing, frequency division	G10H 2240/225	multiplexing%2C_frequency_division
+frequency division multiplexing	frequency division multiplexing	G10H 2240/225	frequency_division_multiplexing
+frequency division multiplexing	orthogonal frequency division multiplexing	G10H 2240/225	orthogonal_frequency_division_multiplexing
+frequency division multiplexing	orthogonal frequency division multiplexing %28ofdm%29	G10H 2240/225	orthogonal_frequency_division_multiplexing_%28ofdm%29
+frequency division multiplexing	orthogonal frequency-division multiplexing %28ofdm%29	G10H 2240/225	orthogonal_frequency-division_multiplexing_%28ofdm%29
+quadrature modulation, e.g. qam	quadrature amplitude modulation	G10H 2240/231	quadrature_amplitude_modulation
+bluetooth	bluetooth	G10H 2240/321	bluetooth
+bluetooth	bluetooth networks	G10H 2240/321	bluetooth_networks
+bluetooth	bluetooth technology	G10H 2240/321	bluetooth_technology
+bluetooth	bluetooth device	G10H 2240/321	bluetooth_device
+butterworth filters	butterworth filter	G10H 2250/085	butterworth_filter
+butterworth filters	butterworth filters	G10H 2250/085	butterworth_filters
+comb filters	comb filters	G10H 2250/105	comb_filters
+comb filters	comb filter	G10H 2250/105	comb_filter
+notch filters	notch filter	G10H 2250/125	notch_filter
+notch filters	notch filters	G10H 2250/125	notch_filters
+fuzzy logic	takagi-sugeno fuzzy systems	G10H 2250/151	takagi-sugeno_fuzzy_systems
+fuzzy logic	takagi sugeno fuzzy systems	G10H 2250/151	takagi_sugeno_fuzzy_systems
+fourier transform; discrete fourier transform [dft]; fast fourier transform [fft]	fast fourier transform	G10H 2250/235	fast_fourier_transform
+pink 1/f noise or flicker noise	flicker noise	G10H 2250/301	flicker_noise
+rain	rain gages	G10H 2250/421	rain_gages
+piecewise linear waveform approximation	piecewise linear approximation	G10H 2250/555	piecewise_linear_approximation
+celp [code excited linear prediction]	linear predictive coding	G10H 2250/585	linear_predictive_coding
+acoustic filters {; acoustic resonators}	acoustic resonators	G10K 11/04	acoustic_resonators
+one dimensional	one-dimensional	G10K 2210/101	one-dimensional
+one dimensional	one dimensional	G10K 2210/101	one_dimensional
+two dimensional	two-dimensional %282d%29	G10K 2210/102	two-dimensional_%282d%29
+two dimensional	two dimensional	G10K 2210/102	two_dimensional
+three dimensional	three-dimensional modeling	G10K 2210/103	three-dimensional_modeling
+vehicles	vehicles	G10K 2210/128	vehicles
+automobiles	electric automobiles	G10K 2210/1282	electric_automobiles
+automobiles	model automobiles	G10K 2210/1282	model_automobiles
+means	mean variance	G10K 2210/30	mean_variance
+analogue, i.e. using analogue computers or circuits	computer circuits	G10K 2210/3013	computer_circuits
+transfer functions, e.g. impulse response	impulse response functions	G10K 2210/30232	impulse_response_functions
+feedback	force feedback	G10K 2210/3026	force_feedback
+feedback	force-feedback	G10K 2210/3026	force-feedback
+feedback	feedback control	G10K 2210/3026	feedback_control
+hardware, e.g. architecture	hardware architecture	G10K 2210/3031	hardware_architecture
+neural networks	back-propagation neural networks	G10K 2210/3038	back-propagation_neural_networks
+neural networks	graph neural networks	G10K 2210/3038	graph_neural_networks
+neural networks	artificial neural network	G10K 2210/3038	artificial_neural_network
+neural networks	neural networks	G10K 2210/3038	neural_networks
+neural networks	artificial neural networks	G10K 2210/3038	artificial_neural_networks
+neural networks	back-propagation neural network	G10K 2210/3038	back-propagation_neural_network
+neural networks	neural network	G10K 2210/3038	neural_network
+neural networks	back propagation neural networks	G10K 2210/3038	back_propagation_neural_networks
+neural networks	neural network model	G10K 2210/3038	neural_network_model
+offline	off-line algorithm	G10K 2210/3041	off-line_algorithm
+parallel processing	parallel processing	G10K 2210/3042	parallel_processing
+simulation	simulation example	G10K 2210/3052	simulation_example
+simulation	system level simulation	G10K 2210/3052	system_level_simulation
+simulation	full-system simulation	G10K 2210/3052	full-system_simulation
+simulation	simulation and measurement	G10K 2210/3052	simulation_and_measurement
+resonators	optical resonators	G10K 2210/3227	optical_resonators
+speech synthesis; text to speech systems	text to speech	G10L 13/00	text_to_speech
+speech recognition	speech recognition performance	G10L 15/00	speech_recognition_performance
+speech recognition	speech recognition technology	G10L 15/00	speech_recognition_technology
+speech recognition	text recognition	G10L 15/00	text_recognition
+speech recognition	speech recognizer	G10L 15/00	speech_recognizer
+speech recognition	robust speech recognition	G10L 15/00	robust_speech_recognition
+speech recognition	continuous speech recognition	G10L 15/00	continuous_speech_recognition
+speech recognition	speech recognition systems	G10L 15/00	speech_recognition_systems
+language recognition	sign language recognition	G10L 15/005	sign_language_recognition
+segmentation; word boundary detection	word segmentation	G10L 15/04	word_segmentation
+adaptation to the speaker	speaker adaptation	G10L 15/07	speaker_adaptation
+hidden markov models [hmms]	hidden markov models	G10L 15/142	hidden_markov_models
+speech to text systems	text-to-speech	G10L 15/26	text-to-speech
+speaker identification or verification	speaker verification	G10L 17/00	speaker_verification
+training, enrolment or model building	building model	G10L 17/04	building_model
+score normalisation	score normalization	G10L 17/12	score_normalization
+hidden markov models [hmms]	hidden markov models %28hmm%29	G10L 17/16	hidden_markov_models_%28hmm%29
+dynamic bit allocation	bit allocation	G10L 19/002	bit_allocation
+word spotting	word spotting	G10L 2015/088	word_spotting
+codebooks	codebooks	G10L 2019/0001	codebooks
+codebooks	codebook	G10L 2019/0001	codebook
+design or structure of the codebook	codebook design	G10L 2019/0004	codebook_design
+codebook element generation	codebook generation	G10L 2019/0007	codebook_generation
+codebook search algorithms	tabu search algorithm	G10L 2019/0013	tabu_search_algorithm
+codebook search algorithms	tabu search algorithms	G10L 2019/0013	tabu_search_algorithms
+only one microphone	wireless microphone	G10L 2021/02163	wireless_microphone
+signal energy in various frequency bands	frequency bands	G10L 2025/937	frequency_bands
+processing in the frequency domain	time frequency domain	G10L 21/0232	time_frequency_domain
+control of operating function	control lyapunov function	G11B 11/10595	control_lyapunov_function
+servo control	servo control	G11B 15/67505	servo_control
+servo control	servo control	G11B 17/0402	servo_control
+recovery from power failure	failure recovery	G11B 19/047	failure_recovery
+testing using test patterns	test pattern	G11B 20/182	test_pattern
+advanced audio coding [aac]	aac	G11B 2020/00028	aac
+3d video data	3d data	G11B 2020/10611	3d_data
+hard disks	hard disks	G11B 2220/2516	hard_disks
+erasing	erasure coding	G11B 5/024	erasure_coding
+testing	testability	G11B 5/3189	testability
+gain control; filters	gain control	G11B 5/59622	gain_control
+orientation in a magnetic field	orientation field	G11B 5/852	orientation_field
+erasing	erasure coding	G11B 7/0055	erasure_coding
+differential phase difference systems	differential phase shift keying	G11B 7/0906	differential_phase_shift_keying
+fibre optics	optical fibre	G11B 7/1384	optical_fibre
+static stores	static random access storage	G11C 	static_random_access_storage
+timing circuits	timing circuits	G11C 11/4076	timing_circuits
+timing circuits	timing circuits	G11C 16/32	timing_circuits
+online test	online teaching	G11C 2029/0409	online_teaching
+bit line control	bit lines	G11C 2029/1204	bit_lines
+scan chain	scan chain	G11C 2029/3202	scan_chain
+characteristic	prime field	G11C 2029/5002	prime_field
+voltage	pull-in voltage	G11C 2029/5004	pull-in_voltage
+sense amplifier drivers	sense amplifier	G11C 2207/065	sense_amplifier
+equalization of bit lines	bit lines	G11C 2207/12	bit_lines
+timing of a read operation	read operation	G11C 2207/2281	read_operation
+timing of a write operation	write operations	G11C 2207/229	write_operations
+shift registers	shift registers	G11C 27/04	shift_registers
+decoders	decode and forward	G11C 8/10	decode_and_forward
+probabilistic models	probabilistic model	G16B 5/20	probabilistic_model
+probabilistic models	probabilistic models	G16B 5/20	probabilistic_models
+commerce	commerce	G16Y 10/45	commerce
+education	education	G16Y 10/55	education
+broadcasting	data broadcast	G16Y 10/70	data_broadcast
+broadcasting	broadcasting	G16Y 10/70	broadcasting
+information technology; communication	information technology	G16Y 10/75	information_technology
+chemistry	laser chemistry	G16Y 10/90	laser_chemistry
+information sensed or collected by the things relating to the thing itself	sensing information	G16Y 20/20	sensing_information
+control	h control	G16Y 40/30	h_control
+control	force control	G16Y 40/30	force_control
+nuclear physics; nuclear engineering	nuclear physics	G21 	nuclear_physics
+fusion reactors	fusion reactions	G21B 	fusion_reactions
+nuclear reactors	nuclear reactor accidents	G21C 	nuclear_reactor_accidents
+precipitation chambers	precipitation radar	G21C 17/045	precipitation_radar
+radial distribution	radial distribution systems	G21C 3/3265	radial_distribution_systems
+expert systems	expert system	G21D 3/007	expert_system
+expert systems	expert systems	G21D 3/007	expert_systems
+lighting	illumination conditions	G21F 7/043	illumination_conditions
+gallium	gallium compounds	G21G 2001/0021	gallium_compounds
+indium	indium antimonides	G21G 2001/0057	indium_antimonides
+cesium	cesium alloys	G21G 2001/0068	cesium_alloys
+rainwater harvesting	power harvesting	Y02A 20/108	power_harvesting
+reactive power compensation	reactive power compensation	Y02E 40/30	reactive_power_compensation
+minimising material used in manufacturing processes	manufacturing data processing	Y02P 80/40	manufacturing_data_processing
+home appliances	home appliances	Y04S 20/242	home_appliances
+planting	plant chromosome	Y10S 111/00	plant_chromosome
+onion	onion routing	Y10S 111/91	onion_routing
+signals and indicators	received signal strength indicators	Y10S 116/00	received_signal_strength_indicators
+pointer structure	pointer analysis	Y10S 116/06	pointer_analysis
+wave generators	wave generation	Y10S 116/18	wave_generation
+tv channel selector	tv channels	Y10S 116/31	tv_channels
+parallax	parallax barriers	Y10S 116/45	parallax_barriers
+fluidized bed	fluidized bed combustion	Y10S 118/05	fluidized_bed_combustion
+tube replacement	cache replacement	Y10S 122/14	cache_replacement
+welding	welding robots	Y10S 122/16	welding_robots
+internal-combustion engines	internal combustion engines	Y10S 123/00	internal_combustion_engines
+internal-combustion engines	internal combustion engine	Y10S 123/00	internal_combustion_engine
+model	e-model	Y10S 123/03	e-model
+model	car models	Y10S 123/03	car_models
+gas	gas engines	Y10S 123/13	gas_engines
+servo-systems	servo control systems	Y10S 128/07	servo_control_systems
+neural network	neural network	Y10S 128/925	neural_network
+neural network	back-propagation neural network	Y10S 128/925	back-propagation_neural_network
+neural network	artificial neural networks	Y10S 128/925	artificial_neural_networks
+neural network	neural networks	Y10S 128/925	neural_networks
+neural network	back propagation neural networks	Y10S 128/925	back_propagation_neural_networks
+neural network	artificial neural network	Y10S 128/925	artificial_neural_network
+neural network	neural network model	Y10S 128/925	neural_network_model
+neural network	back-propagation neural networks	Y10S 128/925	back-propagation_neural_networks
+corrosion	corrosion prevention	Y10S 138/06	corrosion_prevention
+cellular	cellular	Y10S 138/09	cellular
+bipolar transistors	heterojunction bipolar transistors	Y10S 148/011	heterojunction_bipolar_transistors
+breakdown voltage	breakdown voltage	Y10S 148/013	breakdown_voltage
+dual dielectric	dielectric resonators	Y10S 148/043	dielectric_resonators
+electric field	electric field integral equation	Y10S 148/045	electric_field_integral_equation
+etching	wet etching	Y10S 148/051	wet_etching
+field effect transistors fets	field effect transistors	Y10S 148/053	field_effect_transistors
+gallium arsenide	gaas%2Falgaas	Y10S 148/056	gaas%2Falgaas
+gallium arsenide	gaas substrates	Y10S 148/056	gaas_substrates
+gallium arsenide	aluminum gallium arsenide	Y10S 148/056	aluminum_gallium_arsenide
+infra-red	infra-red sensor	Y10S 148/08	infra-red_sensor
+memory devices	memory technology	Y10S 148/109	memory_technology
+silicon carbide	silicon waveguide	Y10S 148/148	silicon_waveguide
+superlattice	superlattices	Y10S 148/16	superlattices
+cutting tool	cutting tools	Y10S 148/905	cutting_tools
+tagged compositions for identifying purposes	tag identification	Y10S 149/123	tag_identification
+infrared	infrared camera	Y10S 159/06	infrared_camera
+infrared	infrared sensor	Y10S 159/06	infrared_sensor
+infrared	infra-red cameras	Y10S 159/06	infra-red_cameras
+infrared	far infrared	Y10S 159/06	far_infrared
+infrared	near-infrared imaging	Y10S 159/06	near-infrared_imaging
+infrared	infra-red sensor	Y10S 159/06	infra-red_sensor
+infrared	infrared sensors	Y10S 159/06	infrared_sensors
+infrared	infrared focal plane arrays	Y10S 159/06	infrared_focal_plane_arrays
+magnetic coupling	electromagnetic coupling	Y10S 159/07	electromagnetic_coupling
+electric field	electric field integral equation	Y10S 159/26	electric_field_integral_equation
+suction cup	suction cup	Y10S 160/13	suction_cup
+temperature	temperature monitoring	Y10S 165/006	temperature_monitoring
+correlated valves	correlated noise	Y10S 165/105	correlated_noise
+spacer or support connected to shell	connected component analysis	Y10S 165/419	connected_component_analysis
+convection	convection diffusion	Y10S 165/903	convection_diffusion
+convection	convection-diffusion	Y10S 165/903	convection-diffusion
+radiation	radiation characteristics	Y10S 165/904	radiation_characteristics
+unearthing plants or buried objects	buried objects	Y10S 171/00	buried_objects
+stator	stator flux	Y10S 174/20	stator_flux
+pneumatic controls	pneumatic control	Y10S 177/07	pneumatic_control
+acoustics	acoustics	Y10S 181/00	acoustics
+acoustics	acoustic	Y10S 181/00	acoustic
+universal joint	universal joints	Y10S 192/02	universal_joints
+gyroscope	gyroscope	Y10S 200/19	gyroscope
+gyroscope	mems gyroscope	Y10S 200/19	mems_gyroscope
+gyroscope	gyro sensors	Y10S 200/19	gyro_sensors
+gyroscope	gyroscopes	Y10S 200/19	gyroscopes
+fluid conductor	electric conductors	Y10S 200/30	electric_conductors
+laboratory distillation	labor force	Y10S 203/02	labor_force
+control	force control	Y10S 203/18	force_control
+electrochemical machining	electrochemical machining	Y10S 204/12	electrochemical_machining
+receptacles insulating materials	insulating materials	Y10S 220/09	insulating_materials
+computer	computer system	Y10S 236/08	computer_system
+computer	computer systems	Y10S 236/08	computer_systems
+computer	computer systems programming - multiprocessing pro	Y10S 236/08	computer_systems_programming_-_multiprocessing_pro
+computer	computer aided geometric design	Y10S 236/08	computer_aided_geometric_design
+computer	computer resources	Y10S 236/08	computer_resources
+computer	computer system recovery	Y10S 236/08	computer_system_recovery
+computer	computer aided logic design	Y10S 236/08	computer_aided_logic_design
+computer	computer system firewalls	Y10S 236/08	computer_system_firewalls
+fiber	fiber gratings	Y10S 260/23	fiber_gratings
+fiber	fiber bragg	Y10S 260/23	fiber_bragg
+fiber	fiber amplifiers	Y10S 260/23	fiber_amplifiers
+fiber	fiber sensor	Y10S 260/23	fiber_sensor
+fiber	all fiber	Y10S 260/23	all_fiber
+fiber	fiber laser	Y10S 260/23	fiber_laser
+fiber	fiber amplifier	Y10S 260/23	fiber_amplifier
+fiber	long period fiber grating	Y10S 260/23	long_period_fiber_grating
+fiber	fiber lasers	Y10S 260/23	fiber_lasers
+fiber	fibre technology	Y10S 260/23	fibre_technology
+fiber	fiber cores	Y10S 260/23	fiber_cores
+plume abatement	noise abatement	Y10S 261/77	noise_abatement
+use of fluidized bed in molding	fluidized bed combustion	Y10S 264/51	fluidized_bed_combustion
+constant height	constant moduli	Y10S 267/01	constant_moduli
+work holder for cathode-ray tubes	cathode ray tubes	Y10S 269/908	cathode_ray_tubes
+containing metal	metal working tools	Y10S 277/939	metal_working_tools
+containing metal	metal insulator boundaries	Y10S 277/939	metal_insulator_boundaries
+land vehicles	land vehicles	Y10S 280/00	land_vehicles
+credit card	credit card frauds	Y10S 283/904	credit_card_frauds
+credit card	credit cards	Y10S 283/904	credit_cards
+credit card	credit card	Y10S 283/904	credit_card
+glass	glass lasers	Y10S 285/911	glass_lasers
+glass	viscous flow	Y10S 285/911	viscous_flow
+gear	gear	Y10S 285/912	gear
+gear	spur gears	Y10S 285/912	spur_gears
+gear	gear teeth	Y10S 285/912	gear_teeth
+gear	helical gears	Y10S 285/912	helical_gears
+metal working	metal working tools	Y10S 29/00	metal_working_tools
+metal working	metal insulator boundaries	Y10S 29/00	metal_insulator_boundaries
+vibration	vibration monitoring	Y10S 29/046	vibration_monitoring
+vibration	vibration energy harvesting	Y10S 29/046	vibration_energy_harvesting
+multiple fluid paths	multiple paths	Y10S 29/087	multiple_paths
+remote control	remote control	Y10S 292/25	remote_control
+electric lamp and discharge devices	electric discharge machining	Y10S 313/00	electric_discharge_machining
+fault detection	fault detection	Y10S 320/13	fault_detection
+electricity: power supply or regulation systems	electric power system interconnection	Y10S 323/00	electric_power_system_interconnection
+remote sensing	remote sensing satellites	Y10S 323/909	remote_sensing_satellites
+remote sensing	remote sensing image classification	Y10S 323/909	remote_sensing_image_classification
+remote sensing	remote sensing image	Y10S 323/909	remote_sensing_image
+remote sensing	remote sensing imagery	Y10S 323/909	remote_sensing_imagery
+remote sensing	multi-temporal remote sensing	Y10S 323/909	multi-temporal_remote_sensing
+remote sensing	remote sensing images	Y10S 323/909	remote_sensing_images
+air	radio stations	Y10S 33/02	radio_stations
+rectangular proportioner	rectangular patch	Y10S 33/09	rectangular_patch
+electronic book with display	electronic books	Y10S 345/901	electronic_books
+key frame processing	key frames	Y10S 345/951	key_frames
+simulation	system level simulation	Y10S 345/952	system_level_simulation
+simulation	simulation example	Y10S 345/952	simulation_example
+simulation	simulation and measurement	Y10S 345/952	simulation_and_measurement
+simulation	full-system simulation	Y10S 345/952	full-system_simulation
+collision avoidance	collision avoidance	Y10S 345/958	collision_avoidance
+high speed television system	high definition television	Y10S 348/901	high_definition_television
+methods	decryption	Y10S 359/90	decryption
+acoustic holography	acoustic holography	Y10S 359/901	acoustic_holography
+micromirror	micro mirror	Y10S 359/904	micro_mirror
+access time	access time	Y10S 360/901	access_time
+sonar time varied gain control systems	time varying control systems	Y10S 367/90	time_varying_control_systems
+collision avoidance	collision avoidance	Y10S 367/909	collision_avoidance
+particular transducer	acoustic transducers	Y10S 367/912	acoustic_transducers
+wide area network	wide area networks	Y10S 370/901	wide_area_networks
+wide area network	wide area	Y10S 370/901	wide_area
+packet switching	packet switching	Y10S 370/902	packet_switching
+packet switching	packet switches	Y10S 370/902	packet_switches
+integrated services digital network, isdn	isdn	Y10S 370/904	isdn
+integrated services digital network, isdn	integrated services digital networks	Y10S 370/904	integrated_services_digital_networks
+asynchronous transfer mode, asn	asynchronous transfer mode	Y10S 370/905	asynchronous_transfer_mode
+asynchronous transfer mode, asn	atm switch	Y10S 370/905	atm_switch
+local area network	local area networks	Y10S 370/908	local_area_networks
+carrier sense multiple access, e.g. ethernet, 10base-t	carrier sense multiple access	Y10S 370/91	carrier_sense_multiple_access
+carrier sense multiple access, e.g. ethernet, 10base-t	carrier sense multiple access with collision avoid	Y10S 370/91	carrier_sense_multiple_access_with_collision_avoid
+time division cellular radio systems	cellular radio systems	Y10S 370/915	cellular_radio_systems
+metal	metal insulator boundaries	Y10S 376/906	metal_insulator_boundaries
+metal	metal working tools	Y10S 376/906	metal_working_tools
+methods of making fusion fuel targets	fusion methods	Y10S 376/916	fusion_methods
+password	password authentication	Y10S 379/903	password_authentication
+password	password	Y10S 379/903	password
+password	graphical password	Y10S 379/903	graphical_password
+password	graphical passwords	Y10S 379/903	graphical_passwords
+password	password guessing attack	Y10S 379/903	password_guessing_attack
+password	offline password guessing attack	Y10S 379/903	offline_password_guessing_attack
+multimedia	multimedia contents	Y10S 379/908	multimedia_contents
+multimedia	multimedia technology	Y10S 379/908	multimedia_technology
+multimedia	multimedia sessions	Y10S 379/908	multimedia_sessions
+multimedia	multimedia technologies	Y10S 379/908	multimedia_technologies
+multimedia	multimedia data	Y10S 379/908	multimedia_data
+multimedia	multimedia content	Y10S 379/908	multimedia_content
+multimedia	ip multimedia subsystem	Y10S 379/908	ip_multimedia_subsystem
+multimedia	multimedia courseware	Y10S 379/908	multimedia_courseware
+multimedia	multimedia communications	Y10S 379/908	multimedia_communications
+multimedia	multimedia interactive services	Y10S 379/908	multimedia_interactive_services
+multimedia	multimedia%2Fhypermedia systems	Y10S 379/908	multimedia%2Fhypermedia_systems
+multimedia	multimedia communication	Y10S 379/908	multimedia_communication
+multimedia	ip multimedia subsystem %28ims%29	Y10S 379/908	ip_multimedia_subsystem_%28ims%29
+multimedia	multimedia systems	Y10S 379/908	multimedia_systems
+multimedia	multimedia signal processing	Y10S 379/908	multimedia_signal_processing
+multimedia	multimedia documents	Y10S 379/908	multimedia_documents
+multimedia	ip multimedia subsystems	Y10S 379/908	ip_multimedia_subsystems
+multimedia	multimedia streaming	Y10S 379/908	multimedia_streaming
+multimedia	interactive multimedia	Y10S 379/908	interactive_multimedia
+multimedia	mobile multimedia services	Y10S 379/908	mobile_multimedia_services
+multimedia	multimedia services	Y10S 379/908	multimedia_services
+multimedia	multimedia stream	Y10S 379/908	multimedia_stream
+touch screen associated with telephone set	telephone sets	Y10S 379/916	telephone_sets
+optical waveguides	waveguides%2C optical	Y10S 385/00	waveguides%2C_optical
+proportional-integral system	proportional-integral	Y10S 388/906	proportional-integral
+timer or time delay means	time delaying	Y10S 388/921	time_delaying
+load or torque	load torques	Y10S 388/93	load_torques
+cam	cam	Y10S 411/9351	cam
+coil	coil	Y10S 425/007	coil
+telephone	telephone systems	Y10S 425/056	telephone_systems
+telephone	telephone	Y10S 425/056	telephone
+telephone	telephony	Y10S 425/056	telephony
+chamber	anechoic chambers	Y10S 425/106	anechoic_chambers
+projection	projector	Y10S 425/121	projector
+infrared	infrared camera	Y10S 430/145	infrared_camera
+infrared	infrared focal plane arrays	Y10S 430/145	infrared_focal_plane_arrays
+infrared	infrared sensor	Y10S 430/145	infrared_sensor
+infrared	far infrared	Y10S 430/145	far_infrared
+infrared	infra-red cameras	Y10S 430/145	infra-red_cameras
+infrared	infrared sensors	Y10S 430/145	infrared_sensors
+infrared	near-infrared imaging	Y10S 430/145	near-infrared_imaging
+infrared	infra-red sensor	Y10S 430/145	infra-red_sensor
+toner containing	tone reservation	Y10S 430/166	tone_reservation
+x-ray	x-ray intensifying screens	Y10S 430/167	x-ray_intensifying_screens
+semiconductor device manufacturing: process	semiconductor device structures	Y10S 438/00	semiconductor_device_structures
+quantum dots and lines	inas quantum dots	Y10S 438/962	inas_quantum_dots
+antenna	antenna	Y10S 439/916	antenna
+antenna	antenna accessories	Y10S 439/916	antenna_accessories
+antenna	antennas	Y10S 439/916	antennas
+conductive coating	conductive materials	Y10S 439/931	conductive_materials
+security	forward security	Y10S 462/903	forward_security
+robot end effectors	end effectors	Y10S 483/901	end_effectors
+comprising animal derived product	product derivation	Y10S 5/949	product_derivation
+etching	wet etching	Y10S 505/728	wet_etching
+annealing	thermal annealing	Y10S 505/742	thermal_annealing
+annealing	thermal-annealing	Y10S 505/742	thermal-annealing
+annealing	annealing	Y10S 505/742	annealing
+stock	stock markets	Y10S 505/812	stock_markets
+stock	stock market	Y10S 505/812	stock_market
+and etching	wet etching	Y10S 505/82	wet_etching
+amplifier	class-ab	Y10S 505/855	class-ab
+cable	cable modems	Y10S 505/886	cable_modems
+pump	pump laser	Y10S 505/91	pump_laser
+plasma; serum	laser plasma	Y10S 530/83	laser_plasma
+harvesters	energy harvester	Y10S 56/00	energy_harvester
+methods	inference	Y10S 56/02	inference
+air gathering	data gathering	Y10S 56/08	data_gathering
+flame retardant	flame resistance	Y10S 57/904	flame_resistance
+washing machine system	man machine systems	Y10S 60/908	man_machine_systems
+argon	argon lasers	Y10S 62/924	argon_lasers
+computer control	computer control	Y10S 65/13	computer_control
+digital rights management	digital rights management	Y10S 705/901	digital_rights_management
+digital rights management	digital rights management %28drm%29	Y10S 705/901	digital_rights_management_%28drm%29
+licensing digital content	digital contents	Y10S 705/902	digital_contents
+licensing digital content	digital content	Y10S 705/902	digital_content
+data processing: artificial intelligence	artificial intelligence	Y10S 706/00	artificial_intelligence
+fuzzy logic	takagi sugeno fuzzy systems	Y10S 706/90	takagi_sugeno_fuzzy_systems
+fuzzy logic	takagi-sugeno fuzzy systems	Y10S 706/90	takagi-sugeno_fuzzy_systems
+control	force control	Y10S 706/903	force_control
+communication	communication protocols	Y10S 706/909	communication_protocols
+communication	communication	Y10S 706/909	communication
+communication	communication constraints	Y10S 706/909	communication_constraints
+communication	communication protocol	Y10S 706/909	communication_protocol
+communication	communication protocols	Y10S 706/917	communication_protocols
+communication	communication	Y10S 706/917	communication
+communication	communication protocol	Y10S 706/917	communication_protocol
+communication	communication constraints	Y10S 706/917	communication_constraints
+simulation	simulation example	Y10S 706/92	simulation_example
+simulation	full-system simulation	Y10S 706/92	full-system_simulation
+simulation	simulation and measurement	Y10S 706/92	simulation_and_measurement
+simulation	system level simulation	Y10S 706/92	system_level_simulation
+business	b2b	Y10S 706/925	b2b
+environment	known environments	Y10S 706/93	known_environments
+information retrieval or information management	information retrieval systems	Y10S 706/934	information_retrieval_systems
+multimedia	multimedia signal processing	Y10S 707/913	multimedia_signal_processing
+multimedia	multimedia sessions	Y10S 707/913	multimedia_sessions
+multimedia	multimedia contents	Y10S 707/913	multimedia_contents
+multimedia	ip multimedia subsystem	Y10S 707/913	ip_multimedia_subsystem
+multimedia	multimedia communication	Y10S 707/913	multimedia_communication
+multimedia	mobile multimedia services	Y10S 707/913	mobile_multimedia_services
+multimedia	multimedia documents	Y10S 707/913	multimedia_documents
+multimedia	multimedia data	Y10S 707/913	multimedia_data
+multimedia	multimedia technology	Y10S 707/913	multimedia_technology
+multimedia	multimedia stream	Y10S 707/913	multimedia_stream
+multimedia	multimedia communications	Y10S 707/913	multimedia_communications
+multimedia	multimedia interactive services	Y10S 707/913	multimedia_interactive_services
+multimedia	multimedia%2Fhypermedia systems	Y10S 707/913	multimedia%2Fhypermedia_systems
+multimedia	multimedia courseware	Y10S 707/913	multimedia_courseware
+multimedia	multimedia technologies	Y10S 707/913	multimedia_technologies
+multimedia	ip multimedia subsystems	Y10S 707/913	ip_multimedia_subsystems
+multimedia	multimedia content	Y10S 707/913	multimedia_content
+multimedia	interactive multimedia	Y10S 707/913	interactive_multimedia
+multimedia	multimedia systems	Y10S 707/913	multimedia_systems
+multimedia	multimedia streaming	Y10S 707/913	multimedia_streaming
+multimedia	multimedia services	Y10S 707/913	multimedia_services
+multimedia	ip multimedia subsystem %28ims%29	Y10S 707/913	ip_multimedia_subsystem_%28ims%29
+video	h.264 video	Y10S 707/914	h.264_video
+image	difference images	Y10S 707/915	difference_images
+geographic	geography	Y10S 707/919	geography
+navigation	navigation systems	Y10S 707/92	navigation_systems
+navigation	navigation system	Y10S 707/92	navigation_system
+communications	dsr	Y10S 707/922	dsr
+intellectual property	intellectual property cores	Y10S 707/923	intellectual_property_cores
+validation	validation	Y10S 707/927	validation
+infrastructure	it infrastructure	Y10S 707/94	it_infrastructure
+infrastructure	it infrastructures	Y10S 707/94	it_infrastructures
+human sciences	human sciences	Y10S 707/941	human_sciences
+malicious software	malicious software	Y10S 707/952	malicious_software
+relational	relational tables	Y10S 707/954	relational_tables
+object-oriented	object-oriented	Y10S 707/955	object-oriented
+object-oriented	object oriented	Y10S 707/955	object_oriented
+hierarchical	hierarchical structures	Y10S 707/956	hierarchical_structures
+hierarchical	hierarchical structure	Y10S 707/956	hierarchical_structure
+data cubes	data cubes	Y10S 707/958	data_cubes
+data cubes	data cube	Y10S 707/958	data_cube
+network	value network	Y10S 707/959	value_network
+peer-to-peer	peer to peer networks	Y10S 707/967	peer_to_peer_networks
+peer-to-peer	p2p applications	Y10S 707/967	p2p_applications
+peer-to-peer	p2p system	Y10S 707/967	p2p_system
+peer-to-peer	p2p systems	Y10S 707/967	p2p_systems
+peer-to-peer	p2p	Y10S 707/967	p2p
+peer-to-peer	peer-to-peer technologies	Y10S 707/967	peer-to-peer_technologies
+peer-to-peer	peer-to-peer networks	Y10S 707/967	peer-to-peer_networks
+peer-to-peer	peer to peer %28p2p%29 network	Y10S 707/967	peer_to_peer_%28p2p%29_network
+peer-to-peer	p2p networks	Y10S 707/967	p2p_networks
+peer-to-peer	unstructured p2p	Y10S 707/967	unstructured_p2p
+peer-to-peer	peer-to-peer overlay networks	Y10S 707/967	peer-to-peer_overlay_networks
+peer-to-peer	peer-to-peer system	Y10S 707/967	peer-to-peer_system
+peer-to-peer	structured p2p networks	Y10S 707/967	structured_p2p_networks
+peer-to-peer	peer-to-peer	Y10S 707/967	peer-to-peer
+peer-to-peer	peer-to-peer systems	Y10S 707/967	peer-to-peer_systems
+peer-to-peer	peer-to-peer network	Y10S 707/967	peer-to-peer_network
+peer-to-peer	peer-to-peer %28p2p%29	Y10S 707/967	peer-to-peer_%28p2p%29
+peer-to-peer	unstructured peer-to-peer	Y10S 707/967	unstructured_peer-to-peer
+peer-to-peer	peer to peer	Y10S 707/967	peer_to_peer
+peer-to-peer	p2p network	Y10S 707/967	p2p_network
+peer-to-peer	peer-to-peer video streaming	Y10S 707/967	peer-to-peer_video_streaming
+peer-to-peer	peer-to-peer computing	Y10S 707/967	peer-to-peer_computing
+peer-to-peer	unstructured peer-to-peer network	Y10S 707/967	unstructured_peer-to-peer_network
+partitioning	cache partitioning	Y10S 707/968	cache_partitioning
+partitioning	cache partitioning	Y10S 707/972	cache_partitioning
+query processing, i.e. searching	distributed query processing	Y10S 707/99933	distributed_query_processing
+database schema or data structure	database schema	Y10S 707/99941	database_schema
+object-oriented database structure	object-oriented databases	Y10S 707/99944	object-oriented_databases
+object-oriented database structure	object-oriented database	Y10S 707/99944	object-oriented_database
+object-oriented database structure	object oriented database	Y10S 707/99944	object_oriented_database
+version management	version management	Y10S 707/99954	version_management
+file allocation	bit allocation	Y10S 707/99956	bit_allocation
+file allocation	file-sharing	Y10S 707/99956	file-sharing
+garbage collection	image collections	Y10S 707/99957	image_collections
+carrier	carrier (co)	Y10S 71/904	carrier_%28co%29
+vibration	vibration monitoring	Y10S 73/01	vibration_monitoring
+vibration	vibration energy harvesting	Y10S 73/01	vibration_energy_harvesting
+piezoelectric	piezoelectric energy harvesting	Y10S 73/04	piezoelectric_energy_harvesting
+automatic gain control	agc	Y10S 73/90	agc
+automatic gain control	automatic gain control	Y10S 73/90	automatic_gain_control
+cutting	cutting force	Y10S 83/00	cutting_force
+cutting	cutting forces	Y10S 83/00	cutting_forces
+electric key switch structure	electric switches	Y10S 84/07	electric_switches
+filtering	recommendation	Y10S 84/09	recommendation
+feedback	feedback control	Y10S 84/10	feedback_control
+feedback	force-feedback	Y10S 84/10	force-feedback
+feedback	force feedback	Y10S 84/10	force_feedback
+frequency dividers	frequency dividers	Y10S 84/11	frequency_dividers
+reverberation	reverberation time	Y10S 84/26	reverberation_time
+reverberation	reverberation chambers	Y10S 84/26	reverberation_chambers
+reverberation	reverberation chamber	Y10S 84/26	reverberation_chamber
+reverberation	reverberant environment	Y10S 84/26	reverberant_environment
+stereo	stereophonic broadcasting	Y10S 84/27	stereophonic_broadcasting
+robots	robots	Y10S 901/00	robots
+robots	robot	Y10S 901/00	robot
+mobile robot	mobile robots	Y10S 901/01	mobile_robots
+mobile robot	wheeled mobile robots	Y10S 901/01	wheeled_mobile_robots
+mobile robot	mobile robotics	Y10S 901/01	mobile_robotics
+mobile robot	wheeled mobile robot	Y10S 901/01	wheeled_mobile_robot
+mobile robot	mobile robotic	Y10S 901/01	mobile_robotic
+mobile robot	mobile robot	Y10S 901/01	mobile_robot
+teaching system	teaching systems	Y10S 901/03	teaching_systems
+robot	robot	Y10S 901/08	robot
+robot	robot control systems	Y10S 901/08	robot_control_systems
+robot	robots	Y10S 901/08	robots
+robot	wall climbing robot	Y10S 901/08	wall_climbing_robot
+robot	robot swarms	Y10S 901/08	robot_swarms
+cam	cam	Y10S 901/12	cam
+cartesian, three degrees of freedom	degrees of freedom	Y10S 901/16	degrees_of_freedom
+cartesian, three degrees of freedom	degrees of freedom %28mechanics%29	Y10S 901/16	degrees_of_freedom_%28mechanics%29
+cartesian, three degrees of freedom	three degrees of freedom	Y10S 901/16	three_degrees_of_freedom
+end effector	end effectors	Y10S 901/30	end_effectors
+tactile sensor	tactile sensing	Y10S 901/33	tactile_sensing
+tactile sensor	tactile sensor	Y10S 901/33	tactile_sensor
+welding	welding robots	Y10S 901/42	welding_robots
+compliance	compliance control	Y10S 901/45	compliance_control
+compliance	compliant joints	Y10S 901/45	compliant_joints
+optical	optical-	Y10S 901/47	optical-
+system*	system f	Y10S 902/37	system_f
+transaction* processing	transaction processing systems	Y10S 902/40	transaction_processing_systems
+transaction* processing	transaction processing	Y10S 902/40	transaction_processing
+orbital, e.g. planetary gears	planetary gears	Y10S 903/91	planetary_gears
+continuously variable	continuously variable transmission	Y10S 903/918	continuously_variable_transmission
+cellular	cellular	Y10S 977/703	cellular
+mesh structure	unstructured mesh	Y10S 977/767	unstructured_mesh
+mesh structure	unstructured meshes	Y10S 977/767	unstructured_meshes
+electrically insulating host material	insulating materials	Y10S 977/785	insulating_materials
+ultrasound contrast agent	ultrasound contrast agents	Y10S 977/929	ultrasound_contrast_agents
+ultrasound contrast agent	ultrasound contrast agent	Y10S 977/929	ultrasound_contrast_agent
+information storage or retrieval using nanostructure	information storage and retrieval	Y10S 977/943	information_storage_and_retrieval
+laser	vertical-cavity surface emitting laser	Y10S 977/951	vertical-cavity_surface_emitting_laser
+laser	laser induced fluorescence detection	Y10S 977/951	laser_induced_fluorescence_detection
+laser	laser induced	Y10S 977/951	laser_induced
+laser	femto-second laser	Y10S 977/951	femto-second_laser
+laser	laser beam shaping	Y10S 977/951	laser_beam_shaping
+laser	laser excitation	Y10S 977/951	laser_excitation
+laser	laser induced damage thresholds	Y10S 977/951	laser_induced_damage_thresholds
+laser	laser plasma	Y10S 977/951	laser_plasma
+laser	femtosecond laser	Y10S 977/951	femtosecond_laser
+laser	laser produced plasmas	Y10S 977/951	laser_produced_plasmas
+laser	pulsed laser	Y10S 977/951	pulsed_laser
+laser	pulsed laser applications	Y10S 977/951	pulsed_laser_applications
+laser	laser doppler vibrometry	Y10S 977/951	laser_doppler_vibrometry
+laser	vertical cavity surface emitting laser	Y10S 977/951	vertical_cavity_surface_emitting_laser
+laser	pulsed lasers	Y10S 977/951	pulsed_lasers
+controlled by pressure	press load control	Y10T 137/0352	press_load_control
+pressure or head controlled	press load control	Y10T 137/085	press_load_control
+with servo connection to valve	servo-valve	Y10T 137/0947	servo-valve
+with fluid servo-motor	dc servomotors	Y10T 137/1171	dc_servomotors
+temperature	temperature monitoring	Y10T 137/1963	temperature_monitoring
+responsive to condition external of system	response systems	Y10T 137/2065	response_systems
+servo-control	servo control	Y10T 137/3065	servo_control
+servo-control	servo control	Y10T 137/3077	servo_control
+line pressure feed	feed line	Y10T 137/4372	feed_line
+vehicle	v2v	Y10T 137/6855	v2v
+dash	dash	Y10T 137/6888	dash
+buildings	knowledge building	Y10T 137/6969	knowledge_building
+time	interval time-varying delay	Y10T 137/8208	interval_time-varying_delay
+time	interval time-varying delays	Y10T 137/8208	interval_time-varying_delays
+systems	observer	Y10T 137/8593	observer
+closed circulating system	closed loop systems	Y10T 137/85954	closed_loop_systems
+with pump	pump laser	Y10T 137/85978	pump_laser
+hand pump	pump laser	Y10T 137/86099	pump_laser
+variable	variable structures	Y10T 137/86421	variable_structures
+variable	variable structure	Y10T 137/86421	variable_structure
+electric	electricity	Y10T 137/86614	electricity
+with internal passage	internal wave	Y10T 137/86775	internal_wave
+coaxial stems	coaxial line	Y10T 137/87121	coaxial_line
+electric	electricity	Y10T 137/87209	electricity
+adjacent plate valves always parallel	parallel plates	Y10T 137/87475	parallel_plates
+combining of three or more diverse fluids	diversity combining	Y10T 137/87595	diversity_combining
+with flow control	information flow control	Y10T 137/87676	information_flow_control
+with coupling	mutual coupling effects	Y10T 137/9029	mutual_coupling_effects
+integral	proportional integral derivative control	Y10T 152/10117	proportional_integral_derivative_control
+integral	proportional integral derivatives	Y10T 152/10117	proportional_integral_derivatives
+integral	proportional integral derivative controllers	Y10T 152/10117	proportional_integral_derivative_controllers
+metal	metal working tools	Y10T 152/10153	metal_working_tools
+metal	metal insulator boundaries	Y10T 152/10153	metal_insulator_boundaries
+metal	metal insulator boundaries	Y10T 152/10189	metal_insulator_boundaries
+metal	metal working tools	Y10T 152/10189	metal_working_tools
+metal	metal insulator boundaries	Y10T 152/10252	metal_insulator_boundaries
+metal	metal working tools	Y10T 152/10252	metal_working_tools
+integral structure	proportional integral derivatives	Y10T 152/1045	proportional_integral_derivatives
+integral structure	proportional integral derivative controllers	Y10T 152/1045	proportional_integral_derivative_controllers
+integral structure	proportional integral derivative control	Y10T 152/1045	proportional_integral_derivative_control
+patches	image patches	Y10T 152/10882	image_patches
+frame	frame structure	Y10T 16/202	frame_structure
+frame	frame structure	Y10T 16/203	frame_structure
+cam	cam	Y10T 16/2769	cam
+cam	cam	Y10T 16/2796	cam
+flexible link	flexible links	Y10T 16/282	flexible_links
+coil	coil	Y10T 16/5388	coil
+coil	coil	Y10T 16/5995	coil
+packet holders	packet filters	Y10T 24/1402	packet_filters
+end-to-end integral band end connection	end-to-end connectivity	Y10T 24/148	end-to-end_connectivity
+bands	full band	Y10T 24/1903	full_band
+coil	coil	Y10T 24/3435	coil
+integral	proportional integral derivative controllers	Y10T 24/3615	proportional_integral_derivative_controllers
+integral	proportional integral derivatives	Y10T 24/3615	proportional_integral_derivatives
+integral	proportional integral derivative control	Y10T 24/3615	proportional_integral_derivative_control
+link	link structure	Y10T 24/3632	link_structure
+key	encryption	Y10T 24/4009	encryption
+key	encryption algorithms	Y10T 24/4009	encryption_algorithms
+key	encryption methods	Y10T 24/4009	encryption_methods
+key	encryption and decryption	Y10T 24/4009	encryption_and_decryption
+key	cryptographic key	Y10T 24/4009	cryptographic_key
+key	encryption algorithm	Y10T 24/4009	encryption_algorithm
+key	encryption schemes	Y10T 24/4009	encryption_schemes
+key	encryption key	Y10T 24/4009	encryption_key
+spreading elements	spreading codes	Y10T 279/17076	spreading_codes
+screw	screw theory	Y10T 279/17881	screw_theory
+separate chuck-actuating power source	source separation	Y10T 279/27	source_separation
+metal working	metal insulator boundaries	Y10T 29/00	metal_insulator_boundaries
+metal working	metal working tools	Y10T 29/00	metal_working_tools
+method	software	Y10T 29/481	software
+acoustic transducer	acoustic sensors	Y10T 29/49005	acoustic_sensors
+metal	metal working tools	Y10T 29/49213	metal_working_tools
+metal	metal insulator boundaries	Y10T 29/49213	metal_insulator_boundaries
+electret making	electrets	Y10T 29/49226	electrets
+i.c. [internal combustion] engine making	internal combustion	Y10T 29/49231	internal_combustion
+gear making	helical gears	Y10T 29/49462	helical_gears
+gear making	spur gears	Y10T 29/49462	spur_gears
+gear making	gear teeth	Y10T 29/49462	gear_teeth
+gear making	gear	Y10T 29/49462	gear
+worm gear	worm gears	Y10T 29/49469	worm_gears
+land wheel	land mine	Y10T 29/49492	land_mine
+race making	asian continental ancestry group	Y10T 29/49689	asian_continental_ancestry_group
+race making	race	Y10T 29/49689	race
+race making	european continental ancestry group	Y10T 29/49689	european_continental_ancestry_group
+temperature	temperature monitoring	Y10T 29/4976	temperature_monitoring
+speed controller	speed controller	Y10T 29/5179	speed_controller
+conductor	electric conductors	Y10T 29/532	electric_conductors
+removal tool	salt removal	Y10T 29/53596	salt_removal
+gear	gear	Y10T 292/0823	gear
+gear	gear teeth	Y10T 292/0823	gear_teeth
+gear	helical gears	Y10T 292/0823	helical_gears
+gear	spur gears	Y10T 292/0823	spur_gears
+cam	cam	Y10T 292/0829	cam
+cam	cam	Y10T 292/084	cam
+gear	helical gears	Y10T 292/0843	helical_gears
+gear	spur gears	Y10T 292/0843	spur_gears
+gear	gear	Y10T 292/0843	gear
+gear	gear teeth	Y10T 292/0843	gear_teeth
+cam	cam	Y10T 292/0854	cam
+gear	gear	Y10T 292/0856	gear
+gear	helical gears	Y10T 292/0856	helical_gears
+gear	spur gears	Y10T 292/0856	spur_gears
+gear	gear teeth	Y10T 292/0856	gear_teeth
+cam	cam	Y10T 292/0889	cam
+cam	cam	Y10T 292/0898	cam
+cam	cam	Y10T 292/0915	cam
+gear	helical gears	Y10T 292/0916	helical_gears
+gear	gear	Y10T 292/0916	gear
+gear	spur gears	Y10T 292/0916	spur_gears
+gear	gear teeth	Y10T 292/0916	gear_teeth
+cam	cam	Y10T 292/093	cam
+cam	cam	Y10T 292/0939	cam
+cam	cam	Y10T 292/0947	cam
+sliding	sliding mode	Y10T 292/096	sliding_mode
+sliding	sliding modes	Y10T 292/096	sliding_modes
+sliding	sliding surface	Y10T 292/096	sliding_surface
+cam	cam	Y10T 292/0964	cam
+gear	spur gears	Y10T 292/0966	spur_gears
+gear	gear teeth	Y10T 292/0966	gear_teeth
+gear	helical gears	Y10T 292/0966	helical_gears
+gear	gear	Y10T 292/0966	gear
+cam	cam	Y10T 292/0977	cam
+gear	gear teeth	Y10T 292/0993	gear_teeth
+gear	spur gears	Y10T 292/0993	spur_gears
+gear	gear	Y10T 292/0993	gear
+gear	helical gears	Y10T 292/0993	helical_gears
+cam	cam	Y10T 292/101	cam
+cam	cam	Y10T 292/1016	cam
+gear	helical gears	Y10T 292/1018	helical_gears
+gear	spur gears	Y10T 292/1018	spur_gears
+gear	gear	Y10T 292/1018	gear
+gear	gear teeth	Y10T 292/1018	gear_teeth
+cam	cam	Y10T 292/1046	cam
+cam	cam	Y10T 292/1056	cam
+cam	cam	Y10T 292/1068	cam
+cam	cam	Y10T 292/1077	cam
+gear	gear teeth	Y10T 292/1079	gear_teeth
+gear	gear	Y10T 292/1079	gear
+gear	spur gears	Y10T 292/1079	spur_gears
+gear	helical gears	Y10T 292/1079	helical_gears
+extension link	extension field	Y10T 292/28	extension_field
+gear	gear	Y10T 292/306	gear
+gear	gear teeth	Y10T 292/306	gear_teeth
+gear	helical gears	Y10T 292/306	helical_gears
+gear	spur gears	Y10T 292/306	spur_gears
+segment	over segmentation	Y10T 292/683	over_segmentation
+closure or plug spaced from joint	joint space	Y10T 403/15	joint_space
+angle section	angle estimation	Y10T 403/555	angle_estimation
+tool or tool with support	tool support	Y10T 408/89	tool_support
+tool-support	tool support	Y10T 408/94	tool_support
+clamping jaws	clamping devices	Y10T 408/953	clamping_devices
+process	in-process	Y10T 409/101749	in-process
+process	turning process	Y10T 409/101749	turning_process
+process	turning process	Y10T 409/103975	turning_process
+process	(e ,3e) process	Y10T 409/103975	%28e_%2C3e%29_process
+process	turning process	Y10T 409/10795	turning_process
+process	(e ,3e) process	Y10T 409/10795	%28e_%2C3e%29_process
+milling	milling process	Y10T 409/30	milling_process
+process	(e ,3e) process	Y10T 409/300112	%28e_%2C3e%29_process
+process	turning process	Y10T 409/300112	turning_process
+process	(e ,3e) process	Y10T 409/30112	%28e_%2C3e%29_process
+process	turning process	Y10T 409/30112	turning_process
+process	turning process	Y10T 409/303752	turning_process
+process	(e ,3e) process	Y10T 409/303752	%28e_%2C3e%29_process
+process	(e ,3e) process	Y10T 409/400175	%28e_%2C3e%29_process
+process	turning process	Y10T 409/400175	turning_process
+process	turning process	Y10T 409/50082	turning_process
+process	(e ,3e) process	Y10T 409/50082	%28e_%2C3e%29_process
+work table	look-up tables	Y10T 409/509184	look-up_tables
+work table	look-up table	Y10T 409/509184	look-up_table
+work table	look up table	Y10T 409/509184	look_up_table
+metal containing	metal insulator boundaries	Y10T 428/1438	metal_insulator_boundaries
+metal containing	metal working tools	Y10T 428/1438	metal_working_tools
+silicon	(100) silicon	Y10T 428/1457	%28100%29_silicon
+two dimensionally sectional layer	two dimensional electron gas	Y10T 428/16	two_dimensional_electron_gas
+gear	gear	Y10T 428/211	gear
+gear	spur gears	Y10T 428/211	spur_gears
+gear	gear teeth	Y10T 428/211	gear_teeth
+gear	helical gears	Y10T 428/211	helical_gears
+edge structure	edge detectors	Y10T 428/219	edge_detectors
+fibers	fiber bragg	Y10T 428/24124	fiber_bragg
+embedded in body of web	embedded web servers	Y10T 428/24223	embedded_web_servers
+silicon containing coating	through silicon vias	Y10T 428/24388	through_silicon_vias
+edge feature	edge features	Y10T 428/24777	edge_features
+voids specified as micro	micro and nano systems	Y10T 428/249978	micro_and_nano_systems
+next to metal	metal working tools	Y10T 428/2804	metal_working_tools
+next to metal	metal insulator boundaries	Y10T 428/2804	metal_insulator_boundaries
+next to metal	metal insulator boundaries	Y10T 428/31522	metal_insulator_boundaries
+next to metal	metal working tools	Y10T 428/31522	metal_working_tools
+next to metal	metal working tools	Y10T 428/31529	metal_working_tools
+next to metal	metal insulator boundaries	Y10T 428/31529	metal_insulator_boundaries
+of metal	metal insulator boundaries	Y10T 428/31678	metal_insulator_boundaries
+of metal	metal working tools	Y10T 428/31678	metal_working_tools
+as part of an elemental analysis	finite element analysis	Y10T 436/176921	finite_element_analysis
+process	turning process	Y10T 483/10	turning_process
+process	(e ,3e) process	Y10T 483/10	%28e_%2C3e%29_process
+for closures	closed form	Y10T 70/5093	closed_form
+by manipulator	manipulators	Y10T 70/5513	manipulators
+by manipulator	robotic manipulators	Y10T 70/5513	robotic_manipulators
+by manipulator	manipulator	Y10T 70/5513	manipulator
+by manipulator	robotic manipulator	Y10T 70/5513	robotic_manipulator
+gear	spur gears	Y10T 70/5681	spur_gears
+gear	gear teeth	Y10T 70/5681	gear_teeth
+gear	helical gears	Y10T 70/5681	helical_gears
+gear	gear	Y10T 70/5681	gear
+planetary	planetary gears	Y10T 70/5686	planetary_gears
+for cycles	p-cycles	Y10T 70/5872	p-cycles
+transmission	gear transmissions	Y10T 70/5925	gear_transmissions
+remote control	remote control	Y10T 70/5973	remote_control
+systems	observers	Y10T 70/60	observers
+electric	electricity	Y10T 70/7028	electricity
+permanent magnet	permanent faults	Y10T 70/7057	permanent_faults
+selectively operable	selection operators	Y10T 70/7164	selection_operators
+key	encryption methods	Y10T 70/7441	encryption_methods
+key	encryption algorithm	Y10T 70/7441	encryption_algorithm
+key	encryption and decryption	Y10T 70/7441	encryption_and_decryption
+key	cryptographic key	Y10T 70/7441	cryptographic_key
+key	encryption key	Y10T 70/7441	encryption_key
+key	encryption schemes	Y10T 70/7441	encryption_schemes
+key	encryption algorithms	Y10T 70/7441	encryption_algorithms
+key	encryption	Y10T 70/7441	encryption
+single set	single sensor	Y10T 70/7542	single_sensor
+cylinder	engine cylinders	Y10T 70/7672	engine_cylinders
+rollbacks	rollback recovery	Y10T 70/7712	rollback_recovery
+gyroscopes	gyroscopes	Y10T 74/12	gyroscopes
+gyroscopes	gyroscope	Y10T 74/12	gyroscope
+gyroscope control	mems gyroscope	Y10T 74/1229	mems_gyroscope
+damping	damping forces	Y10T 74/1257	damping_forces
+optical	optical-	Y10T 74/1264	optical-
+clutch connection	clutches	Y10T 74/134	clutches
+speed	at-speed	Y10T 74/1506	at-speed
+single input, plural outputs	multiple input single outputs	Y10T 74/18616	multiple_input_single_outputs
+helical	helical gears	Y10T 74/19098	helical_gears
+spur gears	spur gears	Y10T 74/19451	spur_gears
+spur gears	spur gears	Y10T 74/19479	spur_gears
+spur gears	spur gears	Y10T 74/19488	spur_gears
+bevel gears	bevel gears	Y10T 74/19493	bevel_gears
+transmission control	transmission power control	Y10T 74/20018	transmission_power_control
+transmission control	transmission control protocol %28tcp%29	Y10T 74/20018	transmission_control_protocol_%28tcp%29
+robotic arm	robotic arms	Y10T 74/20305	robotic_arms
+robotic arm	robotic arm	Y10T 74/20305	robotic_arm
+gear	gear	Y10T 74/20492	gear
+gear	spur gears	Y10T 74/20492	spur_gears
+gear	helical gears	Y10T 74/20492	helical_gears
+gear	gear teeth	Y10T 74/20492	gear_teeth
+antenna	antenna accessories	Y10T 74/20522	antenna_accessories
+antenna	antennas	Y10T 74/20522	antennas
+antenna	antenna	Y10T 74/20522	antenna
+hand	hand over	Y10T 74/20612	hand_over
+hand	handover	Y10T 74/20612	handover
+gear	helical gears	Y10T 74/20654	helical_gears
+gear	gear	Y10T 74/20654	gear
+gear	gear teeth	Y10T 74/20654	gear_teeth
+gear	spur gears	Y10T 74/20654	spur_gears
+memory devices	memory interface	Y10T 74/2105	memory_interface
+variable	variable structures	Y10T 74/2167	variable_structures
+variable	variable structure	Y10T 74/2167	variable_structure
+variable	variable structures	Y10T 74/2181	variable_structures
+variable	variable structure	Y10T 74/2181	variable_structure
+process of turning	turning process	Y10T 82/10	turning_process
+control	force control	Y10T 82/2533	force_control
+work rest	restoration methods	Y10T 82/2593	restoration_methods
+work rest	restoration algorithm	Y10T 82/2593	restoration_algorithm
+cutting	cutting forces	Y10T 83/00	cutting_forces
+cutting	cutting force	Y10T 83/00	cutting_force
+scoring	matching score	Y10T 83/0333	matching_score
+by compressing	compress and forward	Y10T 83/0429	compress_and_forward
+tool or tool with support	tool support	Y10T 83/929	tool_support
+by deformation	elastic deformation	Y10T 83/9343	elastic_deformation
+parallel cutting edges	cutting edges	Y10T 83/9498	cutting_edges

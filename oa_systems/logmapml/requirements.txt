@@ -1,0 +1,5 @@
+numpy~=1.23.1
+nltk~=3.7
+tensorflow~=2.10.0
+owlready2~=0.38
+gensim~=3.8.3

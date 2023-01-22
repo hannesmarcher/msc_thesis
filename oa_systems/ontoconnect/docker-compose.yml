@@ -1,0 +1,44 @@
+version: "3.9"
+services:
+  ontoconnect-cpc2ccs:
+    image: jchakra1/ontosim_imgbatch:v1
+    volumes:
+      - ./cpc2ccs/:/usr/ontosim/java/ontofiles/local/
+    #deploy:
+#      resources:
+#        limits:
+#          cpus: "0.50"
+#          memory: 512M
+#        reservations:
+#          cpus: "0.25"
+#          memory: 128M
+  ontoconnect-cpc2cso:
+    image: jchakra1/ontosim_imgbatch:v1
+    depends_on:
+      ontoconnect-cpc2ccs:
+        condition: service_completed_successfully
+    volumes:
+      - ./cpc2cso/:/usr/ontosim/java/ontofiles/local/
+    #deploy:
+#      resources:
+#        limits:
+#          cpus: "0.50"
+#          memory: 512M
+#        reservations:
+#          cpus: "0.25"
+#          memory: 128M
+  ontoconnect-anatomy:
+    image: jchakra1/ontosim_imgbatch:v1
+    depends_on:
+      ontoconnect-cpc2cso:
+        condition: service_completed_successfully
+    volumes:
+      - ./anatomy/:/usr/ontosim/java/ontofiles/local/
+    #deploy:
+#      resources:
+#        limits:
+#          cpus: "0.50"
+#          memory: 512M
+#        reservations:
+#          cpus: "0.25"
+#          memory: 128M

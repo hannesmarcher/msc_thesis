@@ -1,0 +1,101 @@
+source	target	source_id	target_id	reasoning	is_correct	questionable
+signal processing	signal theory	G01C 19/5726	signal_theory	CSO has signal processing as additional label, however, probably not a match as CSO refers to mathematical notion of signals (noise in context of statistics) while CPC refers to measuring signals.	0	
+handheld	handheld	G01J 1/0233	handheld	CPC refers to handhelds in the context of windtunnels while CSO is about handheld computers	0	
+optical filters	optical filters	G01J 5/0802	optical_filters	Not in my expertise	0	?
+waveguides	circular waveguides	G01J 5/0818	circular_waveguides	Not in my expertise	0	?
+standards	h.264 standards	G01N 2030/042	h.264_standards	CSO is about multimedia, while CPC is about chemical-related (?) context	0	
+impedance	electric impedance tomography	G01N 2291/018	electric_impedance_tomography	CSO has as label also impedance and in both contexts the same notion is expressed.	1	
+impedance	impedance bandwidths	G01N 2291/018	impedance_bandwidths	CSO has as label also impedance and in both contexts the same notion is expressed.	1	
+glass	glass lasers	G01N 33/386	glass_lasers	Not a match. CPC is about the concrete material and CSO is about lasers.	0	
+spectrum analysis; fourier analysis	fourier analysis	G01R 23/16	fourier_analysis	Same notion.	1	
+measuring pulse width	pulse width	G01R 29/023	pulse_width	CSO is about pulse width itself, while CPC is about measuring pulse width. Might be considered a match.	1	?
+simulation	full-system simulation	G01R 31/318357	full-system_simulation	CPC is about simulation in the context of testing. There is no evidence that this applies to CSO as well.	0	
+power consumption	low-power consumption	G01S 19/34	low-power_consumption	Different notion.	0	?
+solar tracking systems	tracking system	G01S 3/7861	tracking_system	Different notion.	0	
+energy consumption	low energy consumption	G01S 5/019	low_energy_consumption	Different notion.	0	?
+energy consumption	energy consumption model	G01S 5/019	energy_consumption_model	Different notion.	0	?
+meteorology	eddies	G01W 	eddies	Different notion.	0	
+splicing	spliceosomes	G02B 2006/12192	spliceosomes	CPC is about genes and CSO is about manufacturing.	0	
+electro-optical materials	optical materials	G02F 1/0018	optical_materials	Different notion.	0	
+materials and properties conductive	conductive materials	G02F 2202/16	conductive_materials	Different notion.	0	
+testing optical components 	optical testing	G03F 7/70591	optical_testing	Different notion.	0	
+look up table	look-up tables	G03H 2001/0833	look-up_tables	CSO is about fpgs, while CPC is about holographic procedures	0	
+look up table	look-up table	G03H 2001/0833	look-up_table	CSO is about fpgs, while CPC is about holographic procedures	0	
+moving object	moving objects	G03H 2210/62	moving_objects	CSO is about computer vision in general, while CPC is specifically about holographic concepts. Still, I would argue that they are related.	1	
+multiprocessor system	multiprocessor-system	G05B 19/0421	multiprocessor-system	Same notion in slightly different contexts	1	
+test of sensor	test set	G05B 2219/14076	test_set	CSO is about test sets in context of machine learning while CPC is about test of sensors	0	
+microcontroller	micro-controller	G05B 2219/15053	micro-controller	CSO is about embedded systems, while CPC is about PLC, thus I would consider it a match	1	
+power supply	power supplies	G05B 2219/15097	power_supplies	Same notion	1	
+petrinet	petri nets	G05B 2219/23002	petri_nets	Both refer to the general, theoretical concept of petri nets	1	
+dsp digital signal processor	digital signal processors	G05B 2219/25254	digital_signal_processors	Both are in different hierarchies, but refer to the same concept	1	
+wireless lan	wlan systems	G05B 2219/31162	wlan_systems	Both are in different hierarchies, but refer to the same concept	1	
+capp computer aided machining and process planning	computer aided process planning	G05B 2219/32099	computer_aided_process_planning	CPC is about NC systems, while CSO is about a very similar area (~CAD related)	1	
+operative process planning	process planning	G05B 2219/32107	process_planning	Similar to “capp computer aided machining and process planning”	1	
+real time scheduler	real time scheduling	G05B 2219/32247	real_time_scheduling	Similar to “microcontroller”	1	
+shared memory	shared memories	G05B 2219/34069	shared_memories	CPC refers to shared memory in the context of NC systems, while CSO is the general low-level notion of shared memory. Probably not close enough	1	
+scalability	temporal scalability	G05B 2219/34334	temporal_scalability	Both concepts have different meaning in their respective context	0	
+multiprocessor scheduling	multi processor scheduling	G05B 2219/34417	multi_processor_scheduling	Same reasoning as with “shared memory”	0	
+structure of control system	control loop	G05B 2219/34419	control_loop	CSO has as label also control system, however, it is about robotics while CPC is about NC systems	0	
+data storage, buffer	buffer storage	G05B 2219/35373	buffer_storage	Similar as with “structure of control system”	0	
+gyroscope	gyroscopes	G05B 2219/37134	gyroscopes	Same concept in both hierarchies.	1	
+frequency	frequency multiplying circuits	G05B 2219/37352	frequency_multiplying_circuits	Probably different notion depending on context	0	
+frequency	variable frequency oscillators	G05B 2219/37352	variable_frequency_oscillators	Probably different notion depending on context	0	
+trajectory tracking	trajectory tracking	G05B 2219/39219	trajectory_tracking	Both are sub-concepts of robotics, therefore match	1	
+stereo audio and vision	stereo vision	G05B 2219/40136	stereo_vision	CPC refers to vision in context of robotics, while CSO is about image reconstruction. Probably not related enough.	0	?
+tactile sensor	tactile sensing	G05B 2219/40625	tactile_sensing	Both are sub-concepts of robotics, therefore match	1	
+with cam	cam	G05B 2219/41069	cam	Can be considered a match as CPC is a descendant of NC Systems and CSO is a descendant about manufacturing	1	
+tracking control	tracking controls	G05B 2219/42337	tracking_controls	Similar reasoning as with “with cam”	1	
+chip thickness	chip thickness	G05B 2219/49104	chip_thickness	Similar reasoning as with “with cam”	1	
+object oriented databases	object oriented database	G06F 16/289	object_oriented_database	Same notion.	1	
+query translation	query translations	G06F 16/8358	query_translations	Both are about information retrieval	1	
+query translation	query translations	G06F 16/8358	query_translations	Both are about information retrieval	1	
+trees	fp-tree	G06F 16/9027	fp-tree	CSO is specifically about fp trees	0	
+discrete fourier transforms	discrete fourier transform	G06F 17/141	discrete_fourier_transform	Same notion.	1	
+discrete fourier transforms	discrete fourier transform %28dft%29	G06F 17/141	discrete_fourier_transform_%28dft%29	Same notion.	1	
+cache	cache	G06F 2015/765	cache	Same notion.	1	
+pipelining	pipelining	G06F 2207/3884	pipelining	CPC has windtunnels as ascendant	0	
+non-volatile memory	non-volatile memory	G06F 2212/202	non-volatile_memory	Same notion.	1	
+routing	routing	G06F 30/394	routing	Hard to determine.	0	?
+routing	network routing	G06F 30/394	network_routing	Hard to determine.	0	?
+finite state machines	finite state machine	G06F 9/4498	finite_state_machine	Same notion.	1	
+rasterization	rasterization	G06K 15/1836	rasterization	Both are about rasterization in the graphical domain	1	
+clustering techniques	clustering approach	G06K 9/6218	clustering_approach	Same concept in slightly different hierarchies.	1	
+optimization	structure optimization	G06Q 30/0244	structure_optimization	CPC is about advertisement optimization	0	
+education	education	G06Q 50/20	education	Granularity of both concepts deviates too heavily	0	
+memory management	memory management	G06T 1/60	memory_management	CPC is about image processing, while CSO is about memory management in context of memory allocation in general	0	
+mixed reality 	mixed reality	G06T 19/006	mixed_reality	Both are in the context of augmented reality	1	
+median filtering	median filtering	G06T 2207/20032	median_filtering	Both are about image processing	1	
+face	facial features	G06T 2207/30201	facial_features	Both are about image processing, but face is more general than facial features	0	
+surveillance	surveillance systems	G06T 2207/30232	surveillance_systems	Different context. CPC is about images and CSO about security	0	
+client-server	client-server architectures	G07B 2017/00056	client-server_architectures	Both are about client-server architectures	1	
+random number generator	random number generator	G07B 2017/00919	random_number_generator	Both are descendants of cryptography	1	
+microwaves	microwaves	G07D 7/10	microwaves	CSO is about signal processing and CPC about checking devices for currencies	0	
+matching template patterns	template matching	G07D 7/206	template_matching	CSO is about image patterns and CPC about checking devices for currencies	0	
+codebooks	codebook	G10L 2019/0001	codebook	CPC is about speech analysis and CSO about image processing	0	
+satellite communication	satellite communications	G07B 2017/00129	satellite_communications	Same notion	1	
+passwords	password authentication	G07B 2017/00935	password_authentication	Both are about password authentication in the context of security	1	
+compression techniques	compression scheme	G07B 2017/00943	compression_scheme	CSO is dedicated to image compression, while CPC is not	0	
+frequency division multiplexing	frequency division multiplexing	G10H 2240/225	frequency_division_multiplexing	Different domain	0	
+one dimensional	one-dimensional	G10K 2210/101	one-dimensional	CSO is about the general mathematical concept, while CPC is specialized	0	
+three dimensional	three-dimensional modeling	G10K 2210/103	three-dimensional_modeling	Same as with “one dimensional”	0	
+dynamic bit allocation	bit allocation	G10L 19/002	bit_allocation	Both are about bit allocation in field of audio/images	1	
+word spotting	word spotting	G10L 2015/088	word_spotting	Both are about information retrieval	1	
+corrosion	corrosion prevention	Y10S 138/06	corrosion_prevention	Domains are different	0	
+gallium arsenide	gaas%2Falgaas	Y10S 148/056	gaas%2Falgaas	Hard to determine, but might be a match	1	?
+magnetic coupling	electromagnetic coupling	Y10S 159/07	electromagnetic_coupling	Different concept, already indicated by names	0	
+glass	viscous flow	Y10S 285/911	viscous_flow	CSO is about mathematics and CPC about other domain	0	
+infrared	infrared focal plane arrays	Y10S 430/145	infrared_focal_plane_arrays	The hierarchy of CPC is not very expressive, but probably the domains deviate	0	?
+etching	wet etching	Y10S 505/728	wet_etching	CPC is about superconductors, while CSO is not	0	
+annealing	thermal annealing	Y10S 505/742	thermal_annealing	CPC is about the physical concept of annealing, while CSO refers to the algorithmic concept	0	
+human sciences	human sciences	Y10S 707/941	human_sciences	CPC is about the application of databases, while CSO is about the research area. Still they describe the same item	1	
+carrier	carrier (co)	Y10S 71/904	carrier_%28co%29	CPC is about the chemical domain, while CSO is not 	0	
+automatic gain control	automatic gain control	Y10S 73/90	automatic_gain_control	Domains deviate	0	
+robot	robots	Y10S 901/08	robots	Concepts match	1	
+temperature	temperature monitoring	Y10T 137/1963	temperature_monitoring	CSO is about sensors and CPC about the notion temperature itself. Although field is different the underlying item is the same	1	
+dash	dash	Y10T 137/6888	dash	CSO is about http while CPC is about automotive	0	
+patches	image patches	Y10T 152/10882	image_patches	Hierarchy of CPC is not very meaningful, but probably not a match	0	?
+coil	coil	Y10T 16/5388	coil	CPC is about hinges, while CSO is about chemical lasers	0	
+coil	coil	Y10T 16/5995	coil	Again, CPC is a different concept	0	
+metal	metal insulator boundaries	Y10T 29/49213	metal_insulator_boundaries	Hierarchy different, however, both refer to the same item	1	
+process	(e ,3e) process	Y10T 409/300112	%28e_%2C3e%29_process	CSO is about process control (automation), while CPC is about NC systems. Therefore it probably matches	1	?
+by deformation	elastic deformation	Y10T 83/9343	elastic_deformation	Hierarchy different	0	

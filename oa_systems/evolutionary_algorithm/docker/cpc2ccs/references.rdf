@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-47"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10011007.10011006.10011041.10011043"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9908988967772393</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-61"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10011007.10010940.10010941.10010949.10010950.10010951"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9908988967772393</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-423"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10011007.10011006.10011041.10011049"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9908988967772393</measure>
+    </Cell>
+  </map>
+</Alignment>
+</rdf:RDF>

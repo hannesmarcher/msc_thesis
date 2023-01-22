@@ -1,0 +1,53 @@
+version: "3.9"
+services:
+  owl2vec_star-cpc2ccs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./cpc2ccs/:/app/output_dir
+      - ./cpc2ccs/:/app/config_dir
+      - ../../../ontologies/sub_ontologies/cpc2ccs/:/app/onto_dir/
+      - ../../large_embeddings/word2vec/:/app/word2vec
+#    deploy:
+#        resources:
+#            limits:
+#              cpus: "0.50"
+#              memory: 512M
+#            reservations:
+#              cpus: "0.25"
+#              memory: 128M
+  owl2vec_star-cpc2cso:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./cpc2cso/:/app/output_dir
+      - ./cpc2cso/:/app/config_dir
+      - ../../../ontologies/sub_ontologies/cpc2cso/:/app/onto_dir/
+      - ../../large_embeddings/word2vec/:/app/word2vec
+#    deploy:
+#        resources:
+#            limits:
+#              cpus: "0.50"
+#              memory: 512M
+#            reservations:
+#              cpus: "0.25"
+#              memory: 128M
+  owl2vec_star-anatomy:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./anatomy/:/app/output_dir
+      - ./anatomy/:/app/config_dir
+      - ../../../ontologies/sub_ontologies/anatomy/:/app/onto_dir/
+      - ../../large_embeddings/word2vec/:/app/word2vec
+#    deploy:
+#        resources:
+#            limits:
+#              cpus: "0.50"
+#              memory: 512M
+#            reservations:
+#              cpus: "0.25"
+#              memory: 128M

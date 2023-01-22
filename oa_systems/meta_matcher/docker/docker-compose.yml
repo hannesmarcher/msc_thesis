@@ -1,0 +1,23 @@
+version: "3.9"
+services:
+  lumeta-cpc2ccs:
+    build: ../
+    volumes:
+      - ./cpc2ccs/:/app/output_dir/
+      - ../../../ontologies/sub_ontologies/cpc2ccs/:/app/onto_dir/
+  lumeta-cpc2cso:
+    build: ../
+    depends_on:
+      lumeta-cpc2ccs:
+        condition: service_completed_successfully
+    volumes:
+      - ./cpc2cso/:/app/output_dir/
+      - ../../../ontologies/sub_ontologies/cpc2cso/:/app/onto_dir/
+  lumeta-anatomy:
+    build: ../
+    depends_on:
+      lumeta-cpc2cso:
+        condition: service_completed_successfully
+    volumes:
+      - ./anatomy/:/app/output_dir/
+      - ../../../ontologies/sub_ontologies/anatomy/:/app/onto_dir/

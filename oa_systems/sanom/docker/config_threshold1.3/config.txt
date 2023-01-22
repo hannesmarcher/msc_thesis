@@ -1,0 +1,2 @@
+wordnet=False
+threshold=1.3

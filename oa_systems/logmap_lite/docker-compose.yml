@@ -1,0 +1,56 @@
+version: "3.9"
+services:
+  logmap-lite-cpc2ccs:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - ./cpc2ccs/:/app/output_dir/
+      - ../../ontologies/sub_ontologies/cpc2ccs/:/app/onto_dir/
+      - ./config_default:/app/config_dir/
+    #deploy:
+#      resources:
+#        limits:
+#          cpus: "0.50"
+#          memory: 512M
+#        reservations:
+#          cpus: "0.25"
+#          memory: 128M
+  logmap-lite-cpc2cso:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    depends_on:
+      logmap-lite-cpc2ccs:
+        condition: service_completed_successfully
+    volumes:
+      - ./cpc2cso/:/app/output_dir/
+      - ../../ontologies/sub_ontologies/cpc2cso/:/app/onto_dir/
+      - ./config_default:/app/config_dir/
+    #deploy:
+#      resources:
+#        limits:
+#          cpus: "0.50"
+#          memory: 512M
+#        reservations:
+#          cpus: "0.25"
+#          memory: 128M
+  logmap-lite-anatomy:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    depends_on:
+      logmap-lite-cpc2cso:
+        condition: service_completed_successfully
+    volumes:
+      - ./anatomy/:/app/output_dir/
+      - ../../ontologies/sub_ontologies/anatomy/:/app/onto_dir/
+      - ./config_default:/app/config_dir/
+    #deploy:
+#      resources:
+#        limits:
+#          cpus: "0.50"
+#          memory: 512M
+#        reservations:
+#          cpus: "0.25"
+#          memory: 128M

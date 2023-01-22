@@ -1,0 +1,113 @@
+version: "3.9"
+services:
+  logmap-cpc2ccs:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - ./cpc2ccs/:/app/output_dir/
+      - ../../ontologies/sub_ontologies/cpc2ccs/:/app/onto_dir/
+      - ./config_default:/app/config_dir/
+    #deploy:
+#      resources:
+#        limits:
+#          cpus: "0.50"
+#          memory: 512M
+#        reservations:
+#          cpus: "0.25"
+#          memory: 128M
+  logmap-cpc2cso:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    depends_on:
+      logmap-cpc2ccs:
+        condition: service_completed_successfully
+    volumes:
+      - ./cpc2cso/:/app/output_dir/
+      - ../../ontologies/sub_ontologies/cpc2cso/:/app/onto_dir/
+      - ./config_default:/app/config_dir/
+    #deploy:
+#      resources:
+#        limits:
+#          cpus: "0.50"
+#          memory: 512M
+#        reservations:
+#          cpus: "0.25"
+#          memory: 128M
+  logmap-anatomy:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    depends_on:
+      logmap-cpc2cso:
+        condition: service_completed_successfully
+    volumes:
+      - ./anatomy/:/app/output_dir/
+      - ../../ontologies/sub_ontologies/anatomy/:/app/onto_dir/
+      - ./config_default:/app/config_dir/
+    #deploy:
+#      resources:
+#        limits:
+#          cpus: "0.50"
+#          memory: 512M
+#        reservations:
+#          cpus: "0.25"
+#          memory: 128M
+  logmap-cpc2ccs-experimental:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    depends_on:
+      logmap-anatomy:
+        condition: service_completed_successfully
+    volumes:
+      - ./cpc2ccs_experimental/:/app/output_dir/
+      - ../../ontologies/sub_ontologies/cpc2ccs/:/app/onto_dir/
+      - ./config_experimental:/app/config_dir/
+    #deploy:
+#      resources:
+#        limits:
+#          cpus: "0.50"
+#          memory: 512M
+#        reservations:
+#          cpus: "0.25"
+#          memory: 128M
+  logmap-cpc2cso-experimental:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    depends_on:
+      logmap-cpc2ccs-experimental:
+        condition: service_completed_successfully
+    volumes:
+      - ./cpc2cso_experimental/:/app/output_dir/
+      - ../../ontologies/sub_ontologies/cpc2cso/:/app/onto_dir/
+      - ./config_experimental:/app/config_dir/
+    #deploy:
+#      resources:
+#        limits:
+#          cpus: "0.50"
+#          memory: 512M
+#        reservations:
+#          cpus: "0.25"
+#          memory: 128M
+  logmap-anatomy-experimental:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    depends_on:
+      logmap-cpc2cso-experimental:
+        condition: service_completed_successfully
+    volumes:
+      - ./anatomy_experimental/:/app/output_dir/
+      - ../../ontologies/sub_ontologies/anatomy/:/app/onto_dir/
+      - ./config_experimental:/app/config_dir/
+    #deploy:
+#      resources:
+#        limits:
+#          cpus: "0.50"
+#          memory: 512M
+#        reservations:
+#          cpus: "0.25"
+#          memory: 128M

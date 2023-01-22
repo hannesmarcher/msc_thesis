@@ -1,0 +1,51 @@
+source	target	source_id	target_id
+pulse stream	stream mining	G01D 5/2492	stream_mining
+systems	c-systems	G01N 27/416	c-systems
+pattern recognition for feature extraction	syntactic pattern recognition	G01S 13/9027	syntactic_pattern_recognition
+underwater equipment	underwater vehicle	G02B 23/22	underwater_vehicle
+electronically addressable mailing bins	electronic mail	G03G 2215/00907	electronic_mail
+modulation	sigma-delta modulator	G03H 2225/30	sigma-delta_modulator
+diffraction efficiency [de]	diffraction efficiency	G03H 2240/53	diffraction_efficiency
+microcontroller as time switch	switching controllers	G05B 2219/25248	switching_controllers
+microprocessor	microprocessor	G05B 2219/25252	microprocessor
+for resource planning	enterprise resource planning %28erp%29	G05B 2219/32365	enterprise_resource_planning_%28erp%29
+shared memory	shared memory	G05B 2219/34069	shared_memory
+shared memory	shared memory architecture	G05B 2219/34069	shared_memory_architecture
+adaptive force control	adaptive control	G05B 2219/39332	adaptive_control
+motion, trajectory planning	motion planning	G05B 2219/40519	motion_planning
+fuzzy position controller	position controller	G05B 2219/42051	position_controller
+radar	radar receivers	G05B 2219/45016	radar_receivers
+against noise	noise conditions	G05B 2219/50191	noise_conditions
+keyboards	keyboard	G06C 7/02	keyboard
+benchmarking	benchmark circuit	G06F 11/3428	benchmark_circuit
+address translation	address translation	G06F 12/10	address_translation
+query optimisation	distributed query processing	G06F 16/2453	distributed_query_processing
+pipelining	pipe linings	G06F 2207/3884	pipe_linings
+systolic array	systolic arrays	G06F 2207/3892	systolic_arrays
+application	computer application	G06F 2209/482	computer_application
+remote server	remote servers	G06F 2212/264	remote_servers
+system on chip	soc	G06F 2213/0038	soc
+user	user interests	G06F 2221/0713	user_interests
+routing	routing	G06F 30/394	routing
+communication 	communication constraints	G06F 8/457	communication_constraints
+transaction verification using location information	location information	G06Q 20/4015	location_information
+level set	level set approach	G06T 2207/20161	level_set_approach
+analysis of document content	document analysis	G06V 30/41	document_analysis
+trusted party	trust negotiations	G07B 2017/00911	trust_negotiations
+acoustic waves	acoustic waves	G07D 7/08	acoustic_waves
+user interface	hmi	G08B 13/19678	hmi
+rainwater harvesting	power harvesting	Y02A 20/108	power_harvesting
+credit card	credit cards	Y10S 283/904	credit_cards
+simulation	system level simulation	Y10S 345/952	system_level_simulation
+wide area network	wide area networks	Y10S 370/901	wide_area_networks
+comprising animal derived product	product derivation	Y10S 5/949	product_derivation
+communication	communication	Y10S 706/917	communication
+multimedia	multimedia streaming	Y10S 707/913	multimedia_streaming
+garbage collection	image collections	Y10S 707/99957	image_collections
+robots	robot	Y10S 901/00	robot
+cartesian, three degrees of freedom	degrees of freedom	Y10S 901/16	degrees_of_freedom
+laser	vertical cavity surface emitting laser	Y10S 977/951	vertical_cavity_surface_emitting_laser
+race making	asian continental ancestry group	Y10T 29/49689	asian_continental_ancestry_group
+gear	helical gears	Y10T 292/306	helical_gears
+segment	over segmentation	Y10T 292/683	over_segmentation
+process of turning	turning process	Y10T 82/10	turning_process

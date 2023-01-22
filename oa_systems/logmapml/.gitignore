@@ -1,0 +1,10 @@
+.idea
+__pycache__
+/owl2vec_star/cpc2ccs/*
+!/owl2vec_star/cpc2ccs/default_multi.cfg
+/owl2vec_star/cpc2cso/*
+!/owl2vec_star/cpc2cso/default_multi.cfg
+/owl2vec_star/anatomy/*
+!/owl2vec_star/anatomy/default_multi.cfg
+/docker/*/*
+!/docker/*/references.rdf

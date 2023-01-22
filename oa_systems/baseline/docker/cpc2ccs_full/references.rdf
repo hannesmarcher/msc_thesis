@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F2216-03"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10002951.10003227.10003351"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F16-322"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10002950.10003624.10003633.10003634"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06T15-02"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010147.10010371.10010372.10010375"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/Y10S707-969"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10002951.10003152.10003161.10003434.10003435"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G16Y10-05"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010405.10010476.10010480"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06Q10-0833"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010147.10010178.10010224.10010245.10010253"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F9-4498"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010583.10010600.10010615.10010620"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06T2207-30212"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010405.10010476.10010478"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F40-205"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10003752.10010124.10010138.10010145"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06Q2220-18"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10003456.10003462.10003463.10003470"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06T2207-30232"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10003456.10003462.10003487"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/Y10S705-901"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10003456.10003462.10003463.10002996"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F9-4401"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10002950.10003648.10003670.10003684.10003685"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G01N35-0092"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10011007.10010940.10010941.10010949.10010957.10010688"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F7-49989"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10002950.10003714.10003715.10003725"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/Y10S707-99954"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10002951.10003152.10003520.10003184"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F2212-2022"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10002951.10003152.10003153.10003158.10003452"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06N20-00"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010147.10010257"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F2207-4824"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010520.10010521.10010542.10010294"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F2207-4824"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010147.10010257.10010293.10010294"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06T15-205"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010147.10010371.10010382.10010385"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F30-3312"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010583.10010682.10010705"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G01V2210-32"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010583.10010588.10003247.10003250"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G02B2006-12135"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010583.10010662.10010586.10010680"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G04B29-00"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10011007.10011006.10011008.10011024.10011038"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G01S2205-07"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010405.10010476.10010478"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G05B2219-36109"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10002951.10003152.10003153.10003158.10003452"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06Q50-20"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010405.10010489"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F17-13"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10002950.10003714.10003727"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G10K2210-3229"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10003752.10003766.10003773.10003774"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F2212-254"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10011007.10010940.10010941.10010949.10010950.10010955"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G05B2219-45048"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010583.10010682.10010697.10010699"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F2221-0746"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010583.10010786"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G05B2219-24182"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010520.10010575.10010755"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G05B2219-34192"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10011007.10010940.10010941.10010949.10010950"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G05B2219-25419"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10011007.10010940.10010941.10010949.10010957.10010688"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G16Y10-40"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010405.10010481.10010485"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G16Y10-90"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010405.10010432.10010436"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F40-197"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010405.10010497.10010500.10010502"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F40-56"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010147.10010178.10010179.10010182"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F2221-0737"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10011007.10011074.10011099.10011105.10011110"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G05B2219-40563"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010147.10010178.10010224.10010245.10010250"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06K15-1836"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010147.10010371.10010372.10010373"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F2211-009"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10002951.10003260.10003282.10003296.10003298"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010405.10010432.10010441"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G01N29-0654"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010405.10010444.10010087.10010096"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-423"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10011007.10011006.10011041.10011049"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/Y10S707-974"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10002951.10003152.10003161.10003434.10003436"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/Y10S423-06"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010583.10010662.10010586.10010680"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06T1-60"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10011007.10010940.10010941.10010949.10010950"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/Y10S707-97"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10002951.10003152.10003161.10003434.10003436"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F16-288"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10002951.10002952.10002953.10002959"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G10K2210-3038"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010147.10010257.10010293.10010294"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F16-2433"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10002951.10002952.10003197"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/Y10S902-00"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10002951.10003260.10003282.10003550.10003554"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-427"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10003752.10010124.10010138.10010145"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/Y10S707-923"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10003456.10003462.10003463"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F2212-202"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010583.10010600.10010607.10010610"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G10K2210-3038"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010520.10010521.10010542.10010294"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G01N2223-40"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010405.10010444.10010087.10010096"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G10L15-00"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010147.10010178.10010179.10010183"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F9-5072"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10011007.10010940.10010971.10011120.10010541"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G01N29-4481"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010520.10010521.10010542.10010294"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06Q30-0267"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010583.10010588.10011669"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/Y10S707-927"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10002944.10011123.10011675"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/Y10S707-99957"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10011007.10010940.10010941.10010949.10010950.10010954"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06T13-00"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010147.10010371.10010352"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G05B2219-43191"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10002950.10003714.10003736.10003737"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G01N29-4481"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010147.10010257.10010293.10010294"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G05B2219-24182"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010583.10010750.10010751.10010755"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/Y10S902-00"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010405.10003550.10003554"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F40-242"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10002951.10003317.10003318.10011148"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F9-4492"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10011007.10011006.10011008.10011024.10011026"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G05B2219-25265"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10002951.10003152.10003153.10003158.10003452"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/Y10S707-973"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10002951.10003152.10003161.10003434.10003435"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/Y10S705-901"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10002978.10002991.10002996"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G21D3-007"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10002951.10003227.10003241.10003243"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G01J2005-0077"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010405.10010444.10010087.10010096"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G16Y10-55"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010405.10010489"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F2212-222"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010583.10010600.10010607.10010610"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F2119-16"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010583.10010717.10010721.10010723"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F40-226"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10002944.10011123.10011675"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F16-9027"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10002950.10003624.10003633.10003634"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G07B2017-00846"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10002978.10002979.10002980"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06C7-02"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10003120.10003121.10003125.10010872"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-47"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10011007.10011006.10011041.10011043"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F9-5072"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010520.10010521.10010537.10010541"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F15-8046"/>
+      <entity2 rdf:resource="https://dl.acm.org/ccs/topics/10010520.10010521.10010528.10010535"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+</Alignment>
+</rdf:RDF>

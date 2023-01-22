@@ -1,0 +1,101 @@
+version: "3.9"
+services:
+  sanom-cpc2ccs:
+    build: ../
+    volumes:
+      - ./cpc2ccs/:/app/output_dir/
+      - ../../../ontologies/sub_ontologies/cpc2ccs/:/app/onto_dir/
+      - ./config_threshold1:/app/config_dir/
+    #deploy:
+#      resources:
+#        limits:
+#          cpus: "0.50"
+#          memory: 512M
+#        reservations:
+#          cpus: "0.25"
+#          memory: 128M
+  sanom-cpc2cso:
+    build: ../
+    depends_on:
+      sanom-cpc2ccs:
+        condition: service_completed_successfully
+    volumes:
+      - ./cpc2cso/:/app/output_dir/
+      - ../../../ontologies/sub_ontologies/cpc2cso/:/app/onto_dir/
+      - ./config_threshold1.3:/app/config_dir/
+    #deploy:
+#      resources:
+#        limits:
+#          cpus: "0.50"
+#          memory: 512M
+#        reservations:
+#          cpus: "0.25"
+#          memory: 128M
+  sanom-anatomy:
+    build: ../
+    depends_on:
+      sanom-cpc2cso:
+        condition: service_completed_successfully
+    volumes:
+      - ./anatomy/:/app/output_dir/
+      - ../../../ontologies/sub_ontologies/anatomy/:/app/onto_dir/
+      - ./config_threshold2:/app/config_dir/
+    #deploy:
+#      resources:
+#        limits:
+#          cpus: "0.50"
+#          memory: 512M
+#        reservations:
+#          cpus: "0.25"
+#          memory: 128M
+  sanom-wordnet-cpc2ccs:
+    build: ../
+    depends_on:
+      sanom-anatomy:
+        condition: service_completed_successfully
+    volumes:
+      - ./cpc2ccs_wordnet/:/app/output_dir/
+      - ../../../ontologies/sub_ontologies/cpc2ccs/:/app/onto_dir/
+      - ./config_threshold1_wordnet:/app/config_dir/
+    #deploy:
+#      resources:
+#        limits:
+#          cpus: "0.50"
+#          memory: 512M
+#        reservations:
+#          cpus: "0.25"
+#          memory: 128M
+  sanom-wordnet-cpc2cso:
+    build: ../
+    depends_on:
+      sanom-wordnet-cpc2ccs:
+        condition: service_completed_successfully
+    volumes:
+      - ./cpc2cso_wordnet/:/app/output_dir/
+      - ../../../ontologies/sub_ontologies/cpc2cso/:/app/onto_dir/
+      - ./config_threshold1.3_wordnet:/app/config_dir/
+    #deploy:
+#      resources:
+#        limits:
+#          cpus: "0.50"
+#          memory: 512M
+#        reservations:
+#          cpus: "0.25"
+#          memory: 128M
+  sanom-wordnet-anatomy:
+    build: ../
+    depends_on:
+      sanom-wordnet-cpc2cso:
+        condition: service_completed_successfully
+    volumes:
+      - ./anatomy_wordnet/:/app/output_dir/
+      - ../../../ontologies/sub_ontologies/anatomy/:/app/onto_dir/
+      - ./config_threshold2_wordnet:/app/config_dir/
+          #    deploy:
+          #      resources:
+          #        limits:
+          #          cpus: "0.50"
+          #          memory: 512M
+          #        reservations:
+          #          cpus: "0.25"
+          #          memory: 128M

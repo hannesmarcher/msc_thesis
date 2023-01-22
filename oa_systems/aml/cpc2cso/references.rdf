@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment'
+	 xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+	 xmlns:xsd='http://www.w3.org/2001/XMLSchema#' 
+	 alignmentSource='AgreementMakerLight'>
+
+<Alignment>
+	<xml>yes</xml>
+	<level>0</level>
+	<type>??</type>
+	<onto1>http://data.epo.org/linked-data/def/cpc/</onto1>
+	<onto2>https://cso.kmi.open.ac.uk/topics/</onto2>
+	<uri1>http://data.epo.org/linked-data/def/cpc/</uri1>
+	<uri2>https://cso.kmi.open.ac.uk/topics/</uri2>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-73"/>
+			<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/program_documentation"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9628</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-4452"/>
+			<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/software_pipelining"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9574</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-49"/>
+			<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/partial_evaluation"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9517</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-20"/>
+			<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/software_design"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9413</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-77"/>
+			<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/software_metrics"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9306</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F11-362"/>
+			<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/software_debugging"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9306</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-36"/>
+			<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/software_reuse"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9306</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-315"/>
+			<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/object-oriented_languages"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9306</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-24"/>
+			<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/object-oriented"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9306</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-24"/>
+			<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/object_oriented"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9306</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-437"/>
+			<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/typechecking"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9213</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-72"/>
+			<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/refactoring_tools"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8742</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-36"/>
+			<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/software_re-use"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8742</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-72"/>
+			<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/refactorings"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8648</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-72"/>
+			<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/refactoring"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8648</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F11-362"/>
+			<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/testing_and_debugging"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8648</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F11-362"/>
+			<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/program_debugging"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8648</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F11-362"/>
+			<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/debugging"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8648</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-751"/>
+			<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/clone_detection"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7424</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F11-3668"/>
+			<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/system_testing"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7144</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-40"/>
+			<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/code_transformation"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6639</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-314"/>
+			<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/parallel_languages"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6585</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-316"/>
+			<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/aspect-oriented_programming"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6499</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-70"/>
+			<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/software_maintenance"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.638</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+</Alignment>
+</rdf:RDF>

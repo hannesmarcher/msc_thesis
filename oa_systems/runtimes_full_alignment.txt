@@ -1,0 +1,12 @@
+oa_systems-aml-full-alignment-cpc2ccs-1: 67 seconds
+oa_systems-aml-full-alignment-cpc2cso-1: 83 seconds
+oa_systems-baseline-full-alignment-cpc2ccs-1: 551 seconds
+oa_systems-baseline-full-alignment-cpc2cso-1: 755 seconds
+oa_systems-logmap-full-alignment-cpc2ccs-1: 146 seconds
+oa_systems-logmap-full-alignment-cpc2cso-1: 435 seconds
+oa_systems-logmapexp-full-alignment-cpc2ccs-1: 99 seconds
+oa_systems-logmapexp-full-alignment-cpc2cso-1: 440 seconds
+oa_systems-logmaplt-full-alignment-cpc2ccs-1: 12 seconds
+oa_systems-logmaplt-full-alignment-cpc2cso-1: 13 seconds
+oa_systems-lxlhmeta-full-alignment-cpc2ccs-1: 4990 seconds
+oa_systems-lxlhmeta-full-alignment-cpc2cso-1: 19736 seconds

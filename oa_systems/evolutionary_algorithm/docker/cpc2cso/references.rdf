@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-73"/>
+      <entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/program_documentation"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9908988967772393</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-20"/>
+      <entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/software_design"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9908988967772393</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-61"/>
+      <entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/scrum"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9008171788883993</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-44"/>
+      <entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/home_automation"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9248389703254234</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-4452"/>
+      <entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/software_pipelining"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9908988967772393</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-49"/>
+      <entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/partial_evaluation"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9908988967772393</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-77"/>
+      <entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/software_metrics"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9908988967772393</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-72"/>
+      <entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/refactorings"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9908988967772393</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-41"/>
+      <entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/home_automation"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9248389703254234</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://data.epo.org/linked-data/def/cpc/G06F8-36"/>
+      <entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/software_re-use"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9908988967772393</measure>
+    </Cell>
+  </map>
+</Alignment>
+</rdf:RDF>

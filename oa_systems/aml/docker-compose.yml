@@ -1,0 +1,53 @@
+version: "3.9"
+services:
+  aml-cpc2ccs:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - ../../ontologies/sub_ontologies/cpc2ccs/:/app/onto_dir/
+      - ./cpc2ccs/:/app/output_dir/
+    #deploy:
+#      resources:
+#        limits:
+#          cpus: "0.50"
+#          memory: 512M
+#        reservations:
+#          cpus: "0.25"
+#          memory: 128M
+  aml-cpc2cso:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    depends_on:
+      aml-cpc2ccs:
+        condition: service_completed_successfully
+    volumes:
+      - ../../ontologies/sub_ontologies/cpc2cso/:/app/onto_dir/
+      - ./cpc2cso/:/app/output_dir/
+    #deploy:
+#      resources:
+#        limits:
+#          cpus: "0.50"
+#          memory: 512M
+#        reservations:
+#          cpus: "0.25"
+#          memory: 128M
+  aml-anatomy:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    depends_on:
+      aml-cpc2cso:
+        condition: service_completed_successfully
+    volumes:
+      - ../../ontologies/sub_ontologies/anatomy/:/app/onto_dir/
+      - ./anatomy/:/app/output_dir/
+    #deploy:
+#      resources:
+#        limits:
+#          cpus: "0.50"
+#          memory: 512M
+#        reservations:
+#          cpus: "0.25"
+#          memory: 128M

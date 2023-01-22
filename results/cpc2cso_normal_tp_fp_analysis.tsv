@@ -1,0 +1,307 @@
+	source	target	is_correct	logmap	logmap_exp	logmap-lt	aml	sanom	sanom_wordnet	ontoconnect	logmap-ml_owl2vec_star_label	logmap-ml_owl2vec_star_path	logmap-ml_word2vec_label	logmap-ml_word2vec_path	bertmap-us_200	bertmap-us_25	lxlhmeta	ljlevolutionary	baseline
+0	software metrics	software metrics	True	True	True	True	True	True	True	True	True	False	True	False	True	True	True	True	True
+1	software reuse	software re-use	True	True	True	True	True	False	False	False	True	True	True	True	True	True	True	True	True
+2	program documentation	program documentation	True	True	True	True	True	True	True	True	True	True	True	False	True	True	True	True	True
+3	partial evaluation	partial evaluation	True	True	True	True	True	True	True	True	False	False	False	False	True	True	True	True	True
+4	code refactoring	refactoring	True	True	True	True	True	True	True	False	True	True	True	False	True	True	True	False	True
+5	code refactoring	refactorings	True	True	True	True	True	True	True	True	True	True	True	False	True	True	True	True	True
+6	software design	software design	True	True	True	True	True	True	True	True	True	True	True	False	True	True	True	True	True
+7	software reuse	software reuse	True	True	True	True	True	False	False	True	True	True	True	True	True	True	True	False	True
+8	software pipelining	software pipelining	True	True	True	True	True	True	True	True	True	False	True	True	True	True	True	True	True
+9	aspect-oriented programming techniques	aspect-oriented programming %28aop%29	True	False	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+10	functional or applicative languages; rewrite languages	functional languages	True	False	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+11	software maintenance or management	software maintenance	True	False	True	False	True	True	True	False	False	False	False	False	False	False	False	False	False
+12	programming languages or programming paradigms	programming languages	True	False	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+13	software maintenance or management	computer software maintenance	True	False	True	False	False	True	True	True	False	False	False	False	False	False	False	False	False
+14	programming languages or programming paradigms	programming language	True	False	True	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+15	aspect-oriented programming techniques	aspect-oriented programming	True	False	True	False	True	False	False	True	False	False	False	False	False	False	False	False	False
+16	arrangements for software engineering	software engineering	True	False	True	False	False	True	True	True	False	False	False	False	False	False	False	False	False
+17	aspect-oriented programming techniques	aspect oriented programming	True	False	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+18	code clone detection	clone detection	True	False	True	False	True	True	True	False	False	False	False	False	False	False	False	False	False
+19	object-oriented	object-oriented	True	False	False	True	True	True	True	True	False	False	False	False	True	True	True	False	True
+20	software debugging	program debugging	True	False	False	True	True	False	False	False	False	False	False	False	True	True	True	False	True
+21	software debugging	debugging	True	False	False	True	True	False	False	False	False	False	False	False	True	True	True	False	True
+22	software debugging	testing and debugging	True	False	False	True	True	False	False	False	False	False	False	False	True	True	True	False	True
+23	object-oriented	object oriented	True	False	False	True	True	True	True	False	False	False	False	False	True	True	True	False	True
+24	object-oriented languages	object-oriented languages	True	False	False	True	True	False	False	True	False	False	False	False	True	True	True	False	True
+25	software debugging	software debugging	True	False	False	True	True	False	False	False	False	False	False	False	True	True	True	False	True
+26	parallel programming languages 	parallel languages	True	False	False	False	True	True	True	False	False	False	False	False	False	False	False	False	False
+27	transformation of program code	code transformation	True	False	False	False	True	True	True	True	False	False	False	False	False	False	False	False	False
+28	aspect-oriented programming techniques	aspect-orientation	True	False	False	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+29	requirements analysis; specification techniques	software requirements specifications	True	False	False	False	False	True	True	False	False	True	False	False	False	False	False	False	False
+30	binary to binary	binary translation	True	False	False	False	False	True	True	True	False	True	False	False	False	False	False	False	False
+31	pointers; aliasing	pointer analysis	True	False	False	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+32	compilation	compilers	True	False	False	False	False	True	True	False	False	True	False	False	False	False	False	False	False
+33	aspect-oriented programming techniques	aspect-oriented	True	False	False	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+34	compilation	program compilers	True	False	False	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+35	compilation	compiler	True	False	False	False	False	True	True	False	False	True	False	False	False	False	False	False	False
+36	version control ; configuration management	version management	True	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+37	graphical or visual programming	visual programming languages	True	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+38	exploiting fine grain parallelism, i.e. parallelism at instruction level 	instruction-level parallelism	True	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+39	type checking	type system	True	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+40	software testing 	software debugging	True	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+41	requirements analysis; specification techniques	requirements specifications	True	False	False	False	False	False	False	True	False	True	False	False	False	False	False	False	False
+42	software reuse	reusability	True	False	False	False	False	False	False	False	False	True	False	True	False	False	False	False	False
+43	code refactoring	refactoring tools	False	True	True	True	True	True	True	False	True	True	True	True	True	True	True	False	True
+44	object oriented; remote method invocation [rmi] 	object oriented method	False	False	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+45	round-trip engineering	knowledge engineering	False	False	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+46	optimisation	optimized evolution	False	False	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+47	creation or generation of source code	code generation	False	False	True	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+48	code clone detection	code clone	False	False	True	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+49	structural analysis for program understanding	program understanding	False	False	True	False	False	True	True	True	False	True	False	False	False	False	False	False	False
+50	creation or generation of source code	code generations	False	False	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+51	type checking	typechecking	False	False	False	False	True	False	False	False	False	False	False	False	False	False	False	False	False
+52	software testing 	system testing	False	False	False	False	True	False	False	False	False	True	False	False	False	False	False	False	False
+53	preprocessors	php	False	False	False	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+54	retargetable compilers	compile time	False	False	False	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+55	software debugging using diagnostics 	program diagnostics	False	False	False	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+56	graphical or visual programming	software visualization	False	False	False	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+57	object-oriented	object-oriented system	False	False	False	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+58	software design	language design	False	False	False	False	False	True	True	False	False	True	False	False	False	False	False	False	False
+59	code distribution 	distributed scheduling	False	False	False	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+60	procedural	inter-procedural	False	False	False	False	False	True	True	True	False	False	False	False	False	False	False	False	False
+61	code distribution 	distributed development	False	False	False	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+62	parallel programming languages 	parallelism	False	False	False	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+63	object-oriented	object oriented approach	False	False	False	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+64	structural analysis for program understanding	understandability	False	False	False	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+65	parsing	concrete syntax	False	False	False	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+66	incremental compilation 	compile time	False	False	False	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+67	software maintenance or management	maintenance process	False	False	False	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+68	aspect-oriented programming techniques	aspect-oriented software	False	False	False	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+69	semantic checking	operational semantics	False	False	False	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+70	loops	tracking loop	False	False	False	False	False	True	True	True	False	False	False	False	False	False	False	False	False
+71	program documentation	requirements document	False	False	False	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+72	semantic checking	denotational semantics	False	False	False	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+73	program documentation	architecture documentation	False	False	False	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+74	parallel programming languages 	parallelizing	False	False	False	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+75	software maintenance or management	architecture maintenance	False	False	False	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+76	logic programming, e.g. prolog programming language	prolog %28programming language%29	False	False	False	False	False	True	True	True	False	False	False	False	False	False	False	False	False
+77	compilation	compile time	False	False	False	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+78	type checking	architecture types	False	False	False	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+79	retargetable compilers	compiler	False	False	False	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+80	procedural	computer operating procedures	False	False	False	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+81	software metrics	complexity metrics	False	False	False	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+82	code distribution 	distributed coding	False	False	False	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+83	data distribution	distributed coding	False	False	False	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+84	register renaming	register allocation	False	False	False	False	False	True	True	True	False	False	False	False	False	False	False	False	False
+85	type checking	type class	False	False	False	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+86	code distribution 	distributed video coding	False	False	False	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+87	preprocessors	php%3A hypertext preprocessor	False	False	False	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+88	object-oriented languages	object-oriented system	False	False	False	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+89	incremental compilation 	compilers	False	False	False	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+90	object-oriented	object oriented method	False	False	False	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+91	incremental compilation 	compiler	False	False	False	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+92	incremental compilation 	incremental development	False	False	False	False	False	True	True	True	False	False	False	False	False	False	False	False	False
+93	type checking	type errors	False	False	False	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+94	code distribution 	distributed memory	False	False	False	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+95	retargetable compilers	compilers	False	False	False	False	False	True	True	True	False	False	False	False	False	False	False	False	False
+96	data distribution	distributed development	False	False	False	False	False	True	True	False	False	False	False	False	False	False	False	False	False
+97	assessing vulnerabilities and evaluating computer system security	malware analysis	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+98	code distribution 	source codes	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+99	updates	defect reports	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+100	lexical analysis	grammatical inference	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+101	detection or removal of dead or redundant code	erasure coding	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+102	software debugging by tracing the execution of the program tracing values on a bus	software debugging	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+103	software debugging of optimised code 	software debugging	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+104	interprogram communication {where tasks reside in different layers, e.g. user- and kernel-space}	partitioned global address space	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+105	user-generated data transfer, e.g. clipboards, dynamic data exchange [dde], object linking and embedding [ole]	spatial queries	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+106	buffers; shared memory; pipes	off-chip memories	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+107	parsing	denotational semantics	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+108	software debugging of specific synchronisation aspects	debugging	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+109	reducing the number of cache misses; data prefetching 	data prefetching	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+110	unification or backtracking	graph transformation	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+111	checking; contextual analysis	dynamic analysis	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+112	software analysis for verifying properties of programs using formal methods, e.g. model checking, abstract interpretation 	program analysis	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+113	exploiting coarse grain parallelism in compilation, i.e. parallelism between groups of instructions	reduced instruction set computing	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+114	environments for testing or debugging software	software debugging	False	False	False	False	False	False	False	True	False	True	False	False	False	False	False	False	False
+115	updates while running	runtime verification	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+116	installation	software maintenance	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+117	software analysis for verifying properties of programs using software metrics	software effort estimation	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+118	updates using techniques specially adapted for alterable solid state memories, e.g. for eeprom or flash memories	real-time specification for javas	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+119	techniques for rebalancing the load in a distributed system	tactics for performance	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+120	compilation	dirty paper coding	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+121	creation or generation of source code model driven	code generation	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+122	creation or generation of source code for implementing user interfaces	code generation	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+123	updates {of program code stored in read-only memory [rom]}	real-time specification for javas	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+124	pointers; aliasing	coding techniques	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+125	compiler construction; parser generation	compiler	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+126	encoding	gene expression programming	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+127	dependency analysis; data or control flow analysis	spatial data infrastructure	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+128	uninstallation	debuggers	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+129	addressing of a memory level in which the access to the desired data or data block requires associative addressing means, e.g. caches with prefetch	memory access patterns	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+130	intelligent editors	ambient intelligent	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+131	test management for test design, e.g. generating new test cases	test case prioritization	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+132	round-trip engineering	trade-off analysis	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+133	link editing before load time	runtime system	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+134	decompilation; disassembly	multi-threading	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+135	incremental updates; differential updates	incremental development	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+136	techniques for rebalancing the load in a distributed system involving task migration	tactics for availability	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+137	reducing the memory space required by the program code	reduced instruction set computing	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+138	parallel programming languages 	programming languages	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+139	image based installation; cloning; build to order	service-based systems	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+140	test management	regression testing	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+141	syntactic analysis	grammatical inference	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+142	data distribution	geospatial web services	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+143	software debugging by tracing the execution of the program	testing and debugging	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+144	inlining	parallelizing	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+145	software debugging using additional hardware using a specific debug interface	debuggers	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+146	optimisation	compiler optimizations	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+147	retargetable	reusable components	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+148	code clone detection	erasure coding	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+149	test management for coverage analysis	test case prioritization	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+150	target code generation	code generation	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+151	test management for test version control, e.g. updating test cases to a new software version	test case prioritization	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+152	software deployment	software systems	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+153	interprogram communication {via adapters, e.g. between incompatible applications}	parallel program	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+154	functional or applicative languages; rewrite languages	functional programming languages	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+155	software debugging by performing operations on the source code, e.g. via a compiler	software re-use	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+156	methods or tools to render software testable	usability methods	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+157	exlining; procedural abstraction	abstract interpretation	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+158	register allocation; assignment of physical memory space to logical memory space	memory hierarchy	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+159	methods to solve the \year 2000\ [y2k] problem	verification problems	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+160	remote procedure calls [rpc]; web services	geospatial web services	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+161	interprogram communication	logic programs	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+162	source to source	source code analysis	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+163	object oriented; remote method invocation [rmi] 	smart objects	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+164	semantic checking	equivalence checking	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+165	test management for test results analysis	test case prioritization	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+166	event management; broadcasting; multicasting; notifications	message latency	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+167	software analysis for verifying properties of programs 	program analysis	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+168	software debugging using additional hardware	debuggers	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+169	software analysis for verifying properties of programs by runtime analysis 	software effort estimation	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+170	reducing the energy consumption	efficiency increasing	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+171	reducing the execution time required by the program code	run-time verification	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+172	preventing errors by testing or debugging software	testing and debugging	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+173	software debugging by instrumenting at runtime	software debugging	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+174	allocation of resources, e.g. of the central processing unit [cpu] {to service a request the resource being a machine, e.g. cpus, servers, terminals considering the load}	service-based systems	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+175	reverse engineering; extracting design information from source code	source codes	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+176	adapting program code to run in a different environment; porting	software reuse	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+177	preprocessors	subroutines	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+178	instruction issuing, e.g. dynamic instruction scheduling, out of order instruction execution	reduced instruction set computing	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+179	software debugging using diagnostics 	software debugging	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+180	message passing systems or structures, e.g. queues	message latency	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+181	software debugging	debuggers	False	False	False	False	False	False	False	True	False	True	False	False	False	False	False	False	False
+182	dependency mechanisms, e.g. register scoreboarding	register allocation	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+183	test management for test execution, e.g. scheduling of test suites	test case prioritization	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+184	list processing, e.g. lisp programming language	programming language	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False	False	False
+185	program documentation	reactive programming	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+186	program documentation	programming theory	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+187	program documentation	program compilers	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+188	program documentation	programming framework	False	False	False	False	False	False	False	False	False	True	False	True	False	False	False	False	False
+189	program documentation	program translators	False	False	False	False	False	False	False	False	False	True	False	True	False	False	False	False	False
+190	program documentation	concurrent programming	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+191	software design	design concerns	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+192	environments for testing or debugging software	program debugging	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+193	code refactoring	dirty-paper coding	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+194	software design	ship designs	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+195	program documentation	program verification	False	False	False	False	False	False	False	False	False	True	True	True	False	False	False	False	False
+196	program documentation	programming language	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+197	program documentation	program diagnostics	False	False	False	False	False	False	False	False	False	True	False	True	False	False	False	False	False
+198	programming languages or programming paradigms	cobol %28programming language%29	False	False	False	False	False	False	False	False	False	True	False	True	False	False	False	False	False
+199	program documentation	multicore programming	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+200	software debugging	debugging tools	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+201	environments for testing or debugging software	testing and debugging	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+202	program documentation	generic programming	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+203	code refactoring	code transformation	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+204	software debugging	computer debugging	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+205	program documentation	novice programmer	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+206	software metrics	meta programming	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+207	program documentation	parallel program	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+208	program documentation	program logic	False	False	False	False	False	False	False	False	False	True	False	True	False	False	False	False	False
+209	software testing 	regression testing	False	False	False	False	False	False	False	False	False	True	False	True	False	False	False	False	False
+210	program documentation	logic programming	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+211	program documentation	imperative programs	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+212	software design	architecture design	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+213	environments for testing or debugging software	debugging	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+214	code refactoring	coding techniques	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+215	program documentation	programming models	False	False	False	False	False	False	False	False	False	True	False	True	False	False	False	False	False
+216	program documentation	programming languages	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+217	software design	architecture designs	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+218	code refactoring	code generation	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+219	code refactoring	code smell	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+220	program documentation	programming model	False	False	False	False	False	False	False	False	False	True	False	True	False	False	False	False	False
+221	program documentation	novice programmers	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+222	program documentation	program slicing	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+223	program documentation	visual programming	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+224	program documentation	parallel programs	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+225	program documentation	meta programming	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+226	software reuse	reusable softwares	False	False	False	False	False	False	False	False	False	True	False	True	False	False	False	False	False
+227	software testing 	system under test	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+228	code refactoring	erasure coding	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+229	program documentation	logic programs	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+230	software testing 	usability test	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+231	program documentation	program execution	False	False	False	False	False	False	False	False	False	True	False	True	False	False	False	False	False
+232	source to source	gaussian sources	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+233	program documentation	parallel programming	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+234	program documentation	automatic programming	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+235	software testing 	regression tests	False	False	False	False	False	False	False	False	False	True	False	True	False	False	False	False	False
+236	software reuse	reusable components	False	False	False	False	False	False	False	False	False	True	False	True	False	False	False	False	False
+237	program documentation	functional programs	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+238	software debugging	debugging process	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+239	software testing 	usability tests	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+240	code refactoring	code generations	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+241	program documentation	programmability	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+242	code refactoring	parallel code	False	False	False	False	False	False	False	False	False	True	False	False	False	False	False	False	False
+243	installation	scrum	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	True	False
+244	compilation	home automation	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	True	False
+245	encoding	home automation	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	True	False
+246	graphical or visual programming	visual programming	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+247	optimisation	optimizing compilers	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+248	register allocation; assignment of physical memory space to logical memory space	register allocation	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+249	data distribution	data parallel	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+250	structural analysis for program understanding	static analysis	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+251	creation or generation of source code model driven	model-driven engineering	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+252	creation or generation of source code model driven	model driven architectures	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+253	software testing 	program debugging	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+254	aspect-oriented programming techniques	aspect-oriented software development	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+255	creation or generation of source code model driven	model-driven architecture	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+256	exploiting fine grain parallelism, i.e. parallelism at instruction level 	instruction level parallelism	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+257	parallel programming languages 	parallel code	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+258	software analysis for verifying properties of programs by runtime analysis 	runtime monitoring	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+259	creation or generation of source code model driven	model-driven architectures	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+260	source to source	code transformation	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+261	reverse engineering; extracting design information from source code	reverse engineering	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+262	logic programming, e.g. prolog programming language	logic programs	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+263	object-oriented languages	object-oriented programming	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+264	arrangements for software engineering	computer programming	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+265	parallel programming languages 	parallel programming	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+266	requirements analysis; specification techniques	software requirements	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+267	software analysis for verifying properties of programs using formal methods, e.g. model checking, abstract interpretation 	formal verifications	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+268	requirements analysis; specification techniques	requirements engineering	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+269	software debugging by tracing the execution of the program	execution trace	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+270	arrangements for software engineering	software	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+271	software reuse	computer software reusability	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+272	functional or applicative languages; rewrite languages	functional programs	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+273	object-oriented languages	object oriented programming	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+274	software analysis for verifying properties of programs using formal methods, e.g. model checking, abstract interpretation 	formal verification	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+275	requirements analysis; specification techniques	requirement engineering	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+276	software debugging by tracing the execution of the program	execution traces	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+277	software analysis for verifying properties of programs by runtime analysis 	run-time verification	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+278	transformation of program code	program translators	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+279	semantic checking	static analysis	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+280	reverse engineering; extracting design information from source code	architecture recovery	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+281	programming languages or programming paradigms	computer programming languages	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+282	encoding	program translators	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+283	structural analysis for program understanding	static analyzers	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+284	software analysis for verifying properties of programs using software metrics	software metrics	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+285	creation or generation of source code model driven	model-driven development	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+286	data distribution	data parallelism	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+287	creation or generation of source code model driven	model driven development	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+288	software analysis for verifying properties of programs by runtime analysis 	dynamic analysis	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+289	functional or applicative languages; rewrite languages	functional programming	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+290	creation or generation of source code model driven	model driven architecture	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+291	creation or generation of source code model driven	mde	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+292	object-oriented	object oriented design	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+293	semantic checking	static program analysis	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+294	creation or generation of source code model driven	model driven engineering	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+295	requirements analysis; specification techniques	requirements specification	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+296	aspect-oriented programming techniques	aspect oriented software development	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+297	object-oriented	object-oriented design	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+298	object-oriented languages	object-oriented programming languages	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+299	software analysis for verifying properties of programs by runtime analysis 	runtime verification	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+300	type checking	type systems	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+301	logic programming, e.g. prolog programming language	logic programming	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+302	reverse engineering; extracting design information from source code	architecture reconstruction	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+303	software testing 	debugging	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+304	software testing 	testing and debugging	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+305	transformation of program code	program compilers	True	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False	False

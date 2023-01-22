@@ -1,0 +1,101 @@
+source	target	source_id	target_id
+signal processing	signal analysis	G01C 19/5614	signal_analysis
+particular pulse shapes	pulse shapes	G01D 5/366	pulse_shapes
+frequency	frequency multiplying circuits	G01H 3/04	frequency_multiplying_circuits
+timing devices	timing devices	G01N 2001/2297	timing_devices
+spectrometric ellipsometry	spectroscopic ellipsometry	G01N 2021/213	spectroscopic_ellipsometry
+speckle	speckle	G01N 2021/479	speckle
+metal	metal working tools	G01N 2021/8918	metal_working_tools
+transmitters	transmitters	G01S 1/7032	transmitters
+impedance	impedance bandwidths	G01V 2210/6226	impedance_bandwidths
+rare earths	rare earth	G02B 2006/1208	rare_earth
+sensor	sensors	G02B 2006/12138	sensors
+annealing	thermal-annealing	G02B 2006/12169	thermal-annealing
+evanescent wave	evanescent waves	G03H 2222/47	evanescent_waves
+modulation	sigma delta modulator	G03H 2225/30	sigma_delta_modulator
+phase only	phase-only	G03H 2225/32	phase-only
+diffraction efficiency [de]	diffraction efficiency	G03H 2240/53	diffraction_efficiency
+shared memory	shared memory	G05B 2219/15118	shared_memory
+master slave	master-slave systems	G05B 2219/2231	master-slave_systems
+star network	star graphs	G05B 2219/25035	star_graphs
+infrared	infrared focal plane arrays	G05B 2219/25192	infrared_focal_plane_arrays
+neural network	back-propagation neural network	G05B 2219/25255	back-propagation_neural_network
+gateway	gateways %28computer networks%29	G05B 2219/31348	gateways_%28computer_networks%29
+fuzzy neural, neuro fuzzy network	neuro-fuzzy network	G05B 2219/34066	neuro-fuzzy_network
+multiplexed d-a a-d	time multiplexed	G05B 2219/34237	time_multiplexed
+multi threading	multi-threading	G05B 2219/34333	multi-threading
+data handling	data handling	G05B 2219/35356	data_handling
+display machining parameters	machining parameters	G05B 2219/37081	machining_parameters
+gyroscope	gyroscope	G05B 2219/37134	gyroscope
+infrared	near-infrared imaging	G05B 2219/37266	near-infrared_imaging
+fiber optic proximity sensor	fiber optic sensor	G05B 2219/37279	fiber_optic_sensor
+frequency	frequency multiplying circuits	G05B 2219/37352	frequency_multiplying_circuits
+cross correlation	cross correlation methods	G05B 2219/37508	cross_correlation_methods
+observer, disturbance observer	disturbance observer	G05B 2219/39355	disturbance_observer
+moving of objects	moving objects	G05B 2219/40154	moving_objects
+parallel robot, structure	parallel robots	G05B 2219/40235	parallel_robots
+redundant manipulator	redundant manipulators	G05B 2219/40367	redundant_manipulators
+redundant manipulator	redundant manipulator	G05B 2219/40367	redundant_manipulator
+forward kinematics	forward kinematics	G05B 2219/41413	forward_kinematics
+adaptive robust controller	adaptive robust control	G05B 2219/42042	adaptive_robust_control
+model	2-d model	G05B 2219/42155	2-d_model
+remote monitoring	remote monitoring	G05B 2223/06	remote_monitoring
+query languages	query languages	G06F 16/2433	query_languages
+query translation	query translations	G06F 16/2452	query_translations
+query expansion	query expansion	G06F 16/3338	query_expansion
+trigonometric functions	cosine functions	G06F 2101/04	cosine_functions
+numerical modelling	numerical model	G06F 2111/10	numerical_model
+e-mail	e-mail systems	G06F 2211/006	e-mail_systems
+using a specific cache architecture	cache architecture	G06F 2212/27	cache_architecture
+pci express	pci express	G06F 2213/0026	pci_express
+network interface controller	network interface	G06F 2213/3808	network_interface
+key	encryption schemes	G06F 2221/0751	encryption_schemes
+parsing	parsing	G06F 40/205	parsing
+transaction processing	transaction processing systems	G06F 9/466	transaction_processing_systems
+denoising	de-nosing	G06K 9/0051	de-nosing
+back-propagation	back-propagation	G06N 3/084	back-propagation
+performance analysis	architecture performance analysis	G06Q 10/0639	architecture_performance_analysis
+wireless devices	wireless technology	G06Q 30/0267	wireless_technology
+image watermarking	image watermarking	G06T 1/0021	image_watermarking
+memory management	memory allocation	G06T 1/60	memory_allocation
+ray-tracing	ray tracing	G06T 15/06	ray_tracing
+stereo images	stereo images	G06T 2207/10012	stereo_images
+real-time	real time systems	G06T 2211/428	real_time_systems
+image restoration	image restoration	G06T 5/001	image_restoration
+character recognition	character recognition	G06V 30/10	character_recognition
+graph matching 	graph matchings	G06V 30/1988	graph_matchings
+security, fault tolerance	fault-tolerance	G08C 2201/60	fault-tolerance
+two dimensional	two-dimensional %282d%29	G10K 2210/102	two-dimensional_%282d%29
+simulation	simulation and measurement	G10K 2210/3052	simulation_and_measurement
+speech recognition	speech recognition technology	G10L 15/00	speech_recognition_technology
+servo control	servo control	G11B 15/67505	servo_control
+timing of a read operation	read operation	G11C 2207/2281	read_operation
+control	h control	G16Y 40/30	h_control
+expert systems	expert system	G21D 3/007	expert_system
+gas	gas engines	Y10S 123/13	gas_engines
+gallium arsenide	gaas%2Falgaas	Y10S 148/056	gaas%2Falgaas
+magnetic coupling	electromagnetic coupling	Y10S 159/07	electromagnetic_coupling
+convection	convection-diffusion	Y10S 165/903	convection-diffusion
+acoustics	acoustic	Y10S 181/00	acoustic
+glass	glass lasers	Y10S 285/911	glass_lasers
+simulation	simulation example	Y10S 345/952	simulation_example
+metal	metal insulator boundaries	Y10S 376/906	metal_insulator_boundaries
+data processing: artificial intelligence	artificial intelligence	Y10S 706/00	artificial_intelligence
+communication	communication protocol	Y10S 706/909	communication_protocol
+hierarchical	hierarchical structures	Y10S 707/956	hierarchical_structures
+data cubes	data cubes	Y10S 707/958	data_cubes
+automatic gain control	automatic gain control	Y10S 73/90	automatic_gain_control
+filtering	recommendation	Y10S 84/09	recommendation
+reverberation	reverberation chambers	Y10S 84/26	reverberation_chambers
+tactile sensor	tactile sensing	Y10S 901/33	tactile_sensing
+continuously variable	continuously variable transmission	Y10S 903/918	continuously_variable_transmission
+with pump	pump laser	Y10T 137/85978	pump_laser
+variable	variable structure	Y10T 137/86421	variable_structure
+link	link structure	Y10T 24/3632	link_structure
+metal	metal working tools	Y10T 29/49213	metal_working_tools
+speed controller	speed controller	Y10T 29/5179	speed_controller
+gear	gear	Y10T 292/0856	gear
+gear	helical gears	Y10T 292/0856	helical_gears
+key	encryption algorithm	Y10T 70/7441	encryption_algorithm
+robotic arm	robotic arm	Y10T 74/20305	robotic_arm
+variable	variable structures	Y10T 74/2167	variable_structures

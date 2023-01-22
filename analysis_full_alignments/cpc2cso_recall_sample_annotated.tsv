@@ -1,0 +1,51 @@
+source	target	source_id	target_id	reasoning	is_correct	questionable
+pulse stream	stream mining	G01D 5/2492	stream_mining	hierarchies differ	0	
+systems	c-systems	G01N 27/416	c-systems	Different notion	0	
+pattern recognition for feature extraction	syntactic pattern recognition	G01S 13/9027	syntactic_pattern_recognition	CPC is too specialized	0	
+underwater equipment	underwater vehicle	G02B 23/22	underwater_vehicle	CPC is superset of CSO	0	
+electronically addressable mailing bins	electronic mail	G03G 2215/00907	electronic_mail	Different notion	0	
+modulation	modulation and coding schemes	G03H 2225/30	modulation_and_coding_schemes	Might be a match – but not my domain	1	?
+diffraction efficiency [de]	diffraction efficiency	G03H 2240/53	diffraction_efficiency	Same domain, thus probably same notion	1	
+microcontroller as time switch	switching controllers	G05B 2219/25248	switching_controllers	hierarchies differ	0	
+microprocessor	microprocessor	G05B 2219/25252	microprocessor	Same notion	1	
+for resource planning	enterprise resource planning %28erp%29	G05B 2219/32365	enterprise_resource_planning_%28erp%29	CSO is about ERP systems, CPC about NC systems	0	
+shared memory	shared memories	G05B 2219/34069	shared_memories	CPC refers to shared memories in the context of NC systems while CSO is about the general low-level concept of shared memory. Probably not close enough	0	
+shared memory	shared memory	G05B 2219/34069	shared_memory	CPC refers to shared memories in the context of NC systems while CSO is about the general low-level concept of shared memory. Probably not close enough	0	
+adaptive force control	adaptive control schemes	G05B 2219/39332	adaptive_control_schemes	Both concepts are about automation	1	
+motion, trajectory planning	motion planning	G05B 2219/40519	motion_planning	Both are about motion planning in the field of robotics	1	
+fuzzy position controller	position controller	G05B 2219/42051	position_controller	Although one is about “fuzzy” position controller, still very similar	1	
+radar	radar receivers	G05B 2219/45016	radar_receivers	Different notion	0	
+against noise	noise conditions	G05B 2219/50191	noise_conditions	Different notion	0	
+keyboards	keyboard	G06C 7/02	keyboard	Same concept	1	
+benchmarking	benchmark circuits	G06F 11/3428	benchmark_circuits	Different notion	0	
+address translation	address translation	G06F 12/10	address_translation	Same concept	1	
+query optimisation	distributed query processing	G06F 16/2453	distributed_query_processing	Different notion	0	
+pipelining	pipelining	G06F 2207/3884	pipelining	CPC has windtunnels as ascendant	0	
+systolic array	systolic arrays	G06F 2207/3892	systolic_arrays	CPC has windtunnels as ascendant	0	
+application	computer applications	G06F 2209/482	computer_applications	Different notion	0	
+remote server	remote servers	G06F 2212/264	remote_servers	Although hierarchies differ, probably a match	1	?
+system on chip	system-on-chip	G06F 2213/0038	system-on-chip	Refers to same notion	1	
+user	user interests	G06F 2221/0713	user_interests	Concepts deviate	0	
+routing	routing	G06F 30/394	routing	CPC is about routing in the field of circuit design, while CSO refers to routing in the field of computer networks	0	
+communication 	communication protocol	G06F 8/457	communication_protocol	CPC is about communication in the field of parallel compilation, CSO is about computer networks	0	
+transaction verification using location information	location information	G06Q 20/4015	location_information	CSO is subset of CPC	0	
+level set	level-set method	G06T 2207/20161	level-set_method	Both are about image segmentation	1	
+analysis of document content	document analysis	G06V 30/41	document_analysis	Both are about image recognition	1	
+trusted party	trust negotiations	G07B 2017/00911	trust_negotiations	Different notion	0	
+acoustic waves	acoustic waves	G07D 7/08	acoustic_waves	Same concept	1	
+user interface	user interface design	G08B 13/19678	user_interface_design	hierarchies differ	0	
+rainwater harvesting	power harvesting	Y02A 20/108	power_harvesting	Different concept	0	
+credit card	credit card	Y10S 283/904	credit_card	Same notion	1	
+simulation	full-system simulation	Y10S 345/952	full-system_simulation	CPC is about simulation in the field of cg, while CSO is a descendant of microprocessors	0	
+wide area network	wide area	Y10S 370/901	wide_area	CSO is a descendant of wide area network, still probably close enough to represent a match	1	?
+comprising animal derived product	product derivation	Y10S 5/949	product_derivation	Different concept	0	
+communication	communication protocols	Y10S 706/917	communication_protocols	CPC is about communication in the area of diagnostics – hard to determine – probably not a match	0	?
+multimedia	interactive multimedia	Y10S 707/913	interactive_multimedia	CSO has multimedia artist as alternative label	0	
+garbage collection	image collections	Y10S 707/99957	image_collections	Different notion	0	
+robots	robots	Y10S 901/00	robots	Same notion	1	
+cartesian, three degrees of freedom	three degrees of freedom	Y10S 901/16	three_degrees_of_freedom	Both are in the field of robotics	1	
+laser	laser induced	Y10S 977/951	laser_induced	CSO is too specific	0	
+race making	asian continental ancestry group	Y10T 29/49689	asian_continental_ancestry_group	Different notion	0	
+gear	gear	Y10T 292/306	gear	CPC ascendants are not very expressive. Considered as match – but hard to determine	1	?
+segment	over segmentation	Y10T 292/683	over_segmentation	Different notion	0	
+process of turning	turning process	Y10T 82/10	turning_process	CPC ascendants are not very expressive. Considered as match – but hard to determine	1	?
